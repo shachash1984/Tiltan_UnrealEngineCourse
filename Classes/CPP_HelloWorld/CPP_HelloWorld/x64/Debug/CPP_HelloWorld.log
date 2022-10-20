@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\Tiltan\Tiltan_UnrealEngineCourse\Classes\CPP_HelloWorld\CPP_HelloWorld\main.cpp(4,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  CPP_HelloWorld.vcxproj -> D:\Tiltan\Tiltan_UnrealEngineCourse\Classes\CPP_HelloWorld\CPP_HelloWorld\x64\Debug\CPP_HelloWorld.exe
