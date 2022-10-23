@@ -1,0 +1,12 @@
+Write code for creating a player - 80%
+receive as input:
+name : string
+age : unsigned char (1-255)
+strength : unsigned char (1-255)
+magic : unsigned char (1-255)
+dexterity : unsigned char (1-255)
+vitality : unsigned char (1-255)
+
+Write logic for distribution of a limited number of allowed attributes: 20%
+for example: 
+the player has 600 attribute points and needs to decide on which aspects to invest them

@@ -40,6 +40,13 @@
 *.sdf
 *.VC.db
 *.VC.opendb
+*.tlog
+*.vcxproj*
+*.recipe
+*.log
+*.idb
+*.pdb
+*.ilk
 
 # Precompiled Assets
 SourceArt/**/*.png
