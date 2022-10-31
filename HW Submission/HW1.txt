@@ -1,0 +1,6 @@
+#include <iostream>
+
+void main()
+{
+    std::count << "Hellow World" << std::endl;
+}
