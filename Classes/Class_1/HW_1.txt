@@ -1,11 +1,15 @@
 Write code for creating a player - 80%
 receive as input:
 name : string
-age : unsigned char (1-255)
-strength : unsigned char (1-255)
-magic : unsigned char (1-255)
-dexterity : unsigned char (1-255)
-vitality : unsigned char (1-255)
+age : unsigned int
+HP: float
+Mana: float
+
+strength : unsigned char
+magic : unsigned char 
+dexterity : unsigned char 
+vitality : unsigned char 
+
 
 Write logic for distribution of a limited number of allowed attributes: 20%
 for example: 
