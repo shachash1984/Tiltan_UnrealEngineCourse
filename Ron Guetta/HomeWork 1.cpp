@@ -5,97 +5,97 @@ using namespace std;
 class Player {
 public: 
 	string Name;
-	int age = 5;
+	int Age = 5;
 	float Hp = 100;
 	float Mana = 30;
 
-	char strength = 0;
-	char magic = 0;
-	char dexterity = 0;
-	char vitality = 0;
+	char Strength = 0;
+	char Magic = 0;
+	char Dexterity = 0;
+	char Vitality = 0;
 
 	void Stats() {
 
-		Hp += ((int)vitality*5);
-		Mana += ((int)magic*10);
+		Hp += ((int)Vitality*5);
+		Mana += ((int)Magic*10);
 
-		cout << "Your Hero " << Name << " is a " << age << " Year old Champion with "<< Hp << " health and "<< Mana << " Mana.\nstrength = " << (int)strength
-			<< "\nmagic = " << (int)magic << "\ndexterity = " << int(dexterity) << "\nvitality = " << int(vitality)<< "\n\n\n";
+		cout << "Your Hero " << Name << " is a " << Age << " Year old Champion with "<< Hp << " health and "<< Mana << " Mana.\nstrength = " << (int)Strength
+			<< "\nmagic = " << (int)Magic << "\ndexterity = " << int(Dexterity) << "\nvitality = " << int(Vitality)<< "\n\n\n";
 	}
 };
 
 int main()
 {
-	int AP = 600; // attribute points
-	Player player;
-	int choice; // Chose to upgrade
-	int howMuch; // how many AP chose to spent
-	bool SelectingName = true;
-	bool SelectingAge = true;
-	bool Upgrading = true;
+	int _attributePoints = 600; // attribute points
+	Player _player;
+	int _choice; // Chose to upgrade
+	int _howMuch; // how many AP chose to spent
+	bool _selectingName = true;
+	bool _selectingAge = true;
+	bool _upgrading = true;
 
-	while (SelectingName) {
+	while (_selectingName) {
 		if (cin.fail()) { cin.clear(); cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); }
 		cout << "Choose a Name for your hero.\n";
-		getline(cin, player.Name);
-		if (player.Name != "") { SelectingName = false; }
+		getline(cin, _player.Name);
+		if (_player.Name != "") { _selectingName = false; }
 	}
 
-	while (SelectingAge) {
+	while (_selectingAge) {
 		if (cin.fail()) { cin.clear(); cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');}
 		cout << "how old is your hero?.\n";
-		cin >> player.age;
-		if (player.age == 0 || player.age>9999999) { cout << "Not a valid age\n"; }
+		cin >> _player.Age;
+		if (_player.Age == 0 || _player.Age>9999999) { cout << "Not a valid age\n"; }
 		else
 		{
-			SelectingAge = false;
+			_selectingAge = false;
 		}
 	}
 
-	while (Upgrading) {
+	while (_upgrading) {
 		if (cin.fail()) { cin.clear(); cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); }
-		cout << "Upgrade Your Character!\n1. Strength ["<<(int)player.strength<<"]\n2. Magic [" << (int)player.magic <<
-			"]\n3. dexterity [" << (int)player.dexterity << "]\n4. Vitality [" << (int)player.vitality << "]\n5. [Finish]\n";
-		cin >> choice;
+		cout << "Upgrade Your Character!\n1. Strength ["<<(int)_player.Strength<<"]\n2. Magic [" << (int)_player.Magic <<
+			"]\n3. dexterity [" << (int)_player.Dexterity << "]\n4. Vitality [" << (int)_player.Vitality << "]\n5. [Finish]\n";
+		cin >> _choice;
 
-		if (choice < 5 && choice>0) {
+		if (_choice < 5 && _choice>0) {
 
-			cout << "How many? [You Have " << AP << " Left]\n";
-			cin >> howMuch;
+			cout << "How many? [You Have " << _attributePoints << " Left]\n";
+			cin >> _howMuch;
 
-			if (howMuch <= AP || howMuch == 0) {
+			if (_howMuch <= _attributePoints || _howMuch == 0) {
 
-				char* Stat = &player.strength;
-				switch (choice)
+				char* Stat = &_player.Strength;
+				switch (_choice)
 				{
 				case 1:
-					Stat = &player.strength; break;
+					Stat = &_player.Strength; break;
 				case 2:
-					Stat = &player.magic; break;
+					Stat = &_player.Magic; break;
 				case 3:
-					Stat = &player.dexterity; break;
+					Stat = &_player.Dexterity; break;
 				case 4:
-					Stat = &player.vitality; break;
+					Stat = &_player.Vitality; break;
 				default:
 					break;
 				}
 
 
 				int n = (int)*Stat;
-				if (n + howMuch > 127)
+				if (n + _howMuch > 127)
 				{
-					howMuch -= n + howMuch - 127;
+					_howMuch -= n + _howMuch - 127;
 					*Stat = 127;
 				}
 				else
 				{
-					*Stat += howMuch;
+					*Stat += _howMuch;
 				}
-				AP -= howMuch;
+				_attributePoints -= _howMuch;
 
 
 			}
-			else if (howMuch > AP)
+			else if (_howMuch > _attributePoints)
 			{
 				cout << "You Dont Have Enough\n";
 			}
@@ -103,12 +103,12 @@ int main()
 				cout << "Not an Option\n";
 			}
 		}
-		else if (choice == 5)
+		else if (_choice == 5)
 		{
-			Upgrading = false;
+			_upgrading = false;
 		}
 		else { cout << "Not an Option\n"; }
 	}
 
-	player.Stats();
+	_player.Stats();
 }
