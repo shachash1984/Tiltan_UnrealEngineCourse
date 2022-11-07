@@ -10,11 +10,14 @@ string userInputQ2 = "";
 
 bool isPalindrome(int x)
 {
+	// store int in string
 	string num = to_string(x);
 
+	// loop through half of the num
 	for (int i = 0; i < num.length() / 2; i++)
 	{
-		if (num[i] != num[num.length() - i - 1]) {
+		// compare between the current number and the mirrored number
+		if (num[i] != num[num.length() - 1 - i]) {
 			cout << "false, the given number is not a palindrome";
 			return false;
 		}
@@ -25,51 +28,54 @@ bool isPalindrome(int x)
 
 	return true;
 }
-
-int GetValue(char r)
+int GetRomanLetterValue(char letter)
 {
-	if (r == 'I')
-		return 1;
-	if (r == 'V')
-		return 5;
-	if (r == 'X')
-		return 10;
-	if (r == 'L')
-		return 50;
-	if (r == 'C')
-		return 100;
-	if (r == 'D')
-		return 500;
-	if (r == 'M')
-		return 1000;
-
-	return -1;
+	switch (tolower(letter))
+	{
+		case 'i':
+			return 1;
+			break;
+		case 'v':
+			return 5;
+			break;
+		case 'x':
+			return 10;
+			break;
+		case 'l':
+			return 50;
+			break;
+		case 'c':
+			return 100;
+			break;
+		case 'd':
+			return 500;
+			break;
+		case 'm':
+			return 1000;
+			break;
+		
+		default:
+			cout << "Some letters are not a roman number\n";
+			break;
+	}
 }
-
 int romanToInt(string s)
 {
-	// Initialize result
 	int value = 0;
 
-	// Traverse given input
+	// loop through string
 	for (int i = 0; i < s.length(); i++) {
-		// Getting value of symbol s[i]
-		int s1 = GetValue(s[i]);
+		int s1 = GetRomanLetterValue(s[i]);
 
+		// check if not last letter
 		if (i + 1 < s.length()) {
-			// Getting value of symbol s[i+1]
-			int s2 = GetValue(s[i + 1]);
+			int s2 = GetRomanLetterValue(s[i + 1]);
 
-			// Comparing both values
+			// check if previous letter is bigger
 			if (s1 >= s2) {
-				// Value of current symbol
-				// is greater or equal to
-				// the next symbol
 				value = value + s1;
 			}
 			else {
-				// Value of current symbol is
-				// less than the next symbol
 				value = value + s2 - s1;
 				i++;
 			}
@@ -93,7 +99,7 @@ int main()
 			cout << "Choose a number between -231 and 231 and find out if it's a palindrome:\n";
 			cin >> userInputQ1;
 			if (userInputQ1 < -231 || userInputQ1 > 231) {
-				cout << "Number is not between -231 and 231";
+				cout << "Number is not between -231 and 231\n";
 				return 0;
 			}
 			isPalindrome(userInputQ1);
@@ -102,13 +108,13 @@ int main()
 			cout << "Choose a roman number and find out it's value:\n";
 			cin >> userInputQ2;
 			if (userInputQ2.length() < 1 || userInputQ2.length() > 15) {
-				cout << "number too long or too short";
+				cout << "number too long or too short\n";
 				return 0;
 			}
 			romanToInt(userInputQ2);
 			break;
 		default:
-			cout << "Must choose input '1' or '2'";
+			cout << "Must choose input '1' or '2'\n";
 			break;
 	}
 	
