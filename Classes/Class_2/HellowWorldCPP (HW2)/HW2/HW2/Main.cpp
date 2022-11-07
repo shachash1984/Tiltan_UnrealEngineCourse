@@ -4,6 +4,10 @@
 
 using namespace std;
 
+enum enemyType {
+	Ghost = 0, Ghoul = 1, Zombie = 2, Creeper = 3
+};
+
 int userInput = 0;
 int userInputQ1 = 0;
 string userInputQ2 = "";
@@ -88,10 +92,46 @@ int romanToInt(string s)
 	cout << value;
 	return value;
 }
+int* SetEnemyStats(enemyType enemy) {
+	int stats[4] = { 0, 0, 0, 0 };
 
+	switch (enemy)
+	{
+		case Ghost:
+			for (int stat : stats) {
+				stat = 1;
+				cout << stat << ", ";
+			}
+			return stats;
+		case Ghoul:
+			for (int stat : stats) {
+				stat = 2;
+				cout << stat << ", ";
+			}
+			return stats;
+		case Zombie:
+			for (int stat : stats) {
+				stat = 3;
+				cout << stat << ", ";
+			}
+			return stats;
+		case Creeper:
+			for (int stat : stats) {
+				stat = 4;
+				cout << stat << ", ";
+			}
+			return stats;
+		default:
+			for (int stat : stats)
+				stat = 0;
+			return stats;
+	}
+
+	
+}
 int main()
 {
-	cout << "Please choose task [1/2]:\n";
+	cout << "Please choose task [1/2/3]:\n";
 	cin >> userInput;
 	switch (userInput)
 	{
@@ -113,8 +153,16 @@ int main()
 			}
 			romanToInt(userInputQ2);
 			break;
+		case 3:
+			cout << "Choose enemy [0 = Ghost, 1 = Ghoul, 2 =  Zombie, 3 = Creeper]:\n";
+			int userInputQ3;
+			cin >> userInputQ3;
+			enemyType enemy;
+			enemy = static_cast<enemyType>(userInputQ3);
+			SetEnemyStats(enemy);
+			break;
 		default:
-			cout << "Must choose input '1' or '2'\n";
+			cout << "Input must be between 0 and 3 \n";
 			break;
 	}
 	
