@@ -14,8 +14,15 @@ int main()
 	
 	cout << "Welcome Player! Please enter your name: ";
 	cin >> name;
-	cout << "Hello " << name;
-	cout << " How old are you ? ";
+	cout << "Hello " << name << " How old are you ? ";
 	cin >> age;
-	cout << "Excellent ! you have 100 points to create your character";
+	cout << "Excellent! you have 100 points to create your character. \n How many points would you like to spend on HP?";
+	cin >> HP;
+	points = points - HP;
+	cout << "You have " << points << " points left";
+	cout << "How many points would you like to spend on mana? ";
+	cin >> mana;
+	points = points - mana;
+	cout << "You have " << points << " points left";
+	
 }
