@@ -7,15 +7,15 @@ int main()
 {
 	// General Player Variables
 	string name;
-	int age;
+	unsigned int age;
 	float hp;
 	float mp;
 
 	// Player Attributes
-	int vitality = 0;
-	int magic = 0;
-	int strength = 0;
-	int dexterity = 0;
+	unsigned int vitality = 0;
+	unsigned int magic = 0;
+	unsigned int strength = 0;
+	unsigned int dexterity = 0;
 	int attributePoints = 20;
 
 	// Assigning Variables
