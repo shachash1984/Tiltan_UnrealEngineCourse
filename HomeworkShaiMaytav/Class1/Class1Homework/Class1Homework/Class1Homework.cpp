@@ -41,7 +41,7 @@ int main()
     std::cout << "Enter your character's max health points: ";
     std::cin >> hp;
     std::cout << "Enter your character's mana: ";
-    std::cin >> hp;
+    std::cin >> mana;
 
     std::cout << "Great! \n\nNow spend all your attribute points on the next four attributes \nStrength\nMagic\nDexterity\nand Vitality";
     std::wcout << "\nYou can only spend 255 points on each attribute!!!";
