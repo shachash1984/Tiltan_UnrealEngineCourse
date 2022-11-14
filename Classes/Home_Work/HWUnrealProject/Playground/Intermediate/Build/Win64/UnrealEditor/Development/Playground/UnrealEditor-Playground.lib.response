@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Playground.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Epic\UnrealProjects\Playground\Intermediate\Build\Win64\PlaygroundEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Epic\UnrealProjects\Playground\Intermediate\Build\Win64\UnrealEditor\Development\Playground\Playground.cpp.obj"
+"C:\Epic\UnrealProjects\Playground\Intermediate\Build\Win64\UnrealEditor\Development\Playground\PlaygroundCharacter.cpp.obj"
+"C:\Epic\UnrealProjects\Playground\Intermediate\Build\Win64\UnrealEditor\Development\Playground\PlaygroundGameMode.cpp.obj"
+"C:\Epic\UnrealProjects\Playground\Intermediate\Build\Win64\UnrealEditor\Development\Playground\Playground.init.gen.cpp.obj"
+"C:\Epic\UnrealProjects\Playground\Intermediate\Build\Win64\UnrealEditor\Development\Playground\PlaygroundCharacter.gen.cpp.obj"
+"C:\Epic\UnrealProjects\Playground\Intermediate\Build\Win64\UnrealEditor\Development\Playground\PlaygroundGameMode.gen.cpp.obj"
+"C:\Epic\UnrealProjects\Playground\Intermediate\Build\Win64\UnrealEditor\Development\Playground\Default.rc2.res"
+/OUT:"C:\Epic\UnrealProjects\Playground\Intermediate\Build\Win64\UnrealEditor\Development\Playground\UnrealEditor-Playground.lib"

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Playground",
+			"Path": "C:\\Epic\\UnrealProjects\\Playground\\Source\\Playground.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PlaygroundEditor",
+			"Path": "C:\\Epic\\UnrealProjects\\Playground\\Source\\PlaygroundEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

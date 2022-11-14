@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\epic\\unrealprojects\\playground\\intermediate\\build\\win64\\unrealeditor\\inc\\playground\\playground.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\epic\\unrealprojects\\playground\\intermediate\\build\\win64\\playgroundeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\epic\\unrealprojects\\playground\\intermediate\\build\\win64\\unrealeditor\\development\\playground\\definitions.playground.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
