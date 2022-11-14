@@ -9,7 +9,7 @@ int y
 int z
 
 public ctor:
-default constructor
+default constructor that will initialize members to zeros
 
 2.
 create a "Pickup" class
