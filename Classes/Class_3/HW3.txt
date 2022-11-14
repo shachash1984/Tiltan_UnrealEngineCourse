@@ -1,0 +1,83 @@
+CPP:
+
+1.
+In Visual Studio 
+create a "Point" struct
+public data members:
+int x
+int y
+int z
+
+public ctor:
+default constructor
+
+2.
+create a "Pickup" class
+
+private data members:
+Point position;
+string const name;
+int value;
+
+public Methods:
+Create a default constructor that initializes the members to default values
+Create a second constructor that takes 3 arguments and assigns them to its members
+
+Create Getter methods for all members
+Create a ToString method that returns a string in the form: "Pickup: name:Health, position:(10, -5, 0), value: 100"
+
+
+*********
+
+UE5:
+Create a blank project in UE5 and make sure you select c++
+Add a c++ class of type PlayerController
+**make sure to disable the Live Coding feature**
+
+1.
+in the header file
+add the protected method:
+virtual void SetupInputComponent() override;
+
+2.
+in the cpp file implement it as:
+void APlayerController2::SetupInputComponent()
+{
+	Super::SetupInputComponent();	
+}
+
+3.
+in the UE editor, add an action mapping and assign it a mouse or keyboard input.
+name it to whatever you want.
+
+4.
+In the the PlayerController class you created, Create a method that accepts no parameters,
+and returns void. This method will be bound to the action
+so in the "SetupInputComponent" method make sure you bind it
+
+
+5.
+When you created the project, another class was created [projectname]GameModeBase
+in the world settings tab under "GameMode Override" Assign your GameModeBase class
+
+6. 
+Create a Default constructor for your custom game mode class
+and in it call:
+
+PlayerControllerClass = A[YOUR_PLAYER_CONTROLLER]::StaticClass();
+
+7.
+When you created the project, 2 files were created automatically:
+[Project_Name].h
+[Project_Name].cpp
+
+in the header declare:
+DECLARE_LOG_CATEGORY_EXTERN(Log[YOUR_GAME_NAME], Log, All);
+
+in the cpp file, paste at the end
+DEFINE_LOG_CATEGORY(Log[YOUR_GAME_NAME])
+
+8.
+In the method you created for binding, paste the code
+
+UE_LOG(Log[YOUR_GAME_NAME], Log, TEXT("Doing something"));
