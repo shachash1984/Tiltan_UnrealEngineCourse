@@ -1,24 +1,24 @@
-#include <iostream>
+//#include <iostream>
 
-int main()
-{
-	std::cout << "Hello World\n";
-	
-	std::cout << "Please enter your age:\n";
-	int age;
-	std::cin >> age;
-	
-	std::cout << "Please enter your name:\n";
-	std::string name;
-	std::cin >> name;
-	std::cout << "My name is " << name << " and I am " << age << " years old.\n";
-	
-	float HP = -100.30f;
-	
-	char end;
-	std::cin >> end;
-	return 0;
-}
+//int main()
+//{
+//	std::cout << "Hello World\n";
+//	
+//	std::cout << "Please enter your age:\n";
+//	int age;
+//	std::cin >> age;
+//	
+//	std::cout << "Please enter your name:\n";
+//	std::string name;
+//	std::cin >> name;
+//	std::cout << "My name is " << name << " and I am " << age << " years old.\n";
+//	
+//	float HP = -100.30f;
+//	
+//	char end;
+//	std::cin >> end;
+//	return 0;
+//}
 
 //Fundamental types:
 //int, float, double, char, bool, void
