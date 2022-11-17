@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw submission\\hw3\\unrealhomework3\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealhomework3\\unrealhomework3gamemodebase.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw submission\\hw3\\unrealhomework3\\intermediate\\build\\win64\\unrealhomework3editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw submission\\hw3\\unrealhomework3\\intermediate\\build\\win64\\unrealeditor\\development\\unrealhomework3\\definitions.unrealhomework3.h",
+            "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw submission\\hw3\\unrealhomework3\\source\\unrealhomework3\\unrealhomework3gamemodebase.h",
+            "g:\\unreal\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "g:\\unreal\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "g:\\unreal\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "g:\\unreal\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw submission\\hw3\\unrealhomework3\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealhomework3\\unrealhomework3gamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

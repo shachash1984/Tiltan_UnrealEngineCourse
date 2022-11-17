@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-UnrealHomeWork3.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW Submission\HW3\UnrealHomeWork3\Intermediate\Build\Win64\UnrealHomeWork3Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW Submission\HW3\UnrealHomeWork3\Intermediate\Build\Win64\UnrealEditor\Development\UnrealHomeWork3\MyPlayerController.cpp.obj"
+"C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW Submission\HW3\UnrealHomeWork3\Intermediate\Build\Win64\UnrealEditor\Development\UnrealHomeWork3\UnrealHomeWork3.cpp.obj"
+"C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW Submission\HW3\UnrealHomeWork3\Intermediate\Build\Win64\UnrealEditor\Development\UnrealHomeWork3\UnrealHomeWork3GameModeBase.cpp.obj"
+"C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW Submission\HW3\UnrealHomeWork3\Intermediate\Build\Win64\UnrealEditor\Development\UnrealHomeWork3\MyPlayerController.gen.cpp.obj"
+"C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW Submission\HW3\UnrealHomeWork3\Intermediate\Build\Win64\UnrealEditor\Development\UnrealHomeWork3\UnrealHomeWork3.init.gen.cpp.obj"
+"C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW Submission\HW3\UnrealHomeWork3\Intermediate\Build\Win64\UnrealEditor\Development\UnrealHomeWork3\UnrealHomeWork3GameModeBase.gen.cpp.obj"
+"C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW Submission\HW3\UnrealHomeWork3\Intermediate\Build\Win64\UnrealEditor\Development\UnrealHomeWork3\Default.rc2.res"
+/OUT:"C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW Submission\HW3\UnrealHomeWork3\Intermediate\Build\Win64\UnrealEditor\Development\UnrealHomeWork3\UnrealEditor-UnrealHomeWork3.lib"

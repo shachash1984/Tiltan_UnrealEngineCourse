@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UnrealHomeWork3",
+			"Path": "C:\\Users\\mark4\\Documents\\Tiltan_UnrealEngineCourse\\HW Submission\\HW3\\UnrealHomeWork3\\Source\\UnrealHomeWork3.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UnrealHomeWork3Editor",
+			"Path": "C:\\Users\\mark4\\Documents\\Tiltan_UnrealEngineCourse\\HW Submission\\HW3\\UnrealHomeWork3\\Source\\UnrealHomeWork3Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

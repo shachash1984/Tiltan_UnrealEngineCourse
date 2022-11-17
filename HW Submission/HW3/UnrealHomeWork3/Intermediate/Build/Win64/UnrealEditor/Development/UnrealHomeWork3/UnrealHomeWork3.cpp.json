@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw submission\\hw3\\unrealhomework3\\source\\unrealhomework3\\unrealhomework3.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw submission\\hw3\\unrealhomework3\\intermediate\\build\\win64\\unrealhomework3editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw submission\\hw3\\unrealhomework3\\intermediate\\build\\win64\\unrealeditor\\development\\unrealhomework3\\definitions.unrealhomework3.h",
+            "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw submission\\hw3\\unrealhomework3\\source\\unrealhomework3\\unrealhomework3.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
