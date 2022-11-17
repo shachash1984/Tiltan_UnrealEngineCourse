@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-UE5HW.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\DEV\Git\Tiltan_UnrealEngineCourse\HomeworkShaiMaytav\Class3HW\UE5HW\Intermediate\Build\Win64\UE5HWEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\DEV\Git\Tiltan_UnrealEngineCourse\HomeworkShaiMaytav\Class3HW\UE5HW\Intermediate\Build\Win64\UnrealEditor\Development\UE5HW\MyPlayerController.cpp.obj"
+"C:\DEV\Git\Tiltan_UnrealEngineCourse\HomeworkShaiMaytav\Class3HW\UE5HW\Intermediate\Build\Win64\UnrealEditor\Development\UE5HW\UE5HW.cpp.obj"
+"C:\DEV\Git\Tiltan_UnrealEngineCourse\HomeworkShaiMaytav\Class3HW\UE5HW\Intermediate\Build\Win64\UnrealEditor\Development\UE5HW\UE5HWGameModeBase.cpp.obj"
+"C:\DEV\Git\Tiltan_UnrealEngineCourse\HomeworkShaiMaytav\Class3HW\UE5HW\Intermediate\Build\Win64\UnrealEditor\Development\UE5HW\MyPlayerController.gen.cpp.obj"
+"C:\DEV\Git\Tiltan_UnrealEngineCourse\HomeworkShaiMaytav\Class3HW\UE5HW\Intermediate\Build\Win64\UnrealEditor\Development\UE5HW\UE5HW.init.gen.cpp.obj"
+"C:\DEV\Git\Tiltan_UnrealEngineCourse\HomeworkShaiMaytav\Class3HW\UE5HW\Intermediate\Build\Win64\UnrealEditor\Development\UE5HW\UE5HWGameModeBase.gen.cpp.obj"
+"C:\DEV\Git\Tiltan_UnrealEngineCourse\HomeworkShaiMaytav\Class3HW\UE5HW\Intermediate\Build\Win64\UnrealEditor\Development\UE5HW\Default.rc2.res"
+/OUT:"C:\DEV\Git\Tiltan_UnrealEngineCourse\HomeworkShaiMaytav\Class3HW\UE5HW\Intermediate\Build\Win64\UnrealEditor\Development\UE5HW\UnrealEditor-UE5HW.lib"

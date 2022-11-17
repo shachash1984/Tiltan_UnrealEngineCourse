@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\dev\\git\\tiltan_unrealenginecourse\\homeworkshaimaytav\\class3hw\\ue5hw\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5hw\\ue5hwgamemodebase.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\dev\\git\\tiltan_unrealenginecourse\\homeworkshaimaytav\\class3hw\\ue5hw\\intermediate\\build\\win64\\ue5hweditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\homeworkshaimaytav\\class3hw\\ue5hw\\intermediate\\build\\win64\\unrealeditor\\development\\ue5hw\\definitions.ue5hw.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\homeworkshaimaytav\\class3hw\\ue5hw\\source\\ue5hw\\ue5hwgamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\homeworkshaimaytav\\class3hw\\ue5hw\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5hw\\ue5hwgamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

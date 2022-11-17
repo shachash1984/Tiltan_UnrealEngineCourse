@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\dev\\git\\tiltan_unrealenginecourse\\homeworkshaimaytav\\class3hw\\ue5hw\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5hw\\ue5hw.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\dev\\git\\tiltan_unrealenginecourse\\homeworkshaimaytav\\class3hw\\ue5hw\\intermediate\\build\\win64\\ue5hweditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\homeworkshaimaytav\\class3hw\\ue5hw\\intermediate\\build\\win64\\unrealeditor\\development\\ue5hw\\definitions.ue5hw.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

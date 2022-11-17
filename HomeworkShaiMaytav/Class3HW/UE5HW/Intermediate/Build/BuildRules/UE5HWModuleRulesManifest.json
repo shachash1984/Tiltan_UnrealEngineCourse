@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\DEV\\Git\\Tiltan_UnrealEngineCourse\\HomeworkShaiMaytav\\Class3HW\\UE5HW\\Source\\UE5HW\\UE5HW.Build.cs",
+		"C:\\DEV\\Git\\Tiltan_UnrealEngineCourse\\HomeworkShaiMaytav\\Class3HW\\UE5HW\\Source\\UE5HW.Target.cs",
+		"C:\\DEV\\Git\\Tiltan_UnrealEngineCourse\\HomeworkShaiMaytav\\Class3HW\\UE5HW\\Source\\UE5HWEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}

@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\dev\\git\\tiltan_unrealenginecourse\\homeworkshaimaytav\\class3hw\\ue5hw\\source\\ue5hw\\private\\myplayercontroller.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\dev\\git\\tiltan_unrealenginecourse\\homeworkshaimaytav\\class3hw\\ue5hw\\intermediate\\build\\win64\\ue5hweditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\homeworkshaimaytav\\class3hw\\ue5hw\\intermediate\\build\\win64\\unrealeditor\\development\\ue5hw\\definitions.ue5hw.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\homeworkshaimaytav\\class3hw\\ue5hw\\source\\ue5hw\\public\\myplayercontroller.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\homeworkshaimaytav\\class3hw\\ue5hw\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5hw\\myplayercontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
