@@ -10,7 +10,7 @@ bool isPalindrome(int numToCheck)
 	int reversedNum = 0;
 	int remainderNum;
 
-	// Reversing Number (Learned How From: "https://www.programiz.com/cpp-programming/examples/reverse-number")
+	// Reversing Number (Learned How From: "https://www.programiz.com/cpp-programming/examples/reverse-number") // Nice!
 	while (tempX != 0)
 	{
 		remainderNum = tempX % 10;
