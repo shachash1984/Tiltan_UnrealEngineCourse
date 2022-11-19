@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\george rashed\\documents\\github\\tiltan_unrealenginecourse\\george_hwassignments\\hwassignment_3\\14-11-2022-assignment3_ue5\\ue5_class3\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5_class3\\myplayercontroller.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\george rashed\\documents\\github\\tiltan_unrealenginecourse\\george_hwassignments\\hwassignment_3\\14-11-2022-assignment3_ue5\\ue5_class3\\intermediate\\build\\win64\\ue5_class3editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\george rashed\\documents\\github\\tiltan_unrealenginecourse\\george_hwassignments\\hwassignment_3\\14-11-2022-assignment3_ue5\\ue5_class3\\intermediate\\build\\win64\\unrealeditor\\development\\ue5_class3\\definitions.ue5_class3.h",
+            "c:\\users\\george rashed\\documents\\github\\tiltan_unrealenginecourse\\george_hwassignments\\hwassignment_3\\14-11-2022-assignment3_ue5\\ue5_class3\\source\\ue5_class3\\public\\myplayercontroller.h",
+            "c:\\users\\george rashed\\documents\\github\\tiltan_unrealenginecourse\\george_hwassignments\\hwassignment_3\\14-11-2022-assignment3_ue5\\ue5_class3\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5_class3\\myplayercontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

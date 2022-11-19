@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\george rashed\\documents\\github\\tiltan_unrealenginecourse\\george_hwassignments\\hwassignment_3\\14-11-2022-assignment3_ue5\\ue5_class3\\source\\ue5_class3\\ue5_class3gamemodebase.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\george rashed\\documents\\github\\tiltan_unrealenginecourse\\george_hwassignments\\hwassignment_3\\14-11-2022-assignment3_ue5\\ue5_class3\\intermediate\\build\\win64\\ue5_class3editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\george rashed\\documents\\github\\tiltan_unrealenginecourse\\george_hwassignments\\hwassignment_3\\14-11-2022-assignment3_ue5\\ue5_class3\\intermediate\\build\\win64\\unrealeditor\\development\\ue5_class3\\definitions.ue5_class3.h",
+            "c:\\users\\george rashed\\documents\\github\\tiltan_unrealenginecourse\\george_hwassignments\\hwassignment_3\\14-11-2022-assignment3_ue5\\ue5_class3\\source\\ue5_class3\\ue5_class3gamemodebase.h",
+            "e:\\ssd epic games library\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "e:\\ssd epic games library\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "e:\\ssd epic games library\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "e:\\ssd epic games library\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "c:\\users\\george rashed\\documents\\github\\tiltan_unrealenginecourse\\george_hwassignments\\hwassignment_3\\14-11-2022-assignment3_ue5\\ue5_class3\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5_class3\\ue5_class3gamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\george rashed\\documents\\github\\tiltan_unrealenginecourse\\george_hwassignments\\hwassignment_3\\14-11-2022-assignment3_ue5\\ue5_class3\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5_class3\\ue5_class3.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\george rashed\\documents\\github\\tiltan_unrealenginecourse\\george_hwassignments\\hwassignment_3\\14-11-2022-assignment3_ue5\\ue5_class3\\intermediate\\build\\win64\\ue5_class3editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\george rashed\\documents\\github\\tiltan_unrealenginecourse\\george_hwassignments\\hwassignment_3\\14-11-2022-assignment3_ue5\\ue5_class3\\intermediate\\build\\win64\\unrealeditor\\development\\ue5_class3\\definitions.ue5_class3.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

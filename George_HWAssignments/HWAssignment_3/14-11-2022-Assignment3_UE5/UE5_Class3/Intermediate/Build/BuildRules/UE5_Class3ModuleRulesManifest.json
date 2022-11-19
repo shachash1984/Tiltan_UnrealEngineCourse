@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\George Rashed\\Documents\\GitHub\\Tiltan_UnrealEngineCourse\\George_HWAssignments\\HWAssignment_3\\14-11-2022-Assignment3_UE5\\UE5_Class3\\Source\\UE5_Class3\\UE5_Class3.Build.cs",
+		"C:\\Users\\George Rashed\\Documents\\GitHub\\Tiltan_UnrealEngineCourse\\George_HWAssignments\\HWAssignment_3\\14-11-2022-Assignment3_UE5\\UE5_Class3\\Source\\UE5_Class3.Target.cs",
+		"C:\\Users\\George Rashed\\Documents\\GitHub\\Tiltan_UnrealEngineCourse\\George_HWAssignments\\HWAssignment_3\\14-11-2022-Assignment3_UE5\\UE5_Class3\\Source\\UE5_Class3Editor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}

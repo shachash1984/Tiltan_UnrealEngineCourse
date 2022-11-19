@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-UE5_Class3.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_3\14-11-2022-Assignment3_UE5\UE5_Class3\Intermediate\Build\Win64\UE5_Class3Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_3\14-11-2022-Assignment3_UE5\UE5_Class3\Intermediate\Build\Win64\UnrealEditor\Development\UE5_Class3\UE5_Class3.cpp.obj"
+"C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_3\14-11-2022-Assignment3_UE5\UE5_Class3\Intermediate\Build\Win64\UnrealEditor\Development\UE5_Class3\UE5_Class3GameModeBase.cpp.obj"
+"C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_3\14-11-2022-Assignment3_UE5\UE5_Class3\Intermediate\Build\Win64\UnrealEditor\Development\UE5_Class3\UE5_Class3.init.gen.cpp.obj"
+"C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_3\14-11-2022-Assignment3_UE5\UE5_Class3\Intermediate\Build\Win64\UnrealEditor\Development\UE5_Class3\UE5_Class3GameModeBase.gen.cpp.obj"
+"C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_3\14-11-2022-Assignment3_UE5\UE5_Class3\Intermediate\Build\Win64\UnrealEditor\Development\UE5_Class3\Default.rc2.res"
+/OUT:"C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_3\14-11-2022-Assignment3_UE5\UE5_Class3\Intermediate\Build\Win64\UnrealEditor\Development\UE5_Class3\UnrealEditor-UE5_Class3.lib"
