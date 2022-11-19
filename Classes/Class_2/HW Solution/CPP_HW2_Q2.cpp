@@ -176,7 +176,7 @@ int romanToInt(string s)
 	return sum;
 }
 
-int main()
+int main() //again here as well, user input would be nicer
 {
 	int a = romanToInt("III");
 	int b = romanToInt("LVIII");

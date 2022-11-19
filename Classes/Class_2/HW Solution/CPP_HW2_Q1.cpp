@@ -32,7 +32,7 @@ bool isPalindrome(int x)
 	}
 }
 
-int main()
+int main() // would be nicer to receive number from user input
 {
 
 	cout << isPalindrome(121) << "\n";
