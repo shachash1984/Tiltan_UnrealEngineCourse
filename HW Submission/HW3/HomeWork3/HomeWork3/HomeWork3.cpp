@@ -1,6 +1,8 @@
 // HomeWork3.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+
+// Should be separated to header and cpp files - 5 pts
 #include <iostream>
 #include <string>
 using namespace std;
@@ -10,12 +12,14 @@ struct Point
 	int x;
 	int y;
 	int z;
-	Point()
+	Point() // needs to be initialized in the ctor initialization list - 5 pts
 	{
 		x = 0;
 		y = 0;
 		z = 0;
 	}
+
+	//Point(int x, int y, int z) : x(x), y(y), z(z) {} //This is the correct way to initialize the members
 };
 
 class Pickup
@@ -25,7 +29,7 @@ class Pickup
 	int value;
 
 public:
-	Pickup() : name("default")
+	Pickup() : name("default") //again, "value" needs to be initialized in the ctor initialization list, position doesn't need to be initialized because it has a default ctor
 	{
 		position.x = 0;
 		position.y = 0;
