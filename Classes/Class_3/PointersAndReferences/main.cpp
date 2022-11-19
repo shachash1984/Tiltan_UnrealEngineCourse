@@ -48,14 +48,14 @@ int main() {
 
 
 	//Runtime Error example
-	//int* badPointer = nullptr; // Uninitialized pointer
+	int* badPointer = nullptr; // Uninitialized pointer
 	//*badPointer = 5; // Dereferencing a nullptr is undefined behavior
 
 	// how to check if a pointer is NOT nullptr
-	/*if (badPointer)
+	if (badPointer)
 	{
 		*badPointer = 5; 
-	}*/
+	}
 	
 
 	return 0;
