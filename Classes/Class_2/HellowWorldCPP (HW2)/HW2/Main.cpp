@@ -34,7 +34,7 @@ bool isPalindrome(int x)
 }
 int GetRomanLetterValue(char letter)
 {
-	switch (tolower(letter))
+	switch (tolower(letter)) // Nice use of tolower()! +2 pts (bonus)
 	{
 		case 'i':
 			return 1;
@@ -59,7 +59,7 @@ int GetRomanLetterValue(char letter)
 			break;
 		
 		default:
-			cout << "Some letters are not a roman number\n";
+			cout << "Some letters are not a roman number\n"; //I think you forgot to add a return statement here or at the end of the function -5 pts
 			break;
 	}
 }
