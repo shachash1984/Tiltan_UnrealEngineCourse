@@ -36,6 +36,6 @@ int main()
 	cout << isPalindrome(121) << "\n";
 	cout << isPalindrome(-121) << "\n";
 	cout << isPalindrome(10) << "\n";
-	cout << isPalindrome(1234321) << "\n";
+	cout << isPalindrome(1234321) << "\n"; // it would be better to receive input from the user - no point reduction
 
 }

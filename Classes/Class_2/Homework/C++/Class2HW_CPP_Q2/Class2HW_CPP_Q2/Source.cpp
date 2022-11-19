@@ -184,5 +184,5 @@ int main()
 	cout << c << "\n";
 
 	string s = "";
-	cin >> s;
+	cin >> s;		// again same here - input from the user is preferred
 }
