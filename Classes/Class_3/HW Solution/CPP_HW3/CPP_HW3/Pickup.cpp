@@ -3,5 +3,6 @@
 
 std::string Pickup::ToString()
 {
-	return "Pickup: name:$name, position:(10, -5, 0), value: 100"
+	std::string strToReturn = "Name: " + name + ", position :" + position.ToString() + ", value :" + std::to_string(value);
+	return strToReturn;
 }

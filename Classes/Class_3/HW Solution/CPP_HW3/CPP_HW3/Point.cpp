@@ -2,6 +2,7 @@
 
 #include "Point.h"
 #include <string>
+#include <sstream>
 
 Point::Point()
 {
@@ -12,8 +13,13 @@ Point::Point()
 
 	std::string Point::ToString()
 	{
-		std::string toReturn;
-		toReturn = "($x,$y,$z)";
+		/*std::ostringstream oss;
+		oss << "(" << x << ", " << y << ", " << z << ")";
+		std::string strToReturn = oss.str();
 
-		return toReturn;
+		return strToReturn;*/
+
+		std::string strToReturn = "(" + std::to_string(x) + ", " + std::to_string(y) + ", " + std::to_string(z) + ")";
+		return strToReturn;
+
 	}
