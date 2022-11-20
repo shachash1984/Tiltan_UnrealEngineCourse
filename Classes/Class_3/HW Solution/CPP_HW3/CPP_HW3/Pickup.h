@@ -1,11 +1,15 @@
 #pragma once
 #include <string>
 #include "Point.h"
+
+// This HW was made with Ron Bandel
+
+
 class Pickup{
 
 private:
 	Point position;
-	std::string const name;
+	std::string name; // we removed the const in order to be able to write a ctor for this class
 	int value;
 
 public:
