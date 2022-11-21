@@ -1,10 +1,10 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\epic\\unrealprojects\\playground\\intermediate\\build\\win64\\playgroundeditor\\development\\engine\\sharedpch.engine.shadowerrors.cpp",
+        "Source": "c:\\gitpulls\\tiltan_unrealenginecourse\\classes\\home_work\\hwunrealproject\\playground\\intermediate\\build\\win64\\playgroundeditor\\development\\engine\\sharedpch.engine.shadowerrors.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\epic\\unrealprojects\\playground\\intermediate\\build\\win64\\playgroundeditor\\development\\engine\\sharedpch.engine.shadowerrors.h",
+            "c:\\gitpulls\\tiltan_unrealenginecourse\\classes\\home_work\\hwunrealproject\\playground\\intermediate\\build\\win64\\playgroundeditor\\development\\engine\\sharedpch.engine.shadowerrors.h",
             "c:\\epic\\unrealversions\\ue_5.0\\engine\\source\\runtime\\engine\\public\\enginesharedpch.h",
             "c:\\epic\\unrealversions\\ue_5.0\\engine\\source\\runtime\\core\\public\\containers\\containersfwd.h",
             "c:\\epic\\unrealversions\\ue_5.0\\engine\\source\\runtime\\core\\public\\hal\\platform.h",

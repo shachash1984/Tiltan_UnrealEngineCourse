@@ -1,18 +1,17 @@
-C:\Epic\UnrealProjects\Playground\Source\Playground\PlaygroundGameMode.cpp
+C:\GitPulls\Tiltan_UnrealEngineCourse\Classes\Home_Work\HWUnrealProject\Playground\Source\Playground\PlaygroundGameMode.cpp
 /I .
-/I C:\Epic\UnrealProjects\Playground\Intermediate\Build\Win64\UnrealEditor\Inc\Playground
-/I C:\Epic\UnrealProjects\Playground\Source
-/I Runtime
-/I Runtime\TraceLog\Public
-/I Runtime\Core\Public
-/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject
-/I Runtime\CoreUObject\Public
+/I C:\GitPulls\Tiltan_UnrealEngineCourse\Classes\Home_Work\HWUnrealProject\Playground\Source\Playground\Private
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine
+/I Runtime
 /I ..\Shaders\Shared
 /I Runtime\Engine\Classes
 /I Runtime\Engine\Public
+/I Runtime\TraceLog\Public
+/I Runtime\Core\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreOnline
 /I Runtime\CoreOnline\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject
+/I Runtime\CoreUObject\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\NetCore
 /I Runtime\Net
 /I Runtime\Net\Core\Classes
@@ -253,6 +252,9 @@ C:\Epic\UnrealProjects\Playground\Source\Playground\PlaygroundGameMode.cpp
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
+/I C:\GitPulls\Tiltan_UnrealEngineCourse\Classes\Home_Work\HWUnrealProject\Playground\Intermediate\Build\Win64\UnrealEditor\Inc\Playground
+/I C:\GitPulls\Tiltan_UnrealEngineCourse\Classes\Home_Work\HWUnrealProject\Playground\Source
+/I C:\GitPulls\Tiltan_UnrealEngineCourse\Classes\Home_Work\HWUnrealProject\Playground\Source\Playground\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MRMesh
@@ -277,12 +279,12 @@ C:\Epic\UnrealProjects\Playground\Source\Playground\PlaygroundGameMode.cpp
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
-/FI"C:\Epic\UnrealProjects\Playground\Intermediate\Build\Win64\PlaygroundEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"C:\Epic\UnrealProjects\Playground\Intermediate\Build\Win64\UnrealEditor\Development\Playground\Definitions.Playground.h"
-/Yu"C:\Epic\UnrealProjects\Playground\Intermediate\Build\Win64\PlaygroundEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Epic\UnrealProjects\Playground\Intermediate\Build\Win64\PlaygroundEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"C:\Epic\UnrealProjects\Playground\Intermediate\Build\Win64\UnrealEditor\Development\Playground\PlaygroundGameMode.cpp.obj"
-/sourceDependencies C:\Epic\UnrealProjects\Playground\Intermediate\Build\Win64\UnrealEditor\Development\Playground\PlaygroundGameMode.cpp.json
+/FI"C:\GitPulls\Tiltan_UnrealEngineCourse\Classes\Home_Work\HWUnrealProject\Playground\Intermediate\Build\Win64\PlaygroundEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"C:\GitPulls\Tiltan_UnrealEngineCourse\Classes\Home_Work\HWUnrealProject\Playground\Intermediate\Build\Win64\UnrealEditor\Development\Playground\Definitions.Playground.h"
+/Yu"C:\GitPulls\Tiltan_UnrealEngineCourse\Classes\Home_Work\HWUnrealProject\Playground\Intermediate\Build\Win64\PlaygroundEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\GitPulls\Tiltan_UnrealEngineCourse\Classes\Home_Work\HWUnrealProject\Playground\Intermediate\Build\Win64\PlaygroundEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"C:\GitPulls\Tiltan_UnrealEngineCourse\Classes\Home_Work\HWUnrealProject\Playground\Intermediate\Build\Win64\UnrealEditor\Development\Playground\PlaygroundGameMode.cpp.obj"
+/sourceDependencies C:\GitPulls\Tiltan_UnrealEngineCourse\Classes\Home_Work\HWUnrealProject\Playground\Intermediate\Build\Win64\UnrealEditor\Development\Playground\PlaygroundGameMode.cpp.json
 /Zc:inline
 /nologo
 /Oi

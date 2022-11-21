@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Playground",
-			"Path": "C:\\Epic\\UnrealProjects\\Playground\\Source\\Playground.Target.cs",
+			"Path": "C:\\GitPulls\\Tiltan_UnrealEngineCourse\\Classes\\Home_Work\\HWUnrealProject\\Playground\\Source\\Playground.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "PlaygroundEditor",
-			"Path": "C:\\Epic\\UnrealProjects\\Playground\\Source\\PlaygroundEditor.Target.cs",
+			"Path": "C:\\GitPulls\\Tiltan_UnrealEngineCourse\\Classes\\Home_Work\\HWUnrealProject\\Playground\\Source\\PlaygroundEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

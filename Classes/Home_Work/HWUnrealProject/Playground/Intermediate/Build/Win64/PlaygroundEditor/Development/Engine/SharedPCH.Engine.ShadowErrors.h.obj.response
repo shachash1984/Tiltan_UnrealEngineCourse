@@ -1,4 +1,4 @@
-C:\Epic\UnrealProjects\Playground\Intermediate\Build\Win64\PlaygroundEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp
+C:\GitPulls\Tiltan_UnrealEngineCourse\Classes\Home_Work\HWUnrealProject\Playground\Intermediate\Build\Win64\PlaygroundEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp
 /I .
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine
 /I Runtime
@@ -275,10 +275,10 @@ C:\Epic\UnrealProjects\Playground\Intermediate\Build\Win64\PlaygroundEditor\Deve
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
-/Yc"C:\Epic\UnrealProjects\Playground\Intermediate\Build\Win64\PlaygroundEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Epic\UnrealProjects\Playground\Intermediate\Build\Win64\PlaygroundEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"C:\Epic\UnrealProjects\Playground\Intermediate\Build\Win64\PlaygroundEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-/sourceDependencies C:\Epic\UnrealProjects\Playground\Intermediate\Build\Win64\PlaygroundEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.json
+/Yc"C:\GitPulls\Tiltan_UnrealEngineCourse\Classes\Home_Work\HWUnrealProject\Playground\Intermediate\Build\Win64\PlaygroundEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\GitPulls\Tiltan_UnrealEngineCourse\Classes\Home_Work\HWUnrealProject\Playground\Intermediate\Build\Win64\PlaygroundEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"C:\GitPulls\Tiltan_UnrealEngineCourse\Classes\Home_Work\HWUnrealProject\Playground\Intermediate\Build\Win64\PlaygroundEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+/sourceDependencies C:\GitPulls\Tiltan_UnrealEngineCourse\Classes\Home_Work\HWUnrealProject\Playground\Intermediate\Build\Win64\PlaygroundEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.json
 /Zc:inline
 /nologo
 /Oi

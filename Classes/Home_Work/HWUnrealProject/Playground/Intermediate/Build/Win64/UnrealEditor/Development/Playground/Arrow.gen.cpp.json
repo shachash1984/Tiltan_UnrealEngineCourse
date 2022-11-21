@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\gitpulls\\tiltan_unrealenginecourse\\classes\\home_work\\hwunrealproject\\playground\\intermediate\\build\\win64\\unrealeditor\\inc\\playground\\arrow.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\gitpulls\\tiltan_unrealenginecourse\\classes\\home_work\\hwunrealproject\\playground\\intermediate\\build\\win64\\playgroundeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\gitpulls\\tiltan_unrealenginecourse\\classes\\home_work\\hwunrealproject\\playground\\intermediate\\build\\win64\\unrealeditor\\development\\playground\\definitions.playground.h",
+            "c:\\gitpulls\\tiltan_unrealenginecourse\\classes\\home_work\\hwunrealproject\\playground\\source\\playground\\public\\arrow.h",
+            "c:\\gitpulls\\tiltan_unrealenginecourse\\classes\\home_work\\hwunrealproject\\playground\\intermediate\\build\\win64\\unrealeditor\\inc\\playground\\arrow.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

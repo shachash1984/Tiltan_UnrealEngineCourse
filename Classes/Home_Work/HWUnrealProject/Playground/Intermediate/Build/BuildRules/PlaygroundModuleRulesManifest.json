@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Epic\\UnrealProjects\\Playground\\Source\\Playground\\Playground.Build.cs",
-		"C:\\Epic\\UnrealProjects\\Playground\\Source\\Playground.Target.cs",
-		"C:\\Epic\\UnrealProjects\\Playground\\Source\\PlaygroundEditor.Target.cs"
+		"C:\\GitPulls\\Tiltan_UnrealEngineCourse\\Classes\\Home_Work\\HWUnrealProject\\Playground\\Source\\Playground\\Playground.Build.cs",
+		"C:\\GitPulls\\Tiltan_UnrealEngineCourse\\Classes\\Home_Work\\HWUnrealProject\\Playground\\Source\\Playground.Target.cs",
+		"C:\\GitPulls\\Tiltan_UnrealEngineCourse\\Classes\\Home_Work\\HWUnrealProject\\Playground\\Source\\PlaygroundEditor.Target.cs"
 	],
 	"EngineVersion": "5.0.3"
 }

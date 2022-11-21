@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\gitpulls\\tiltan_unrealenginecourse\\classes\\home_work\\hwunrealproject\\playground\\intermediate\\build\\win64\\unrealeditor\\inc\\playground\\myplayercontroller.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\gitpulls\\tiltan_unrealenginecourse\\classes\\home_work\\hwunrealproject\\playground\\intermediate\\build\\win64\\playgroundeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\gitpulls\\tiltan_unrealenginecourse\\classes\\home_work\\hwunrealproject\\playground\\intermediate\\build\\win64\\unrealeditor\\development\\playground\\definitions.playground.h",
+            "c:\\gitpulls\\tiltan_unrealenginecourse\\classes\\home_work\\hwunrealproject\\playground\\source\\playground\\public\\myplayercontroller.h",
+            "c:\\epic\\unrealversions\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "c:\\epic\\unrealversions\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "c:\\epic\\unrealversions\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\charactermovementreplication.generated.h",
+            "c:\\epic\\unrealversions\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "c:\\epic\\unrealversions\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
+            "c:\\epic\\unrealversions\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
+            "c:\\gitpulls\\tiltan_unrealenginecourse\\classes\\home_work\\hwunrealproject\\playground\\intermediate\\build\\win64\\unrealeditor\\inc\\playground\\myplayercontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

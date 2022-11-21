@@ -1,17 +1,17 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\epic\\unrealprojects\\playground\\intermediate\\build\\win64\\unrealeditor\\inc\\playground\\playgroundgamemode.gen.cpp",
+        "Source": "c:\\gitpulls\\tiltan_unrealenginecourse\\classes\\home_work\\hwunrealproject\\playground\\intermediate\\build\\win64\\unrealeditor\\inc\\playground\\playgroundgamemode.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\epic\\unrealprojects\\playground\\intermediate\\build\\win64\\playgroundeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\gitpulls\\tiltan_unrealenginecourse\\classes\\home_work\\hwunrealproject\\playground\\intermediate\\build\\win64\\playgroundeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\epic\\unrealprojects\\playground\\intermediate\\build\\win64\\unrealeditor\\development\\playground\\definitions.playground.h",
-            "c:\\epic\\unrealprojects\\playground\\source\\playground\\playgroundgamemode.h",
+            "c:\\gitpulls\\tiltan_unrealenginecourse\\classes\\home_work\\hwunrealproject\\playground\\intermediate\\build\\win64\\unrealeditor\\development\\playground\\definitions.playground.h",
+            "c:\\gitpulls\\tiltan_unrealenginecourse\\classes\\home_work\\hwunrealproject\\playground\\source\\playground\\playgroundgamemode.h",
             "c:\\epic\\unrealversions\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
             "c:\\epic\\unrealversions\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
             "c:\\epic\\unrealversions\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
             "c:\\epic\\unrealversions\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
-            "c:\\epic\\unrealprojects\\playground\\intermediate\\build\\win64\\unrealeditor\\inc\\playground\\playgroundgamemode.generated.h"
+            "c:\\gitpulls\\tiltan_unrealenginecourse\\classes\\home_work\\hwunrealproject\\playground\\intermediate\\build\\win64\\unrealeditor\\inc\\playground\\playgroundgamemode.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
