@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\edeya\\documents\\github\\tiltan_unrealenginecourse\\student_eyal_deutscher\\unrealproject\\workinclass\\intermediate\\build\\win64\\unrealeditor\\inc\\workinclass\\workinclass.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\edeya\\documents\\github\\tiltan_unrealenginecourse\\student_eyal_deutscher\\unrealproject\\workinclass\\intermediate\\build\\win64\\workinclasseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\edeya\\documents\\github\\tiltan_unrealenginecourse\\student_eyal_deutscher\\unrealproject\\workinclass\\intermediate\\build\\win64\\unrealeditor\\development\\workinclass\\definitions.workinclass.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

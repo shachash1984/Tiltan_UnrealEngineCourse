@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\edeya\\Documents\\GitHub\\Tiltan_UnrealEngineCourse\\Student_Eyal_Deutscher\\UnrealProject\\WorkInClass\\Source\\WorkInClass\\WorkInClass.Build.cs",
+		"C:\\Users\\edeya\\Documents\\GitHub\\Tiltan_UnrealEngineCourse\\Student_Eyal_Deutscher\\UnrealProject\\WorkInClass\\Source\\WorkInClass.Target.cs",
+		"C:\\Users\\edeya\\Documents\\GitHub\\Tiltan_UnrealEngineCourse\\Student_Eyal_Deutscher\\UnrealProject\\WorkInClass\\Source\\WorkInClassEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}

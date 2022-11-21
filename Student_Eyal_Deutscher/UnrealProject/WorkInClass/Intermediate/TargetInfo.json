@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "WorkInClass",
+			"Path": "C:\\Users\\edeya\\Documents\\GitHub\\Tiltan_UnrealEngineCourse\\Student_Eyal_Deutscher\\UnrealProject\\WorkInClass\\Source\\WorkInClass.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "WorkInClassEditor",
+			"Path": "C:\\Users\\edeya\\Documents\\GitHub\\Tiltan_UnrealEngineCourse\\Student_Eyal_Deutscher\\UnrealProject\\WorkInClass\\Source\\WorkInClassEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

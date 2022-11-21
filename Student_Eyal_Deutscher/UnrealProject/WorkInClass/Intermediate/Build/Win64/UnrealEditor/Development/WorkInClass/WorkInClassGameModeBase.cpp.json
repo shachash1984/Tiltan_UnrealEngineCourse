@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\edeya\\documents\\github\\tiltan_unrealenginecourse\\student_eyal_deutscher\\unrealproject\\workinclass\\source\\workinclass\\workinclassgamemodebase.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\edeya\\documents\\github\\tiltan_unrealenginecourse\\student_eyal_deutscher\\unrealproject\\workinclass\\intermediate\\build\\win64\\workinclasseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\edeya\\documents\\github\\tiltan_unrealenginecourse\\student_eyal_deutscher\\unrealproject\\workinclass\\intermediate\\build\\win64\\unrealeditor\\development\\workinclass\\definitions.workinclass.h",
+            "c:\\users\\edeya\\documents\\github\\tiltan_unrealenginecourse\\student_eyal_deutscher\\unrealproject\\workinclass\\source\\workinclass\\workinclassgamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "c:\\users\\edeya\\documents\\github\\tiltan_unrealenginecourse\\student_eyal_deutscher\\unrealproject\\workinclass\\intermediate\\build\\win64\\unrealeditor\\inc\\workinclass\\workinclassgamemodebase.generated.h",
+            "c:\\users\\edeya\\documents\\github\\tiltan_unrealenginecourse\\student_eyal_deutscher\\unrealproject\\workinclass\\source\\workinclass\\public\\gameplayercontroller.h",
+            "c:\\users\\edeya\\documents\\github\\tiltan_unrealenginecourse\\student_eyal_deutscher\\unrealproject\\workinclass\\intermediate\\build\\win64\\unrealeditor\\inc\\workinclass\\gameplayercontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
