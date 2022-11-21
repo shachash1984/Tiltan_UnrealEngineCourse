@@ -1,15 +1,7 @@
 CPP
 Answer Q1 and Q2 (seperate files)
 
-Create an enum with 4 types of enemies
 
-Create a function that receives this enum as input and returns an int array of size 4.
-each index will represent an attribute for the enemy (between 1-1000)
-
-0-Attack
-1-Defense
-2-Speed
-3-Health
 
 UE5
 Create a closed room 10m*15m*3m with windows
