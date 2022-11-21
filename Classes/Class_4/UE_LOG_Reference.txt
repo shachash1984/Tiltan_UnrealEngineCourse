@@ -1,0 +1,1 @@
+https://dev.epicgames.com/community/snippets/Qg/defining-custom-log-categories-in-c
