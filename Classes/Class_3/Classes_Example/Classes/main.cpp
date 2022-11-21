@@ -36,4 +36,5 @@ int main()
 	cout << v1.PrintVehicleStatus() <<"\n\n" << endl;
 
 	getchar();
+	return 0;
 }
