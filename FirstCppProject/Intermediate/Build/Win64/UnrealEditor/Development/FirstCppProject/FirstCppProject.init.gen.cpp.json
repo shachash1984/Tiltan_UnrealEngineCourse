@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\unreal projects\\tiltan_unrealenginecourse\\firstcppproject\\intermediate\\build\\win64\\unrealeditor\\inc\\firstcppproject\\firstcppproject.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\unreal projects\\tiltan_unrealenginecourse\\firstcppproject\\intermediate\\build\\win64\\firstcppprojecteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "g:\\unreal projects\\tiltan_unrealenginecourse\\firstcppproject\\intermediate\\build\\win64\\unrealeditor\\development\\firstcppproject\\definitions.firstcppproject.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
