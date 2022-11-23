@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Tiltan\\Tiltan_UnrealEngineCourse\\Projects\\TiltanPhysics\\Source\\TiltanPhysics\\TiltanPhysics.Build.cs",
+		"D:\\Tiltan\\Tiltan_UnrealEngineCourse\\Projects\\TiltanPhysics\\Source\\TiltanPhysics.Target.cs",
+		"D:\\Tiltan\\Tiltan_UnrealEngineCourse\\Projects\\TiltanPhysics\\Source\\TiltanPhysicsEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}
