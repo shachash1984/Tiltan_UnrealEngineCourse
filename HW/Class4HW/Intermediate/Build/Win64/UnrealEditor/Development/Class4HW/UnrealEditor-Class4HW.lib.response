@@ -7,9 +7,11 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\DEV\Git\Tiltan_UnrealEngineCourse\HW\Class4HW\Intermediate\Build\Win64\Class4HWEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\DEV\Git\Tiltan_UnrealEngineCourse\HW\Class4HW\Intermediate\Build\Win64\UnrealEditor\Development\Class4HW\Arrow.cpp.obj"
 "C:\DEV\Git\Tiltan_UnrealEngineCourse\HW\Class4HW\Intermediate\Build\Win64\UnrealEditor\Development\Class4HW\GamePlayerController.cpp.obj"
 "C:\DEV\Git\Tiltan_UnrealEngineCourse\HW\Class4HW\Intermediate\Build\Win64\UnrealEditor\Development\Class4HW\Class4HW.cpp.obj"
 "C:\DEV\Git\Tiltan_UnrealEngineCourse\HW\Class4HW\Intermediate\Build\Win64\UnrealEditor\Development\Class4HW\Class4HWGameModeBase.cpp.obj"
+"C:\DEV\Git\Tiltan_UnrealEngineCourse\HW\Class4HW\Intermediate\Build\Win64\UnrealEditor\Development\Class4HW\Arrow.gen.cpp.obj"
 "C:\DEV\Git\Tiltan_UnrealEngineCourse\HW\Class4HW\Intermediate\Build\Win64\UnrealEditor\Development\Class4HW\Class4HW.init.gen.cpp.obj"
 "C:\DEV\Git\Tiltan_UnrealEngineCourse\HW\Class4HW\Intermediate\Build\Win64\UnrealEditor\Development\Class4HW\Class4HWGameModeBase.gen.cpp.obj"
 "C:\DEV\Git\Tiltan_UnrealEngineCourse\HW\Class4HW\Intermediate\Build\Win64\UnrealEditor\Development\Class4HW\GamePlayerController.gen.cpp.obj"

@@ -14,4 +14,6 @@ class CLASS4HW_API AClass4HWGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
+public:
+	AClass4HWGameModeBase();
 };

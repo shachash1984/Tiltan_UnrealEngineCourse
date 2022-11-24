@@ -8,3 +8,15 @@ AGamePlayerController::AGamePlayerController()
 {
 	UE_LOG(LogClass4HW, Log, TEXT("CHECK Constructor"));
 }
+
+void AGamePlayerController::OnShootPressed()
+{
+	UE_LOG(LogClass4HW, Log, TEXT("Pew"));
+}
+
+void AGamePlayerController::SetupInputComponent()
+{
+	Super::SetupInputComponent();
+
+	InputComponent->BindAction("shoot", IE_Pressed, this, &AGamePlayerController::OnShootPressed);
+}

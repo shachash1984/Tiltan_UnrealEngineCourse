@@ -2,4 +2,9 @@
 
 
 #include "Class4HWGameModeBase.h"
+#include "public/GamePlayerController.h"
 
+AClass4HWGameModeBase::AClass4HWGameModeBase()
+{
+	PlayerControllerClass = AGamePlayerController::StaticClass();
+}

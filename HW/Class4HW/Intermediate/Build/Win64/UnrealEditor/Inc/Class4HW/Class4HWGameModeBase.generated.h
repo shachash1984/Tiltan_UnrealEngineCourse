@@ -36,7 +36,7 @@ public: \
 
 #define FID_Class4HW_Source_Class4HW_Class4HWGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AClass4HWGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AClass4HWGameModeBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AClass4HWGameModeBase) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AClass4HWGameModeBase); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AClass4HWGameModeBase); \
@@ -48,8 +48,6 @@ public:
 
 
 #define FID_Class4HW_Source_Class4HW_Class4HWGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AClass4HWGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AClass4HWGameModeBase(AClass4HWGameModeBase&&); \
@@ -57,7 +55,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AClass4HWGameModeBase); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AClass4HWGameModeBase); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AClass4HWGameModeBase)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AClass4HWGameModeBase)
 
 
 #define FID_Class4HW_Source_Class4HW_Class4HWGameModeBase_h_12_PROLOG

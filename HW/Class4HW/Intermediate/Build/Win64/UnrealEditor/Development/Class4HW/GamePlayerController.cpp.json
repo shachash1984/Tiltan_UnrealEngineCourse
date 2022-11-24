@@ -7,7 +7,8 @@
         "Includes": [
             "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4hw\\intermediate\\build\\win64\\unrealeditor\\development\\class4hw\\definitions.class4hw.h",
             "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4hw\\source\\class4hw\\public\\gameplayercontroller.h",
-            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4hw\\intermediate\\build\\win64\\unrealeditor\\inc\\class4hw\\gameplayercontroller.generated.h"
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4hw\\intermediate\\build\\win64\\unrealeditor\\inc\\class4hw\\gameplayercontroller.generated.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4hw\\source\\class4hw\\class4hw.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
