@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Class4HW",
+			"Path": "C:\\DEV\\Git\\Tiltan_UnrealEngineCourse\\HW\\Class4HW\\Source\\Class4HW.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Class4HWEditor",
+			"Path": "C:\\DEV\\Git\\Tiltan_UnrealEngineCourse\\HW\\Class4HW\\Source\\Class4HWEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

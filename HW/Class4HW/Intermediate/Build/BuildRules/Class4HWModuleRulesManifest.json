@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\DEV\\Git\\Tiltan_UnrealEngineCourse\\HW\\Class4HW\\Source\\Class4HW\\Class4HW.Build.cs",
+		"C:\\DEV\\Git\\Tiltan_UnrealEngineCourse\\HW\\Class4HW\\Source\\Class4HW.Target.cs",
+		"C:\\DEV\\Git\\Tiltan_UnrealEngineCourse\\HW\\Class4HW\\Source\\Class4HWEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}
