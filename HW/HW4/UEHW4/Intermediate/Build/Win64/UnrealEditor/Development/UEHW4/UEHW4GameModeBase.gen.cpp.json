@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4\\uehw4\\intermediate\\build\\win64\\unrealeditor\\inc\\uehw4\\uehw4gamemodebase.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4\\uehw4\\intermediate\\build\\win64\\uehw4editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4\\uehw4\\intermediate\\build\\win64\\unrealeditor\\development\\uehw4\\definitions.uehw4.h",
+            "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4\\uehw4\\source\\uehw4\\uehw4gamemodebase.h",
+            "g:\\unreal\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "g:\\unreal\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "g:\\unreal\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "g:\\unreal\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4\\uehw4\\intermediate\\build\\win64\\unrealeditor\\inc\\uehw4\\uehw4gamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

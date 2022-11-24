@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UEHW4",
+			"Path": "C:\\Users\\mark4\\Documents\\Tiltan_UnrealEngineCourse\\HW\\HW4\\UEHW4\\Source\\UEHW4.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UEHW4Editor",
+			"Path": "C:\\Users\\mark4\\Documents\\Tiltan_UnrealEngineCourse\\HW\\HW4\\UEHW4\\Source\\UEHW4Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
