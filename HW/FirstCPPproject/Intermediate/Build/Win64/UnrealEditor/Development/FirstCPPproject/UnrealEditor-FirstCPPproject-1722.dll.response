@@ -34,9 +34,11 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\FirstCPPprojectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\Arrow.cpp.obj"
 "G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\GamePlayerController.cpp.obj"
 "G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\FirstCPPproject.cpp.obj"
 "G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\FirstCPPprojectGameModeBase.cpp.obj"
+"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\Arrow.gen.cpp.obj"
 "G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\FirstCPPproject.init.gen.cpp.obj"
 "G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\FirstCPPprojectGameModeBase.gen.cpp.obj"
 "G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\GamePlayerController.gen.cpp.obj"
@@ -69,7 +71,7 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Binaries\Win64\UnrealEditor-FirstCPPproject.dll"
-/IMPLIB:"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\UnrealEditor-FirstCPPproject.suppressed.lib"
-/PDB:"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Binaries\Win64\UnrealEditor-FirstCPPproject.pdb"
+/OUT:"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Binaries\Win64\UnrealEditor-FirstCPPproject-1722.dll"
+/IMPLIB:"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\UnrealEditor-FirstCPPproject-1722.suppressed.lib"
+/PDB:"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Binaries\Win64\UnrealEditor-FirstCPPproject-1722.pdb"
 /ignore:4078

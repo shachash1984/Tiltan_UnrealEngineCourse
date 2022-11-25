@@ -3,7 +3,7 @@
 /MACHINE:x64
 /SUBSYSTEM:WINDOWS
 /DEF
-/NAME:"UnrealEditor-FirstCPPproject.dll"
+/NAME:"UnrealEditor-FirstCPPproject-1722.dll"
 /IGNORE:4221
 /NODEFAULTLIB
 "G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\FirstCPPprojectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
@@ -16,4 +16,4 @@
 "G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\FirstCPPprojectGameModeBase.gen.cpp.obj"
 "G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\GamePlayerController.gen.cpp.obj"
 "G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\Default.rc2.res"
-/OUT:"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\UnrealEditor-FirstCPPproject.lib"
+/OUT:"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\UnrealEditor-FirstCPPproject-1722.lib"
