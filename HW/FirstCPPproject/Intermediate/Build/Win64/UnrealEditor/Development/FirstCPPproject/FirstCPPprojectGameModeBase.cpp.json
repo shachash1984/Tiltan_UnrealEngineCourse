@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\source\\firstcppproject\\firstcppprojectgamemodebase.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\intermediate\\build\\win64\\firstcppprojecteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\intermediate\\build\\win64\\unrealeditor\\development\\firstcppproject\\definitions.firstcppproject.h",
+            "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\source\\firstcppproject\\firstcppprojectgamemodebase.h",
+            "g:\\not games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "g:\\not games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "g:\\not games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "g:\\not games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\intermediate\\build\\win64\\unrealeditor\\inc\\firstcppproject\\firstcppprojectgamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

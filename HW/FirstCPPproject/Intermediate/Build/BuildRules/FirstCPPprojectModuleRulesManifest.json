@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"G:\\Unreal Projects\\Tiltan_UnrealEngineCourse\\HW\\FirstCPPproject\\Source\\FirstCPPproject\\FirstCPPproject.Build.cs",
+		"G:\\Unreal Projects\\Tiltan_UnrealEngineCourse\\HW\\FirstCPPproject\\Source\\FirstCPPproject.Target.cs",
+		"G:\\Unreal Projects\\Tiltan_UnrealEngineCourse\\HW\\FirstCPPproject\\Source\\FirstCPPprojectEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}

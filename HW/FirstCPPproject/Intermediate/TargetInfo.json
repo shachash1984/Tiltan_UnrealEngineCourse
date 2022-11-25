@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FirstCPPproject",
+			"Path": "G:\\Unreal Projects\\Tiltan_UnrealEngineCourse\\HW\\FirstCPPproject\\Source\\FirstCPPproject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FirstCPPprojectEditor",
+			"Path": "G:\\Unreal Projects\\Tiltan_UnrealEngineCourse\\HW\\FirstCPPproject\\Source\\FirstCPPprojectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
