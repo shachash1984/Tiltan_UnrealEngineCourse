@@ -2,8 +2,9 @@
 
 
 #include "GamePlayerController.h"
+#include "FirstCPPproject/FirstCPPproject.h"
 
 AGamePlayerController::AGamePlayerController()
 {
-
+	UE_LOG(LogFirstCPPproject, Log, TEXT("AGamePlayerController Constructor"));
 }

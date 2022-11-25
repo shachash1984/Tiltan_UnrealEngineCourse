@@ -13,5 +13,6 @@ UCLASS()
 class FIRSTCPPPROJECT_API AFirstCPPprojectGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+
+public: AFirstCPPprojectGameModeBase();
 };
