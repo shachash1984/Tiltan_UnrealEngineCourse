@@ -14,4 +14,7 @@ class FIRSTCPPPROJECT_API AGamePlayerController : public APlayerController
 {
 	GENERATED_BODY()
 	
+
+public: 
+	AGamePlayerController();
 };

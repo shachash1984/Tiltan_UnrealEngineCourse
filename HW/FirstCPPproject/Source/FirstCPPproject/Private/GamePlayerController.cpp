@@ -3,3 +3,7 @@
 
 #include "GamePlayerController.h"
 
+AGamePlayerController::AGamePlayerController()
+{
+
+}
