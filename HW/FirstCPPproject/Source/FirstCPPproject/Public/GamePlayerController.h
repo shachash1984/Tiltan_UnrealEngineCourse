@@ -17,4 +17,9 @@ class FIRSTCPPPROJECT_API AGamePlayerController : public APlayerController
 
 public: 
 	AGamePlayerController();
+
+protected:
+	
+	void OnShootPressed();
+	virtual void SetupInputComponent() override;
 };
