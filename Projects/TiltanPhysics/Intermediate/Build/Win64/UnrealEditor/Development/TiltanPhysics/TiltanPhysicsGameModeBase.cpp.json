@@ -1,0 +1,21 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\tiltan\\tiltan_unrealenginecourse\\projects\\tiltanphysics\\source\\tiltanphysics\\tiltanphysicsgamemodebase.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\tiltan\\tiltan_unrealenginecourse\\projects\\tiltanphysics\\intermediate\\build\\win64\\tiltanphysicseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\tiltan\\tiltan_unrealenginecourse\\projects\\tiltanphysics\\intermediate\\build\\win64\\unrealeditor\\development\\tiltanphysics\\definitions.tiltanphysics.h",
+            "d:\\tiltan\\tiltan_unrealenginecourse\\projects\\tiltanphysics\\source\\tiltanphysics\\tiltanphysicsgamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "d:\\tiltan\\tiltan_unrealenginecourse\\projects\\tiltanphysics\\intermediate\\build\\win64\\unrealeditor\\inc\\tiltanphysics\\tiltanphysicsgamemodebase.generated.h",
+            "d:\\tiltan\\tiltan_unrealenginecourse\\projects\\tiltanphysics\\source\\tiltanphysics\\public\\gameplayercontroller.h",
+            "d:\\tiltan\\tiltan_unrealenginecourse\\projects\\tiltanphysics\\intermediate\\build\\win64\\unrealeditor\\inc\\tiltanphysics\\gameplayercontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
