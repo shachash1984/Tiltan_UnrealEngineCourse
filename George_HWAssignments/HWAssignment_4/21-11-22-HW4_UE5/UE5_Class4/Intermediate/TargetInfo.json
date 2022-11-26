@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UE5_Class4ClassWork",
+			"Path": "C:\\Users\\George Rashed\\Desktop\\Programming\\Unreal Projects\\UE5_Class4ClassWork\\Source\\UE5_Class4ClassWork.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UE5_Class4ClassWorkEditor",
+			"Path": "C:\\Users\\George Rashed\\Desktop\\Programming\\Unreal Projects\\UE5_Class4ClassWork\\Source\\UE5_Class4ClassWorkEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
