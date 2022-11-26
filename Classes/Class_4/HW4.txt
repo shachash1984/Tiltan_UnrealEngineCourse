@@ -1,0 +1,5 @@
+UE5:
+
+1. Create your own project with all the classes that we used in this one,
+	Bind an action mapping
+	and log when action is called
