@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CharacterController",
+			"Path": "D:\\GitHub\\Tiltan_UnrealEngineCourse\\HomeWork\\Class04HW\\CharacterController\\Source\\CharacterController.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CharacterControllerEditor",
+			"Path": "D:\\GitHub\\Tiltan_UnrealEngineCourse\\HomeWork\\Class04HW\\CharacterController\\Source\\CharacterControllerEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

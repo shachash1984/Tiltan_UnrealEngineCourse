@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\GitHub\\Tiltan_UnrealEngineCourse\\HomeWork\\Class04HW\\CharacterController\\Source\\CharacterController\\CharacterController.Build.cs",
+		"D:\\GitHub\\Tiltan_UnrealEngineCourse\\HomeWork\\Class04HW\\CharacterController\\Source\\CharacterController.Target.cs",
+		"D:\\GitHub\\Tiltan_UnrealEngineCourse\\HomeWork\\Class04HW\\CharacterController\\Source\\CharacterControllerEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}

@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\github\\tiltan_unrealenginecourse\\homework\\class04hw\\charactercontroller\\intermediate\\build\\win64\\unrealeditor\\inc\\charactercontroller\\charactercontrollergamemodebase.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\github\\tiltan_unrealenginecourse\\homework\\class04hw\\charactercontroller\\intermediate\\build\\win64\\charactercontrollereditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\github\\tiltan_unrealenginecourse\\homework\\class04hw\\charactercontroller\\intermediate\\build\\win64\\unrealeditor\\development\\charactercontroller\\definitions.charactercontroller.h",
+            "d:\\github\\tiltan_unrealenginecourse\\homework\\class04hw\\charactercontroller\\source\\charactercontroller\\charactercontrollergamemodebase.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "d:\\github\\tiltan_unrealenginecourse\\homework\\class04hw\\charactercontroller\\intermediate\\build\\win64\\unrealeditor\\inc\\charactercontroller\\charactercontrollergamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

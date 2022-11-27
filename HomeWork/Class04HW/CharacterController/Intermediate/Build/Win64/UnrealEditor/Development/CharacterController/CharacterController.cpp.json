@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\github\\tiltan_unrealenginecourse\\homework\\class04hw\\charactercontroller\\source\\charactercontroller\\charactercontroller.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\github\\tiltan_unrealenginecourse\\homework\\class04hw\\charactercontroller\\intermediate\\build\\win64\\charactercontrollereditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\github\\tiltan_unrealenginecourse\\homework\\class04hw\\charactercontroller\\intermediate\\build\\win64\\unrealeditor\\development\\charactercontroller\\definitions.charactercontroller.h",
+            "d:\\github\\tiltan_unrealenginecourse\\homework\\class04hw\\charactercontroller\\source\\charactercontroller\\charactercontroller.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
