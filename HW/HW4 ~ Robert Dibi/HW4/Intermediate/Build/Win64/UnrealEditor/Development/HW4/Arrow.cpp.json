@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\sk3l3\\onedrive\\documents\\github\\tiltan\\unreal5\\tiltan_unrealenginecourse\\hw\\hw4 ~ robert dibi\\hw4\\source\\hw4\\private\\arrow.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\sk3l3\\onedrive\\documents\\github\\tiltan\\unreal5\\tiltan_unrealenginecourse\\hw\\hw4 ~ robert dibi\\hw4\\intermediate\\build\\win64\\hw4editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\sk3l3\\onedrive\\documents\\github\\tiltan\\unreal5\\tiltan_unrealenginecourse\\hw\\hw4 ~ robert dibi\\hw4\\intermediate\\build\\win64\\unrealeditor\\development\\hw4\\definitions.hw4.h",
+            "c:\\users\\sk3l3\\onedrive\\documents\\github\\tiltan\\unreal5\\tiltan_unrealenginecourse\\hw\\hw4 ~ robert dibi\\hw4\\source\\hw4\\public\\arrow.h",
+            "c:\\users\\sk3l3\\onedrive\\documents\\github\\tiltan\\unreal5\\tiltan_unrealenginecourse\\hw\\hw4 ~ robert dibi\\hw4\\intermediate\\build\\win64\\unrealeditor\\inc\\hw4\\arrow.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

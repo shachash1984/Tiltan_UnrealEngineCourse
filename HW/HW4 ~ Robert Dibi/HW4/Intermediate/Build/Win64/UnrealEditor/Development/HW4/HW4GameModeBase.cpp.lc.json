@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\sk3l3\\onedrive\\documents\\github\\tiltan\\unreal5\\tiltan_unrealenginecourse\\hw\\hw4 ~ robert dibi\\hw4\\source\\hw4\\hw4gamemodebase.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\sk3l3\\onedrive\\documents\\github\\tiltan\\unreal5\\tiltan_unrealenginecourse\\hw\\hw4 ~ robert dibi\\hw4\\intermediate\\build\\win64\\hw4editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\sk3l3\\onedrive\\documents\\github\\tiltan\\unreal5\\tiltan_unrealenginecourse\\hw\\hw4 ~ robert dibi\\hw4\\intermediate\\build\\win64\\unrealeditor\\development\\hw4\\definitions.hw4.h",
+            "c:\\users\\sk3l3\\onedrive\\documents\\github\\tiltan\\unreal5\\tiltan_unrealenginecourse\\hw\\hw4 ~ robert dibi\\hw4\\source\\hw4\\hw4gamemodebase.h",
+            "d:\\epic games\\games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\epic games\\games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\epic games\\games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "d:\\epic games\\games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "c:\\users\\sk3l3\\onedrive\\documents\\github\\tiltan\\unreal5\\tiltan_unrealenginecourse\\hw\\hw4 ~ robert dibi\\hw4\\intermediate\\build\\win64\\unrealeditor\\inc\\hw4\\hw4gamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
