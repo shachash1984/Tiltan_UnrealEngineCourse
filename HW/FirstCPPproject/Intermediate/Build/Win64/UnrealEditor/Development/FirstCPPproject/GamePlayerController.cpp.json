@@ -8,7 +8,18 @@
             "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\intermediate\\build\\win64\\unrealeditor\\development\\firstcppproject\\definitions.firstcppproject.h",
             "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\source\\firstcppproject\\public\\gameplayercontroller.h",
             "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\intermediate\\build\\win64\\unrealeditor\\inc\\firstcppproject\\gameplayercontroller.generated.h",
-            "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\source\\firstcppproject\\firstcppproject.h"
+            "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\source\\firstcppproject\\firstcppproject.h",
+            "g:\\not games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystatics.h",
+            "g:\\not games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "g:\\not games\\ue_5.0\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "g:\\not games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\kismetsystemlibrary.generated.h",
+            "g:\\not games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\sound\\dialoguetypes.h",
+            "g:\\not games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\dialoguetypes.generated.h",
+            "g:\\not games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
+            "g:\\not games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gameplaystaticstypes.generated.h",
+            "g:\\not games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gameplaystatics.generated.h",
+            "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\source\\firstcppproject\\public\\arrow.h",
+            "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\intermediate\\build\\win64\\unrealeditor\\inc\\firstcppproject\\arrow.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
