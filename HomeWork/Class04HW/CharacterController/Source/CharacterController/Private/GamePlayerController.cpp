@@ -3,15 +3,25 @@
 
 #include "GamePlayerController.h"
 #include "CharacterController/CharacterController.h"
+#include "CharacterController/Public/Arrow.h"
 
 AGamePlayerController::AGamePlayerController()
 {
-	
+
 }
 
 void AGamePlayerController::OnShootPressed()
 {
-	UE_LOG(LogCharacterController, Log, TEXT("OnShootPressed"))
+
+	UWorld* World = GetWorld();
+	if (World)
+	{
+		AArrow* Arrow = World->SpawnActor<AArrow>(FVector::ZeroVector, FRotator::ZeroRotator);
+		if (Arrow)
+		{
+			Arrow->Launch(FVector::ZeroVector, FRotator::ZeroRotator, 500);
+		}
+	}
 }
 
 void AGamePlayerController::SetupInputComponent()

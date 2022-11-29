@@ -2,6 +2,7 @@
 
 
 #include "Arrow.h"
+#include "CharacterController/CharacterController.h"
 
 // Sets default values
 AArrow::AArrow()
@@ -38,6 +39,7 @@ AArrow::AArrow()
 	ArrowBody->SetupAttachment(ArrowHead);
 	ArrowBody->SetRelativeLocation(FVector(0, 0, -130));
 	ArrowBody->SetRelativeScale3D(FVector(0.3f, 0.3f, 2.0f));
+	ArrowBody->SetSimulatePhysics(false);
 }
 
 // Called when the game starts or when spawned
@@ -52,5 +54,11 @@ void AArrow::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void AArrow::Launch(FVector Direction, FRotator Rotation, float Speed)
+{
+	ArrowHead->SetWorldRotation(Rotation);
+	ArrowHead->AddImpulse(Direction * Speed);
 }
 
