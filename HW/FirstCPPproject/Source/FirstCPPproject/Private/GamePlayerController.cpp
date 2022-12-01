@@ -5,6 +5,7 @@
 #include "FirstCPPproject/FirstCPPproject.h"
 #include "Kismet/GameplayStatics.h"
 #include "Arrow.h"
+#include "ThrowingRock.h"
 
 AGamePlayerController::AGamePlayerController()
 {
@@ -13,7 +14,7 @@ AGamePlayerController::AGamePlayerController()
 
 void AGamePlayerController::OnShootPressed()
 {
-	UE_LOG(LogFirstCPPproject, Log, TEXT("Shooting yay"));
+	//UE_LOG(LogFirstCPPproject, Log, TEXT("Shooting yay"));
 
 	UWorld* World = GetWorld();
 	if (World) 
@@ -36,9 +37,32 @@ void AGamePlayerController::OnShootPressed()
 	}
 }
 
+void AGamePlayerController::OnThrowPressed()
+{
+
+	UWorld* World = GetWorld();
+	if (World)
+	{
+		if (!CameraManager)
+		{
+			CameraManager = UGameplayStatics::GetPlayerCameraManager(World, 0);
+		}
+
+		FVector CurrentLocation = GetPawn()->GetActorLocation();
+		FVector Direction = CameraManager->GetActorForwardVector();
+		FRotator CurrentControllerRotation = GetPawn()->GetControlRotation();
+
+		AThrowingRock* Rock = World->SpawnActor<AThrowingRock>(CurrentLocation + Direction * 100, CurrentControllerRotation);
+		if (Rock) {
+			Rock->Launch(Direction, CurrentControllerRotation, 3000);
+		}
+	}
+}
+
 void AGamePlayerController::SetupInputComponent()
 {
 	Super::SetupInputComponent();
 
 	InputComponent->BindAction("Shoot", IE_Pressed, this, &AGamePlayerController::OnShootPressed);
+	InputComponent->BindAction("Throw", IE_Pressed, this, &AGamePlayerController::OnThrowPressed);
 }

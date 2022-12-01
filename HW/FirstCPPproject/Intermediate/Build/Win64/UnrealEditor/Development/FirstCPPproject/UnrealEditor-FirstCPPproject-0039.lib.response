@@ -1,0 +1,21 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-FirstCPPproject-0039.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\FirstCPPprojectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\Arrow.cpp.obj"
+"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\GamePlayerController.cpp.obj"
+"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\Target.cpp.obj"
+"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\FirstCPPproject.cpp.obj"
+"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\FirstCPPprojectGameModeBase.cpp.obj"
+"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\Arrow.gen.cpp.obj"
+"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\FirstCPPproject.init.gen.cpp.obj"
+"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\FirstCPPprojectGameModeBase.gen.cpp.obj"
+"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\GamePlayerController.gen.cpp.obj"
+"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\Target.gen.cpp.obj"
+"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\Default.rc2.res"
+/OUT:"G:\Unreal Projects\Tiltan_UnrealEngineCourse\HW\FirstCPPproject\Intermediate\Build\Win64\UnrealEditor\Development\FirstCPPproject\UnrealEditor-FirstCPPproject-0039.lib"

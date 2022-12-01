@@ -40,7 +40,13 @@ AArrow::AArrow()
 	ArrowBody->SetRelativeScale3D(FVector(0.3f, 0.3f, 2.0f));
 	ArrowHead->SetSimulatePhysics(true);
 
-
+	static ConstructorHelpers::FObjectFinder<UMaterial> Gold(TEXT("'/Game/Materials/M_Gold.M_Gold'"));
+	static ConstructorHelpers::FObjectFinder<UMaterial> Wood(TEXT("'/Game/Materials/M_Wood.M_Wood'"));
+		if (Gold.Succeeded() && Wood.Succeeded())
+		{
+			ArrowHead->SetMaterial(0, Gold.Object);
+			ArrowBody->SetMaterial(0, Wood.Object);
+		}
 }
 
 // Called when the game starts or when spawned
@@ -59,8 +65,8 @@ void AArrow::Tick(float DeltaTime)
 
 void AArrow::Launch(FVector Direction, FRotator Rotation, float Speed) 
 {
-	//const FRotator WantedRotation = FRotator()
-	ArrowHead->SetWorldRotation(Rotation);
+	const FRotator WantedRotation = FRotator(Rotation.Pitch + 270, Rotation.Yaw, 0.0);
+	ArrowHead->SetWorldRotation(WantedRotation);
 	ArrowHead->AddImpulse(Direction * Speed, NAME_None, true);
 }
 
