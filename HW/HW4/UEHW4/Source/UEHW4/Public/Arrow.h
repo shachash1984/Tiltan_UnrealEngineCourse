@@ -30,4 +30,6 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	void Launch(FVector Direction, FRotator Rotation, float Speed);
+
 };

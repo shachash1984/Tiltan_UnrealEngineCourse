@@ -7,7 +7,8 @@
         "Includes": [
             "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4\\uehw4\\intermediate\\build\\win64\\unrealeditor\\development\\uehw4\\definitions.uehw4.h",
             "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4\\uehw4\\source\\uehw4\\public\\arrow.h",
-            "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4\\uehw4\\intermediate\\build\\win64\\unrealeditor\\inc\\uehw4\\arrow.generated.h"
+            "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4\\uehw4\\intermediate\\build\\win64\\unrealeditor\\inc\\uehw4\\arrow.generated.h",
+            "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4\\uehw4\\source\\uehw4\\uehw4.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
