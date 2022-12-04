@@ -37,7 +37,7 @@ AArrow::AArrow()
 		}
 	}
 	ArrowBody->SetupAttachment(ArrowHead);
-	ArrowBody->SetRelativeLocation(FVector(0, 0, -130));
+	ArrowBody->SetRelativeLocation(FVector(0, 0, -100));
 	ArrowBody->SetRelativeScale3D(FVector(0.3f, 0.3f, 2.0f));
 	ArrowBody->SetSimulatePhysics(false);
 }
