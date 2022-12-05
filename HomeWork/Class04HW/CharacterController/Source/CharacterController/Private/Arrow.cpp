@@ -25,6 +25,7 @@ AArrow::AArrow()
 	RootComponent = ArrowHead;
 	ArrowHead->SetRelativeLocation(FVector::ZeroVector);
 	ArrowHead->SetRelativeScale3D(FVector(0.1f, 0.1f, 0.2f));
+	ArrowHead->SetSimulatePhysics(true);
 	if (!ArrowBody)
 	{
 		ArrowBody = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Body"));
@@ -40,13 +41,20 @@ AArrow::AArrow()
 	ArrowBody->SetRelativeLocation(FVector(0, 0, -100));
 	ArrowBody->SetRelativeScale3D(FVector(0.3f, 0.3f, 2.0f));
 	ArrowBody->SetSimulatePhysics(false);
+
+	static ConstructorHelpers::FObjectFinder<UMaterial> ArrowMaterial(TEXT("'/Game/Materials/M_Arrow.M_Arrow'"));
+	if (ArrowMaterial.Succeeded())
+	{
+		ArrowHead->SetMaterial(0, ArrowMaterial.Object);
+		ArrowBody->SetMaterial(0, ArrowMaterial.Object);
+	}
 }
 
 // Called when the game starts or when spawned
 void AArrow::BeginPlay()
 {
 	Super::BeginPlay();
-
+	this->SetLifeSpan(5);
 }
 
 // Called every frame
@@ -58,7 +66,8 @@ void AArrow::Tick(float DeltaTime)
 
 void AArrow::Launch(FVector Direction, FRotator Rotation, float Speed)
 {
-	ArrowHead->SetWorldRotation(Rotation);
-	ArrowHead->AddImpulse(Direction * Speed);
+	const FRotator WantedRotation = FRotator(Rotation.Pitch + 270, Rotation.Yaw, 0);
+	ArrowHead->SetWorldRotation(WantedRotation);
+	ArrowHead->AddImpulse(Direction * Speed,NAME_None,true);
 }
 

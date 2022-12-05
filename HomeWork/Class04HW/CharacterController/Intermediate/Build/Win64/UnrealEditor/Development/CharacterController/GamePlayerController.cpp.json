@@ -10,7 +10,16 @@
             "d:\\github\\tiltan_unrealenginecourse\\homework\\class04hw\\charactercontroller\\intermediate\\build\\win64\\unrealeditor\\inc\\charactercontroller\\gameplayercontroller.generated.h",
             "d:\\github\\tiltan_unrealenginecourse\\homework\\class04hw\\charactercontroller\\source\\charactercontroller\\charactercontroller.h",
             "d:\\github\\tiltan_unrealenginecourse\\homework\\class04hw\\charactercontroller\\source\\charactercontroller\\public\\arrow.h",
-            "d:\\github\\tiltan_unrealenginecourse\\homework\\class04hw\\charactercontroller\\intermediate\\build\\win64\\unrealeditor\\inc\\charactercontroller\\arrow.generated.h"
+            "d:\\github\\tiltan_unrealenginecourse\\homework\\class04hw\\charactercontroller\\intermediate\\build\\win64\\unrealeditor\\inc\\charactercontroller\\arrow.generated.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystatics.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\kismetsystemlibrary.generated.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\sound\\dialoguetypes.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\dialoguetypes.generated.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gameplaystaticstypes.generated.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gameplaystatics.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

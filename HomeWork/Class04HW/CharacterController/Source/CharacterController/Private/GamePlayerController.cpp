@@ -4,6 +4,7 @@
 #include "GamePlayerController.h"
 #include "CharacterController/CharacterController.h"
 #include "CharacterController/Public/Arrow.h"
+#include <Kismet/GameplayStatics.h>
 
 AGamePlayerController::AGamePlayerController()
 {
@@ -16,10 +17,20 @@ void AGamePlayerController::OnShootPressed()
 	UWorld* World = GetWorld();
 	if (World)
 	{
-		AArrow* Arrow = World->SpawnActor<AArrow>(FVector::ZeroVector, FRotator::ZeroRotator);
+		if (!CameraManager)
+		{
+			CameraManager = UGameplayStatics::GetPlayerCameraManager(World, 0);
+		}
+
+		FVector CurrentLocation = GetPawn()->GetActorLocation();
+		FRotator CurrentPawnRotation = GetPawn()->GetActorRotation();
+		FVector Direction = CameraManager->GetActorForwardVector();
+		FRotator CurrentControllerRotation = GetPawn()->GetControlRotation();
+
+		AArrow* Arrow = World->SpawnActor<AArrow>(CurrentLocation + Direction *100, CurrentControllerRotation);
 		if (Arrow)
 		{
-			Arrow->Launch(FVector::ZeroVector, FRotator::ZeroRotator, 500);
+			Arrow->Launch(Direction, CurrentControllerRotation, 2000);
 		}
 	}
 }

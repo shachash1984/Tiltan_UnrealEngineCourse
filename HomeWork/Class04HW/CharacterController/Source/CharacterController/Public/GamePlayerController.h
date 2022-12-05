@@ -22,5 +22,6 @@ protected:
 	void OnShootPressed();
 	virtual void SetupInputComponent() override;
 
-	//UPROPERTY(EditAnyWhere)
+	UPROPERTY(EditAnyWhere)
+	APlayerCameraManager* CameraManager{nullptr};
 };
