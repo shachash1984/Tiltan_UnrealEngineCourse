@@ -6,9 +6,14 @@
 
 #include "Components/StaticMeshComponent.h"
 #include "UObject/ConstructorHelpers.h"
+#include <iostream>
+
+#include "Target.h"
+
 
 AArrow::AArrow()
 {
+
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
@@ -52,9 +57,23 @@ AArrow::AArrow()
 		ArrowHead->SetMaterial(0, ArrowMaterial.Object);
 		ArrowBody->SetMaterial(0, ArrowMaterial.Object);
 	}
-    {
-	    
-    }
+
+
+	//Collision logic
+	//Enable collision for raycasts/triggers and for collisions (physics)
+	ArrowHead->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+
+	//We dont want to collide with the player pawn
+	ArrowHead->SetCollisionResponseToChannel(ECC_Pawn, ECR_Ignore);
+
+	//In order to receive collision events we need to notify the rigidbody
+	ArrowHead->SetNotifyRigidBodyCollision(true);
+
+	//Generate Hit event
+	FScriptDelegate CollisionDelegate;
+	CollisionDelegate.BindUFunction(this, "OnCollision");
+	ArrowHead->OnComponentHit.Add(CollisionDelegate);
+
 }
 
 // Called when the game starts or when spawned
@@ -63,6 +82,27 @@ void AArrow::BeginPlay()
 	Super::BeginPlay();
 	this->SetLifeSpan(5.0f);
 }
+
+void AArrow::OnCollision(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp,
+	FVector NormalImpulse, const FHitResult& Hit)
+{
+	if (OtherActor != nullptr)
+	{
+		if (OtherActor != this)
+		{
+			ATarget* Target  = Cast<ATarget>(OtherActor);
+			if (Target != nullptr)
+			{
+				UE_LOG(LogTiltanPhysics, Log, TEXT("Arrow Collision with target"));
+				Target->OnHit();
+				Destroy();
+			}
+		}
+	}
+	
+}
+
+
 
 // Called every frame
 void AArrow::Tick(float DeltaTime)

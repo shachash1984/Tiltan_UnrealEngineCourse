@@ -1,0 +1,75 @@
+UE5:
+
+1. Complete the logics of target and onCollision to your project on both target types
+
+**After class 7**
+
+CPP:
+***All classes and structs should have a decleration file (.h) and a definition file (.cpp)***
+***You should consider which items should be private or public***
+***Every ToString method has the wanted format***
+***You need to decide where to add const for either variables or methods***
+***World position is the position of the mesh + the offset of the position of the vertex***
+***Notice place holders in square brackets***
+
+
+	Create a Position struct with the following:
+	Member variables:
+		float x, y, z
+		
+	default Constructor
+	Constructor(_x, _y, _z)
+	Destructor
+	string ToString() //format: "(1.2, -15.0, 0.1)"
+	
+	Create a Color struct with the following:
+	Member variables:
+		float r, g, b, a (valid values are only between 0.0f and 1.0f
+	Member functions:
+		default Constructor
+		Constructor(_r, _g, _b, _a)
+		Destructor
+		string ToString() //format: "(0.5, 0.2, 1.0, 1.0)"
+
+	Create a Vertex class with the following:
+	Member variables:
+		Position position
+		Color color
+	Member functions:
+		default Constructor
+		Constructor(Position _pos, Color _col)
+		Destructor
+		string ToString() //format: "Position: (1.2, -15.0, 0.1) Color: (0.5, 0.2, 1.0, 1.0)"
+		Position& GetPosition(bool bWorldPos = false)
+		void SetPosition(Position pos, bool bWorldPos = false)
+		Color& GetColor()
+		void SetColor(Color col)
+		
+	
+	Create a Mesh Class with the following:
+	Member variables:
+		string name
+		vector<Vertex>
+		Position position
+	Member functions:
+		//should print the entire list of vertices
+		string ToString() "Name:[Rifle]\n  Vertices: Vertex [INDEX]: Position: (1.2, -15.0, 0.1) Color: (0.5, 0.2, 1.0, 1.0)\n"
+		Position& GetPosition()
+		void SetPosition()
+		Position GetVertexWorldPosition(unsigned int index index)
+		
+	Create a Player class with the following:
+	Member variables:
+		string name
+		Mesh* PlayerBody
+		Mesh* PlayerWeapon
+	Member functions:
+		default Constructor
+		Constructor (_name, _body, _weapon)
+		Destructor
+		string ToString() "Name:[Jake]\n Body:
+		
+	In main():
+	Create a player
+	assign it weapons
+	
