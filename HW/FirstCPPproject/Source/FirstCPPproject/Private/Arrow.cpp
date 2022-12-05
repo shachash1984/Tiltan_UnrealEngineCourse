@@ -47,6 +47,16 @@ AArrow::AArrow()
 			ArrowHead->SetMaterial(0, Gold.Object);
 			ArrowBody->SetMaterial(0, Wood.Object);
 		}
+
+		//Collision Logic
+		//Enable collison for raycarts/triggers and for collisions (physics)
+		ArrowHead->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+
+		//We Dont Want to collide with the player pawn
+		ArrowHead->SetCollisionResponseToChannel(ECC_Pawn, ECR_Ignore);
+
+		//
+		ArrowHead->SetNotifyRigidBodyCollision(true);
 }
 
 // Called when the game starts or when spawned

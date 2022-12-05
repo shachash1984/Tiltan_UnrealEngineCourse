@@ -39,3 +39,8 @@ void ATarget::Tick(float DeltaTime)
 
 }
 
+void ATarget::OnHit() {
+	
+	
+}
+
