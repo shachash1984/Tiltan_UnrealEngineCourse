@@ -1,18 +1,17 @@
 C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4\UEHW4\Source\UEHW4\UEHW4.cpp
 /I .
-/I C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4\UEHW4\Intermediate\Build\Win64\UnrealEditor\Inc\UEHW4
-/I C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4\UEHW4\Source
-/I Runtime
-/I Runtime\TraceLog\Public
-/I Runtime\Core\Public
-/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject
-/I Runtime\CoreUObject\Public
+/I C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4\UEHW4\Source\UEHW4\Private
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine
+/I Runtime
 /I ..\Shaders\Shared
 /I Runtime\Engine\Classes
 /I Runtime\Engine\Public
+/I Runtime\TraceLog\Public
+/I Runtime\Core\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreOnline
 /I Runtime\CoreOnline\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject
+/I Runtime\CoreUObject\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\NetCore
 /I Runtime\Net
 /I Runtime\Net\Core\Classes
@@ -253,6 +252,9 @@ C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4\UEHW4\Source\UEHW4\UEH
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
+/I C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4\UEHW4\Intermediate\Build\Win64\UnrealEditor\Inc\UEHW4
+/I C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4\UEHW4\Source
+/I C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4\UEHW4\Source\UEHW4\Public
 /I ThirdParty\mimalloc\include
 /I ThirdParty\LibTiff\Source\Win64
 /I ThirdParty\LibTiff\Source

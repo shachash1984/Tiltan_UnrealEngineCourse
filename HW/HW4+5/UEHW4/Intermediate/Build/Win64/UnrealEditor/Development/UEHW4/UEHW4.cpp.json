@@ -1,12 +1,12 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4\\uehw4\\source\\uehw4\\uehw4.cpp",
+        "Source": "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4+5\\uehw4\\source\\uehw4\\uehw4.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4\\uehw4\\intermediate\\build\\win64\\uehw4editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4+5\\uehw4\\intermediate\\build\\win64\\uehw4editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4\\uehw4\\intermediate\\build\\win64\\unrealeditor\\development\\uehw4\\definitions.uehw4.h",
-            "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4\\uehw4\\source\\uehw4\\uehw4.h"
+            "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4+5\\uehw4\\intermediate\\build\\win64\\unrealeditor\\development\\uehw4\\definitions.uehw4.h",
+            "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4+5\\uehw4\\source\\uehw4\\uehw4.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

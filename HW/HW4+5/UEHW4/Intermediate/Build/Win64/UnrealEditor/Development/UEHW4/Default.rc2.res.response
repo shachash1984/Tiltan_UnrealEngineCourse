@@ -63,5 +63,5 @@
 /DBUILD_ICON_FILE_NAME="\"..\\Build\\Windows\\Resources\\Default.ico\""
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_IDENTIFIER=UEHW4
-/fo "C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4\UEHW4\Intermediate\Build\Win64\UnrealEditor\Development\UEHW4\Default.rc2.res"
+/fo "C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4+5\UEHW4\Intermediate\Build\Win64\UnrealEditor\Development\UEHW4\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"
