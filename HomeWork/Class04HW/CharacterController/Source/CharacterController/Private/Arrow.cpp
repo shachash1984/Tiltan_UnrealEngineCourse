@@ -48,6 +48,16 @@ AArrow::AArrow()
 		ArrowHead->SetMaterial(0, ArrowMaterial.Object);
 		ArrowBody->SetMaterial(0, ArrowMaterial.Object);
 	}
+
+	//collision
+	ArrowHead->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+	ArrowHead->SetCollisionResponseToChannel(ECC_Pawn, ECR_Ignore);
+	ArrowHead->SetNotifyRigidBodyCollision(true);
+
+	FScriptDelegate CollisionDelegate;
+	CollisionDelegate.BindUFunction(this, "OnCollision");
+	ArrowHead->OnComponentHit.Add(CollisionDelegate);
+
 }
 
 // Called when the game starts or when spawned
@@ -55,6 +65,19 @@ void AArrow::BeginPlay()
 {
 	Super::BeginPlay();
 	this->SetLifeSpan(5);
+}
+
+void AArrow::OnCollision(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp,
+	FVector NormalImpulse, const FHitResult& Hit)
+{
+	if (OtherActor != nullptr)
+	{
+		if (OtherActor != this)
+		{
+
+		}
+	}
+	UE_LOG(LogCharacterController, Log, TEXT("Collision"));
 }
 
 // Called every frame
