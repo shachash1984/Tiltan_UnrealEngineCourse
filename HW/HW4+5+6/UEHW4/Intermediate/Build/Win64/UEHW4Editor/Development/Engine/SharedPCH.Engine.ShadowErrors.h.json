@@ -1,10 +1,10 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4+5\\uehw4\\intermediate\\build\\win64\\uehw4editor\\development\\engine\\sharedpch.engine.shadowerrors.cpp",
+        "Source": "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4+5+6\\uehw4\\intermediate\\build\\win64\\uehw4editor\\development\\engine\\sharedpch.engine.shadowerrors.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4+5\\uehw4\\intermediate\\build\\win64\\uehw4editor\\development\\engine\\sharedpch.engine.shadowerrors.h",
+            "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4+5+6\\uehw4\\intermediate\\build\\win64\\uehw4editor\\development\\engine\\sharedpch.engine.shadowerrors.h",
             "g:\\unreal\\ue_5.0\\engine\\source\\runtime\\engine\\public\\enginesharedpch.h",
             "g:\\unreal\\ue_5.0\\engine\\source\\runtime\\core\\public\\containers\\containersfwd.h",
             "g:\\unreal\\ue_5.0\\engine\\source\\runtime\\core\\public\\hal\\platform.h",
@@ -427,6 +427,8 @@
             "g:\\unreal\\ue_5.0\\engine\\source\\runtime\\core\\public\\async\\taskgraphinterfaces.h",
             "g:\\unreal\\ue_5.0\\engine\\source\\runtime\\core\\public\\experimental\\concurrentlinearallocator.h",
             "g:\\unreal\\ue_5.0\\engine\\source\\runtime\\core\\public\\hal\\mallocansi.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.33.31629\\include\\sanitizer\\asan_interface.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.33.31629\\include\\sanitizer\\common_interface_defs.h",
             "g:\\unreal\\ue_5.0\\engine\\source\\runtime\\core\\public\\async\\fundamental\\task.h",
             "g:\\unreal\\ue_5.0\\engine\\source\\runtime\\core\\public\\async\\fundamental\\taskdelegate.h",
             "g:\\unreal\\ue_5.0\\engine\\source\\runtime\\core\\public\\misc\\scopeexit.h",

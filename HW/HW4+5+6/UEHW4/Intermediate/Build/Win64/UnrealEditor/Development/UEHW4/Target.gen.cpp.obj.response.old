@@ -1,6 +1,6 @@
-C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4\UEHW4\Intermediate\Build\Win64\UnrealEditor\Inc\UEHW4\Target.gen.cpp
+C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4+5\UEHW4\Intermediate\Build\Win64\UnrealEditor\Inc\UEHW4\Target.gen.cpp
 /I .
-/I C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4\UEHW4\Source\UEHW4\Private
+/I C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4+5\UEHW4\Source\UEHW4\Private
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine
 /I Runtime
 /I ..\Shaders\Shared
@@ -252,9 +252,9 @@ C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4\UEHW4\Intermediate\Bui
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
-/I C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4\UEHW4\Intermediate\Build\Win64\UnrealEditor\Inc\UEHW4
-/I C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4\UEHW4\Source
-/I C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4\UEHW4\Source\UEHW4\Public
+/I C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4+5\UEHW4\Intermediate\Build\Win64\UnrealEditor\Inc\UEHW4
+/I C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4+5\UEHW4\Source
+/I C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4+5\UEHW4\Source\UEHW4\Public
 /I ThirdParty\mimalloc\include
 /I ThirdParty\LibTiff\Source\Win64
 /I ThirdParty\LibTiff\Source
@@ -275,12 +275,12 @@ C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4\UEHW4\Intermediate\Bui
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4\UEHW4\Intermediate\Build\Win64\UEHW4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4\UEHW4\Intermediate\Build\Win64\UnrealEditor\Development\UEHW4\Definitions.UEHW4.h"
-/Yu"C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4\UEHW4\Intermediate\Build\Win64\UEHW4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4\UEHW4\Intermediate\Build\Win64\UEHW4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4\UEHW4\Intermediate\Build\Win64\UnrealEditor\Development\UEHW4\Target.gen.cpp.obj"
-/sourceDependencies C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4\UEHW4\Intermediate\Build\Win64\UnrealEditor\Development\UEHW4\Target.gen.cpp.json
+/FI"C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4+5\UEHW4\Intermediate\Build\Win64\UEHW4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4+5\UEHW4\Intermediate\Build\Win64\UnrealEditor\Development\UEHW4\Definitions.UEHW4.h"
+/Yu"C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4+5\UEHW4\Intermediate\Build\Win64\UEHW4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4+5\UEHW4\Intermediate\Build\Win64\UEHW4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4+5\UEHW4\Intermediate\Build\Win64\UnrealEditor\Development\UEHW4\Target.gen.cpp.obj"
+/sourceDependencies C:\Users\mark4\Documents\Tiltan_UnrealEngineCourse\HW\HW4+5\UEHW4\Intermediate\Build\Win64\UnrealEditor\Development\UEHW4\Target.gen.cpp.json
 /Zc:inline
 /nologo
 /Oi

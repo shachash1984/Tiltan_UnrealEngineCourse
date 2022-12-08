@@ -3,6 +3,8 @@
 
 #include "Target.h"
 #include "UObject/ConstructorHelpers.h"
+#include "UEHW4\UEHW4.h"
+
 
 // Sets default values
 ATarget::ATarget()
@@ -36,5 +38,11 @@ void ATarget::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void ATarget::OnHit()
+{
+	UE_LOG(logHW4, Log, TEXT("Rock hit!"));
+	Destroy();
 }
 

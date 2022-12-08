@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define UEHW4_Target2_generated_h
 
 #define FID_UEHW4_Source_UEHW4_Public_Target2_h_12_SPARSE_DATA
-#define FID_UEHW4_Source_UEHW4_Public_Target2_h_12_RPC_WRAPPERS
-#define FID_UEHW4_Source_UEHW4_Public_Target2_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_UEHW4_Source_UEHW4_Public_Target2_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnHit);
+
+
+#define FID_UEHW4_Source_UEHW4_Public_Target2_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnHit);
+
+
 #define FID_UEHW4_Source_UEHW4_Public_Target2_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATarget2(); \

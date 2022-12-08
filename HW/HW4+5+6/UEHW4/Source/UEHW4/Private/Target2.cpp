@@ -3,6 +3,8 @@
 
 #include "Target2.h"
 #include "UObject/ConstructorHelpers.h"
+#include "UEHW4\UEHW4.h"
+
 
 
 // Sets default values
@@ -35,4 +37,10 @@ void ATarget2::BeginPlay()
 void ATarget2::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+}
+
+void ATarget2::OnHit()
+{
+	UE_LOG(logHW4, Log, TEXT("Chair hit!"));
+	Destroy();
 }

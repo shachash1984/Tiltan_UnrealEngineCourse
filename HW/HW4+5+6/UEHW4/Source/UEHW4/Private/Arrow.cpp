@@ -50,6 +50,11 @@ void AArrow::BeginPlay()
 	this->SetLifeSpan(5.0f);
 }
 
+void AArrow::OnCollision(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
+{
+	UE_LOG(LogTemp, Warning, TEXT("Collision"));
+}
+
 // Called every frame
 void AArrow::Tick(float DeltaTime)
 {
