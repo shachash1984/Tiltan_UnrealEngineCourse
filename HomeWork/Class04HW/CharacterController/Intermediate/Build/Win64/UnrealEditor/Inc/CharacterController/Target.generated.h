@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define CHARACTERCONTROLLER_Target_generated_h
 
 #define FID_CharacterController_Source_CharacterController_Public_Target_h_12_SPARSE_DATA
-#define FID_CharacterController_Source_CharacterController_Public_Target_h_12_RPC_WRAPPERS
-#define FID_CharacterController_Source_CharacterController_Public_Target_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_CharacterController_Source_CharacterController_Public_Target_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnHit);
+
+
+#define FID_CharacterController_Source_CharacterController_Public_Target_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnHit);
+
+
 #define FID_CharacterController_Source_CharacterController_Public_Target_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATarget(); \

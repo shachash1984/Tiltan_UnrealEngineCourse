@@ -2,7 +2,7 @@
 
 
 #include "Target.h"
-
+#include "CharacterController/CharacterController.h"
 #include "UObject/ConstructorHelpers.h"
 
 // Sets default values
@@ -36,5 +36,11 @@ void ATarget::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void ATarget::OnHit()
+{
+	UE_LOG(LogCharacterController, Log, TEXT("Rock Hit!"));
+	Destroy();
 }
 

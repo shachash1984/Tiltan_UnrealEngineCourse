@@ -3,6 +3,7 @@
 
 #include "Arrow.h"
 #include "CharacterController/CharacterController.h"
+#include <Target.h>
 
 // Sets default values
 AArrow::AArrow()
@@ -74,10 +75,15 @@ void AArrow::OnCollision(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrim
 	{
 		if (OtherActor != this)
 		{
-
+			ATarget* Target = Cast<ATarget>(OtherActor);
+			if (Target != nullptr)
+			{
+				UE_LOG(LogCharacterController, Log, TEXT("Collision"));
+				Target->OnHit();
+				Destroy();
+			}
 		}
 	}
-	UE_LOG(LogCharacterController, Log, TEXT("Collision"));
 }
 
 // Called every frame
@@ -91,6 +97,6 @@ void AArrow::Launch(FVector Direction, FRotator Rotation, float Speed)
 {
 	const FRotator WantedRotation = FRotator(Rotation.Pitch + 270, Rotation.Yaw, 0);
 	ArrowHead->SetWorldRotation(WantedRotation);
-	ArrowHead->AddImpulse(Direction * Speed,NAME_None,true);
+	ArrowHead->AddImpulse(Direction * Speed, NAME_None, true);
 }
 

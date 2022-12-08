@@ -10,8 +10,8 @@ UCLASS()
 class CHARACTERCONTROLLER_API ATarget : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	ATarget();
 
@@ -20,10 +20,17 @@ protected:
 	virtual void BeginPlay() override;
 
 	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* MeshComponent{nullptr};
+		UStaticMeshComponent* MeshComponent {
+		nullptr
+	};
 
-public:	
+
+
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UFUNCTION()
+	void OnHit();
 
 };

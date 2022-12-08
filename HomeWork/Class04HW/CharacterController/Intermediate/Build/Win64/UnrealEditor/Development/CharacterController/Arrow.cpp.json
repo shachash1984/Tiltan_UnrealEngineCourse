@@ -8,7 +8,9 @@
             "d:\\github\\tiltan_unrealenginecourse\\homework\\class04hw\\charactercontroller\\intermediate\\build\\win64\\unrealeditor\\development\\charactercontroller\\definitions.charactercontroller.h",
             "d:\\github\\tiltan_unrealenginecourse\\homework\\class04hw\\charactercontroller\\source\\charactercontroller\\public\\arrow.h",
             "d:\\github\\tiltan_unrealenginecourse\\homework\\class04hw\\charactercontroller\\intermediate\\build\\win64\\unrealeditor\\inc\\charactercontroller\\arrow.generated.h",
-            "d:\\github\\tiltan_unrealenginecourse\\homework\\class04hw\\charactercontroller\\source\\charactercontroller\\charactercontroller.h"
+            "d:\\github\\tiltan_unrealenginecourse\\homework\\class04hw\\charactercontroller\\source\\charactercontroller\\charactercontroller.h",
+            "d:\\github\\tiltan_unrealenginecourse\\homework\\class04hw\\charactercontroller\\source\\charactercontroller\\public\\target.h",
+            "d:\\github\\tiltan_unrealenginecourse\\homework\\class04hw\\charactercontroller\\intermediate\\build\\win64\\unrealeditor\\inc\\charactercontroller\\target.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
