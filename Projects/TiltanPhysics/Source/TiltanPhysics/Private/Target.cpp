@@ -4,6 +4,7 @@
 #include "Target.h"
 
 #include "UObject/ConstructorHelpers.h"
+#include "TiltanPhysics/TiltanPhysics.h"
 
 // Sets default values
 ATarget::ATarget()
@@ -38,5 +39,11 @@ void ATarget::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void ATarget::OnHit()
+{
+	UE_LOG(LogTiltanPhysics, Log, TEXT("Rock hit!"));
+	Destroy();
 }
 
