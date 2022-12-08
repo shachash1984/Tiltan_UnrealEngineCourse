@@ -1,0 +1,27 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4+5hw\\source\\class4hw\\private\\gameplayercontroller.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4+5hw\\intermediate\\build\\win64\\class4hweditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4+5hw\\intermediate\\build\\win64\\unrealeditor\\development\\class4hw\\definitions.class4hw.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4+5hw\\source\\class4hw\\public\\gameplayercontroller.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4+5hw\\intermediate\\build\\win64\\unrealeditor\\inc\\class4hw\\gameplayercontroller.generated.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4+5hw\\source\\class4hw\\class4hw.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4+5hw\\source\\class4hw\\public\\arrow.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4+5hw\\intermediate\\build\\win64\\unrealeditor\\inc\\class4hw\\arrow.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystatics.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\kismetsystemlibrary.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\sound\\dialoguetypes.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\dialoguetypes.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gameplaystaticstypes.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gameplaystatics.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,11 +1,11 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4hw\\intermediate\\build\\win64\\unrealeditor\\inc\\class4hw\\class4hw.init.gen.cpp",
+        "Source": "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4+5hw\\intermediate\\build\\win64\\unrealeditor\\inc\\class4hw\\class4hw.init.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4hw\\intermediate\\build\\win64\\class4hweditor\\debuggame\\engine\\sharedpch.engine.nonoptimized.shadowerrors.h.pch",
+        "PCH": "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4+5hw\\intermediate\\build\\win64\\class4hweditor\\debuggame\\engine\\sharedpch.engine.nonoptimized.shadowerrors.h.pch",
         "Includes": [
-            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4hw\\intermediate\\build\\win64\\unrealeditor\\debuggame\\class4hw\\definitions.class4hw.h"
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4+5hw\\intermediate\\build\\win64\\unrealeditor\\debuggame\\class4hw\\definitions.class4hw.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

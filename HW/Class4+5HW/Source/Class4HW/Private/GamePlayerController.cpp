@@ -4,6 +4,7 @@
 #include "GamePlayerController.h"
 #include "Class4HW\Class4HW.h"
 #include "Arrow.h"
+#include "Arrow2.h"
 #include "Kismet/GameplayStatics.h"
 
 AGamePlayerController::AGamePlayerController()
@@ -29,7 +30,8 @@ void AGamePlayerController::OnShootPressed()
 		FRotator controllerRotation = GetPawn()->GetControlRotation();
 
 
-		AArrow* Arrow = world->SpawnActor<AArrow>(currentLocation + direction * 100, currentPawnRotation);
+		AArrow2* Arrow = world->SpawnActor<AArrow2>(currentLocation + direction * 100, currentPawnRotation);
+		//AArrow* Arrow = world->SpawnActor<AArrow>(currentLocation + direction * 100, currentPawnRotation);
 		if (Arrow)
 		{
 			Arrow->Launch(direction, controllerRotation, 1000);
