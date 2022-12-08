@@ -15,8 +15,42 @@ void EmptyLinkFunctionForGeneratedCodeTarget() {}
 	UPackage* Z_Construct_UPackage__Script_TiltanPhysics();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(ATarget::execOnHit)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OnHit();
+		P_NATIVE_END;
+	}
 	void ATarget::StaticRegisterNativesATarget()
 	{
+		UClass* Class = ATarget::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "OnHit", &ATarget::execOnHit },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ATarget_OnHit_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATarget_OnHit_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Target.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ATarget_OnHit_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATarget, nullptr, "OnHit", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATarget_OnHit_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATarget_OnHit_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATarget_OnHit()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ATarget_OnHit_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(ATarget);
 	UClass* Z_Construct_UClass_ATarget_NoRegister()
@@ -26,6 +60,7 @@ void EmptyLinkFunctionForGeneratedCodeTarget() {}
 	struct Z_Construct_UClass_ATarget_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -40,6 +75,9 @@ void EmptyLinkFunctionForGeneratedCodeTarget() {}
 	UObject* (*const Z_Construct_UClass_ATarget_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_TiltanPhysics,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_ATarget_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ATarget_OnHit, "OnHit" }, // 3560581105
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATarget_Statics::Class_MetaDataParams[] = {
@@ -66,11 +104,11 @@ void EmptyLinkFunctionForGeneratedCodeTarget() {}
 		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_ATarget_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_ATarget_Statics::PropPointers),
 		0,
 		0x009000A4u,
@@ -94,9 +132,9 @@ void EmptyLinkFunctionForGeneratedCodeTarget() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TiltanPhysics_Source_TiltanPhysics_Public_Target_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ATarget, ATarget::StaticClass, TEXT("ATarget"), &Z_Registration_Info_UClass_ATarget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATarget), 1072241300U) },
+		{ Z_Construct_UClass_ATarget, ATarget::StaticClass, TEXT("ATarget"), &Z_Registration_Info_UClass_ATarget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATarget), 342145987U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TiltanPhysics_Source_TiltanPhysics_Public_Target_h_1195391212(TEXT("/Script/TiltanPhysics"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TiltanPhysics_Source_TiltanPhysics_Public_Target_h_4069412109(TEXT("/Script/TiltanPhysics"),
 		Z_CompiledInDeferFile_FID_TiltanPhysics_Source_TiltanPhysics_Public_Target_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TiltanPhysics_Source_TiltanPhysics_Public_Target_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
