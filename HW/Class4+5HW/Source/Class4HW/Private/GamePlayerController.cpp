@@ -30,8 +30,8 @@ void AGamePlayerController::OnShootPressed()
 		FRotator controllerRotation = GetPawn()->GetControlRotation();
 
 
-		AArrow2* Arrow = world->SpawnActor<AArrow2>(currentLocation + direction * 100, currentPawnRotation);
-		//AArrow* Arrow = world->SpawnActor<AArrow>(currentLocation + direction * 100, currentPawnRotation);
+		//AArrow2* Arrow = world->SpawnActor<AArrow2>(currentLocation + direction * 100, currentPawnRotation);
+		AArrow* Arrow = world->SpawnActor<AArrow>(currentLocation + direction * 100, currentPawnRotation);
 		if (Arrow)
 		{
 			Arrow->Launch(direction, controllerRotation, 1000);

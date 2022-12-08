@@ -21,6 +21,7 @@ ATarget2::ATarget2()
 		}
 
 		meshComponent->SetupAttachment(RootComponent);
+		meshComponent->SetWorldScale3D(FVector(5,5,5));
 	}
 
 }
