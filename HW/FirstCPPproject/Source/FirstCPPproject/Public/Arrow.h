@@ -19,11 +19,19 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	UFUNCTION()
+		virtual void OnCollision(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+	//UFUNCTION()
+	//	virtual void OnCollision(int value);
 	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* ArrowHead;
+		UStaticMeshComponent* ArrowHead {
+		nullptr
+	};
 
 	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* ArrowBody;
+		UStaticMeshComponent* ArrowBody {
+		nullptr
+	};
 
 public:	
 	// Called every frame

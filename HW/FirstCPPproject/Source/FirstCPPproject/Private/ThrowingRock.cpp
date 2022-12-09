@@ -2,6 +2,9 @@
 
 
 #include "ThrowingRock.h"
+#include "FirstCPPproject/FirstCPPproject.h"
+#include "Target.h"
+#include "Enemy.h"
 
 // Sets default values
 AThrowingRock::AThrowingRock()
@@ -26,6 +29,21 @@ AThrowingRock::AThrowingRock()
 	}
 	
 	MeshComponent->SetSimulatePhysics(true);
+
+	//Collision Logic
+		//Enable collison for raycarts/triggers and for collisions (physics)
+	MeshComponent->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+
+	//We Dont Want to collide with the player pawn
+	MeshComponent->SetCollisionResponseToChannel(ECC_Pawn, ECR_Ignore);
+
+	//
+	MeshComponent->SetNotifyRigidBodyCollision(true);
+
+	FScriptDelegate CollisionDelegate;
+	CollisionDelegate.BindUFunction(this, "OnCollision");
+	MeshComponent->OnComponentHit.Add(CollisionDelegate);
+
 }
 
 // Called when the game starts or when spawned
@@ -34,6 +52,31 @@ void AThrowingRock::BeginPlay()
 	Super::BeginPlay();
 	this->SetLifeSpan(5.0f);
 }
+void AThrowingRock::OnCollision(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
+{
+	if (OtherActor != nullptr)
+	{
+		if (OtherActor != this) 
+		{
+			ATarget* Target = Cast<ATarget>(OtherActor);
+			if(Target != nullptr)
+			{
+				UE_LOG(LogFirstCPPproject, Log, TEXT("Rock Hit Target"));
+				Target->OnHit();
+			}
+			AEnemy* Enemy = Cast<AEnemy>(OtherActor);
+			if (Enemy != nullptr)
+			{
+				UE_LOG(LogFirstCPPproject, Log, TEXT("Rock Hit Enemy"));
+				Enemy->OnHit();
+			}
+		}
+	}
+	
+}
+//void AThrowingRock::OnCollision(int value)
+
+
 
 // Called every frame
 void AThrowingRock::Tick(float DeltaTime)

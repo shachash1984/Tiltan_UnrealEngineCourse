@@ -2,6 +2,7 @@
 
 
 #include "Target.h"
+#include "FirstCPPproject/FirstCPPproject.h"
 
 // Sets default values
 ATarget::ATarget()
@@ -41,6 +42,7 @@ void ATarget::Tick(float DeltaTime)
 
 void ATarget::OnHit() {
 	
-	
+	UE_LOG(LogFirstCPPproject, Log, TEXT("Target Cries"));
+	Destroy();
 }
 

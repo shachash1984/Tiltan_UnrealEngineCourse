@@ -8,14 +8,25 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 #ifdef FIRSTCPPPROJECT_Arrow_generated_h
 #error "Arrow.generated.h already included, missing '#pragma once' in Arrow.h"
 #endif
 #define FIRSTCPPPROJECT_Arrow_generated_h
 
 #define FID_FirstCPPproject_Source_FirstCPPproject_Public_Arrow_h_12_SPARSE_DATA
-#define FID_FirstCPPproject_Source_FirstCPPproject_Public_Arrow_h_12_RPC_WRAPPERS
-#define FID_FirstCPPproject_Source_FirstCPPproject_Public_Arrow_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_FirstCPPproject_Source_FirstCPPproject_Public_Arrow_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnCollision);
+
+
+#define FID_FirstCPPproject_Source_FirstCPPproject_Public_Arrow_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnCollision);
+
+
 #define FID_FirstCPPproject_Source_FirstCPPproject_Public_Arrow_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAArrow(); \

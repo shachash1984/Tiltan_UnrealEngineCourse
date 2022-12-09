@@ -2,6 +2,7 @@
 
 
 #include "Enemy.h"
+#include "FirstCPPproject/FirstCPPproject.h"
 
 // Sets default values
 AEnemy::AEnemy()
@@ -37,5 +38,11 @@ void AEnemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void AEnemy::OnHit() {
+
+	UE_LOG(LogFirstCPPproject, Log, TEXT("Enemy Cries"));
+	Destroy();
 }
 

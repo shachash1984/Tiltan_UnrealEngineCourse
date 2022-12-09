@@ -7,7 +7,12 @@
         "Includes": [
             "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\intermediate\\build\\win64\\unrealeditor\\development\\firstcppproject\\definitions.firstcppproject.h",
             "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\source\\firstcppproject\\public\\throwingrock.h",
-            "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\intermediate\\build\\win64\\unrealeditor\\inc\\firstcppproject\\throwingrock.generated.h"
+            "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\intermediate\\build\\win64\\unrealeditor\\inc\\firstcppproject\\throwingrock.generated.h",
+            "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\source\\firstcppproject\\firstcppproject.h",
+            "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\source\\firstcppproject\\public\\target.h",
+            "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\intermediate\\build\\win64\\unrealeditor\\inc\\firstcppproject\\target.generated.h",
+            "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\source\\firstcppproject\\public\\enemy.h",
+            "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\intermediate\\build\\win64\\unrealeditor\\inc\\firstcppproject\\enemy.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

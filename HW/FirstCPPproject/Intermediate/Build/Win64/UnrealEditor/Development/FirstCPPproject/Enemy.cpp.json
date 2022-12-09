@@ -7,7 +7,8 @@
         "Includes": [
             "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\intermediate\\build\\win64\\unrealeditor\\development\\firstcppproject\\definitions.firstcppproject.h",
             "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\source\\firstcppproject\\public\\enemy.h",
-            "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\intermediate\\build\\win64\\unrealeditor\\inc\\firstcppproject\\enemy.generated.h"
+            "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\intermediate\\build\\win64\\unrealeditor\\inc\\firstcppproject\\enemy.generated.h",
+            "g:\\unreal projects\\tiltan_unrealenginecourse\\hw\\firstcppproject\\source\\firstcppproject\\firstcppproject.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
