@@ -8,7 +8,9 @@
             "d:\\tiltan\\tiltan_unrealenginecourse\\projects\\tiltanphysics\\intermediate\\build\\win64\\unrealeditor\\development\\tiltanphysics\\definitions.tiltanphysics.h",
             "d:\\tiltan\\tiltan_unrealenginecourse\\projects\\tiltanphysics\\source\\tiltanphysics\\public\\arrow.h",
             "d:\\tiltan\\tiltan_unrealenginecourse\\projects\\tiltanphysics\\intermediate\\build\\win64\\unrealeditor\\inc\\tiltanphysics\\arrow.generated.h",
-            "d:\\tiltan\\tiltan_unrealenginecourse\\projects\\tiltanphysics\\source\\tiltanphysics\\tiltanphysics.h"
+            "d:\\tiltan\\tiltan_unrealenginecourse\\projects\\tiltanphysics\\source\\tiltanphysics\\tiltanphysics.h",
+            "d:\\tiltan\\tiltan_unrealenginecourse\\projects\\tiltanphysics\\source\\tiltanphysics\\public\\target.h",
+            "d:\\tiltan\\tiltan_unrealenginecourse\\projects\\tiltanphysics\\intermediate\\build\\win64\\unrealeditor\\inc\\tiltanphysics\\target.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
