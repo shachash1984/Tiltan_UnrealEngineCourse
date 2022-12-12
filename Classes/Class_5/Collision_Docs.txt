@@ -1,5 +1,0 @@
-https://docs.unrealengine.com/5.0/en-US/collision-in-unreal-engine---overview/
-
-https://docs.unrealengine.com/5.0/en-US/collision-response-reference-in-unreal-engine/
-
-https://docs.unrealengine.com/5.0/en-US/collision-tutorials-in-unreal-engine/

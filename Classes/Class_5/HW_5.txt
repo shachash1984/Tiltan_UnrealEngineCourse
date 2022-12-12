@@ -1,5 +1,0 @@
-UE5:
-
-1. Complete the logics of the Basic physics to your own project
-2. Create another Actor type like arrow with a different mesh and material
-3. Create another Actor like target
