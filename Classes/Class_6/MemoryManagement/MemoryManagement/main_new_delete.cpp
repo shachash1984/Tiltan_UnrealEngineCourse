@@ -6,7 +6,7 @@ struct Effect
 	std::string Name{ "Default" };
 };
  
-int main()
+int main_new_delete()
 {
 	Effect* p1 = new Effect; // same as Effect* p1 = new Effect(); // same as Effect* p1 = new Effect{};
     delete p1;
@@ -14,7 +14,7 @@ int main()
     delete[] p2;
 
 
-	
+	getchar();
 	return 0;
 
 

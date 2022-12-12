@@ -2,9 +2,9 @@
 #include <iostream>
  
  
-int main()
+int main_delete_twice()
 {
-	
+
 	{
 		Model3D localModel("localModel");
 		std::string localString = localModel.GetName();
@@ -15,7 +15,7 @@ int main()
 
 
 	delete pModel;
-	//pModel = nullptr;
+	pModel = nullptr;
 	float f0 = 5.0f;
 	float f1 = 0.1f;
 	float f2 = f0 + f1;

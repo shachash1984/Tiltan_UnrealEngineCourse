@@ -2,7 +2,7 @@
 #include <iostream>
  
  
-int main()
+int main_local_dynamic()
 {
 	
 	{
@@ -17,14 +17,16 @@ int main()
 	float f0 = 5.0f;
 	float f1 = 0.1f;
 	float f2 = f0 + f1;
-	delete pModel;
-	pModel = nullptr;
 
-	if (pModel != nullptr)
+	pModel = nullptr;
+	delete pModel;
+	//pModel = nullptr;
+
+	if (pModel)
 	{
 		std::string s0 = pModel->GetName();
 	}
-	
+	//std::string s0 = pModel->GetName();
 
 	return 0;
 
