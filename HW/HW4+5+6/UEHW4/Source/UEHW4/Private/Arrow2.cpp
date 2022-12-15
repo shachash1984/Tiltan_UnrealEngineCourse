@@ -40,7 +40,7 @@ AArrow2::AArrow2()
 
 	//GEnerate Hit event
 	FScriptDelegate CollisionDelegate;
-	CollisionDelegate.BindUFunction(this, "OnCollision");
+	CollisionDelegate.BindUFunction(this, "OnCollision2");
 	ArrowHead->OnComponentHit.Add(CollisionDelegate);
 }
 
@@ -61,13 +61,13 @@ void AArrow2::OnCollision(UPrimitiveComponent* HitComp, AActor* OtherActor, UPri
 			ATarget2* Target2 = Cast<ATarget2>(OtherActor);
 			if (Target != nullptr)
 			{
-				UE_LOG(logHW4, Log, TEXT("Arrow Collision with target"));
+				UE_LOG(logHW4, Log, TEXT("Arrow2 Collision with target"));
 				Target->OnHit();
 				Destroy();
 			}
 			if (Target2 != nullptr)
 			{
-				UE_LOG(logHW4, Log, TEXT("Arrow Collision with target2"));
+				UE_LOG(logHW4, Log, TEXT("Arrow2 Collision with target2"));
 				Target2->OnHit();
 				Destroy();
 			}
@@ -79,7 +79,6 @@ void AArrow2::OnCollision(UPrimitiveComponent* HitComp, AActor* OtherActor, UPri
 void AArrow2::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 void AArrow2::Launch(FVector Direction, FRotator Rotation, float Speed)

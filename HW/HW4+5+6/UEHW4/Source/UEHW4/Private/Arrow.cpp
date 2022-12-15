@@ -3,6 +3,8 @@
 
 #include "Arrow.h"
 #include "UEHW4\UEHW4.h"
+#include <Target.h>
+#include <Target2.h>
 
 // Sets default values
 AArrow::AArrow()
@@ -41,6 +43,21 @@ AArrow::AArrow()
 	ArrowBody->SetRelativeLocation(FVector(0.0f, 0.0f, -30.0f));
 	ArrowBody->SetWorldScale3D(FVector(0.3f, 0.3f, 0.3f));
 	ArrowBody->SetSimulatePhysics(false);
+
+	//Collision Logic
+	//Enable collision for raycasts/triggers and for collisions (physics)
+	ArrowHead->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+
+	//We dont want to collide with the player
+	ArrowHead->SetCollisionResponseToChannel(ECC_Pawn, ECR_Overlap);
+
+	//In order to recive collision events we need to notify the rigidbody
+	ArrowHead->SetNotifyRigidBodyCollision(true);
+
+	//GEnerate Hit event
+	FScriptDelegate CollisionDelegate;
+	CollisionDelegate.BindUFunction(this, "OnCollision");
+	ArrowHead->OnComponentHit.Add(CollisionDelegate);
 }
 
 // Called when the game starts or when spawned
@@ -52,7 +69,26 @@ void AArrow::BeginPlay()
 
 void AArrow::OnCollision(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Collision"));
+	if (OtherActor != nullptr)
+	{
+		if (OtherActor != this)
+		{
+			ATarget* Target = Cast<ATarget>(OtherActor);
+			ATarget2* Target2 = Cast<ATarget2>(OtherActor);
+			if (Target != nullptr)
+			{
+				UE_LOG(logHW4, Log, TEXT("Arrow Collision with target"));
+				Target->OnHit();
+				Destroy();
+			}
+			if (Target2 != nullptr)
+			{
+				UE_LOG(logHW4, Log, TEXT("Arrow Collision with target2"));
+				Target2->OnHit();
+				Destroy();
+			}
+		}
+	}
 }
 
 // Called every frame

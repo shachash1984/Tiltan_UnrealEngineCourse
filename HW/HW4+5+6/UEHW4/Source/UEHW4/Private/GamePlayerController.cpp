@@ -7,6 +7,7 @@
 #include "Arrow2.h"
 #include "Kismet\GameplayStatics.h"
 
+
 AGamePlayerController::AGamePlayerController()
 {
 	UE_LOG(logHW4, Log, TEXT("AGamePlayerController Constructor"));
@@ -14,7 +15,6 @@ AGamePlayerController::AGamePlayerController()
 
 void AGamePlayerController::OnShootPressed()
 {
-
 	UWorld* World = GetWorld();
 	if (World)
 	{
@@ -24,6 +24,29 @@ void AGamePlayerController::OnShootPressed()
 		}
 
 		FVector CurrentLocation = GetPawn() -> GetActorLocation();
+		FRotator CurrentPawnRotation = GetPawn()->GetActorRotation();
+		FVector Direction = CameraManager->GetActorForwardVector();
+		FRotator CurrentControllerRotation = GetPawn()->GetControlRotation();
+		
+		AArrow* Arrow = World->SpawnActor<AArrow>(CurrentLocation + Direction * 100, CurrentControllerRotation);
+		if (Arrow)
+		{
+			Arrow->Launch(Direction, CurrentControllerRotation, 2000.0f);
+		}
+	}
+}
+
+void AGamePlayerController::OnShoot2Pressed()
+{
+	UWorld* World = GetWorld();
+	if (World)
+	{
+		if (!CameraManager)
+		{
+			CameraManager = UGameplayStatics::GetPlayerCameraManager(World, 0);
+		}
+		
+		FVector CurrentLocation = GetPawn()->GetActorLocation();
 		FRotator CurrentPawnRotation = GetPawn()->GetActorRotation();
 		FVector Direction = CameraManager->GetActorForwardVector();
 		FRotator CurrentControllerRotation = GetPawn()->GetControlRotation();
@@ -41,4 +64,5 @@ void AGamePlayerController::SetupInputComponent()
 	Super::SetupInputComponent();
 
 	InputComponent->BindAction("Shoot", IE_Pressed, this, &AGamePlayerController::OnShootPressed);
+	InputComponent->BindAction("Shoot2", IE_Pressed, this, &AGamePlayerController::OnShoot2Pressed);
 }
