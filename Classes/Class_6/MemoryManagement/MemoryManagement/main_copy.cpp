@@ -2,6 +2,7 @@
 #include <iostream>
  
  
+//int main_copy()
 int main()
 {
 	
@@ -14,6 +15,7 @@ int main()
 	std::string heapString = pModel->GetName();
 
 	Model3D* pModel2 = pModel;
+
 
 	delete pModel;
 	std::string s2 = pModel2->GetName();
