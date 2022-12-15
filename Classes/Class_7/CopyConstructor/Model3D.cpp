@@ -15,6 +15,11 @@ Model3D::Model3D(std::string name)
 	cout << "Constructing " << Name << endl;
 }
 
+//Model3D::Model3D(const Model3D& other)
+//{
+//	Name = other.Name;
+//}
+
 Model3D::~Model3D()
 {
 	cout << "Destructing " << Name << endl;
