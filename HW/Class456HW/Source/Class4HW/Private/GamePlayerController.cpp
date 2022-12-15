@@ -30,8 +30,32 @@ void AGamePlayerController::OnShootPressed()
 		FRotator controllerRotation = GetPawn()->GetControlRotation();
 
 
-		//AArrow2* Arrow = world->SpawnActor<AArrow2>(currentLocation + direction * 100, currentPawnRotation);
 		AArrow* Arrow = world->SpawnActor<AArrow>(currentLocation + direction * 100, currentPawnRotation);
+		if (Arrow)
+		{
+			Arrow->Launch(direction, controllerRotation, 1000);
+		}
+	}
+
+}void AGamePlayerController::OnShoot2Pressed()
+{
+	UE_LOG(LogClass4HW, Log, TEXT("Pew2"));
+	UWorld* world = GetWorld();
+	if (world)
+	{
+
+		if (!CameraManager)
+		{
+			CameraManager = UGameplayStatics::GetPlayerCameraManager(world, 0);
+		}
+
+		FVector currentLocation = GetPawn()->GetActorLocation();
+		FRotator currentPawnRotation = GetPawn()->GetActorRotation();
+		FVector direction = CameraManager->GetActorForwardVector();
+		FRotator controllerRotation = GetPawn()->GetControlRotation();
+
+
+		AArrow2* Arrow = world->SpawnActor<AArrow2>(currentLocation + direction * 100, currentPawnRotation);
 		if (Arrow)
 		{
 			Arrow->Launch(direction, controllerRotation, 1000);
@@ -44,4 +68,5 @@ void AGamePlayerController::SetupInputComponent()
 	Super::SetupInputComponent();
 
 	InputComponent->BindAction("shoot", IE_Pressed, this, &AGamePlayerController::OnShootPressed);
+	InputComponent->BindAction("shoot2", IE_Pressed, this, &AGamePlayerController::OnShoot2Pressed);
 }
