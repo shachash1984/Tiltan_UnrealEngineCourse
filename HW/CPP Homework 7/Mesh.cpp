@@ -8,17 +8,14 @@ Mesh::Mesh() : name("") , position(Point())
 	}
 }
 
-Mesh::Mesh(std::string _name, Point _position, std::vector<Vertex> _vertices) : name(_name) , position(_position)
+Mesh::Mesh(std::string _name, Point _position, std::vector<Vertex> _vertices) : name(_name) , position(_position) , vertices(_vertices)
 {
-	if (_vertices.size() < 30) {
-		for (int i = 0; i < 30; i++)
+	if (vertices.size() < 30) {
+		int n = vertices.size();
+		for (int i = 0; i < 30 - n; i++)
 		{
 			vertices.push_back(Vertex(Point(i, 0, 0),Color()));
 		}
-	}
-	else
-	{
-		vertices = _vertices;
 	}
 }
 
