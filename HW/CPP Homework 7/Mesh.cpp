@@ -1,18 +1,15 @@
 #include "Mesh.h"
 #include <iostream>
-Mesh::Mesh() : name("")
+Mesh::Mesh() : name("") , position(Point())
 {
-	position = Point();
-
 	for (int i = 0; i < 30; i++)
 	{
 		vertices.push_back(Vertex(Point(i,0,0),Color()));
 	}
 }
 
-Mesh::Mesh(std::string _name, Point _position, std::vector<Vertex> _vertices) : name(_name)
+Mesh::Mesh(std::string _name, Point _position, std::vector<Vertex> _vertices) : name(_name) , position(_position)
 {
-	position = _position;
 	if (_vertices.size() < 30) {
 		for (int i = 0; i < 30; i++)
 		{

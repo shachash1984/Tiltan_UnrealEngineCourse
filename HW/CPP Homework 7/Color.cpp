@@ -1,9 +1,8 @@
 #include "Color.h"
 #include <iostream>
 
-Color::Color()
+Color::Color() : r(0),g(0),b(0),a(0)
 {
-    r = 0; g = 0; b = 0; a = 0;
 }
 
 Color::Color(float _r, float _g, float _b, float _a)
@@ -22,12 +21,8 @@ Color::Color(float _r, float _g, float _b, float _a)
     a = _a;
 }
 
-Color::Color(const Color& other)
+Color::Color(const Color& other) : r(other.r), g(other.g), b(other.b), a(other.a)
 {
-    r = other.r;
-    g = other.g;
-    b = other.b;
-    a = other.a;
 }
 
 Color::~Color()

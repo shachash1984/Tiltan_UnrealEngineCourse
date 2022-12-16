@@ -1,20 +1,14 @@
 #include "Vertex.h"
-Vertex::Vertex()
+Vertex::Vertex() : position(Point()), color(Color())
 {
-    position = Point();
-    color = Color();
 }
 
-Vertex::Vertex(Point _pos, Color _col)
+Vertex::Vertex(Point _pos, Color _col) : position(_pos), color(_col)
 {
-    position = _pos;
-    color = _col;
 }
 
-Vertex::Vertex(const Vertex& other)
+Vertex::Vertex(const Vertex& other) : position(other.position), color(other.color)
 {
-    position = other.position;
-    color = other.color;
 }
 
 Vertex::~Vertex()

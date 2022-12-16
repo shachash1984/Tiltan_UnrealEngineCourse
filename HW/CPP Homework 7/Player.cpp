@@ -1,15 +1,11 @@
 #include "Player.h"
 
-Player::Player() : name("")
+Player::Player() : name("") , PlayerBody(nullptr) , PlayerWeapon(nullptr)
 {
-	PlayerBody = nullptr;
-	PlayerWeapon = nullptr;
 }
 
-Player::Player(std::string _name, Mesh* _body, Mesh* _weapon) : name(_name)
+Player::Player(std::string _name, Mesh* _body, Mesh* _weapon) : name(_name) , PlayerBody(_body) , PlayerWeapon(_weapon)
 {
-	PlayerBody = _body;
-	PlayerWeapon = _weapon;
 }
 
 Player::~Player()
