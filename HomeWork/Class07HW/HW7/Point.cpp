@@ -99,14 +99,14 @@ public:
 };
 class Mesh {
 	string name;
-	vector<Vertex> vertices;
+	//vector<Vertex> vertices;
 	Point position;
 public:
 	Mesh();
-	Mesh(string _name, Point _position, vector<Vertex> _vertices) {
+	Mesh(string _name, Point _position/*, vector<Vertex> _vertices*/) {
 		name = _name;
 		position = _position;
-		vertices = _vertices;
+		//vertices = _vertices;
 	}
 	
 	string ToString() {
