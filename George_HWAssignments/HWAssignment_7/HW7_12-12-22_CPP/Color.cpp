@@ -30,7 +30,7 @@ Color::Color(const Color& other)
 
 Color::~Color()
 {
-	cout << "Destructing Color" << endl;
+	//cout << "Destructing Color" << endl;
 }
 
 void Color::SetColor(float rVal, float gVal, float bVal, float aVal)

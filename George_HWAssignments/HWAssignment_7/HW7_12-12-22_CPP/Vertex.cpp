@@ -5,13 +5,13 @@ using std::endl;
 
 Vertex::Vertex()
 {
-	_point = new Point;
-	_color = new Color;
+	_point = Point();
+	_color = Color();
 
 	//cout << "Vertex:{ " + ToString() + " }" << endl;
 }
 
-Vertex::Vertex(Point* pos, Color* col) : _point(pos), _color(col)
+Vertex::Vertex(Point pos, Color col) : _point(pos), _color(col)
 {
 	//cout << "Vertex:{ " + ToString() + " }" << endl;
 }
@@ -26,19 +26,15 @@ Vertex::Vertex(const Vertex& other)
 
 Vertex::~Vertex()
 {
-	delete _point;
-	delete _color;
-	cout << "Destructing Vertex" << endl;
+	//cout << "Destructing Vertex" << endl;
 }
 
 void Vertex::SetPosition(float xVal, float yVal, float zVal)
 {
-	_point->SetX(xVal);
-	_point->SetY(yVal);
-	_point->SetZ(zVal);
+	_point.SetPos(xVal, yVal, zVal);
 }
 
 void Vertex::SetColor(float rVal, float gVal, float bVal, float aVal)
 {
-	_color->SetColor(rVal, gVal, bVal, aVal);
+	_color.SetColor(rVal, gVal, bVal, aVal);
 }

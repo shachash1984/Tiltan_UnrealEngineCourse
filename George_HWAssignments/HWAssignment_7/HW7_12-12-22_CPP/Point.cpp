@@ -25,7 +25,7 @@ Point::Point(const Point& other)
 
 Point::~Point()
 {
-	cout << "Destructing Point" << endl;
+	//cout << "Destructing Point" << endl;
 }
 
 void Point::SetX(float xVal)
@@ -40,5 +40,12 @@ void Point::SetY(float yVal)
 
 void Point::SetZ(float zVal)
 {
+	z = zVal;
+}
+
+void Point::SetPos(float xVal, float yVal, float zVal)
+{
+	x = xVal;
+	y = yVal;
 	z = zVal;
 }

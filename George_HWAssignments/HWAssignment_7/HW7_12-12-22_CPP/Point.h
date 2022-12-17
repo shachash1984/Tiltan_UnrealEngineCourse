@@ -21,6 +21,7 @@ public:
 	void SetX(float xVal);
 	void SetY(float yVal);
 	void SetZ(float zVal);
+	void SetPos(float xVal, float yVal, float zVal);
 
 
 private:
