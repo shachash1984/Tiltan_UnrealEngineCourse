@@ -5,13 +5,13 @@ using std::endl;
 
 Point::Point() : x(0), y(0), z(0)
 {
-	cout << "Point: " << ToString() << endl;
+	//cout << "Point: " << ToString() << endl;
 }
 
 Point::Point(float xVal, float yVal, float zVal)
 	: x(xVal), y(yVal), z(zVal)
 {
-	cout << "Point: " << ToString() << endl;
+	//cout << "Point: " << ToString() << endl;
 }
 
 Point::Point(const Point& other)
@@ -20,7 +20,7 @@ Point::Point(const Point& other)
 	y = other.y;
 	z = other.z;
 
-	cout << "Point: " << ToString() << endl;
+	//cout << "Point: " << ToString() << endl;
 }
 
 Point::~Point()

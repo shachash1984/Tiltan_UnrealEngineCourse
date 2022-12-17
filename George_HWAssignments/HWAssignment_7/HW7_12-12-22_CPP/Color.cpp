@@ -5,7 +5,7 @@ using std::endl;
 
 Color::Color() : r(1), g(1), b(1), a(1)
 {
-	cout << "Color: " << ToString() << endl;
+	//cout << "Color: " << ToString() << endl;
 }
 
 Color::Color(float rVal, float gVal, float bVal, float aVal)
@@ -15,7 +15,7 @@ Color::Color(float rVal, float gVal, float bVal, float aVal)
 	b = ValidateColorRange(bVal);
 	a = ValidateColorRange(aVal);
 
-	cout << "Color: " << ToString() << endl;
+	//cout << "Color: " << ToString() << endl;
 }
 
 Color::Color(const Color& other)
@@ -25,7 +25,7 @@ Color::Color(const Color& other)
 	b = other.b;
 	a = other.a;
 
-	cout << "Color: " << ToString() << endl;
+	//cout << "Color: " << ToString() << endl;
 }
 
 Color::~Color()
