@@ -7,7 +7,7 @@ void CreateLocalModel()
 	std::string localString = localModel.GetName();
 }
 
-int main()
+int main_local_only()
 {
 	CreateLocalModel();
 
