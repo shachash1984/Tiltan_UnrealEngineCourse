@@ -9,16 +9,24 @@ Mesh::Mesh()
 	position = Point();
 	vertices = std::vector<Vertex>();
 	InitVerts(30);
+
+	//cout << "Mesh:{ " + ToString() + " }" << endl;
 }
 
 Mesh::Mesh(std::string nameVal, Point pos, std::vector<Vertex> verts)
 	: name(name), position(pos), vertices(verts)
 {
+	//cout << "Mesh:{ " + ToString() + " }" << endl;
 }
 
 void Mesh::SetPosition(float xVal, float yVal, float zVal)
 {
 	position.SetPos(xVal, yVal, zVal);
+}
+
+void Mesh::ChangeName(std::string nameVal)
+{
+	name = nameVal;
 }
 
 Point Mesh::GetVertexWorldPosition(unsigned int index)
