@@ -1,0 +1,16 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\tiltan\\tiltan_unrealenginecourse\\projects\\tiltanphysics\\source\\tiltanphysics\\private\\target.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\tiltan\\tiltan_unrealenginecourse\\projects\\tiltanphysics\\intermediate\\build\\win64\\tiltanphysicseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\tiltan\\tiltan_unrealenginecourse\\projects\\tiltanphysics\\intermediate\\build\\win64\\unrealeditor\\development\\tiltanphysics\\definitions.tiltanphysics.h",
+            "d:\\tiltan\\tiltan_unrealenginecourse\\projects\\tiltanphysics\\source\\tiltanphysics\\public\\target.h",
+            "d:\\tiltan\\tiltan_unrealenginecourse\\projects\\tiltanphysics\\intermediate\\build\\win64\\unrealeditor\\inc\\tiltanphysics\\target.generated.h",
+            "d:\\tiltan\\tiltan_unrealenginecourse\\projects\\tiltanphysics\\source\\tiltanphysics\\tiltanphysics.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
