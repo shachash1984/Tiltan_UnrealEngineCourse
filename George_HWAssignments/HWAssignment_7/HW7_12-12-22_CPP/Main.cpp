@@ -5,14 +5,31 @@ using std::endl;
 
 int main()
 {
-	Mesh plBody;
-	plBody.ChangeName("Player Body");
-	Mesh plWeapon;
-	plWeapon.ChangeName("Player Weapon");
+	// Stack
+	Mesh plBodyA;
+	plBodyA.ChangeName("Player Body1");
+	Mesh* plBodyPointerA = &plBodyA;
 
-	//Player p1("Player1", plBody, plWeapon);
+	Mesh plWeaponA;
+	plWeaponA.ChangeName("Player Weapon1");
+	Mesh* plWeaponPointerA = &plWeaponA;
 
-	//cout << "Player:{ " + p1.ToString() + " }" << endl;
+	Player p1("Player1", plBodyPointerA, plWeaponPointerA);
+
+	cout << "Player:{ " + p1.ToString() + " }" << endl;
+	
+
+	// Heap
+	Mesh* plBodyPointerB = new Mesh;
+	plBodyPointerB->ChangeName("Player Body2");
+
+	Mesh* plWeaponPointerB = new Mesh;
+	plWeaponPointerB->ChangeName("Player Weapon2");
+
+	Player p2("Player2", plBodyPointerB, plWeaponPointerB);
+
+	cout << "Player:{ " + p2.ToString() + " }" << endl;
+
 
 	return 0;
 }
