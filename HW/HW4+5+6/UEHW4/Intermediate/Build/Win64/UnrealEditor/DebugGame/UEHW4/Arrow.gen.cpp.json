@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4+5+6\\uehw4\\intermediate\\build\\win64\\unrealeditor\\inc\\uehw4\\arrow.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4+5+6\\uehw4\\intermediate\\build\\win64\\uehw4editor\\debuggame\\engine\\sharedpch.engine.nonoptimized.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4+5+6\\uehw4\\intermediate\\build\\win64\\unrealeditor\\debuggame\\uehw4\\definitions.uehw4.h",
+            "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4+5+6\\uehw4\\source\\uehw4\\public\\arrow.h",
+            "c:\\users\\mark4\\documents\\tiltan_unrealenginecourse\\hw\\hw4+5+6\\uehw4\\intermediate\\build\\win64\\unrealeditor\\inc\\uehw4\\arrow.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
