@@ -1,13 +1,13 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class456hw\\intermediate\\build\\win64\\unrealeditor\\inc\\class4hw\\target2.gen.cpp",
+        "Source": "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\intermediate\\build\\win64\\unrealeditor\\inc\\class4hw\\target2.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class456hw\\intermediate\\build\\win64\\class4hweditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\intermediate\\build\\win64\\class4hweditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class456hw\\intermediate\\build\\win64\\unrealeditor\\development\\class4hw\\definitions.class4hw.h",
-            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class456hw\\source\\class4hw\\public\\target2.h",
-            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class456hw\\intermediate\\build\\win64\\unrealeditor\\inc\\class4hw\\target2.generated.h"
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\intermediate\\build\\win64\\unrealeditor\\development\\class4hw\\definitions.class4hw.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\source\\class4hw\\public\\target2.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\intermediate\\build\\win64\\unrealeditor\\inc\\class4hw\\target2.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

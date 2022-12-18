@@ -186,15 +186,15 @@ void EmptyLinkFunctionForGeneratedCodeArrow2() {}
 		return AArrow2::StaticClass();
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AArrow2);
-	struct Z_CompiledInDeferFile_FID_Class456HW_Source_Class4HW_Public_Arrow2_h_Statics
+	struct Z_CompiledInDeferFile_FID_Class4_5_6HW_Source_Class4HW_Public_Arrow2_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Class456HW_Source_Class4HW_Public_Arrow2_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Class4_5_6HW_Source_Class4HW_Public_Arrow2_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_AArrow2, AArrow2::StaticClass, TEXT("AArrow2"), &Z_Registration_Info_UClass_AArrow2, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AArrow2), 3630178028U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Class456HW_Source_Class4HW_Public_Arrow2_h_3060769296(TEXT("/Script/Class4HW"),
-		Z_CompiledInDeferFile_FID_Class456HW_Source_Class4HW_Public_Arrow2_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Class456HW_Source_Class4HW_Public_Arrow2_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Class4_5_6HW_Source_Class4HW_Public_Arrow2_h_3060769296(TEXT("/Script/Class4HW"),
+		Z_CompiledInDeferFile_FID_Class4_5_6HW_Source_Class4HW_Public_Arrow2_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Class4_5_6HW_Source_Class4HW_Public_Arrow2_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

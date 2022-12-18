@@ -75,15 +75,15 @@ void EmptyLinkFunctionForGeneratedCodeClass4HWGameModeBase() {}
 		return AClass4HWGameModeBase::StaticClass();
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AClass4HWGameModeBase);
-	struct Z_CompiledInDeferFile_FID_Class456HW_Source_Class4HW_Class4HWGameModeBase_h_Statics
+	struct Z_CompiledInDeferFile_FID_Class4_5_6HW_Source_Class4HW_Class4HWGameModeBase_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Class456HW_Source_Class4HW_Class4HWGameModeBase_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Class4_5_6HW_Source_Class4HW_Class4HWGameModeBase_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_AClass4HWGameModeBase, AClass4HWGameModeBase::StaticClass, TEXT("AClass4HWGameModeBase"), &Z_Registration_Info_UClass_AClass4HWGameModeBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AClass4HWGameModeBase), 4219055356U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Class456HW_Source_Class4HW_Class4HWGameModeBase_h_1221509188(TEXT("/Script/Class4HW"),
-		Z_CompiledInDeferFile_FID_Class456HW_Source_Class4HW_Class4HWGameModeBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Class456HW_Source_Class4HW_Class4HWGameModeBase_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Class4_5_6HW_Source_Class4HW_Class4HWGameModeBase_h_1221509188(TEXT("/Script/Class4HW"),
+		Z_CompiledInDeferFile_FID_Class4_5_6HW_Source_Class4HW_Class4HWGameModeBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Class4_5_6HW_Source_Class4HW_Class4HWGameModeBase_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

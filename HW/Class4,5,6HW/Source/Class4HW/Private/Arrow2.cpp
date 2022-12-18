@@ -31,6 +31,14 @@ AArrow2::AArrow2()
 	Arrow->SetWorldScale3D(FVector(0.1f, 0.1f, 0.2f));
 	Arrow->SetSimulatePhysics(true);
 
+
+	Arrow->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+	Arrow->SetCollisionResponseToChannel(ECC_Pawn, ECR_Ignore);
+	Arrow->SetNotifyRigidBodyCollision(true);
+
+	FScriptDelegate CollisionDelegate;
+	CollisionDelegate.BindUFunction(this, "OnCollision");
+	Arrow->OnComponentHit.Add(CollisionDelegate);
 }
 
 // Called when the game starts or when spawned

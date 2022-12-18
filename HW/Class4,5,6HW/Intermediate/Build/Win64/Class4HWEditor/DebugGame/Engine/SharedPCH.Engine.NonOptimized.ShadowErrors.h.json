@@ -1,10 +1,10 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class456hw\\intermediate\\build\\win64\\class4hweditor\\debuggame\\engine\\sharedpch.engine.nonoptimized.shadowerrors.cpp",
+        "Source": "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\intermediate\\build\\win64\\class4hweditor\\debuggame\\engine\\sharedpch.engine.nonoptimized.shadowerrors.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class456hw\\intermediate\\build\\win64\\class4hweditor\\debuggame\\engine\\sharedpch.engine.nonoptimized.shadowerrors.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\intermediate\\build\\win64\\class4hweditor\\debuggame\\engine\\sharedpch.engine.nonoptimized.shadowerrors.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\public\\enginesharedpch.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\core\\public\\containers\\containersfwd.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\core\\public\\hal\\platform.h",
