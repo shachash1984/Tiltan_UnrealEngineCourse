@@ -40,7 +40,7 @@ AArrow2::AArrow2()
 
 	//GEnerate Hit event
 	FScriptDelegate CollisionDelegate;
-	CollisionDelegate.BindUFunction(this, "OnCollision2");
+	CollisionDelegate.BindUFunction(this, "OnCollision");
 	ArrowHead->OnComponentHit.Add(CollisionDelegate);
 }
 
