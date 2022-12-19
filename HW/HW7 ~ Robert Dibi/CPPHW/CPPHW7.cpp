@@ -137,19 +137,34 @@ public:
 int main()
 {
 	//Stack
+	Point point;
+	Color color;
+	Vertex vertex;
 	Mesh Body;
 	Mesh Weapon;
 	Player p1;
-p1 : ("Robert", Body, Weapon);
+    p1 : ("Robert", Body, Weapon);
 	cout<<p1.ToString();
 
 
 
 	//Heap
-	Mesh* hBody = new Mesh;
-	Mesh* hWeapon = new Mesh;
+	Point* hPoint = new Point(0, 0, 0);
+	Color* hColor = new Color(0, 0, 0, 1);
+	Vertex* hVertex = new Vertex(*hPoint, *hColor);
+	vector<Vertex> hVerteces = new vector<Vertex>;
+	for (size_t i = 0; i < length; i++)
+	{
+		hVerteces->emplace_back(Point(static_cast<float>(i), static_cast<float>(i) * 2, static_cast<float>(i) - 3, 5f), Color(0.1f, 0.2f, 0.3f, 0.4f));
+	}
+	Mesh* hBody = new Mesh("Mohammad Abul The Third", *hPoint, *hVertex);
+	Mesh* hWeapon = new Mesh();
 	Player* p2 = new Player("Mohammad Abul The Third" ,hBody, hWeapon);
-	cout << p2->ToString();
+	cout << p2->ToString() << endl;
+	delete hPoint;
+	delete hColor;
+	delete hVertex;
+	delete hBody;
 	delete hBody;
 	delete hWeapon;
 	delete p2;
