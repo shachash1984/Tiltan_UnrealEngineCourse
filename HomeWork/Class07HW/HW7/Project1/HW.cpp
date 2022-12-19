@@ -1,11 +1,16 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
 struct Point {
 	float x, y, z;
 public:
-	Point();
+	Point() {
+		x = 0;
+		y = 0;
+		z = 0;
+	};
 	Point(float _x, float _y, float _z) {
 		x = _x;
 		y = _y;
@@ -18,9 +23,10 @@ public:
 		z = p1.z;
 	}
 
-	~Point();
+	~Point(){};
 	string ToString() {
 		//return "X: " + x + "\n Y: " + y + "\n Z: " + z;
+		return "";
 	}
 	float GetX() {
 		return x;
@@ -44,7 +50,12 @@ public:
 struct Color {
 	float r, g, b, a; //valid values are only between 0.0f and 1.0f
 public:
-	Color();
+	Color() {
+		r = 0;
+		g = 0;
+		b = 0;
+		a = 0;
+	};
 	Color(float _r, float _g, float _b, float _a) {
 		r = _r;
 		g = _g;
@@ -59,9 +70,10 @@ public:
 		a = c1.a;
 	}
 
-	~Color();
+	~Color(){};
 	string ToString() {
 		//return "R: " + r + "\n G: " + g + "\n B: " + b + "\n A" + a;
+		return "";
 	}
 	void Set(float _r, float _g, float _b, float _a);
 };
@@ -69,7 +81,10 @@ class Vertex {
 	Point position;
 	Color color;
 public:
-	Vertex();
+	Vertex() {
+	position:(0, 0, 0);
+	color:(0, 0, 0, 0);
+	};
 	Vertex(Point _pos, Color _col) {
 		position = _pos;
 		color = _col;
@@ -80,9 +95,10 @@ public:
 		color = v1.color;
 	}
 
-	~Vertex();
+	~Vertex(){};
 	string ToString() {
 		//return "Position: " + position + "\n Color: " + color ;
+		return "";
 	}
 	Point GetPosition() {
 		return position;
@@ -99,18 +115,23 @@ public:
 };
 class Mesh {
 	string name;
-	//vector<Vertex> vertices;
+	vector<Vertex> vertices;
 	Point position;
 public:
-	Mesh();
-	Mesh(string _name, Point _position/*, vector<Vertex> _vertices*/) {
+	Mesh() {
+		name = "";
+		vertices = vector<Vertex>();
+		position:(0, 0, 0);
+	};
+	Mesh(string _name, Point _position, vector<Vertex> _vertices) {
 		name = _name;
 		position = _position;
-		//vertices = _vertices;
+		vertices = _vertices;
 	}
-	
+
 	string ToString() {
 		//return "Name:"+name+"\n Position:"+position+" Vertices: Vertex "+vertices.Index+": Position: "+vertices.position+" Color: "+ vertices.color+"\n";
+		return "";
 	}
 };
 class Player {
@@ -128,11 +149,43 @@ public:
 		PlayerWeapon = _weapon;
 	}
 
-	~Player();
+	~Player(){};
 	string ToString() {
-		//return "Player: Name:"+name+"\n Body:"+PlayerBody +"\n Weapon:"+PlayerWeapon+"\n";
+		//return "Player: Name:"+name+"\n Body:"+ PlayerBody +"\n Weapon:"+PlayerWeapon+"\n";
+		return "";
 	}
 };
 int main() {
+	//Stack
+	Point point;
+	Color color;
+	Vertex vertex;
+	Mesh Body;
+	Mesh Weapon;
+	Player p1;
+	p1: ("Nizar", Body, Weapon);
+	cout << p1.ToString() << endl;
 
+	//Heap
+	Point* hPoint = new Point(0, 0, 0);
+	Color* hColor = new Color(0, 0, 0, 1);
+	Vertex* hVertex = new Vertex(*hPoint, *hColor);
+	constexpr int size = 30;
+	vector<Vertex>* hVerteces = new vector<Vertex>(size);
+	for (size_t i = 0; i < size; i++)
+	{
+		hVerteces->emplace_back(Point(static_cast<float>(i), static_cast<float>(i) * 2, static_cast<float>(i) - 3.5f), Color(0.1f, 0.2f, 0.3f, 0.4f));
+	}
+	Mesh* hBody = new Mesh("Body", *hPoint, *hVerteces);
+	Mesh* hWeapon = new Mesh("M4A1", *hPoint, *hVerteces);
+	Player* p2 = new Player("Nezo", hBody, hWeapon);
+	cout << p2->ToString() << endl;
+
+	delete hPoint;
+	delete hColor;
+	delete hVertex;
+	delete hVerteces;
+	delete hBody;
+	delete hWeapon;
+	delete p2;
 }
