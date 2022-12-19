@@ -5,7 +5,7 @@
 using namespace std;
 
 
-int main_iterators()
+int main()
 {
     vector<int> vectorOfInts = { 1, 2, 3, 4, 5 };
       
@@ -71,7 +71,10 @@ int main_iterators()
      
     // Using advance to set position
     advance(it_ins, 3);
-      
+
+
+    /* A little more complex - read carefully*/
+
     // copying 1 vector elements in other using inserter()
     // inserts ar1 after 3rd position in ar
     copy(ar1.begin(), ar1.end(), inserter(ar,it_ins)); // ar1.begin() == start of the inserted vector
@@ -85,6 +88,6 @@ int main_iterators()
 	    cout << x << " ";
     }
         
-      
+    getchar();
     return 0;    
 }
