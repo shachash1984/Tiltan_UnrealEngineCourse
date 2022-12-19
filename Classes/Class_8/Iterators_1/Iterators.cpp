@@ -15,11 +15,12 @@ int main()
     // Displaying vector elements using begin() and end()
     cout << "The vector elements are : ";
 
-    for (it1 = vectorOfInts.begin(); it1 < vectorOfInts.end(); it1++)
+    for (it1 = vectorOfInts.begin(); it1 != vectorOfInts.end(); it1++)
     {
 	    cout << *it1 << " ";
     }
     cout << endl;
+
     //This works too:
     for (it1 = begin(vectorOfInts); it1 < end(vectorOfInts); ++it1)
     {
@@ -51,7 +52,7 @@ int main()
       
     // Using prev() to return new iterator
     // points to 2
-    auto it_prev = prev(ftr, 3); // same as ptr+3 - 1;
+    auto it_prev = prev(ftr, 3); // same as ftr - 3;
 
     // Displaying iterator position
     cout << "The position of new iterator using next() is : ";
