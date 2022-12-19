@@ -22,8 +22,13 @@ protected:
 	UPROPERTY(EditAnywhere)
 	UStaticMeshComponent* MeshComponent{nullptr};
 
+	
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UFUNCTION()
+	void OnHit();
 
 };
