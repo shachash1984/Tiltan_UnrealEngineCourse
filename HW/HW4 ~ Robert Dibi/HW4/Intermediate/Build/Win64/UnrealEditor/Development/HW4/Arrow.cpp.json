@@ -7,7 +7,10 @@
         "Includes": [
             "c:\\users\\sk3l3\\onedrive\\documents\\github\\tiltan\\unreal5\\tiltan_unrealenginecourse\\hw\\hw4 ~ robert dibi\\hw4\\intermediate\\build\\win64\\unrealeditor\\development\\hw4\\definitions.hw4.h",
             "c:\\users\\sk3l3\\onedrive\\documents\\github\\tiltan\\unreal5\\tiltan_unrealenginecourse\\hw\\hw4 ~ robert dibi\\hw4\\source\\hw4\\public\\arrow.h",
-            "c:\\users\\sk3l3\\onedrive\\documents\\github\\tiltan\\unreal5\\tiltan_unrealenginecourse\\hw\\hw4 ~ robert dibi\\hw4\\intermediate\\build\\win64\\unrealeditor\\inc\\hw4\\arrow.generated.h"
+            "c:\\users\\sk3l3\\onedrive\\documents\\github\\tiltan\\unreal5\\tiltan_unrealenginecourse\\hw\\hw4 ~ robert dibi\\hw4\\intermediate\\build\\win64\\unrealeditor\\inc\\hw4\\arrow.generated.h",
+            "c:\\users\\sk3l3\\onedrive\\documents\\github\\tiltan\\unreal5\\tiltan_unrealenginecourse\\hw\\hw4 ~ robert dibi\\hw4\\source\\hw4\\hw4.h",
+            "c:\\users\\sk3l3\\onedrive\\documents\\github\\tiltan\\unreal5\\tiltan_unrealenginecourse\\hw\\hw4 ~ robert dibi\\hw4\\source\\hw4\\public\\target.h",
+            "c:\\users\\sk3l3\\onedrive\\documents\\github\\tiltan\\unreal5\\tiltan_unrealenginecourse\\hw\\hw4 ~ robert dibi\\hw4\\intermediate\\build\\win64\\unrealeditor\\inc\\hw4\\target.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
