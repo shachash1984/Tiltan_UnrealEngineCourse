@@ -4,7 +4,6 @@
 #include "Color.h"
 #include "Mesh.h"
 #include "Player.h"
-Player stackPlayer;
 using namespace std;
 int main()
 {
@@ -42,11 +41,11 @@ int main()
 
 
 	Player characterControler("Player", &mesh1, &mesh2);//heap
-	stackPlayer =* new Player("Player", &mesh1, &mesh2);//stack
+	Player* stackPlayer = new Player("Player", &mesh1, &mesh2);//stack
 	//"Player", mesh1, mesh2
 	cout << characterControler.ToString() << endl;
 
-	//delete &stackPlayer;
+	delete stackPlayer;
 	//delete &characterControler;
 	return 0;
 }
