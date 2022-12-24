@@ -29,7 +29,8 @@ int main()
 	Mesh bodyMesh("Ron Body Mesh", meshPT2, vertices);
 
 	string playerName = "Ron";
-	Player player(playerName, &bodyMesh, &weaponMesh); 
+	Player player(playerName, &bodyMesh, &weaponMesh); // Stack
+	Player* heapPlayer = new Player("heapPlayer", &bodyMesh, &weaponMesh); // Heap
 
 	cout << pt.ToString() << endl;
 	cout << col.ToString() << endl;
@@ -38,5 +39,6 @@ int main()
 	cout << weaponMesh.GetVertexWorldPosition(0).ToString() << endl;
 	cout << player.ToString() << endl;
 
+	delete heapPlayer; // have to delete pointer to prevent memory leak
 	return 0;
 }
