@@ -99,19 +99,29 @@ bool IsBalanced(string expression)
 	return false;
 }
 
+string BoolToString(bool input)
+{
+	if (input)
+	{
+		return "true";
+	}
+	else
+	{
+		return "false";
+	}
+}
+
 int main()
 {
-	string expression1 = "[()]{}{[()()]()}";
-	string expression2 = "[()]{ {[()()]()}";
+	string expression1 = "[()] {} {[()()]()}";
+	string expression2 = "[()] {  {[()()]()}";
 	string expression3 = "[(])";
-	string expression4 = "[a])";
-	bool b = true;
+	string expression4 = "[a]()";
 
-
-	cout << "The Expression " + expression1 + " is balanced : " + to_string(IsBalanced(expression1)) + "\n" << endl;
-	cout << "The Expression " + expression2 + " is balanced : " + to_string(IsBalanced(expression2)) + "\n" << endl;
-	cout << "The Expression " + expression3 + " is balanced : " + to_string(IsBalanced(expression3)) + "\n" << endl;
-	cout << "The Expression " + expression4 + " is balanced : " + to_string(IsBalanced(expression4)) + "\n" << endl;
+	cout << "Is the Expression \"" + expression1 + "\" balanced? " + BoolToString(IsBalanced(expression1)) + "\n" << endl;
+	cout << "Is the Expression \"" + expression2 + "\" balanced? " + BoolToString(IsBalanced(expression2)) + "\n" << endl;
+	cout << "Is the Expression \"" + expression3 + "\" balanced? " + BoolToString(IsBalanced(expression3)) + "\n" << endl;
+	cout << "Is the Expression \"" + expression4 + "\" balanced? " + BoolToString(IsBalanced(expression4)) + "\n" << endl;
 
 	return 0;
 }
