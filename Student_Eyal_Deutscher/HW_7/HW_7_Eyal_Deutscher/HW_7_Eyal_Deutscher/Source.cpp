@@ -40,8 +40,8 @@ int main()
 	Mesh mesh2("mesh 2", position3, vertices1);
 
 
-	Player characterControler("Player", &mesh1, &mesh2);//heap
-	Player* stackPlayer = new Player("Player", &mesh1, &mesh2);//stack
+	Player characterControler("Player", &mesh1, &mesh2);//stack
+	Player* stackPlayer = new Player("Player", &mesh1, &mesh2);//heap
 	//"Player", mesh1, mesh2
 	cout << characterControler.ToString() << endl;
 
