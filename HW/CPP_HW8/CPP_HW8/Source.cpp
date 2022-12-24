@@ -39,6 +39,7 @@ bool GetKey(stack<char> &stackOfChars, char c)
 		cout << "Value is not in map" << endl;
 		return false;
 	}
+
 	if (bracketsMap[stackOfChars.top()] == c)
 	{
 		//the brackets match
@@ -71,8 +72,9 @@ bool IsBalanced(string expression)
 		}
 		else if (*it == ')' || *it == ']' || *it == '}')
 		{
-			if (openBrackets.empty()) // in case that a closing bracket is the first char
+			if (openBrackets.empty()) 
 			{
+				// In case there is a closing bracket and no open brackets to work with
 				return false;
 			}
 
