@@ -2,6 +2,17 @@
 
 int main()
 {
+	int n =5;
+	int& r = n;
+	int* ptr = &r;
+	int* ptr2 = &n;
+	int& r2 = *ptr;
+	int*& rptr = ptr;
+	//int*& rptr2 = &ptr2; // ERROR
+	int** pptr = &ptr;
+
+	std::cout << "n = " << *ptr << std::endl;
+
 	int i1 =1;
 	std::cout << "i1= " << i1 << std::endl;
 	int i2;
