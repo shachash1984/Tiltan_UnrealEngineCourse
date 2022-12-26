@@ -37,13 +37,10 @@ struct Color {
 	// default constructor
 	Color() : r(0), g(0), b(0), a(0) {}
 
-	// constructor with arguments
 	Color(float _r, float _g, float _b, float _a) : r(_r), g(_g), b(_b), a(_a) {}
 
-	// copy constructor
 	Color(const Color& other) : r(other.r), g(other.g), b(other.b), a(other.a) {}
 
-	// destructor
 	~Color() {}
 
 	std::string ToString() {
@@ -63,16 +60,12 @@ private:
 	Color color;
 
 public:
-	// default constructor
 	Vertex() : position(), color() {}
 
-	// constructor with arguments
 	Vertex(Point _pos, Color _col) : position(_pos), color(_col) {}
 
-	// copy constructor
 	Vertex(const Vertex& other) : position(other.position), color(other.color) {}
 
-	// destructor
 	~Vertex() {}
 
 	std::string ToString() {
@@ -148,13 +141,10 @@ private:
 	Mesh* weapon;
 
 public:
-	// default constructor
 	Player() : name(), body(nullptr), weapon(nullptr) {}
 
-	// constructor with arguments
 	Player(std::string _name, Mesh* _body, Mesh* _weapon) : name(_name), body(_body), weapon(_weapon) {}
 
-	// destructor
 	~Player() {
 		delete body;
 		delete weapon;
@@ -194,30 +184,22 @@ int main() {
 #pragma endregion 
 #pragma region Color
 
-	// create a Color object with the default constructor
 	Color c1;
 
-	// create a Color object with the constructor with arguments
 	Color c2(0.5, 0.2, 1.0, 1.0);
 
-	// create a Color object with the copy constructor
 	Color c3 = c2;
 
-	// create a Vertex object with the default constructor
 	Vertex v1;
 
-	// create a Vertex object with the constructor with arguments
 	Vertex v2(Point(1.2, -15.0, 0.1), Color(0.5, 0.2, 1.0, 1.0));
 
-	// create a Vertex object with the copy constructor
 	Vertex v3 = v2;
 
-	// print the Color objects
 	std::cout << "c1: " << c1.ToString() << std::endl;
 	std::cout << "c2: " << c2.ToString() << std::endl;
 	std::cout << "c3: " << c3.ToString() << std::endl;
 
-	// print the Vertex objects
 	std::cout << "v1: " << v1.ToString() << std::endl;
 	std::cout << "v2: " << v2.ToString() << std::endl;
 	std::cout << "v3: " << v3.ToString() << std::endl;
@@ -233,10 +215,8 @@ int main() {
 	  Vertex(Point(3.6, -45.0, 0.3), Color(1.0, 0.5, 0.2, 1.0))
 	};
 
-	// create a Mesh object with the constructor with arguments
 	Mesh mesh("Gun Of The Gods", Point(10.0, 20.0, 30.0), vertices);
 
-	// print the Mesh object
 	std::cout << mesh.ToString() << std::endl;
 #pragma endregion 
 #pragma region Player
@@ -254,17 +234,13 @@ int main() {
 	};
 	Mesh* weapon = new Mesh("WEAPON_NAME", Point(0.0, 0.0, 0.0), weaponVertices);
 
-	// create a Player object on the stack with the constructor with arguments
 	Player player1("PLAYER_NAME", body, weapon);
 
-	// create a Player object on the heap with the constructor with arguments
 	Player* player2 = new Player("PLAYER_NAME", body, weapon);
 
-	// print the Player objects
 	std::cout << "player1: " << player1.ToString() << std::endl;
 	std::cout << "player2: " << player2->ToString() << std::endl;
 
-	// delete the Player object on the heap
 	delete player2;
 #pragma endregion
 	return 0;
