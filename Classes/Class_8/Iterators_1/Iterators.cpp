@@ -5,7 +5,7 @@
 using namespace std;
 
 
-int main_iterators()
+int main()
 {
     vector<int> vectorOfInts = { 1, 2, 3, 4, 5 };
       
@@ -15,11 +15,12 @@ int main_iterators()
     // Displaying vector elements using begin() and end()
     cout << "The vector elements are : ";
 
-    for (it1 = vectorOfInts.begin(); it1 < vectorOfInts.end(); it1++)
+    for (it1 = vectorOfInts.begin(); it1 != vectorOfInts.end(); it1++)
     {
 	    cout << *it1 << " ";
     }
     cout << endl;
+
     //This works too:
     for (it1 = begin(vectorOfInts); it1 < end(vectorOfInts); ++it1)
     {
@@ -51,7 +52,7 @@ int main_iterators()
       
     // Using prev() to return new iterator
     // points to 2
-    auto it_prev = prev(ftr, 3); // same as ptr+3 - 1;
+    auto it_prev = prev(ftr, 3); // same as ftr - 3;
 
     // Displaying iterator position
     cout << "The position of new iterator using next() is : ";
@@ -71,7 +72,10 @@ int main_iterators()
      
     // Using advance to set position
     advance(it_ins, 3);
-      
+
+
+    /* A little more complex - read carefully*/
+
     // copying 1 vector elements in other using inserter()
     // inserts ar1 after 3rd position in ar
     copy(ar1.begin(), ar1.end(), inserter(ar,it_ins)); // ar1.begin() == start of the inserted vector
@@ -85,6 +89,6 @@ int main_iterators()
 	    cout << x << " ";
     }
         
-      
+    getchar();
     return 0;    
 }
