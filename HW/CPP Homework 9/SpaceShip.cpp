@@ -45,6 +45,17 @@ void SpaceShip::ChangeWeapon(bool Forward)
 		currentWeapon = weapons[currentItemSlot];
 	}
 }
+void SpaceShip::SwitchToRandom()
+{
+	if (weapons.size() > 1)
+	{
+		std::random_device rd;  // Seed the random number generator
+		std::mt19937 mt(rd());  // Initialize the generator with a seed
+		std::uniform_int_distribution<int> dist(0, weapons.size() - 1);  // Set the range
+		int randomNumber = dist(mt);
+		currentWeapon = weapons[randomNumber];
+	}
+}
 void SpaceShip::Shoot()
 {
 	currentWeapon->Shoot();

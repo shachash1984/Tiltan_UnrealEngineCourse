@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include <vector>
+#include <random>
 #include "Weapon.h"
 #include "Weapon.h"
 
@@ -11,6 +12,7 @@ class SpaceShip
 		~SpaceShip();
 		void AddWeapon(Weapon& _weapon);
 		void ChangeWeapon(bool Forward);
+		void SwitchToRandom();
 		void Shoot();
 
 	private:

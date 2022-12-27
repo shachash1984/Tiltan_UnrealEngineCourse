@@ -17,9 +17,11 @@ int main()
     SpaceShip spaceship("The Dragon 5", weapons);
     spaceship.AddWeapon(rocket);
 
+#pragma region before bonus
     //plasma.Shoot();
     //laser.Shoot();
     //rocket.Shoot();
+#pragma endregion
 
     spaceship.Shoot();
     spaceship.ChangeWeapon(true);
@@ -29,5 +31,7 @@ int main()
     spaceship.ChangeWeapon(true);
     spaceship.Shoot();
     spaceship.ChangeWeapon(false);
+    spaceship.Shoot();
+    spaceship.SwitchToRandom(); //Bonus 
     spaceship.Shoot();
 }
