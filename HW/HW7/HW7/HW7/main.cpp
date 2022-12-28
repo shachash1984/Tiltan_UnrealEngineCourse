@@ -42,6 +42,10 @@ int main()
 	delete sharonsWeapon;
 	delete player;
 
+	//Vertex v;
+	//v.SetPosition(1, 2, 3); // This code was added by me, try uncommenting and see what the values. this is because you used commas and not semicolons in the SetPosition function
+	//cout << v.ToString();
+
 	//cout << sharonsBody->ToString();
 	//cout << sharonsWeapon->ToString();
 	//cout << player->ToString();

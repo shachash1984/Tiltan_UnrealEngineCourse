@@ -4,7 +4,7 @@ Mesh::Mesh() : _name("Unkown"), _position(Point())
 {
 	for (size_t i = 0; i < 30; i++)
 	{
-		_vertices.push_back(Vertex(Point((float)i, (float)i, (float)i), Color()));
+		_vertices.push_back(Vertex(Point((float)i, (float)i, (float)i), Color())); // -2 why not use static_cast<float>(i) instead of (float)i?
 	}
 }
 

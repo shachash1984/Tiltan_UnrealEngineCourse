@@ -12,7 +12,7 @@ Point::Point(float x, float y, float z) : _x(x), _y(y), _z(z)
 
 }
 
-Point::Point(const Point& other)
+Point::Point(const Point& other) // -1 why not initialize in the constructor like you did in color
 {
 	_x = other._x;
 	_y = other._y;

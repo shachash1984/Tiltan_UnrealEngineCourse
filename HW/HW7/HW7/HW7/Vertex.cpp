@@ -8,6 +8,6 @@ Vertex::Vertex(const Vertex& other) : _position(other._position), _color(other._
 
 Vertex::~Vertex() {}
 
-void Vertex::SetPosition(float x, float y, float z) { _position.SetX(x), _position.SetX(y) , _position.SetX(z); }
+void Vertex::SetPosition(float x, float y, float z) { _position.SetX(x), _position.SetX(y), _position.SetX(z); } // -5 why did you use a comma here instead of a semicolon?
 
 void Vertex::SetColor(float r, float g, float b, float a) { _color.Set(r, g, b, a); }
