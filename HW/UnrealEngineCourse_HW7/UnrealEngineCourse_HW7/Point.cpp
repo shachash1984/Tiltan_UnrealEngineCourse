@@ -2,12 +2,14 @@
 
 Point::Point() : _x(0), _y(0), _z(0) {}
 
-Point::Point(float x, float y, float z) 
+Point::Point(float x, float y, float z) //Again this should be initialized in the constructor initialization list
+//: _x(x), _y(y), _z(z)
 {
 	_x = x;
 	_y = y;
 	_z = z;
 }
+
 
 Point::Point(const Point& other) 
 {
