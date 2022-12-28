@@ -5,7 +5,7 @@ using namespace std;
 
 Vertex::Vertex()
 {
-	_position = *new Point();
+	_position = *new Point(); //-10 This is a memory leak. You are creating a point on the heap and copying its values to _position
 	_color = *new Color();
 }
 

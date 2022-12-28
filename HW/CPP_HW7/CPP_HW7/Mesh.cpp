@@ -5,13 +5,13 @@
 
 using namespace std;
 
-const string DEFAULT_NAME = "default";
+const string DEFAULT_NAME = "default"; // -2 why not define the variable as part of the class? no global variables
 
-Mesh::Mesh()
+Mesh::Mesh() // -5 Variables should be set in the constructor initializer list
 {
 	_name = DEFAULT_NAME;
-	_position = Point();
-	_vertices = vector<Vertex>();
+	_position = Point(); // -5 This not needed, the default constructor will be called automatically, also you are using the copy assignment operator instead of a copy constructor
+	_vertices = vector<Vertex>(); // same here
 }
 
 Mesh::Mesh(string name, Point position, vector<Vertex> vertices)
