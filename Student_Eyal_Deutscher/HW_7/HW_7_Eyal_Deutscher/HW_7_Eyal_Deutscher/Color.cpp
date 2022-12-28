@@ -2,7 +2,7 @@
 #include <string>
 #include <iostream>
 using namespace std;
-const float DEFAULT = 0;
+const float DEFAULT = 0; // it is ok to create a default const variable, but not on the global scope - it should be a class member
 const float MIN = 0;
 const float MAX = 1;
 

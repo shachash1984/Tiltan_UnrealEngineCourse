@@ -2,8 +2,8 @@
 #include <iostream>
 #include <string>
 using namespace std;
-const float DEFAULT = 0;
-Point::Point()
+const float DEFAULT = 0; // -5 it is ok to create a default const variable, but not on the global scope - it should be a class member
+Point::Point() //Variables should be initialized in constructor initializer list
 {
 	std::cout << "Default Constructor Point" << std::endl;
 	_x = DEFAULT;
@@ -30,7 +30,7 @@ Point::~Point()
 }
 string Point:: ToString()
 {
-	string point = "(" + to_string(_x) + ", " + to_string(_y) + ", " + to_string(_z) + ")";
+	string point = "(" + to_string(_x) + ", " + to_string(_y) + ", " + to_string(_z) + ")"; //you can narrow it down to one line
 	return point;
 }
 

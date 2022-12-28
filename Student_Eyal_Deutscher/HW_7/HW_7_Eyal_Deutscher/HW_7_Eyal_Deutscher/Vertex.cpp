@@ -3,17 +3,17 @@
 #include <iostream>
 using namespace std;
 
-Vertex::Vertex()
+Vertex::Vertex() // need to initialize variables in initialization list
 {
 	std::cout << "Default Constructor Vertex" << std::endl;
-	_position =  Point();
-	_color = Color();
+	_position = Point(); //-5 you don't need this line and the next because _position and _color will automatically be initialized 
+	_color = Color();	// also when you write it this way it is not a copy constructor, it is an "Assignment Operator". You are creating an anonymous point and then calling the '=' operator (which you didn't implement because we haven't learned it yet)
 }
-Vertex::Vertex(Point pos, Color col)
+Vertex::Vertex(Point pos, Color col) // need to initialize variables in initialization list
 {
 	std::cout << "Constructor Vertex" << std::endl;
-	_position = pos;
-	_color = col;
+	_position = pos; // -5 the correct way is _position(col) - that is a copy constructor and not use '='
+	_color = col; 
 }
 Vertex::Vertex(const Vertex& other)
 {

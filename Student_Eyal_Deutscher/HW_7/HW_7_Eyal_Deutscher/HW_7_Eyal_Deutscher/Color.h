@@ -8,7 +8,7 @@ private:
 	bool IsInRange(float number);
 	void TryAssignValue(float input,float *member);
 public:
-	struct Color();
+	struct Color(); // * 5 points deducted from Point.h * The word "struct" is not needed here the compiler doesn't know that you are declaring a constructor
 	struct Color(float r, float g, float b, float a);
 	struct Color(const Color& other);
 	~Color();

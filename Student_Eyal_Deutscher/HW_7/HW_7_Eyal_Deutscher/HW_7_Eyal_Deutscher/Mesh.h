@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include "Point.h"
+//missing an include here (Vertex.h) instead of Point.h
 using namespace std;
 class Mesh
 {
