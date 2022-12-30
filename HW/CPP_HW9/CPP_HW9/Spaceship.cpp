@@ -1,4 +1,4 @@
-#pragma once
+#pragma once // no need to have this in a .cpp file because cpp files are not being included in other files
 #include "Spaceship.h"
 #include "Weapon.h"
 #include <vector>
