@@ -15,10 +15,9 @@ Spaceship::~Spaceship()
 }
 void Spaceship::AddWeapon(Weapon& weapon)
 {
-	_currentWeapon = weapon;
-
-	_weapons.push_back(_currentWeapon);
+	_weapons.push_back(& weapon);
 }
 void Spaceship::TakeDamage(unsigned int damage)
 {
+	
 }
