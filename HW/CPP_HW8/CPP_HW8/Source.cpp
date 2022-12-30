@@ -61,6 +61,42 @@ bool IsBalanced(string expression)
 
 	for (it = expDismembered.begin(); it < expDismembered.end(); ++it)
 	{
+		switch (*it)
+		{
+		case ' ':	// Ignore spaces
+			continue;
+			break;
+
+		case '(':
+		case '[':
+		case '{':
+			openBrackets.push(*it);
+			break;
+
+		case ')':
+		case ']':
+		case '}':
+			if (openBrackets.empty())
+			{
+				// In case there is a closing bracket and no open brackets to work with
+				return false;
+			}
+
+			if (!GetKey(openBrackets, *it)) // Will pop Key if true
+			{
+				return false;
+			}
+			break;
+
+		default:
+			cout << "Invalid argument in expression: invalid chars detected" << endl;
+			return false;	
+			break;
+
+		
+		}
+
+		/*
 		if (*it == ' ') // Ignore spaces
 		{
 			continue;
@@ -70,6 +106,7 @@ bool IsBalanced(string expression)
 		{
 			openBrackets.push(*it);
 		}
+
 		else if (*it == ')' || *it == ']' || *it == '}')
 		{
 			if (openBrackets.empty()) 
@@ -85,18 +122,21 @@ bool IsBalanced(string expression)
 
 
 		}
+
 		else
 		{
 			cout << "Invalid argument in expression: invalid chars detected" << endl;
 			return false;
 		}
+		*/
 	}
 
-	if (openBrackets.empty()) // In case there is an open bracket we didnt close
+	if (!openBrackets.empty()) // In case there is an open bracket we didnt close
 	{
-		return true;
+		return false;
 	}
-	return false;
+
+	return true;
 }
 
 string BoolToString(bool input)
