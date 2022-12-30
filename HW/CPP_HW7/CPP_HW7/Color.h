@@ -9,7 +9,7 @@ private:
 	bool IsInRange(float number);
 	void TryAssignValue(float input, float *member);
 public:
-	struct Color();
+	struct Color(); // -5 This is wrong, you are defining a struct inside a struct. it should be a constructor: Color();
 	struct Color(float r, float g, float b, float a);
 	struct Color(const Color& other);
 	~Color();
