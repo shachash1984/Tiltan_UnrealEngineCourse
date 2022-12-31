@@ -26,3 +26,19 @@ void SpaceShip::AddWeapon(Weapon& _weapon)
 {
 	weapons.push_back(&_weapon);
 }
+
+void SpaceShip::Shoot()
+{
+	if (currentWeapon != nullptr)
+	{
+		currentWeapon->Shoot();
+	}
+}
+
+void SpaceShip::ShootAll()
+{
+	for (auto weapon : weapons)
+	{
+		weapon->Shoot();
+	}
+}

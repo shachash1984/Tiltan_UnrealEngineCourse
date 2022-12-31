@@ -1,7 +1,7 @@
 #pragma once
 #include "Weapon.h"
 
-class Laser : Weapon
+class Laser : public Weapon
 {
 public:
 	Laser();

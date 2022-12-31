@@ -9,6 +9,8 @@ public:
 	SpaceShip(std::string _name, std::vector<Weapon*> _weapons);
 	~SpaceShip();
 	void AddWeapon(Weapon& _weapon);
+	void Shoot();
+	void ShootAll();
 
 private:
 	std::string name;

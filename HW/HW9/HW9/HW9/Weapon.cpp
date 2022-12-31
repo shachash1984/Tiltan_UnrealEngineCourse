@@ -1,5 +1,6 @@
 #include "Weapon.h"
 #include <iostream>
+#include <ctime>
 
 Weapon::Weapon() : name(""), damage(0), range(0), reloadTime(0), hitChance(0), ammo(0)
 {
@@ -7,7 +8,7 @@ Weapon::Weapon() : name(""), damage(0), range(0), reloadTime(0), hitChance(0), a
 }
 
 Weapon::Weapon(std::string _name, unsigned int _damage, float _range, float _reloadTime, int _hitChance, unsigned int _ammo)
-	:name(_name), damage(_damage), range(_range), reloadTime(_reloadTime), hitChance(hitChance), ammo(_ammo)
+	:name(_name), damage(_damage), range(_range), reloadTime(_reloadTime), hitChance(_hitChance), ammo(_ammo)
 {
 }
 
@@ -32,6 +33,7 @@ bool Weapon::Shoot()
 		hitChance = 0;
 	}
 
+	srand(time(0));
 	int random = std::rand() % 101;
 
 	if (random < hitChance)
@@ -41,7 +43,7 @@ bool Weapon::Shoot()
 		std::cout << "Range: " << range << std::endl;
 		std::cout << "Reload Time: " << reloadTime << std::endl;
 		std::cout << "Hit Chance: " << hitChance << std::endl;
-		std::cout << "Ammo: " << ammo << std::endl;
+		std::cout << "Ammo: " << ammo << "\n" << std::endl;
 		ammo--;
 		return true;
 	}
@@ -52,7 +54,7 @@ bool Weapon::Shoot()
 		std::cout << "Range: " << range << std::endl;
 		std::cout << "Reload Time: " << reloadTime << std::endl;
 		std::cout << "Hit Chance: " << hitChance << std::endl;
-		std::cout << "Ammo: " << ammo << std::endl;
+		std::cout << "Ammo: " << ammo << "\n" << std::endl;
 		ammo--;
 		return false;
 	}
