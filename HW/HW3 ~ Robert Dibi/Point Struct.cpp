@@ -3,13 +3,13 @@
 
 using namespace std;
 using std::endl;
-class Point
+class Point //-5 Should be separated to header file and source file
 {
 public:
 	int x;
 	int y;
 	int z;
-	Point()
+	Point() //-5 Variables should be initialized in the initialization list
 	{
 		x = 0;
 		y = 0;

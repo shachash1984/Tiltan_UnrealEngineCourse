@@ -2,7 +2,7 @@
 #include <vector>
 
 using namespace std;
-
+ // -10 this should be separated to a header file and a source file
 struct Point {
 	float x, y, z;
 public:
@@ -46,7 +46,7 @@ struct Color {
 	float r, g, b, a; //valid values are only between 0.0f and 1.0f
 public:
 	Color();
-	Color(float _r, float _g, float _b, float _a) {
+	Color(float _r, float _g, float _b, float _a) { // -5 you are not checking if the values are valid
 		r = _r;
 		g = _g;
 		b = _b;
@@ -110,7 +110,7 @@ public:
 		vertices = _vertices;
 	}
 
-	string ToString() {
+	string ToString() { // -5 should use a for loop to print all vertices
 		//return "Name:"+name+"\n Position:"+position+" Vertices: Vertex "+vertices.Index+": Position: "+vertices.position+" Color: "+ vertices.color+"\n";
 	}
 };
@@ -130,10 +130,19 @@ public:
 	}
 
 	~Player();
-	string ToString() {
-		//return "Player: Name:"+name+"\n Body:"+PlayerBody +"\n Weapon:"+PlayerWeapon+"\n";
+	string ToString() { // -5 doesnt return a string
+		return "Player: Name:"+name+"\n Body:"+PlayerBody +"\n Weapon:"+PlayerWeapon+"\n";
 	}
+
+	//This is the correct answer
+	/*string ToString()
+	{ 
+		return "Player: Name:"+name+"\n Body:"+PlayerBody->ToString() +"\n Weapon:"+PlayerWeapon->ToString()+"\n";
+	}*/
 };
+
+
+//does not compile -5
 int main()
 {
 	//Stack
@@ -152,12 +161,12 @@ int main()
 	Point* hPoint = new Point(0, 0, 0);
 	Color* hColor = new Color(0, 0, 0, 1);
 	Vertex* hVertex = new Vertex(*hPoint, *hColor);
-	vector<Vertex> hVerteces = new vector<Vertex>;
-	for (size_t i = 0; i < length; i++)
-	{
-		hVerteces->emplace_back(Point(static_cast<float>(i), static_cast<float>(i) * 2, static_cast<float>(i) - 3, 5f), Color(0.1f, 0.2f, 0.3f, 0.4f));
+	vector<Vertex>* hVerteces = new vector<Vertex>; // -5 hVerteces is a local object, "new" returns a pointer
+	for (size_t i = 0; i < hVerteces->size(); i++) //-5 instead of "length" did you mean hVerteces.size()?
+{																														//-5 the "5" in the Point constructor is redundant... Point only takes 3 parameters
+		hVerteces->emplace_back(Point(static_cast<float>(i), static_cast<float>(i) * 2, static_cast<float>(i) - 3/*, 5*/), Color(0.1f, 0.2f, 0.3f, 0.4f));
 	}
-	Mesh* hBody = new Mesh("Mohammad Abul The Third", *hPoint, *hVertex);
+	Mesh* hBody = new Mesh("Mohammad Abul The Third", *hPoint, *hVerteces); // -5 I assume instead of *hVertex you meant *hVerteces
 	Mesh* hWeapon = new Mesh();
 	Player* p2 = new Player("Mohammad Abul The Third" ,hBody, hWeapon);
 	cout << p2->ToString() << endl;
