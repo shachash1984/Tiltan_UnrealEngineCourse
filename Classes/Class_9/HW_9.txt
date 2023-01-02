@@ -1,0 +1,48 @@
+CPP:
+1. Create a "Weapon" class
+with the following members:
+
+class Weapon
+{
+public:
+	Weapon();
+	Weapon(std::string _name, unsigned int _damage, float _range, float _reloadTime ,unsigned int _ammo);
+	virtual ~Weapon();
+	virtual bool Shoot(); //returns true if there is a hit, ALSO, needs to print the weapon's members and their values
+
+protected:
+	std::string name;
+	unsigned int damage;
+	float range;
+	float reloadTime;
+	unsigned int ammo;
+};
+
+2. Create 3 concrete types deriving from weapon
+
+
+3. Create a "SpaceShip" class 
+with the following members
+
+class SpaceShip
+{
+public:
+	SpaceShip(std::string _name, std::vector<Weapon*> _weapons);
+	~SpaceShip();
+	void AddWeapon(Weapon& _weapon);
+	void Shoot() // Calls the weapon's Shoot() function
+	void FireEverythingWeGot(); //loops through all weapons and calls their shoot function
+	
+private:
+	std::string name;
+	std::vector<Weapon*> weapons;
+	Weapon* currentWeapon;
+};
+
+4. In the "main()" function, create a spaceship and shoot all weapons
+
+**Bonus** if you can find and implement a random mechanism to the shoot function
+
+
+
+
