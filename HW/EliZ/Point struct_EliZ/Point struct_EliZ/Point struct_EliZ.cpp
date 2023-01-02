@@ -225,18 +225,18 @@ int main() {
 	Vertex(Point(2.4, -30.0, 0.2), Color(0.2, 0.5, 1.0, 1.0)),
 	Vertex(Point(3.6, -45.0, 0.3), Color(1.0, 0.5, 0.2, 1.0))
 	};
-	Mesh* body = new Mesh("BODY_NAME", Point(0.0, 0.0, 0.0), bodyVertices);
+	Mesh* body = new Mesh("DOR BEN DOR", Point(0.0, 0.0, 0.0), bodyVertices);
 
 	std::vector<Vertex> weaponVertices = {
 	  Vertex(Point(0.1, -1.5, 0.01), Color(0.5, 0.2, 1.0, 1.0)),
 	  Vertex(Point(0.2, -3.0, 0.02), Color(0.2, 0.5, 1.0, 1.0)),
 	  Vertex(Point(0.3, -4.5, 0.03), Color(1.0, 0.5, 0.2, 1.0))
 	};
-	Mesh* weapon = new Mesh("WEAPON_NAME", Point(0.0, 0.0, 0.0), weaponVertices);
+	Mesh* weapon = new Mesh("Dor Laser", Point(0.0, 0.0, 0.0), weaponVertices);
 
-	Player player1("PLAYER_NAME", body, weapon);
+	Player player1("EliZ", body, weapon);
 
-	Player* player2 = new Player("PLAYER_NAME", body, weapon);
+	Player* player2 = new Player("DBD", body, weapon);
 
 	std::cout << "player1: " << player1.ToString() << std::endl;
 	std::cout << "player2: " << player2->ToString() << std::endl;
