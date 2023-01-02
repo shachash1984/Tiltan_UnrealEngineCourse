@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\george rashed\\documents\\github\\tiltan_unrealenginecourse\\george_hwassignments\\hwassignment_4to6\\hw4-6_ue5\\ue5_class4\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5_class4classwork\\targetstatue.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\george rashed\\documents\\github\\tiltan_unrealenginecourse\\george_hwassignments\\hwassignment_4to6\\hw4-6_ue5\\ue5_class4\\intermediate\\build\\win64\\ue5_class4classworkeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\george rashed\\documents\\github\\tiltan_unrealenginecourse\\george_hwassignments\\hwassignment_4to6\\hw4-6_ue5\\ue5_class4\\intermediate\\build\\win64\\unrealeditor\\development\\ue5_class4classwork\\definitions.ue5_class4classwork.h",
+            "c:\\users\\george rashed\\documents\\github\\tiltan_unrealenginecourse\\george_hwassignments\\hwassignment_4to6\\hw4-6_ue5\\ue5_class4\\source\\ue5_class4classwork\\public\\targetstatue.h",
+            "c:\\users\\george rashed\\documents\\github\\tiltan_unrealenginecourse\\george_hwassignments\\hwassignment_4to6\\hw4-6_ue5\\ue5_class4\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5_class4classwork\\targetstatue.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

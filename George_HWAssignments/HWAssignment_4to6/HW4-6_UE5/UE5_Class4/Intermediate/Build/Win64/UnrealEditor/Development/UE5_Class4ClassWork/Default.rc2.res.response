@@ -63,5 +63,5 @@
 /DBUILD_ICON_FILE_NAME="\"..\\Build\\Windows\\Resources\\Default.ico\""
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_IDENTIFIER=UE5_Class4ClassWork
-/fo "C:\Users\George Rashed\Desktop\Programming\Unreal Projects\UE5_Class4ClassWork\Intermediate\Build\Win64\UnrealEditor\Development\UE5_Class4ClassWork\Default.rc2.res"
+/fo "C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_4to6\HW4-6_UE5\UE5_Class4\Intermediate\Build\Win64\UnrealEditor\Development\UE5_Class4ClassWork\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"

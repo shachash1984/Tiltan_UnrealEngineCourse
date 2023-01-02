@@ -1,10 +1,10 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\george rashed\\desktop\\programming\\unreal projects\\ue5_class4classwork\\intermediate\\build\\win64\\ue5_class4classworkeditor\\development\\engine\\sharedpch.engine.shadowerrors.cpp",
+        "Source": "c:\\users\\george rashed\\documents\\github\\tiltan_unrealenginecourse\\george_hwassignments\\hwassignment_4to6\\hw4-6_ue5\\ue5_class4\\intermediate\\build\\win64\\ue5_class4classworkeditor\\development\\engine\\sharedpch.engine.shadowerrors.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\users\\george rashed\\desktop\\programming\\unreal projects\\ue5_class4classwork\\intermediate\\build\\win64\\ue5_class4classworkeditor\\development\\engine\\sharedpch.engine.shadowerrors.h",
+            "c:\\users\\george rashed\\documents\\github\\tiltan_unrealenginecourse\\george_hwassignments\\hwassignment_4to6\\hw4-6_ue5\\ue5_class4\\intermediate\\build\\win64\\ue5_class4classworkeditor\\development\\engine\\sharedpch.engine.shadowerrors.h",
             "e:\\ssd epic games library\\ue_5.0\\engine\\source\\runtime\\engine\\public\\enginesharedpch.h",
             "e:\\ssd epic games library\\ue_5.0\\engine\\source\\runtime\\core\\public\\containers\\containersfwd.h",
             "e:\\ssd epic games library\\ue_5.0\\engine\\source\\runtime\\core\\public\\hal\\platform.h",

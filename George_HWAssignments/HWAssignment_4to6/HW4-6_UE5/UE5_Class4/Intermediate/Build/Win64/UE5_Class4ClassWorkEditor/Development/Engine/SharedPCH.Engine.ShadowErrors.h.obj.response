@@ -1,4 +1,4 @@
-"C:\Users\George Rashed\Desktop\Programming\Unreal Projects\UE5_Class4ClassWork\Intermediate\Build\Win64\UE5_Class4ClassWorkEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
+"C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_4to6\HW4-6_UE5\UE5_Class4\Intermediate\Build\Win64\UE5_Class4ClassWorkEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
 /I .
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine
 /I Runtime
@@ -275,10 +275,10 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
-/Yc"C:\Users\George Rashed\Desktop\Programming\Unreal Projects\UE5_Class4ClassWork\Intermediate\Build\Win64\UE5_Class4ClassWorkEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\George Rashed\Desktop\Programming\Unreal Projects\UE5_Class4ClassWork\Intermediate\Build\Win64\UE5_Class4ClassWorkEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"C:\Users\George Rashed\Desktop\Programming\Unreal Projects\UE5_Class4ClassWork\Intermediate\Build\Win64\UE5_Class4ClassWorkEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-/sourceDependencies "C:\Users\George Rashed\Desktop\Programming\Unreal Projects\UE5_Class4ClassWork\Intermediate\Build\Win64\UE5_Class4ClassWorkEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.json"
+/Yc"C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_4to6\HW4-6_UE5\UE5_Class4\Intermediate\Build\Win64\UE5_Class4ClassWorkEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_4to6\HW4-6_UE5\UE5_Class4\Intermediate\Build\Win64\UE5_Class4ClassWorkEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_4to6\HW4-6_UE5\UE5_Class4\Intermediate\Build\Win64\UE5_Class4ClassWorkEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+/sourceDependencies "C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_4to6\HW4-6_UE5\UE5_Class4\Intermediate\Build\Win64\UE5_Class4ClassWorkEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.json"
 /Zc:inline
 /nologo
 /Oi

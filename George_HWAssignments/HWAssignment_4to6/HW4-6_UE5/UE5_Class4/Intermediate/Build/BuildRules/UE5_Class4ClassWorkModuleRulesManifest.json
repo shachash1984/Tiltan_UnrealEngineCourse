@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\George Rashed\\Desktop\\Programming\\Unreal Projects\\UE5_Class4ClassWork\\Source\\UE5_Class4ClassWork\\UE5_Class4ClassWork.Build.cs",
-		"C:\\Users\\George Rashed\\Desktop\\Programming\\Unreal Projects\\UE5_Class4ClassWork\\Source\\UE5_Class4ClassWork.Target.cs",
-		"C:\\Users\\George Rashed\\Desktop\\Programming\\Unreal Projects\\UE5_Class4ClassWork\\Source\\UE5_Class4ClassWorkEditor.Target.cs"
+		"C:\\Users\\George Rashed\\Documents\\GitHub\\Tiltan_UnrealEngineCourse\\George_HWAssignments\\HWAssignment_4to6\\HW4-6_UE5\\UE5_Class4\\Source\\UE5_Class4ClassWork\\UE5_Class4ClassWork.Build.cs",
+		"C:\\Users\\George Rashed\\Documents\\GitHub\\Tiltan_UnrealEngineCourse\\George_HWAssignments\\HWAssignment_4to6\\HW4-6_UE5\\UE5_Class4\\Source\\UE5_Class4ClassWork.Target.cs",
+		"C:\\Users\\George Rashed\\Documents\\GitHub\\Tiltan_UnrealEngineCourse\\George_HWAssignments\\HWAssignment_4to6\\HW4-6_UE5\\UE5_Class4\\Source\\UE5_Class4ClassWorkEditor.Target.cs"
 	],
 	"EngineVersion": "5.0.3"
 }

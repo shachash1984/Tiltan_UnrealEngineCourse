@@ -19,6 +19,7 @@ public:
 	
 protected:
 	void OnShootPressed();
+	void OnShootPressed2();
 	virtual void SetupInputComponent() override;
 
 	UPROPERTY(EditAnywhere)

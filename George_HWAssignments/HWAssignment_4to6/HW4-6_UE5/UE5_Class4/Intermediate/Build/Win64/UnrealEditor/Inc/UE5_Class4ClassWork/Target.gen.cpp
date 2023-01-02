@@ -127,15 +127,15 @@ void EmptyLinkFunctionForGeneratedCodeTarget() {}
 		return ATarget::StaticClass();
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ATarget);
-	struct Z_CompiledInDeferFile_FID_UE5_Class4ClassWork_Source_UE5_Class4ClassWork_Public_Target_h_Statics
+	struct Z_CompiledInDeferFile_FID_UE5_Class4_Source_UE5_Class4ClassWork_Public_Target_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UE5_Class4ClassWork_Source_UE5_Class4ClassWork_Public_Target_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UE5_Class4_Source_UE5_Class4ClassWork_Public_Target_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_ATarget, ATarget::StaticClass, TEXT("ATarget"), &Z_Registration_Info_UClass_ATarget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATarget), 3736300903U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UE5_Class4ClassWork_Source_UE5_Class4ClassWork_Public_Target_h_1506786686(TEXT("/Script/UE5_Class4ClassWork"),
-		Z_CompiledInDeferFile_FID_UE5_Class4ClassWork_Source_UE5_Class4ClassWork_Public_Target_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UE5_Class4ClassWork_Source_UE5_Class4ClassWork_Public_Target_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UE5_Class4_Source_UE5_Class4ClassWork_Public_Target_h_1506786686(TEXT("/Script/UE5_Class4ClassWork"),
+		Z_CompiledInDeferFile_FID_UE5_Class4_Source_UE5_Class4ClassWork_Public_Target_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UE5_Class4_Source_UE5_Class4ClassWork_Public_Target_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

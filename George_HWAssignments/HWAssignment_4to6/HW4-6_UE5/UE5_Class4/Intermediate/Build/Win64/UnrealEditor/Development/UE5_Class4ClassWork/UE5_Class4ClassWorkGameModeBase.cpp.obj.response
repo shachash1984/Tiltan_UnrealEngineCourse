@@ -1,6 +1,6 @@
-"C:\Users\George Rashed\Desktop\Programming\Unreal Projects\UE5_Class4ClassWork\Source\UE5_Class4ClassWork\UE5_Class4ClassWorkGameModeBase.cpp"
+"C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_4to6\HW4-6_UE5\UE5_Class4\Source\UE5_Class4ClassWork\UE5_Class4ClassWorkGameModeBase.cpp"
 /I .
-/I "C:\Users\George Rashed\Desktop\Programming\Unreal Projects\UE5_Class4ClassWork\Source\UE5_Class4ClassWork\Private"
+/I "C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_4to6\HW4-6_UE5\UE5_Class4\Source\UE5_Class4ClassWork\Private"
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine
 /I Runtime
 /I ..\Shaders\Shared
@@ -252,9 +252,9 @@
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
-/I "C:\Users\George Rashed\Desktop\Programming\Unreal Projects\UE5_Class4ClassWork\Intermediate\Build\Win64\UnrealEditor\Inc\UE5_Class4ClassWork"
-/I "C:\Users\George Rashed\Desktop\Programming\Unreal Projects\UE5_Class4ClassWork\Source"
-/I "C:\Users\George Rashed\Desktop\Programming\Unreal Projects\UE5_Class4ClassWork\Source\UE5_Class4ClassWork\Public"
+/I "C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_4to6\HW4-6_UE5\UE5_Class4\Intermediate\Build\Win64\UnrealEditor\Inc\UE5_Class4ClassWork"
+/I "C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_4to6\HW4-6_UE5\UE5_Class4\Source"
+/I "C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_4to6\HW4-6_UE5\UE5_Class4\Source\UE5_Class4ClassWork\Public"
 /I ThirdParty\mimalloc\include
 /I ThirdParty\LibTiff\Source\Win64
 /I ThirdParty\LibTiff\Source
@@ -275,12 +275,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
-/FI"C:\Users\George Rashed\Desktop\Programming\Unreal Projects\UE5_Class4ClassWork\Intermediate\Build\Win64\UE5_Class4ClassWorkEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"C:\Users\George Rashed\Desktop\Programming\Unreal Projects\UE5_Class4ClassWork\Intermediate\Build\Win64\UnrealEditor\Development\UE5_Class4ClassWork\Definitions.UE5_Class4ClassWork.h"
-/Yu"C:\Users\George Rashed\Desktop\Programming\Unreal Projects\UE5_Class4ClassWork\Intermediate\Build\Win64\UE5_Class4ClassWorkEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\George Rashed\Desktop\Programming\Unreal Projects\UE5_Class4ClassWork\Intermediate\Build\Win64\UE5_Class4ClassWorkEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"C:\Users\George Rashed\Desktop\Programming\Unreal Projects\UE5_Class4ClassWork\Intermediate\Build\Win64\UnrealEditor\Development\UE5_Class4ClassWork\UE5_Class4ClassWorkGameModeBase.cpp.obj"
-/sourceDependencies "C:\Users\George Rashed\Desktop\Programming\Unreal Projects\UE5_Class4ClassWork\Intermediate\Build\Win64\UnrealEditor\Development\UE5_Class4ClassWork\UE5_Class4ClassWorkGameModeBase.cpp.json"
+/FI"C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_4to6\HW4-6_UE5\UE5_Class4\Intermediate\Build\Win64\UE5_Class4ClassWorkEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_4to6\HW4-6_UE5\UE5_Class4\Intermediate\Build\Win64\UnrealEditor\Development\UE5_Class4ClassWork\Definitions.UE5_Class4ClassWork.h"
+/Yu"C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_4to6\HW4-6_UE5\UE5_Class4\Intermediate\Build\Win64\UE5_Class4ClassWorkEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_4to6\HW4-6_UE5\UE5_Class4\Intermediate\Build\Win64\UE5_Class4ClassWorkEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_4to6\HW4-6_UE5\UE5_Class4\Intermediate\Build\Win64\UnrealEditor\Development\UE5_Class4ClassWork\UE5_Class4ClassWorkGameModeBase.cpp.obj"
+/sourceDependencies "C:\Users\George Rashed\Documents\GitHub\Tiltan_UnrealEngineCourse\George_HWAssignments\HWAssignment_4to6\HW4-6_UE5\UE5_Class4\Intermediate\Build\Win64\UnrealEditor\Development\UE5_Class4ClassWork\UE5_Class4ClassWorkGameModeBase.cpp.json"
 /Zc:inline
 /nologo
 /Oi

@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "UE5_Class4ClassWork",
-			"Path": "C:\\Users\\George Rashed\\Desktop\\Programming\\Unreal Projects\\UE5_Class4ClassWork\\Source\\UE5_Class4ClassWork.Target.cs",
+			"Path": "C:\\Users\\George Rashed\\Documents\\GitHub\\Tiltan_UnrealEngineCourse\\George_HWAssignments\\HWAssignment_4to6\\HW4-6_UE5\\UE5_Class4\\Source\\UE5_Class4ClassWork.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "UE5_Class4ClassWorkEditor",
-			"Path": "C:\\Users\\George Rashed\\Desktop\\Programming\\Unreal Projects\\UE5_Class4ClassWork\\Source\\UE5_Class4ClassWorkEditor.Target.cs",
+			"Path": "C:\\Users\\George Rashed\\Documents\\GitHub\\Tiltan_UnrealEngineCourse\\George_HWAssignments\\HWAssignment_4to6\\HW4-6_UE5\\UE5_Class4\\Source\\UE5_Class4ClassWorkEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
