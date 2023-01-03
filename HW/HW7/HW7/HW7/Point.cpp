@@ -12,11 +12,9 @@ Point::Point(float x, float y, float z) : _x(x), _y(y), _z(z)
 
 }
 
-Point::Point(const Point& other) // -1 why not initialize in the constructor like you did in color
+Point::Point(const Point& other) : _x(other._x), _y(other._y), _z(other._z)
 {
-	_x = other._x;
-	_y = other._y;
-	_z = other._z;
+
 }
 
 Point::~Point()
@@ -24,12 +22,12 @@ Point::~Point()
 
 }
 
-//string Point::ToString()
-//{
-//	return std::format("({}, {}, {})", _x, _y, _z);
-//}
+string Point::ToString()
+{
+	return std::format("({}, {}, {})", _x, _y, _z);
+}
 
-void Point::SetX(float x)
+void Point::SetX(float x) ()
 {
 	_x = x;
 }
