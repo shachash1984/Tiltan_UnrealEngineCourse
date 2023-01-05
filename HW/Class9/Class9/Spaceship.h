@@ -6,12 +6,15 @@ class Spaceship
 {
 public:
 	Spaceship(std::string _name, std::vector<Weapon*> _weapons);
-	~Spaceship();
+	Spaceship(const Spaceship& other);
+	Spaceship& operator=(const Spaceship other);
+	virtual ~Spaceship();
 	void AddWeapon(Weapon& _weapon);
 	void SwitchWeapon(Weapon& _weapon);
-	Weapon* currentWeapon;
+	void FireWeapon();
 
 private:
+	Weapon* currentWeapon;
 	std::string name;
 	std::vector<Weapon*> weapons;
 };

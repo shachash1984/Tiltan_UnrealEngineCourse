@@ -13,6 +13,28 @@ Spaceship::Spaceship(std::string _name, std::vector<Weapon*> _weapons): name(_na
 	}
 }
 
+Spaceship::Spaceship(const Spaceship& other) : name(other.name), weapons(other.weapons)
+{
+	if (!weapons.empty())
+	{
+		currentWeapon = weapons[0];
+	}
+	else
+	{
+		currentWeapon = nullptr;
+	}
+}
+
+Spaceship& Spaceship::operator=(const Spaceship other)
+{
+	if (this != &other)
+	{
+		name = other.name;
+		weapons = other.weapons;
+	}
+	return* this;
+}
+
 Spaceship::~Spaceship()
 {
 	for (auto wep : weapons)
@@ -36,4 +58,9 @@ void Spaceship::SwitchWeapon(Weapon& _weapon)
 	else {
 		std::cout << "This weapon is not in the spaceship's arsenal";
 	}
+}
+
+void Spaceship::FireWeapon()
+{
+	currentWeapon->Shoot();
 }

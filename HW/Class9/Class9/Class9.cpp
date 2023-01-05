@@ -15,6 +15,8 @@ int main()
 	JellyGun* slimer = new JellyGun("Slimer", 2, 30, 1, 50, 100);
 	EggBlaster* chicken = new EggBlaster("Chick", 20, 20, 4, 30, 40);
 
+	EggBlaster* rooster;
+
 	std::vector<Weapon*> weps;
 
 	Spaceship* spaceship = new Spaceship("Boomka", weps);
@@ -23,13 +25,13 @@ int main()
 	spaceship->AddWeapon(*slimer);
 	spaceship->AddWeapon(*chicken);
 
-	spaceship->currentWeapon->Shoot();
+	spaceship->FireWeapon();
 
 	spaceship->SwitchWeapon(*slimer);
-	spaceship->currentWeapon->Shoot();
+	spaceship->FireWeapon();
 
 	spaceship->SwitchWeapon(*gungun);
-	spaceship->currentWeapon->Shoot();
+	spaceship->FireWeapon();
 
 }
 
