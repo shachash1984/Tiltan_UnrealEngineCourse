@@ -6,6 +6,8 @@ class Weapon
 public:
 	Weapon();
 	Weapon(std::string _name, unsigned int _damage, float _range, float _reloadTime, int _hitChance, unsigned int _ammo);
+	Weapon(const Weapon& other);
+	Weapon& operator=(const Weapon& other);
 	virtual ~Weapon();
 	virtual bool Shoot();
 	

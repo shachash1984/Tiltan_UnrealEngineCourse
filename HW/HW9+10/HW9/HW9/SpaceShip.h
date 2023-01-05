@@ -7,6 +7,8 @@ class SpaceShip
 {
 public:
 	SpaceShip(std::string _name, std::vector<Weapon*> _weapons);
+	SpaceShip(const SpaceShip& other);
+	SpaceShip& operator=(const SpaceShip& other);
 	~SpaceShip();
 	void AddWeapon(Weapon& _weapon);
 	void Shoot();

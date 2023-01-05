@@ -12,6 +12,25 @@ Weapon::Weapon(std::string _name, unsigned int _damage, float _range, float _rel
 {
 }
 
+Weapon::Weapon(const Weapon& other) 
+	: name(other.name), damage(other.damage), range(other.range), reloadTime(other.reloadTime), hitChance(other.hitChance), ammo(other.ammo)
+{
+}
+	
+Weapon& Weapon::operator=(const Weapon& other)
+{
+	if (this != &other)
+	{
+		name = other.name;
+		damage = other.damage;
+		range = other.range;
+		reloadTime = other.reloadTime;
+		hitChance = other.hitChance;
+		ammo = other.ammo;
+	}
+	return *this;
+}
+
 Weapon::~Weapon()
 {
 }
