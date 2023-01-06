@@ -1,7 +1,10 @@
 #pragma once
 class Actor
 {
+protected:
+	int _worldPos;
 public:
-	int WorldPos;
+	Actor(int worldPos);
+	int GetWorldPos();
 };
 
