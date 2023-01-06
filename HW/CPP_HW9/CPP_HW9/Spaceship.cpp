@@ -41,7 +41,7 @@ void Spaceship::AddWeapon(Weapon& weapon)
 	_weapons.push_back(&weapon);
 }
 
-void Spaceship::TakeDamage(unsigned int damageReceived)
+void IDamageable::TakeDamage(unsigned int damageReceived)
 {
 
 }
