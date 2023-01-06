@@ -2,26 +2,48 @@
 #include "Spaceship.h"
 #include "Weapon.h"
 #include <vector>
+#include <string>
+#include <iostream>
 
-//Spaceship::Spaceship(string name, vector<Weapon*> weapons)
-//{
-//	_name = name;
-//
-//	for (size_t i = 0; i < weapons.size(); i++)
-//	{
-//		AddWeapon(*weapons[i]);
-//	}
-//}
+using namespace std;
+
+Spaceship::Spaceship(int worldPos, string name, vector<Weapon*> weapons, unsigned int hp) : Actor(worldPos), _name(name), _weapons(weapons), HP(hp)
+{
+	cout << "Creating Spaceship: " << _name << endl;
+}
+
+Spaceship::Spaceship(const Spaceship& other) : Actor(other._worldPos), _name(other._name), _weapons(other._weapons), HP(other.hp)
+{
+	cout << "Creating Spaceship Copy of: " << _name << endl;
+}
 
 Spaceship::~Spaceship()
 {
+	cout << "Destroying Spaceship: " << _name << endl;
 	/*for (size_t i = 0; i < _weapons.size(); i++)
 	{
 		delete _weapons[i];
 	}*/
 }
 
-//void Spaceship::AddWeapon(Weapon& weapon)
-//{
-//	_weapons.push_back(&weapon);
-//}
+Spaceship& Spaceship:: operator =(const Spaceship otherSpaceship)
+{
+	_worldPos = otherSpaceship._worldPos;
+	_name = otherSpaceship._name;
+	_weapons = otherSpaceship._weapons;
+	HP = otherSpaceship.HP;
+	cout << "Copying Values of Spaceship: " << _name << endl;
+	return *this;
+}
+
+void Spaceship::AddWeapon(Weapon& weapon)
+{
+	_weapons.push_back(&weapon);
+}
+
+void Spaceship::TakeDamage(unsigned int damageReceived)
+{
+
+}
+
+

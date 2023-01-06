@@ -2,7 +2,11 @@
 
 class Actor
 {
-	public:
-		int WorldPos;
+protected:
+	int _worldPos;
+public:
+	Actor(int worldPos);
+	int GetWorldPos();
+	
 };
 
