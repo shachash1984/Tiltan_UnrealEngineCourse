@@ -16,15 +16,10 @@ Weapon::Weapon()
 	_critChance = ONE;
 }
 
-Weapon::Weapon(string name, unsigned int damage, float range, float reloadTime, unsigned int ammo, unsigned int critChance)
+Weapon::Weapon(string name, unsigned int damage, float range, float reloadTime, unsigned int ammo, unsigned int critChance) :
+	_name(name), _damage(damage), _range(range), _reloadeTime(reloadTime), _ammo(ammo),_critChance(critChance)
 {
 	cout << "Creating Weapon:" << name << endl;
-	_name = name;
-	_damage = damage;
-	_range = range;
-	_reloadeTime = reloadTime;
-	_ammo = ammo;
-	_critChance = critChance;
 }
 Weapon::~Weapon()
 {

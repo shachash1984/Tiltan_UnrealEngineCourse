@@ -3,11 +3,9 @@
 #include <string>
 #include <vector>
 using namespace std;
-Spaceship::Spaceship(string name, vector<Weapon*> weapons)
+Spaceship::Spaceship(string name, vector<Weapon*> weapons) :_name(name), _weapons(weapons)
 {
 	cout << "Creating Spaceship:"<<name << endl;
-	_name = name;
-	_weapons = weapons;
 }
 Spaceship::~Spaceship()
 {
@@ -17,6 +15,7 @@ void Spaceship::AddWeapon(Weapon& weapon)
 {
 	_weapons.push_back(& weapon);
 }
+
 void Spaceship::TakeDamage(unsigned int damage)
 {
 	
