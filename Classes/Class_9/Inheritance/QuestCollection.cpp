@@ -22,6 +22,7 @@ QuestCollection::QuestCollection(int _id, std::string _name, std::string _descri
 
 QuestCollection::~QuestCollection()
 {
+	//RAII = Resource Acquisition is Initialization
 	delete achievement;
 	std::cout << "QuestCollection " << name << " Destroyed!" << std::endl;
 }
