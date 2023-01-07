@@ -22,9 +22,21 @@ Weapon::Weapon(const Weapon & other)
 	, reloadTime(other.reloadTime)
 	, ammo(other.ammo)
 {}
+Weapon& Weapon::operator=(const Weapon & other)
+{
+	std::cout << "Weapon Operator Worked!\n\n";
+	if (this == &other) { return *this; } 
+	
+	name = other.name;
+	damage = other.damage;
+	range = other.range;
+	reloadTime = other.reloadTime;
+	ammo = other.ammo;
+	return *this;
+}
 ;
 
-Weapon::~Weapon() {};
+Weapon::~Weapon() { /*std::cout << "\noups\n";*/ };
 
 bool Weapon::Shoot()
 {
@@ -52,7 +64,12 @@ bool Weapon::Shoot()
 		std::cout << txt;
 		return false;
 	}
-};
+}
+Weapon* Weapon::Clone()
+{
+	return new Weapon(*this);
+}
+;
 
 
 

@@ -27,6 +27,16 @@ int main()
 
     SpaceShip* spaceship2 = new SpaceShip(*spaceship);
 
+    //Test Spaceship operator
+    SpaceShip spaceship3(*spaceship);
+    SpaceShip spaceship4(*spaceship);
+    spaceship4 = spaceship3;
+
+    //Test Weapon operator
+    PlasmaRifle pew1;
+    PlasmaRifle pew2;
+    pew2 = pew1;
+
 #pragma region before bonus
     //plasma.Shoot();
     //laser.Shoot();
@@ -57,4 +67,5 @@ int main()
     //std::cout << rocket << "\n";
 
     delete spaceship2;
+    std::cout << "END";
 }

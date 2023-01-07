@@ -6,5 +6,6 @@ class PlasmaRifle : public Weapon
 public:
 	PlasmaRifle();
 	~PlasmaRifle();
+	PlasmaRifle* Clone() override;
 };
 

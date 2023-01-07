@@ -14,10 +14,35 @@ SpaceShip::SpaceShip(const SpaceShip& other)
 {
 	for (size_t i = 0; i < other.weapons.size(); i++)
 	{
-		AddWeapon(*new Weapon(*other.weapons[i]));
+		AddWeapon(*other.weapons[i]->Clone());
 		//std::cout << weapons[i] << "\n";
 	}
 	currentWeapon = weapons[currentItemSlot];
+}
+SpaceShip& SpaceShip::operator=(const SpaceShip& other)
+{
+	if (this == &other) return *this; // check for self-assignment
+	
+	// delete the current weapons
+	for (size_t i = 0; i < weapons.size(); i++)
+	{
+		delete weapons[i];
+	}
+	// clear the vector of weapons
+	weapons.clear();
+
+	// copy the name and current item slot from the other spaceship
+	name = other.name;
+	currentItemSlot = other.currentItemSlot;
+	std::cout << "Spaceship Operator Worked!\n\n";
+	// copy the weapons from the other spaceship
+	for (size_t i = 0; i < other.weapons.size(); i++)
+	{
+		AddWeapon(*other.weapons[i]->Clone());
+	}
+	currentWeapon = weapons[currentItemSlot];
+	
+	return *this;
 }
 SpaceShip::~SpaceShip()
 {
