@@ -5,6 +5,6 @@ class LaserGun : public Weapon
 public:
 	LaserGun();
 	~LaserGun();
-	LaserGun* Clone() override;
+	Weapon* Clone() override;
 };
 

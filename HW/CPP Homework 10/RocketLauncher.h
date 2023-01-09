@@ -5,6 +5,6 @@ class RocketLauncher : public Weapon
 public:
 	RocketLauncher();
 	~RocketLauncher();
-	RocketLauncher* Clone() override;
+	Weapon* Clone() override;
 };
 

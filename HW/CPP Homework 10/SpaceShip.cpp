@@ -3,11 +3,10 @@
 SpaceShip::SpaceShip(std::string _name, std::vector<Weapon*> _weapons)
 	: name(_name)
 	, weapons(_weapons)
-	, currentWeapon(nullptr)
+	, currentWeapon(weapons.size() > 0 ? weapons[0] : nullptr)
 	, currentItemSlot(0)
-{
-	if (weapons.size() > 0) { currentWeapon = weapons[0]; }
-}
+{}
+
 SpaceShip::SpaceShip(const SpaceShip& other)
 	: name(other.name)
 	, currentItemSlot(other.currentItemSlot)
