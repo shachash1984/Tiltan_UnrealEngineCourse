@@ -19,5 +19,6 @@ class Spaceship : public Actor, public IDamageable
 		virtual ~Spaceship();
 		Spaceship& operator =(const Spaceship otherSpaceship);
 		void AddWeapon(Weapon& _weapon);
+		void TakeDamage(unsigned int damageReceived) override;
 };
 

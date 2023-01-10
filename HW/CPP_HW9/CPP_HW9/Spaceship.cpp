@@ -7,12 +7,12 @@
 
 using namespace std;
 
-Spaceship::Spaceship(int worldPos, string name, vector<Weapon*> weapons, unsigned int hp) : Actor(worldPos), _name(name), _weapons(weapons), HP(hp)
+Spaceship::Spaceship(int worldPos, string name, vector<Weapon*> weapons, unsigned int hp) : Actor(worldPos), IDamageable(hp), _name(name), _weapons(weapons)
 {
 	cout << "Creating Spaceship: " << _name << endl;
 }
 
-Spaceship::Spaceship(const Spaceship& other) : Actor(other._worldPos), _name(other._name), _weapons(other._weapons), HP(other.hp)
+Spaceship::Spaceship(const Spaceship& other) : Actor(other._worldPos), IDamageable(other.HP), _name(other._name), _weapons(other._weapons)
 {
 	cout << "Creating Spaceship Copy of: " << _name << endl;
 }
@@ -41,7 +41,7 @@ void Spaceship::AddWeapon(Weapon& weapon)
 	_weapons.push_back(&weapon);
 }
 
-void IDamageable::TakeDamage(unsigned int damageReceived)
+void Spaceship::TakeDamage(unsigned int damageReceived)
 {
 
 }
