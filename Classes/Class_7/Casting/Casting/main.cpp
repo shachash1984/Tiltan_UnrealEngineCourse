@@ -72,4 +72,7 @@ int main()
 	//n2 = 300;
 	//std::cout << "n1= " << n1 << std::endl;
 	//std::cout << "n2= " << n2 << std::endl;
+
+
+	
 }
