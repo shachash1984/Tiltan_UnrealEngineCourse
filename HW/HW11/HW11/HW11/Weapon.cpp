@@ -12,11 +12,11 @@ Weapon::Weapon(std::string _name, unsigned int _damage, float _range, float _rel
 {
 }
 
-Weapon::Weapon(const Weapon& other) 
+Weapon::Weapon(const Weapon& other)
 	: name(other.name), damage(other.damage), range(other.range), reloadTime(other.reloadTime), hitChance(other.hitChance), ammo(other.ammo)
 {
 }
-	
+
 Weapon& Weapon::operator=(const Weapon& other)
 {
 	if (this != &other)
@@ -42,7 +42,7 @@ bool Weapon::Shoot()
 		std::cout << "Out of ammo!" << std::endl;
 		return false;
 	}
-	
+
 	if (hitChance > 100)
 	{
 		hitChance = 100;

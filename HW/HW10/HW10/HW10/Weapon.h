@@ -10,7 +10,7 @@ public:
 	Weapon& operator=(const Weapon& other);
 	virtual ~Weapon();
 	virtual bool Shoot();
-	
+
 protected:
 	std::string name;
 	unsigned int damage;

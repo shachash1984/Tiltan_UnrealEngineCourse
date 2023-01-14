@@ -10,7 +10,7 @@ public:
 	Weapon& operator=(const Weapon& other);
 	virtual ~Weapon();
 	virtual bool Shoot();
-	
+
 protected:
 	std::string name;
 	unsigned int damage;
@@ -18,4 +18,11 @@ protected:
 	float reloadTime;
 	int hitChance;
 	unsigned int ammo;
+};
+
+enum WeaponType
+{
+	tPotatoGun,
+	tRockets,
+	tLaser,
 };

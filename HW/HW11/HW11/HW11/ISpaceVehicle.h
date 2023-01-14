@@ -2,6 +2,6 @@
 
 class ISpaceVehicle
 {
-	protected
+protected:
 		virtual void Shoot() = 0;
 };

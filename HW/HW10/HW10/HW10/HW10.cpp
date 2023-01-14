@@ -18,6 +18,6 @@ int main()
 	spaceship->AddWeapon(*rocket);
 	spaceship->AddWeapon(*laser);
 	spaceship->AddWeapon(*potato);
-	
+
 	spaceship->ShootAll();
 }

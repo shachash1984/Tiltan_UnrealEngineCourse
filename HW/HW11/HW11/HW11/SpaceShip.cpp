@@ -13,7 +13,7 @@ SpaceShip::SpaceShip(std::string _name, std::vector<Weapon*> _weapons)
 	}
 }
 
-SpaceShip::SpaceShip(const SpaceShip& other) 
+SpaceShip::SpaceShip(const SpaceShip& other)
 	: name(other.name), weapons(other.weapons)
 {
 	if (!weapons.empty())
