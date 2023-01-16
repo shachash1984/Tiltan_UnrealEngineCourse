@@ -46,4 +46,10 @@ void Spaceship::TakeDamage(unsigned int damageReceived)
 
 }
 
-
+void Spaceship::FireAllWeapons(unsigned int distanceToTarget)
+{
+	for (size_t i = 0; i < _weapons.size(); i++)
+	{
+		_weapons[i]->Shoot(distanceToTarget);
+	}
+}

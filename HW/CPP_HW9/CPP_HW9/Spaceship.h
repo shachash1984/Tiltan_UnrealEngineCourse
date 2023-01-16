@@ -20,5 +20,7 @@ class Spaceship : public Actor, public IDamageable
 		Spaceship& operator =(const Spaceship otherSpaceship);
 		void AddWeapon(Weapon& _weapon);
 		void TakeDamage(unsigned int damageReceived) override;
+		void FireAllWeapons(unsigned int distanceToTarget);
+
 };
 

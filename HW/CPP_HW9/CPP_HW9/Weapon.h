@@ -11,7 +11,7 @@ class Weapon
 		float _range;
 		float _reloadTime;
 		unsigned int _ammo;
-		unsigned int _critChance;
+		unsigned int _hitChance;
 
 
 	public:
