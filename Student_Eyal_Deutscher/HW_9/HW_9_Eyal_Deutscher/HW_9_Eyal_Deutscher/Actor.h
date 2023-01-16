@@ -4,7 +4,7 @@ class Actor
 protected:
 	int _worldPos;
 public:
-	Actor(int worldPos);
+	Actor(signed int worldPos);
 	int GetWorldPos();
 };
 

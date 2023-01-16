@@ -9,10 +9,10 @@ class Weapon
 
 public:
 	Weapon();
-	Weapon(string name, unsigned int damage, float range, float relodTime, unsigned int ammo,unsigned int critChance);
+	Weapon(string name, unsigned int damage, float range, float relodTime, unsigned int ammo,unsigned int hitChance);
 	Weapon(const Weapon& other);
 	virtual ~Weapon();
-	virtual bool Shoot(unsigned int distanceToTarget,IDamageable target);
+	virtual bool Shoot(unsigned int distanceToTarget);
 	Weapon& operator=(const Weapon weapon);
 protected:
 	const unsigned int ONE = 1;
@@ -22,6 +22,6 @@ protected:
 	float _range;
 	float _reloadTime;
 	unsigned int _ammo;
-	unsigned int _critChance;
+	unsigned int _hitChance;
 };
 

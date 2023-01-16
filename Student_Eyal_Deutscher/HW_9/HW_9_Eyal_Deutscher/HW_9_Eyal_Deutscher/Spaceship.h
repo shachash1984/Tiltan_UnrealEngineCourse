@@ -19,6 +19,7 @@ public:
 	virtual ~Spaceship();
 	Spaceship& operator=(const Spaceship spaceship);
 	void AddWeapon(Weapon& weapon);
-	void TakeDamage(unsigned int damageTaken);
+	void TakeDamage(unsigned int damageTaken) override;
+	void FireAllWeapons(unsigned int distanceToTarget);
 };
 

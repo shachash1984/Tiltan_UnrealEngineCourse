@@ -3,12 +3,12 @@
 #include <string>
 #include <vector>
 using namespace std;
-Spaceship::Spaceship(int worldPos,string name, vector<Weapon*> weapons, unsigned int hp) :Actor(worldPos), _name(name), _weapons(weapons),Hp(hp)
+Spaceship::Spaceship(int worldPos,string name, vector<Weapon*> weapons, unsigned int hp) :Actor(worldPos), IDamageable(hp), _name(name), _weapons(weapons)
 {
 	cout << "Creating Spaceship: "<<name << endl;
 }
 
-Spaceship::Spaceship(const Spaceship& other) :Actor(other._worldPos), _name(other._name), _weapons(other._weapons), Hp(other.Hp)
+Spaceship::Spaceship(const Spaceship& other) :Actor(other._worldPos), IDamageable(other.Hp),_name(other._name), _weapons(other._weapons)
 {
 	cout << "Creating Spaceship Copy: " << _name << endl;
 }
@@ -34,4 +34,11 @@ void Spaceship::AddWeapon(Weapon& weapon)
 void Spaceship::TakeDamage(unsigned int damageTaken)
 {
 	
+}
+void Spaceship::FireAllWeapons(unsigned int distanceToTarget)
+{
+	for (size_t i = 0; i < _weapons.size(); i++)
+	{
+		_weapons[i]->Shoot(distanceToTarget);
+	}
 }
