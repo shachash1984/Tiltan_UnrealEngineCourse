@@ -1,19 +1,33 @@
-#include "Weapon.h"
+#include <iostream>
+#include <vector>
+#include "SpaceShip.h"
 #include "LaserWeapon.h"
 #include "PlasmaWeapon.h"
-#include "MissileWeapon.h"
+#include "MissleWeapon.h"
+#include "SpaceShuttle.h"
 
 int main()
 {
-    Weapon weapon;
-    LaserWeapon laserWeapon("Laser", 10, 15.0f, 2.0f, 8);
-    PlasmaWeapon plasmaWeapon("Plasma", 20, 25.0f, 3.0f, 6);
-    MissileWeapon missileWeapon("Missile", 30, 35.0f, 4.0f, 4);
+    //creating weapons
+    std::unique_ptr<Weapon> laser = std::make_unique<LaserWeapon>("Laser Gun", 30, 20.0, 2.0, 100);
+    std::unique_ptr<Weapon> missile = std::make_unique<MissleWeapon>("Missile Launcher", 50, 30.0, 3.0, 10);
+    std::unique_ptr<Weapon> plasma = std::make_unique<PlasmaWeapon>("Plasma Cannon", 100, 40.0, 4.0, 5);
 
-    weapon.Shoot();
-    laserWeapon.Shoot();
-    plasmaWeapon.Shoot();
-    missileWeapon.Shoot();
+    //creating spaceship
+    std::vector<std::unique_ptr<Weapon>> weapons;
+    weapons.push_back(std::move(laser));
+    weapons.push_back(std::move(missile));
+    weapons.push_back(std::move(plasma));
+    SpaceShip spaceship("USS Enterprise", std::move(weapons));
+
+    spaceship.Shoot();
+    spaceship.FireEverythingWeGot();
+
+    //creating space shuttle
+    std::unique_ptr<Weapon> laser2 = std::make_unique<LaserWeapon>("Laser Gun", 30, 20.0, 2.0, 100);
+    SpaceShuttle spaceShuttle("Shuttle1", std::move(laser2));
+    spaceShuttle.Shoot();
+    spaceShuttle.FireEverythingWeGot();
 
     return 0;
 }
