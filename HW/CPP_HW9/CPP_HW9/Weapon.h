@@ -3,6 +3,8 @@
 
 using namespace std;
 
+// CPP HW 9 + 10, was done with Eyal
+
 class Weapon
 {
 	protected:

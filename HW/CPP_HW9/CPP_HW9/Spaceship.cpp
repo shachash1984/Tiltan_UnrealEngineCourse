@@ -1,4 +1,3 @@
-#pragma once // no need to have this in a .cpp file because cpp files are not being included in other files
 #include "Spaceship.h"
 #include "Weapon.h"
 #include <vector>
@@ -6,6 +5,8 @@
 #include <iostream>
 
 using namespace std;
+
+// CPP HW 9 + 10, was done with Eyal
 
 Spaceship::Spaceship(int worldPos, string name, vector<Weapon*> weapons, unsigned int hp) : Actor(worldPos), IDamageable(hp), _name(name), _weapons(weapons)
 {

@@ -1,8 +1,10 @@
-#pragma once
+
 #include "Actor.h"
 #include <string>
 #include <iostream>
 using namespace std;
+
+// CPP HW 9 + 10, was done with Eyal
 
 Actor::Actor(int worldPos) : _worldPos(worldPos)
 {

@@ -1,8 +1,9 @@
-#pragma once
 #include "Weapon.h"
 #include "Spaceship.h"
 #include <string>
 #include <iostream>
+
+// CPP HW 9 + 10, was done with Eyal
 
 Weapon::Weapon() : _name("default"), _damage(1), _range(5), _reloadTime(1), _ammo(15), _hitChance(10)
 {

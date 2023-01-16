@@ -1,10 +1,12 @@
-#pragma once
+
 #include <iostream>
 #include <string>
 #include "Weapon.h"
 #include "Spaceship.h"
 #include <vector>
 using namespace std;
+
+// CPP HW 9 + 10, was done with Eyal
 
 int main()
 {

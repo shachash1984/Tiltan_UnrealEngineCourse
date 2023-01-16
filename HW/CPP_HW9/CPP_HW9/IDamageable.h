@@ -1,4 +1,7 @@
 #pragma once
+
+// CPP HW 9 + 10, was done with Eyal
+
 class IDamageable
 {
 public:
