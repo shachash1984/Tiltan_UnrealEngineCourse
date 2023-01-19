@@ -33,16 +33,52 @@ SpaceShuttle::SpaceShuttle(std::string name, WeaponType weaponType)
 	}
 }
 
-//SpaceShuttle::SpaceShuttle(const SpaceShuttle& other)
-//{
-//	_name = other._name;
-//	_weapon = std::make_unique<typeid(other._weapon)>();
-//}
+SpaceShuttle::SpaceShuttle(const SpaceShuttle& other)
+{
+	_name = other._name;
+	switch (other._weapon.get()->GetType())
+	{
+	case WeaponType::tEggBlaster:
+		_weapon = std::make_unique<EggBlaster>();
+		break;
 
-//SpaceShuttle& SpaceShuttle::operator=(const SpaceShuttle other)
-//{
-//	// // O: insert return statement here
-//}
+	case WeaponType::tGunGun:
+		_weapon = std::make_unique<GunGun>();
+		break;
+
+	case WeaponType::tJellyGun:
+		_weapon = std::make_unique<JellyGun>();
+		break;
+
+	default:
+		std::cout << "This weapon type doesn't exists";
+		break;
+	}
+}
+
+SpaceShuttle& SpaceShuttle::operator=(const SpaceShuttle other)
+{
+	_name = other._name;
+	switch (other._weapon.get()->GetType())
+	{
+	case WeaponType::tEggBlaster:
+		_weapon = std::make_unique<EggBlaster>();
+		break;
+
+	case WeaponType::tGunGun:
+		_weapon = std::make_unique<GunGun>();
+		break;
+
+	case WeaponType::tJellyGun:
+		_weapon = std::make_unique<JellyGun>();
+		break;
+
+	default:
+		std::cout << "This weapon type doesn't exists";
+		break;
+	}
+	return *this;
+}
 
 SpaceShuttle::~SpaceShuttle()
 {

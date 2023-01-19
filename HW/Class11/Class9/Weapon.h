@@ -1,5 +1,13 @@
 #pragma once
 #include <string>
+
+enum WeaponType
+{
+	tEggBlaster,
+	tJellyGun,
+	tGunGun
+};
+
 class Weapon
 {
 public:
@@ -9,6 +17,7 @@ public:
 	Weapon& operator=(const Weapon other);
 	virtual ~Weapon();
 	virtual bool Shoot(); 
+	WeaponType GetType();
 
 protected:
 	std::string name;
@@ -17,12 +26,10 @@ protected:
 	int hitChance; // out of a hundred
 	float reloadTime;
 	unsigned int ammo;
+	
+
+private:
+	WeaponType _type;
 };
 
-enum WeaponType
-{
-	tEggBlaster,
-	tJellyGun,
-	tGunGun
-};
 
