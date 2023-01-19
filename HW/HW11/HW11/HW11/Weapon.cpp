@@ -78,3 +78,8 @@ bool Weapon::Shoot()
 		return false;
 	}
 }
+
+WeaponType Weapon::GetType()
+{
+	return _type;
+}

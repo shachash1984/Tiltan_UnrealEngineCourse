@@ -9,8 +9,8 @@ class SpaceShuttle : ISpaceVehicle
 public:
 	SpaceShuttle();
 	SpaceShuttle(std::string name, WeaponType weaponType);
-	//SpaceShuttle(const SpaceShuttle& other);
-	//SpaceShuttle& operator=(const SpaceShuttle& other);
+	SpaceShuttle(const SpaceShuttle& other);
+	SpaceShuttle& operator=(const SpaceShuttle& other);
 	~SpaceShuttle();
 
 	void Shoot() override;

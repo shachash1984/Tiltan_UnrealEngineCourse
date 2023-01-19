@@ -30,14 +30,50 @@ SpaceShuttle::SpaceShuttle(std::string name, WeaponType weaponType)
 	}
 }
 
-//SpaceShuttle::SpaceShuttle(const SpaceShuttle& other)
-//{
-//}
+SpaceShuttle::SpaceShuttle(const SpaceShuttle& other)
+{
+	_name = other._name;
+	switch (other._weapon.get()->GetType())
+	{
+		{
+	case tPotatoGun:
+		_weapon = std::make_unique<PotatoGun>();
+		break;
+	case tRockets:
+		_weapon = std::make_unique<Rockets>();
+		break;
+	case tLaser:
+		_weapon = std::make_unique<Laser>();
+		break;
+	default:
+		std::cout << "Invalid weapon type";
+		break;
+		}
+	}
+}
 
-//SpaceShuttle& SpaceShuttle::operator=(const SpaceShuttle& other)
-//{
-//	// TODO: insert return statement here
-//}
+SpaceShuttle& SpaceShuttle::operator=(const SpaceShuttle& other)
+{
+	_name = other._name;
+	switch (other._weapon.get()->GetType())
+	{
+		{
+	case tPotatoGun:
+		_weapon = std::make_unique<PotatoGun>();
+		break;
+	case tRockets:
+		_weapon = std::make_unique<Rockets>();
+		break;
+	case tLaser:
+		_weapon = std::make_unique<Laser>();
+		break;
+	default:
+		std::cout << "Invalid weapon type";
+		break;
+		}
+		return *this;
+	}
+}
 
 SpaceShuttle::~SpaceShuttle()
 {
