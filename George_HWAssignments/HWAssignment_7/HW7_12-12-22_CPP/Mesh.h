@@ -9,6 +9,8 @@ public:
 	Mesh();
 	Mesh(std::string nameVal, Point pos, std::vector<Vertex> verts);
 
+	~Mesh();
+
 	std::string ToString() const { return "Name: " + name + ", Position: " + position.ToString() + ", Vertices:\n" + PrintAllVertices(); }
 
 	Point GetPosition()  const { return position; }

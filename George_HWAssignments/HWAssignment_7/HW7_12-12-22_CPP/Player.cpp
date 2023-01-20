@@ -14,5 +14,7 @@ Player::Player(std::string _name, Mesh* _plBody, Mesh* _plWeapon)
 
 Player::~Player()
 {
-	cout << "Destructing Player" << endl;
+	cout << "Destructing Player " << name << endl;
+	//delete playerWeapon;
+	//delete playerBody;
 }

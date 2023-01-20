@@ -19,6 +19,11 @@ Mesh::Mesh(std::string nameVal, Point pos, std::vector<Vertex> verts)
 	//cout << "Mesh:{ " + ToString() + " }" << endl;
 }
 
+Mesh::~Mesh()
+{
+	cout << "Destructing Mesh " << name << endl;
+}
+
 void Mesh::SetPosition(float xVal, float yVal, float zVal)
 {
 	position.SetPos(xVal, yVal, zVal);

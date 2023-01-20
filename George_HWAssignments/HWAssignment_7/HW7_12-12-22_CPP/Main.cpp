@@ -26,10 +26,13 @@ int main()
 	Mesh* plWeaponPointerB = new Mesh;
 	plWeaponPointerB->ChangeName("Player Weapon2");
 
-	Player p2("Player2", plBodyPointerB, plWeaponPointerB);
+	Player* p2 = new Player("Player2", plBodyPointerB, plWeaponPointerB);
 
-	cout << "Player:{ " + p2.ToString() + " }" << endl;
+	cout << "Player:{ " + p2->ToString() + " }" << endl;
 
+	delete p2;
+	delete plWeaponPointerB;
+	delete plBodyPointerB;
 
 	return 0;
 }
