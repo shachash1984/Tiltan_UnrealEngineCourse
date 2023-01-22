@@ -10,11 +10,7 @@ public:
 	int x;
 	int y;
 	int z;
-	Point() {
-		x = 0;
-		y = 0;
-		z = 0;
-	}
+	Point() : x(0), y(0), z(0) {}
 };
 
 class PickUp {
@@ -24,10 +20,7 @@ private:
 	int value;
 
 public:
-	PickUp() {
-		name: "nizar";
-		value = 0;
-	}
+	Pickup() : name("nizar"), value(0) {}
 	PickUp(Point pos, string name, int value) {
 		position = pos;
 		this->name == name;
