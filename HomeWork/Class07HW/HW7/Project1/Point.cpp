@@ -20,10 +20,6 @@ Point::Point(const Point& p1)
 }
 
 Point::~Point() {};
-string Point::ToString() {
-	//return "X: " + x + "\n Y: " + y + "\n Z: " + z;
-	return "";
-}
 float Point::GetX() {
 	return x;
 }

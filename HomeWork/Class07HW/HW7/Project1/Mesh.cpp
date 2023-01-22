@@ -11,8 +11,3 @@ Mesh::Mesh(string _name, Point _position, vector<Vertex> _vertices) {
 	position = _position;
 	vertices = _vertices;
 }
-
-string Mesh::ToString() {
-	//return "Name:"+name+"\n Position:"+position+" Vertices: Vertex "+vertices.Index+": Position: "+vertices.position+" Color: "+ vertices.color+"\n";
-	return "";
-}

@@ -13,5 +13,5 @@ public:
 	Mesh();
 	Mesh(string _name, Point _position, vector<Vertex> _vertices);
 
-	string ToString();
+	string ToString()const { return "Name: " + name + ", Position: " + position.ToString() + ", Vertices:\n" + PrintAllVertices(); }
 };

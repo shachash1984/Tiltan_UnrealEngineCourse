@@ -16,10 +16,6 @@ Vertex::Vertex(const Vertex& v1)
 }
 
 Vertex::~Vertex() {};
-string Vertex::ToString() {
-	//return "Position: " + position + "\n Color: " + color ;
-	return "";
-}
 Point Vertex::GetPosition() {
 	return position;
 }

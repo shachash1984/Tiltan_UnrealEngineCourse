@@ -12,7 +12,3 @@ Player::Player(string _name, Mesh* _body, Mesh* _weapon) {
 }
 
 Player::~Player() {};
-string Player::ToString() {
-	//return "Player: Name:"+name+"\n Body:"+ PlayerBody +"\n Weapon:"+PlayerWeapon+"\n";
-	return "";
-}

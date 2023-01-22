@@ -19,8 +19,5 @@ public:
 	}
 
 	~Player() {};
-	string ToString() {
-		//return "Player: Name:"+name+"\n Body:"+ PlayerBody +"\n Weapon:"+PlayerWeapon+"\n";
-		return "";
-	}
+	string ToString() const { return "Name: " + name + ", BodyMesh: " + PlayerBody->ToString() + ", WeaponMesh: " + PlayerWeapon->ToString(); }
 };

@@ -22,10 +22,6 @@ Color::Color(const Color& c1)
 }
 
 Color::~Color() {};
-string Color::ToString() {
-	//return "R: " + r + "\n G: " + g + "\n B: " + b + "\n A" + a;
-	return "";
-}
 void Color::Set(float _r, float _g, float _b, float _a) 
 {
 	r = _r;

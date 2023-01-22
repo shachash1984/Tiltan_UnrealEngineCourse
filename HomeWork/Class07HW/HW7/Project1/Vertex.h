@@ -14,7 +14,7 @@ public:
 	Vertex(const Vertex& v1);
 
 	~Vertex() {};
-	string ToString();
+	string ToString()const { return "Position: " + position.ToString() + ", Color: " + color.ToString(); }
 	Point GetPosition();
 	void SetPosition(float x, float y, float z);
 	Color GetColor();

@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <vector>
+#include <string>
 
 using namespace std;
 struct Point {
@@ -10,7 +11,7 @@ public:
 	Point(float _x, float _y, float _z);
 	Point(const Point& p1);
 	~Point() {};
-	string ToString();
+	string ToString()const { return "(" + std::to_string(x) + ", " + std::to_string(y) + ", " + std::to_string(z) + ")"; }
 	float GetX();
 	float GetY();
 	float GetZ();
