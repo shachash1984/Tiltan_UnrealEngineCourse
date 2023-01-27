@@ -19,6 +19,15 @@
 # Fortran module files
 *.mod
 
+# Final Project
+!/FinalProject/**
+# !/FinalProject/ExternalDeps
+# !/FinalProject/ExternalDeps/*
+# !/FinalProject/DialogApp
+# !/FinalProject/DialogApp/*
+# !/FinalProject/DialogApp/ExternalDeps/*
+# !/FinalProject/DialogApp/ExternalDeps
+
 # Compiled Static libraries
 *.lai
 *.la
