@@ -19,6 +19,9 @@
 # Fortran module files
 *.mod
 
+# Final Project
+!/FinalProject/ExternalDeps/*
+
 # Compiled Static libraries
 *.lai
 *.la
