@@ -1,7 +1,7 @@
 #pragma once
-#include "IDialogElement.h"
+#include "IDialogCreationElement.h"
 
-class DialogElementSize : public IDialogElement
+class DialogElementSize : public IDialogCreationElement
 {
 public:
 	DialogElementSize(std::shared_ptr<IGUI> const& pGui, int _width, int _height);
