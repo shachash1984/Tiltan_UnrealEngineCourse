@@ -1,0 +1,14 @@
+CPP:
+Continuing the HW of class 10: **Duplicate - do not override the old HW**
+
+1. Create a new abstract class ISpaceVehicle
+2. Make ISpaceVehicle the base class for Spaceship (Shoot Should be a "pure virtual" method) and overriden in ISpaceVehicle derived classes.
+3. Create a new type that derives from ISpaceVehicle "SpaceShuttle"
+4. SpaceShuttle can only have one weapon. it owns it with a unique_ptr and creates it in its constructor (std::make_unique())
+5. In main, Create an instance of SpaceShuttle (does not matter which weapon you choose to create) and call the Shoot() method
+
+** if you see other members that can be in the base abstract class you can write them in it**
+
+
+interesting clip about importance of debugging
+https://www.youtube.com/watch?v=M7fV-eQwxrY&t=2755s&ab_channel=CppCon
