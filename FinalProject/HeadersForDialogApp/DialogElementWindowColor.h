@@ -1,7 +1,7 @@
 #pragma once
-#include "IDialogElement.h"
+#include "IDialogCreationElement.h"
 
-class DialogElementWindowColor : public IDialogElement
+class DialogElementWindowColor : public IDialogCreationElement
 {
 public:
 	DialogElementWindowColor(std::shared_ptr<IGUI> const& pGui, IGUI::Color _color);

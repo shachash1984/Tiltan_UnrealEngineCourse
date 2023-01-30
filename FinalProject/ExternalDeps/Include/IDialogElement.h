@@ -1,4 +1,6 @@
 #pragma once
+#include <iostream>
+
 #include "IGUI.h"
 #include <memory>
 
@@ -11,6 +13,7 @@ public:
 	}
 
 	virtual ~IDialogElement() = default;
+	
 	virtual void Act() = 0;
 
 protected:
