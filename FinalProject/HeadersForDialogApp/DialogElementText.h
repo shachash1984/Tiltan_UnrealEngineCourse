@@ -1,10 +1,9 @@
 #pragma once
 #include <vector>
 
-#include "IDialogElement.h"
-#include "IGUI.h"
+#include "IDialogRenderingElement.h"
 
-class DialogElementText : public IDialogElement
+class DialogElementText : public IDialogRenderingElement
 {
 public:
 	DialogElementText(std::shared_ptr<IGUI> const& pGui, const std::vector<std::string>& _text);
