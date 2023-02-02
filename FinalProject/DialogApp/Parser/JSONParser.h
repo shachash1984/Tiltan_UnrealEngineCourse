@@ -2,6 +2,9 @@
 #include "json/json.h"
 #include "IParser.h"
 #include <fstream>
+#include <iostream>
+
+using namespace std;
 
 class JSONParser : public IParser
 {
