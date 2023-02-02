@@ -19,7 +19,7 @@ int main()
 	//iterating over all fields in a JSON
 	if(configFile.is_open())
 	{
-		reader.parse(inputFile, root);
+		reader.parse(configFile, root);
 		if (!root.empty())
 		{
 			files.clear();
@@ -48,7 +48,7 @@ int main()
 		point.x = root.get("position", 0).get("x", 0).asInt();
 
 		// parsing a title
-		string title = parser.GetRoot().get("title", "No_title").asString();
+		string title = root.get("title", "No_title").asString();
 		
 		// Parsing the "Text" array
 		const Json::Value& text = root["text"];
@@ -61,10 +61,10 @@ int main()
 
 		// Parsing a window color
 		IGUI::Color windowColor;
-		windowColor.r = parser.GetRoot().get("window_color", 0).get("r", 0).asFloat();
-		windowColor.g = parser.GetRoot().get("window_color", 0).get("g", 0).asFloat();
-		windowColor.b = parser.GetRoot().get("window_color", 0).get("b", 0).asFloat();
-		windowColor.a = parser.GetRoot().get("window_color", 0).get("a", 0).asFloat();
+		windowColor.r = root.get("window_color", 0).get("r", 0).asFloat();
+		windowColor.g = root.get("window_color", 0).get("g", 0).asFloat();
+		windowColor.b = root.get("window_color", 0).get("b", 0).asFloat();
+		windowColor.a = root.get("window_color", 0).get("a", 0).asFloat();
 	}
 	
 	
