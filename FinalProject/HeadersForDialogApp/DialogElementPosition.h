@@ -1,8 +1,8 @@
 #pragma once
-#include "IDialogElement.h"
+#include "IDialogCreationElement.h"
 
 
-class DialogElementPosition : public IDialogElement
+class DialogElementPosition : public IDialogCreationElement
 {
 
 public:

@@ -1,9 +1,9 @@
 #pragma once
 #include "IGUI.h"
-#include "IDialogElement.h"
+#include "IDialogRenderingElement.h"
 
 
-class DialogElementTitle : public IDialogElement
+class DialogElementTitle : public IDialogRenderingElement
 {
 public:
 	DialogElementTitle(std::shared_ptr<IGUI> const& pGui, const std::string& _title);
