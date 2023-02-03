@@ -1,6 +1,8 @@
 #include <iostream>
 #include <JSONParser.h>
 #include <vector>
+#include <fstream>
+
 
 #include <GuiEngine.h>
 #include <DialogBox.h>
@@ -17,22 +19,31 @@ int main()
 {
 	using namespace std;
 	JSONParser parser;
-	Json::Reader reader;
+	//Json::Reader reader;
 
-	//shared_ptr<GuiEngine> gui = make_shared<GuiEngine>();
+	shared_ptr<GuiEngine> gui = make_shared<GuiEngine>();
 	//this is where your code should go
 	//you should parse the index file and save the files to the JSONParser::data vector
-	if (!parser.OpenFile("$(SolutionDir)\Dialog\Dialogs\dialog"))
+	parser.SetIndexFilePath("Dialogs\\DialogIndex.json");
+	cout << parser.GetIndexFilePath() << endl;
+	if(!parser.OpenFile(parser.GetIndexFilePath()))
 	{
-		cout << "File couldn't open" << endl;
-		return 0;
+			cout << "File couldn't open" << endl;
+			return 0;
 	}
+	parser.Parse();
+
+	//if (!parser.OpenFile("Dialogs\\dialog.json"))
+	//{
+	//	cout << "File couldn't open" << endl;
+	//	return 0;
+	//}
 
 	//you should iterate over all the json files in a loop
 	//parse each dialog element and add it to the correct vector
-	//vector<std::shared_ptr<IDialogCreationElement>> onCreateElements{};
-	//vector<std::shared_ptr<IDialogRenderingElement>> onCreateElements{};
-	//vector<std::shared_ptr<IDialogElementButton>> onCreateElements{};
+	vector<std::shared_ptr<IDialogCreationElement>> onCreateElements{};
+	vector<std::shared_ptr<IDialogRenderingElement>>onRenderedElements{};
+	vector<std::shared_ptr<IDialogElementButton>> onButtonElements{};
 
 	//create a dialogBoxBase and call the correct methods to add each vector of elements
 	//call the gui method to add the DialogBox you created to the ap with it's id

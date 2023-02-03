@@ -18,15 +18,16 @@ std::vector<std::string> JSONParser::GetData()
 
 bool JSONParser::Parse()
 {
+	//parsing the index file
+	reader.parse(inputFile,root);
 	return false;
 }
 
 bool JSONParser::OpenFile(const std::string& FilePath)
 {
 	//cout << "Trying to open File" << endl;
-	fstream my_File;
-	my_File.open(FilePath, ios::out);
-	if (!my_File)
+	inputFile.open(FilePath);
+	if (!inputFile)
 	{
 		cout << "File Not Created" << endl;
 		return false;
