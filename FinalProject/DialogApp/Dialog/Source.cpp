@@ -18,7 +18,7 @@ int main()
 	JSONParser parser;
 	Json::Reader reader;
 	
-	//shared_ptr<GuiEngine> gui = make_shared<GuiEngine>();
+	shared_ptr<GuiEngine> gui = make_shared<GuiEngine>();
 
     //this is where your code should go
     //you should parse the index file and save the files to the JSONParser::data vector
