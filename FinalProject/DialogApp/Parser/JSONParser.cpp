@@ -6,6 +6,8 @@
 void JSONParser::SetIndexFilePath(const std::string& _indexFilePath)
 {
 	indexFilePath = _indexFilePath;
+	
+	
 }
 
 const std::string& JSONParser::GetIndexFilePath() const
@@ -20,15 +22,16 @@ std::vector<std::string> JSONParser::GetData()
 
 bool JSONParser::Parse()
 {
+	
+	reader.parse(inputFile, root);
 	return false;
 }
 
 bool JSONParser::OpenFile(const std::string& FilePath)
 {
-	fstream my_File;
-	my_File.open(FilePath, ios:: out);
-	my_File.close();
-	if (!my_File)
+	inputFile.open(FilePath);
+	inputFile.close();
+	if (!inputFile)
 	{
 		cout << "File not created" << endl;
 		return false;
