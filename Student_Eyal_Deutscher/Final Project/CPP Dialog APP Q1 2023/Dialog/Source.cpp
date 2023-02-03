@@ -24,13 +24,14 @@ int main()
 	shared_ptr<GuiEngine> gui = make_shared<GuiEngine>();
 	//this is where your code should go
 	//you should parse the index file and save the files to the JSONParser::data vector
-	parser.SetIndexFilePath("Dialogs\\DialogIndex.json");
+	parser.SetIndexFilePath("Dialogs\\DialogIndex1.json");
 	cout << parser.GetIndexFilePath() << endl;
 	if(!parser.OpenFile(parser.GetIndexFilePath()))
 	{
 			cout << "File couldn't open" << endl;
 			return 0;
 	}
+	parser.CloseFile();
 	parser.Parse();
 
 	//if (!parser.OpenFile("Dialogs\\dialog.json"))

@@ -42,4 +42,15 @@ bool JSONParser::OpenFile(const std::string& FilePath)
 
 void JSONParser::CloseFile()
 {
+	cout << "Closeing File" << endl;
+	inputFile.close();
+	if (inputFile)
+	{
+		cout << "still have value"<<endl;
+	}
+	else
+	{
+		cout << "Discarded value" << endl;
+	}
+
 }
