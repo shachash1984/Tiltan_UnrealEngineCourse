@@ -2,6 +2,9 @@
 #include <json/json.h>
 #include "IParser.h"
 #include <fstream>
+#include <iostream>
+
+using namespace std;
 
 class JSONParser : public IParser
 {
@@ -15,6 +18,7 @@ public:
 	Json::Value& GetRoot() { return root; } 
 	bool OpenFile(const std::string& FilePath); //Used as a wrapper function for the user of this library to open a file (without using std::fstream)
 	void CloseFile(); //Same as Open but for closing the file
+	bool TryParseJSON(string filePath, bool printContent = false);
 
 protected:
 	std::string indexFilePath; //Used to save the path to the JSON index file (the JSON file that contains the paths of all the dialog files)
