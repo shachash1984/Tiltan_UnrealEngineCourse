@@ -26,9 +26,9 @@ int main()
 
     parser.TryParseJSON("Dialogs\\DialogIndex.json");
 
-    for (int i = 0; i < parser.GetData().size(); i++)
+    for (int index = 0; index < parser.GetData().size(); index++)
     {
-        string currentDialog = parser.GetRoot().get(parser.GetData()[i], 0).asString();
+        string currentDialog = parser.GetRoot().get(parser.GetData()[index], 0).asString();
         cout << "currentDialog: " + currentDialog << endl;
     
         dialogParser.TryParseJSON(currentDialog, true);
@@ -42,8 +42,8 @@ int main()
         // Title
         string dialogTitle = dialogParser.GetRoot().get("title", "no title found").asString();
 
-        DialogElementTitle boxTitle(gui, dialogTitle);
-        onRenderElements.push_back(make_shared<DialogElementTitle>(boxTitle));
+        shared_ptr<DialogElementTitle> boxTitle = make_shared< DialogElementTitle>(gui, dialogTitle);
+        onRenderElements.push_back(boxTitle);
 
         // Text
         const Json::Value& textRef = dialogParser.GetRoot()["text"];
@@ -54,8 +54,8 @@ int main()
             dialogText[i] = textRef[i].asString();
         }
 
-        DialogElementText boxText(gui, dialogText);
-        onRenderElements.push_back(make_shared<DialogElementText>(boxText));
+        shared_ptr<DialogElementText> boxText = make_shared<DialogElementText>(gui, dialogText);
+        onRenderElements.push_back(boxText);
 
         // ----- Points -----
         IGUI::Point dialogPoint;
@@ -64,15 +64,15 @@ int main()
         dialogPoint.x = dialogParser.GetRoot().get("position", 0).get("x", 0).asInt();
         dialogPoint.y = dialogParser.GetRoot().get("position", 0).get("y", 0).asInt();
 
-        DialogElementPosition boxPosition(gui, dialogPoint);
-        onCreateElements.push_back(make_shared<DialogElementPosition>(boxPosition));
-
+        shared_ptr<DialogElementPosition> boxPosition = make_shared<DialogElementPosition>(gui, dialogPoint);
+        onCreateElements.push_back(boxPosition);
+        
         // Size
         dialogPoint.x = dialogParser.GetRoot().get("size", 0).get("width", 0).asInt();
-        dialogPoint.y = dialogParser.GetRoot().get("size", 0).get("length", 0).asInt();
+        dialogPoint.y = dialogParser.GetRoot().get("size", 0).get("height", 0).asInt();
 
-        DialogElementSize boxSize(gui, dialogPoint.x, dialogPoint.y);
-        onCreateElements.push_back(make_shared<DialogElementSize>(boxSize));
+        shared_ptr<DialogElementSize> boxSize = make_shared<DialogElementSize>(gui, dialogPoint.x, dialogPoint.y);
+        onCreateElements.push_back(boxSize);
 
         // ----- Colors -----
         IGUI::Color dialogColor;
@@ -84,8 +84,9 @@ int main()
         dialogColor.b = windowColorValues.get("b", 0).asFloat();
         dialogColor.a = windowColorValues.get("a", 0).asFloat();
 
-        DialogElementWindowColor boxWindowColor(gui, dialogColor);
-        onCreateElements.push_back(make_shared<DialogElementWindowColor>(boxWindowColor));
+
+        shared_ptr<DialogElementWindowColor> boxWindowColor = make_shared<DialogElementWindowColor>(gui, dialogColor);
+        onCreateElements.push_back(boxWindowColor);
 
 
         // Text Color
@@ -95,8 +96,8 @@ int main()
         dialogColor.b = textColorValues.get("b", 0).asFloat();
         dialogColor.a = textColorValues.get("a", 0).asFloat();
 
-        DialogElementTextColor boxTextColor(gui, dialogColor);
-        onCreateElements.push_back(make_shared<DialogElementTextColor>(boxTextColor));
+        shared_ptr<DialogElementTextColor> boxTextColor = make_shared<DialogElementTextColor>(gui, dialogColor);
+        onCreateElements.push_back(boxTextColor);
 
         // Buttons
         const Json::Value& buttonsRef = dialogParser.GetRoot()["buttons"];
@@ -108,42 +109,41 @@ int main()
             text = buttonsRef[i].get("text", 0).asString();
             next = buttonsRef[i].get("next", 0).asInt();
 
-            DialogElementButton dialogButtonI(gui, text, next);
-            onButtonElements.push_back(make_shared<DialogElementButton>(dialogButtonI));
+            shared_ptr<DialogElementButton> dialogButton = make_shared<DialogElementButton>(gui, text, next);
+            onButtonElements.push_back(dialogButton);
 
         }
 
         // ----- Creating the DialogBox -----
-        DialogBoxBase dialogBox;
+        shared_ptr<DialogBoxBase> dialogBox = make_shared<DialogBoxBase>();
 
         // Registering Create Elements
         for (int i = 0; i < onCreateElements.size(); i++)
         {
-            dialogBox.RegisterElementToOnCreate(onCreateElements[i]);
+            dialogBox->RegisterElementToOnCreate(onCreateElements[i]);
         }
 
         // Registering Render Elements
-        for (int i = 0; i < onCreateElements.size(); i++)
+        for (int i = 0; i < onRenderElements.size(); i++)
         {
-            dialogBox.RegisterElementToOnRender(onRenderElements[i]);
+            dialogBox->RegisterElementToOnRender(onRenderElements[i]);
         }
-
 
         // Registering Button Elements
         for (int i = 0; i < onButtonElements.size(); i++)
         {
-            dialogBox.RegisterElementToOnButton(onButtonElements[i]);
+            dialogBox->RegisterElementToOnButton(onButtonElements[i]);
         }
 
         // ----- Adding Dialog Box to gui -----
-        gui->AddDialogBox(dialogID, make_shared<DialogBoxBase>(dialogBox));
+        gui->AddDialogBox(dialogID, dialogBox);
         /* */
     }    
     //end of loop
     //
     gui->SetStartingDialog(1);
-    gui -> Run(); //this will run the Gui engine and start rendering the dialogs
-   return gui->ShutDown();
+    gui->Run(); //this will run the Gui engine and start rendering the dialogs
+    gui->ShutDown();
 	return 0;
 }
 
