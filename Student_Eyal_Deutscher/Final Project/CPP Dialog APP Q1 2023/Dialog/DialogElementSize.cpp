@@ -10,4 +10,5 @@ DialogElementSize::~DialogElementSize()
 
 void DialogElementSize::Act()
 {
+	gui->SetDialogSize(width, height);
 }

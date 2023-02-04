@@ -10,6 +10,7 @@ DialogElementText::~DialogElementText()
 
 void DialogElementText::Act()
 {
+	gui->DisplayTextDialog(text);
 }
 
 std::vector<std::string> const& DialogElementText::GetText() const

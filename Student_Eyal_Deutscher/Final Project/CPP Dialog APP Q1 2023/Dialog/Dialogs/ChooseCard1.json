@@ -1,0 +1,22 @@
+{
+	"id" : 11,
+    "title" : "Defense +10",
+    "text" : [
+        "You Defended",
+			"The enemy has attacked and you blocked succesfully",
+			"It's Your turn again"
+    ],
+	"position" : {"x" : 500, "y" : 200},
+	"size" : {"width" : 300, "height" : 300},
+	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 0.0, "b" : 1.0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "1", "next":  11},
+			{ "text" : "2", "next":  12},
+			{ "text" : "3", "next":  13},
+			{ "text" : "4", "next":  14},
+			{ "text" : "End Turn", "next":  15}
+		]
+    
+}

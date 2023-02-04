@@ -10,4 +10,5 @@ DialogElementTextColor::~DialogElementTextColor()
 
 void DialogElementTextColor::Act()
 {
+	gui->SetTextColor(color);
 }

@@ -1,0 +1,21 @@
+{
+	"id" : 42,
+    "title" : "Game Crashed with exit code 2291",
+    "text" : [
+			"He broke the game completely",
+			"Nothing we can do about it",
+			"Restart his Account please"
+    ],
+	"position" : {"x" : 500, "y" : 200},
+	"size" : {"width" : 300, "height" : 200},
+	"window_color" : {"r" : 0, "g" : 0, "b" : 0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
+	"buttons" : [
+
+		{
+			"text": "Press Me!",
+			"next": -1
+		}
+	]
+    
+}

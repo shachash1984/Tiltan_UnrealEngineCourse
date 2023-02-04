@@ -1,0 +1,19 @@
+{
+	"id" : 3,
+    "title" : "Cool Wow",
+    "text" : [
+        "That was pretty cool",
+        "Everybody skips the tutorial",
+        "Thank you for participating"
+        ],
+	"position" : {"x" : 500, "y" : 200},
+	"size" : {"width" : 300, "height" : 300},
+	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 0.0, "a" : 0.75},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "I understood everything", "next": 10 },
+			{ "text" : "What has happened I dont see anything", "next": 1 }
+		]
+    
+}

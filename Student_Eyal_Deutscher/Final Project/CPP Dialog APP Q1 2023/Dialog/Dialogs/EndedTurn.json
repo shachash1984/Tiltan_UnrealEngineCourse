@@ -1,0 +1,22 @@
+{
+	"id" : 15,
+    "title" : "Nothing happens",
+    "text" : [
+        "Another player pressed the End turn button in the tutorial gameplay",
+			"Can you disable it for next build?",
+			"What do you mean NO?",
+			"It will cost us with more REFACTORING??? HELL NO"
+    ],
+	"position" : {"x" : 500, "y" : 200},
+	"size" : {"width" : 600, "height" : 300},
+	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 0.0, "b" : 1.0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "I am still in the tutorial??? MFkers", "next":  -1},
+			{ "text" : "Replay Fight", "next":  10},
+			{ "text" : "Restart The APP", "next":  1},
+			{ "text" : "Exig Game", "next":  -1}
+		]
+    
+}

@@ -1,8 +1,17 @@
 {
-    "dialog1" : "Dialogs\\dialog.json",
-    "dialog2" : "Dialogs\\dialog2.json",
-    "dialog3" : "Dialogs\\dialog3.json",
-    "GameOverReem" : "Dialogs\\GameOver1.json",
-    "GameOverMeital" : "Dialogs\\GameOver2.json"
-        
+    "dialog1" : "Dialogs\\TutorialQuestion.json",
+    "dialog2" : "Dialogs\\TutorialStart.json",
+    "dialog3" : "Dialogs\\CoolWow.json",
+    "dialog4" : "Dialogs\\ChooseCard.json",
+    "TutorialBug1" : "Dialogs\\TutorialBug1.json",
+    "TutorialBug2" : "Dialogs\\TutorialBug2.json",
+    "tutorialBug3" : "Dialogs\\TutorialBug3.json",
+    "Uncomplient1" : "Dialogs\\UncomplientPlayer.json",
+    "Uncomplient2" : "Dialogs\\UncomplientPlayer2.json",
+    "Uncomplient3" : "Dialogs\\UncomplientPlayer3.json",
+    "ChooseCard1" : "Dialogs\\ChooseCard1.json",
+    "ChooseCard2" : "Dialogs\\ChooseCard2.json",
+    "ChooseCard3" : "Dialogs\\ChooseCard3.json",
+    "ChooseCard4" : "Dialogs\\ChooseCard4.json",
+    "EndedTurn" : "Dialogs\\EndedTurn.json"
 }

@@ -1,0 +1,20 @@
+{
+	"id" : 52,
+    "title" : "Error Skipping Tutorial",
+    "text" : [
+			"You found a new bug, Hurry!",
+			"None of the developers found it",
+			"You can gain 2 points"
+    ],
+	"position" : {"x" : 500, "y" : 200},
+	"size" : {"width" : 300, "height" : 200},
+	"window_color" : {"r" : 0, "g" : 0, "b" : 0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Reload Game and gain 2 point", "next" : 1 },
+		{ "text" : "I Quit", "next" : -1 }
+		
+		]
+	
+}

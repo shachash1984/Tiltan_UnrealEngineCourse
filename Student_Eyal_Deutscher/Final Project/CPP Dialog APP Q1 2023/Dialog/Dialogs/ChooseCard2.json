@@ -1,0 +1,19 @@
+{
+	"id" : 12,
+    "title" : "You Healed for 2 HP",
+    "text" : [
+        "You healed for 2 Health but were at maximum of 5 health",
+			"The enemy attacked for 5 damage",
+			"You Lost"
+    ],
+	"position" : {"x" : 500, "y" : 200},
+	"size" : {"width" : 500, "height" : 300},
+	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 0.0, "b" : 1.0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "Return to tutorial?", "next":  2},
+			{ "text" : "Exit Game", "next":  -1}
+		]
+    
+}
