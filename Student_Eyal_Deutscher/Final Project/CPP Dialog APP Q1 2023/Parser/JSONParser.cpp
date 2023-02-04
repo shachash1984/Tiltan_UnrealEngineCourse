@@ -85,6 +85,7 @@ bool JSONParser::TryParseJSON(string filePath, bool printContent)
 	Parse();
 	if (printContent)
 	{
+		cout << "\n---- " + filePath + " ----" << endl;
 		for (int i = 0; i < data.size(); i++)
 		{
 			cout << data[i] << endl;
