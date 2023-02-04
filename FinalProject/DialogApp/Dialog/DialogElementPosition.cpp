@@ -10,4 +10,5 @@ DialogElementPosition::~DialogElementPosition()
 
 void DialogElementPosition::Act()
 {
+	gui->SetDialogPosition(point);
 }

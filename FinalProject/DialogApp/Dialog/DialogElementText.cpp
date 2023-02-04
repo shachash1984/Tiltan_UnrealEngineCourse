@@ -11,7 +11,7 @@ DialogElementText::~DialogElementText()
 
 void DialogElementText::Act()
 {
-    cout << "\nyes\n" << endl;
+    gui->DisplayTextDialog(text);
 }
 
 std::vector<std::string> const& DialogElementText::GetText() const

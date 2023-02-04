@@ -10,4 +10,5 @@ DialogElementButton::~DialogElementButton()
 
 void DialogElementButton::Act()
 {
+	gui->SetCurrentDialog(nextDialogId);
 }

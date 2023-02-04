@@ -10,4 +10,5 @@ DialogElementWindowColor::~DialogElementWindowColor()
 
 void DialogElementWindowColor::Act()
 {
+	gui->SetWindowColor(color);
 }

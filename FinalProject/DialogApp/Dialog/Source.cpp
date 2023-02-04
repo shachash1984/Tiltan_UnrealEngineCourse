@@ -143,7 +143,7 @@ int main()
     //
     gui->SetStartingDialog(1);
     gui->Run(); //this will run the Gui engine and start rendering the dialogs
-    gui->ShutDown();
+    return gui->ShutDown();
 	return 0;
 }
 
