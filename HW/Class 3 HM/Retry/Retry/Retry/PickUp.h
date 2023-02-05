@@ -1,12 +1,16 @@
 #pragma once
-#include "Main.cpp"
+
+using namespace std;
+#include <iostream>
+#include "Point.h"
+
 
 
 class PickUp
 {
 private:
 
-	Point Position;
+	Point Position ;
 	string const Name;
 	int Value;
 
@@ -23,9 +27,9 @@ public:
 
 	int GetValue() { return Value; }
 
-	string ToString()
+	string ToString()		
 	{
-		return "Pickup: name:Health, position:(10, -5, 0), value: 100";
+		return "Pickup: name:" + Name + ", position:" + Position.ToString() + ", value: " + to_string(Value);
 	}
 
 };
