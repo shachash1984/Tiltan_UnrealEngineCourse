@@ -15,6 +15,12 @@ Weapon::Weapon(const Weapon& other)
 
 Weapon& Weapon::operator=(const Weapon& other)
 {
+	name = other.name;
+	damage = other.damage;
+	range = other.range;
+	reloadTime = other.reloadTime;
+	ammo = other.ammo;
+	maxAmmo = other.maxAmmo;
 	return *this;
 }
 

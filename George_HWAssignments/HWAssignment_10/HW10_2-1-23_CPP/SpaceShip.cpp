@@ -15,6 +15,9 @@ SpaceShip::SpaceShip(const SpaceShip& other)
 
 SpaceShip& SpaceShip::operator=(const SpaceShip& other)
 {
+	name = other.name;
+	weapons = other.weapons;
+	currentWeapon = other.currentWeapon;
 	return *this;
 }
 
