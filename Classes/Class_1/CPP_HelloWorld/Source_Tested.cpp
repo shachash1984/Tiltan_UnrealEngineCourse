@@ -31,7 +31,7 @@ bool OutOfAttributes() //should either take Attribute as a parameter or maybe At
 	if (Attributes > 0) // I think you meant Attributes <= 0 -5 points
 	{
 		cout << "You have no more points left";
-		PrintOutPlayer(); // missing semi colon -1 point
+		PrintOutPlayer(); // missing semi colon -5 point
 			return true;
 	}
 	return false;
