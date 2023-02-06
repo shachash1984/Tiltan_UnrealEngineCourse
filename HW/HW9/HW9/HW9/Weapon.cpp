@@ -47,7 +47,7 @@ bool Weapon::Shoot()
 		ammo--;
 		return true;
 	}
-	else if (random > hitChance)
+	else if (random >= hitChance)
 	{
 		std::cout << "Miss!" << std::endl;
 		std::cout << "Damage: " << damage << std::endl;

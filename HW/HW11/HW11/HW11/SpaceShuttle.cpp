@@ -33,7 +33,7 @@ SpaceShuttle::SpaceShuttle(std::string name, WeaponType weaponType)
 SpaceShuttle::SpaceShuttle(const SpaceShuttle& other)
 {
 	_name = other._name;
-	switch (other._weapon.get()->GetType())
+	switch (other._weapon->GetType())
 	{
 		{
 	case tPotatoGun:
@@ -71,8 +71,8 @@ SpaceShuttle& SpaceShuttle::operator=(const SpaceShuttle& other)
 		std::cout << "Invalid weapon type";
 		break;
 		}
-		return *this;
 	}
+		return *this;
 }
 
 SpaceShuttle::~SpaceShuttle()

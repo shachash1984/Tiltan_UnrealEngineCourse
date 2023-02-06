@@ -5,6 +5,7 @@
 #include "Laser.h"
 #include "PotatoGun.h"
 #include "Rockets.h"
+#include "SpaceShuttle.h"
 
 int main()
 {
@@ -20,4 +21,11 @@ int main()
 	spaceship->AddWeapon(*potato);
 
 	spaceship->ShootAll();
+
+	delete spaceship;
+	delete rocket;
+	delete laser;
+	delete potato;
+
+	SpaceShuttle shuttle;
 }

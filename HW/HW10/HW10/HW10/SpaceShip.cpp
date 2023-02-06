@@ -32,6 +32,7 @@ SpaceShip& SpaceShip::operator=(const SpaceShip& other)
 	{
 		name = other.name;
 		weapons = other.weapons;
+		currentWeapon = other.currentWeapon;
 	}
 	return *this;
 }
@@ -42,7 +43,7 @@ SpaceShip::~SpaceShip()
 	{
 		delete weapon;
 	}
-	delete& weapons;
+	weapons.clear();
 }
 
 void SpaceShip::AddWeapon(Weapon& _weapon)

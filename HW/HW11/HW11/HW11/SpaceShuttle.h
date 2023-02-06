@@ -4,7 +4,7 @@
 #include <string>
 #include <iostream>
 
-class SpaceShuttle : ISpaceVehicle
+class SpaceShuttle : public ISpaceVehicle
 {
 public:
 	SpaceShuttle();
