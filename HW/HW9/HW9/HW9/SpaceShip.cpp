@@ -19,7 +19,7 @@ SpaceShip::~SpaceShip()
 	{
 		delete weapon;
 	}
-	delete& weapons;
+	weapons.clear();
 }
 
 void SpaceShip::AddWeapon(Weapon& _weapon)

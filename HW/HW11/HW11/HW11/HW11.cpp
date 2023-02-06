@@ -23,9 +23,6 @@ int main()
 	spaceship->ShootAll();
 
 	delete spaceship;
-	delete rocket;
-	delete laser;
-	delete potato;
 
 	SpaceShuttle shuttle;
 }
