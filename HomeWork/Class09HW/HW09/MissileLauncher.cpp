@@ -14,3 +14,8 @@ MissileLauncher::~MissileLauncher()
 {
 	// Destructor
 }
+
+bool MissileLauncher::Shoot()
+{
+	return false;
+}

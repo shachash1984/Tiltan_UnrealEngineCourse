@@ -14,3 +14,8 @@ PlasmaCannon::~PlasmaCannon()
 {
 	// Destructor
 }
+
+bool PlasmaCannon::Shoot()
+{
+	return false;
+}

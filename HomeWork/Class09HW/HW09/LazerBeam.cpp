@@ -13,3 +13,8 @@ LazerBeam::~LazerBeam()
 {
 	// Destructor
 }
+
+bool LazerBeam::Shoot()
+{
+	return false;
+}

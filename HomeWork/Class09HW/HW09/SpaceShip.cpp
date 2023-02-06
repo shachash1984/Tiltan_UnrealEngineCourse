@@ -1,9 +1,8 @@
 #include "SpaceShip.h"
 
-SpaceShip::SpaceShip(std::string _name, std::vector<Weapon*> _weapons)
+SpaceShip::SpaceShip(std::string _name, std::vector<Weapon*> _weapons) : name(_name), weapons(_weapons)
 {
-	name = _name;
-	weapons = _weapons;
+
 }
 
 SpaceShip::~SpaceShip()

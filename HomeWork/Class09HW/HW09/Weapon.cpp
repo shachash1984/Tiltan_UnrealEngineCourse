@@ -1,5 +1,6 @@
 #include "Weapon.h"
 #include <iostream>
+using namespace std;
 
 Weapon::Weapon()
 {
@@ -22,6 +23,7 @@ Weapon::Weapon(std::string _name, unsigned int _damage, float _range, float _rel
 Weapon::~Weapon()
 {
 	// Destructor
+	cout << "Weapon" << name << "Desstroyed" << endl;
 }
 
 bool Weapon::Shoot()
@@ -35,6 +37,6 @@ bool Weapon::Shoot()
 		// Return true if there is a hit
 		return true;
 	}
-
+	cout << ToString();
 	return false;
 }
