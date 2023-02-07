@@ -1,0 +1,25 @@
+{
+	"id" : 64,
+    "title" : "Congratulations!!!",
+    "text" : [
+			"You gained 10 point?",
+			"Hurray!",
+			"Do you think it worked?",
+			"He did't go for the character...",
+			"Lets change that to a free ad",
+			"Im sure he will fall for that next time",
+			"We never had points... It was a gag in the office",
+			"We might have gone too far with this one",
+			"Hi Hi"
+    ],
+	"position" : {"x" : 500, "y" : 200},
+	"size" : {"width" : 500, "height" : 300},
+	"window_color" : {"r" : 0.0, "g" : 0, "b" : 0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1, "b" : 1.0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "Credits", "next": 65 },
+			{ "text" : "Back", "next":  60}
+		]
+    
+}

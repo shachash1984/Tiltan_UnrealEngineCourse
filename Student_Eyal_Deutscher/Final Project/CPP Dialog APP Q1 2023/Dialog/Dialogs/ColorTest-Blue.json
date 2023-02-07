@@ -1,0 +1,20 @@
+{
+	"id" : 26,
+    "title" : "I am sure it's a bug now",
+    "text" : [
+			"I told you I hate stupid users",
+			"How can someone make such a mistake between colors",
+			"Should I ask him if he is looking at the screen?",
+			"You dont thinks so... well lets go on"
+	    ],
+	"position" : {"x" : 800, "y" : 100},
+	"size" : {"width" : 500, "height" : 300},
+	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 0.0, "a" : 0.75},
+	"text_color" : {"r" : 0, "g" : 0, "b" : 1, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "Continue", "next": 10 },
+			{ "text" : "I think I was mistaken", "next": 23 }
+	]
+    
+}

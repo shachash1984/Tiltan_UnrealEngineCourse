@@ -1,0 +1,18 @@
+{
+	"id" : 21,
+    "title" : "Is this better?",
+    "text" : [
+        "Can you see now?",
+        "did it work?"
+        ],
+	"position" : {"x" : 800, "y" : 100},
+	"size" : {"width" : 300, "height" : 300},
+	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 0.0, "a" : 0.75},
+	"text_color" : {"r" : 0, "g" : 0, "b" : 0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "Yes everything is just fine", "next": 10 },
+			{ "text" : "I still do not see anything on the screen", "next": 22 }
+		]
+    
+}

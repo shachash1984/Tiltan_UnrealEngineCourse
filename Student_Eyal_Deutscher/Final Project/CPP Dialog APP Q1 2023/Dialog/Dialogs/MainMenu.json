@@ -1,0 +1,21 @@
+{
+	"id" : 60,
+    "title" : "Main Menu",
+    "text" : [
+			"What do you want to do?",
+			"Colors not implemented disclaimer..."
+    ],
+	"position" : {"x" : 500, "y" : 200},
+	"size" : {"width" : 300, "height" : 300},
+	"window_color" : {"r" : 0.0, "g" : 0, "b" : 0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1, "b" : 1.0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "Play", "next":  10},
+			{ "text" : "Upgrade", "next":  61},
+			{ "text" : "Join Discord", "next":  61},
+			{ "text" : "See Points", "next":  62},
+			{ "text" : "Quit Game", "next":  -1}
+		]
+    
+}

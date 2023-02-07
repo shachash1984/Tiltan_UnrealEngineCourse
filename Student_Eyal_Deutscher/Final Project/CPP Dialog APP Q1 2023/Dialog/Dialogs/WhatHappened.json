@@ -1,0 +1,19 @@
+{
+	"id" : 20,
+    "title" : "Everything is ok",
+    "text" : [
+        "We are still working on visuals for our game",
+        "I am sure you understood everything very well",
+        "Take 2 points and continue the game"
+        ],
+	"position" : {"x" : 500, "y" : 200},
+	"size" : {"width" : 500, "height" : 300},
+	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 0.0, "a" : 0.75},
+	"text_color" : {"r" : 0, "g" : 0, "b" : 0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "Take 2 points and continue", "next": 10 },
+			{ "text" : "I have no idea what are you talking about, can't see anything", "next": 21 }
+		]
+    
+}

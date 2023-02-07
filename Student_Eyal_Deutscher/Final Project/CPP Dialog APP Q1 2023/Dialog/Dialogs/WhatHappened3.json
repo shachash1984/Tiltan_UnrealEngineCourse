@@ -1,0 +1,22 @@
+{
+	"id" : 22,
+    "title" : "I am sure this will work",
+    "text" : [
+        "How is that?",
+			"Did we put the textures properly?",
+			"This must be the assigner, are we missing an SO?",
+			"We can ask him",
+			"Did we get it or do you want to help us with the bug?"
+    ],
+	"position" : {"x" : 100, "y" : 100},
+	"size" : {"width" : 400, "height" : 300},
+	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 0.0, "a" : 0.75},
+	"text_color" : {"r" : 0, "g" : 0, "b" : 0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "You got it right!", "next": 10 },
+			{ "text" : "I can help debugging", "next": 23 },
+			{ "text" : "This is too much for me", "next": -1 }
+	]
+    
+}

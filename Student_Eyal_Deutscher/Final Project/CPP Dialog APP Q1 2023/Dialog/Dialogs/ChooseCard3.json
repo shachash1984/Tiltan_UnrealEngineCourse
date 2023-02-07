@@ -12,7 +12,7 @@
 	"text_color" : {"r" : 1.0, "g" : 0.0, "b" : 1.0, "a" : 1.0},
 	"buttons" : [
 	
-			{ "text" : "Main Menu", "next":  1},
+			{ "text" : "Main Menu", "next":  60},
 			{ "text" : "Play Again", "next": 10},
 			{ "text" : "Exit Game", "next":  -1}
 		]

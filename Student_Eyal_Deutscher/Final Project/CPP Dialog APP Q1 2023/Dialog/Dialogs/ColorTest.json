@@ -1,0 +1,19 @@
+{
+	"id" : 23,
+    "title" : "Lets see if we can figure this out",
+    "text" : [
+        "What color do you see as the text?"
+    ],
+	"position" : {"x" : 800, "y" : 100},
+	"size" : {"width" : 300, "height" : 300},
+	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 0.0, "a" : 0.75},
+	"text_color" : {"r" : 0, "g" : 1, "b" : 0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "Red", "next": 24 },
+			{ "text" : "Green", "next": 25 },
+			{ "text" : "Blue", "next": 26 },
+			{ "text" : "None of the above", "next": 27}
+	]
+    
+}

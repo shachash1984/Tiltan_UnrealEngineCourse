@@ -1,0 +1,18 @@
+{
+	"id" : 27,
+    "title" : "Error 1000 Unexpected player",
+    "text" : [
+			"We have some maintnance issues please return at a later time",
+			"Are they looking for bugs??? I hate this",
+			"They are suppose to play the game"
+    ],
+	"position" : {"x" : 800, "y" : 100},
+	"size" : {"width" : 500, "height" : 300},
+	"window_color" : {"r" : 0.0, "g" : 0, "b" : 0.0, "a" : 0.75},
+	"text_color" : {"r" : 1, "g" : 1, "b" : 1, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "Ok", "next": -1 }
+	]
+    
+}

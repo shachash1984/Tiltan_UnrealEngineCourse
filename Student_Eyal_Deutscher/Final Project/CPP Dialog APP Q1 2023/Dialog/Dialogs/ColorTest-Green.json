@@ -1,0 +1,18 @@
+{
+	"id" : 25,
+    "title" : "Great job",
+    "text" : [
+			"I told you he can see it",
+			"Here is 10 point for helping us"
+    ],
+	"position" : {"x" : 800, "y" : 100},
+	"size" : {"width" : 300, "height" : 300},
+	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 0.0, "a" : 0.75},
+	"text_color" : {"r" : 0, "g" : 1, "b" : 0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "Take 10 points", "next": 10 },
+			{ "text" : "I think I was mistaken", "next": 23 }
+	]
+    
+}

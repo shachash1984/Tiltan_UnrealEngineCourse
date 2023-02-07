@@ -1,0 +1,21 @@
+{
+	"id" : 63,
+    "title" : "What happened?",
+    "text" : [
+			"You had point but you dont see them?",
+			"I have a few options for you",
+			"Choose what you want to do"
+    ],
+	"position" : {"x" : 500, "y" : 200},
+	"size" : {"width" : 300, "height" : 300},
+	"window_color" : {"r" : 0.0, "g" : 0, "b" : 0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1, "b" : 1.0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "Reset APP", "next":  1},
+			{ "text" : "Get Points NOW", "next":  64},
+			{ "text" : "Buy new character", "next":  61},
+			{ "text" : "Back", "next":  60}
+		]
+    
+}
