@@ -19,7 +19,8 @@ public:
 
 protected:
 
-	void OnShootPressed();
+	void OnShootArrowPressed();
+	void OnShootSpearPressed();
 	virtual void SetupInputComponent() override;
 
 	UPROPERTY(EditAnyWhere)

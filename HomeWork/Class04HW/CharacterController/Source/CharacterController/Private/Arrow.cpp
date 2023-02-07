@@ -4,6 +4,7 @@
 #include "Arrow.h"
 #include "CharacterController/CharacterController.h"
 #include <Target.h>
+#include <Target2.h>
 
 // Sets default values
 AArrow::AArrow()
@@ -80,6 +81,13 @@ void AArrow::OnCollision(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrim
 			{
 				UE_LOG(LogCharacterController, Log, TEXT("Collision"));
 				Target->OnHit();
+				Destroy();
+			}
+			ATarget2* Target2 = Cast<ATarget2>(OtherActor);
+			if (Target2 != nullptr)
+			{
+				UE_LOG(LogCharacterController, Log, TEXT("Collision"));
+				Target2->OnHit();
 				Destroy();
 			}
 		}
