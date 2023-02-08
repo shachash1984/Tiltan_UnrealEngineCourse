@@ -25,9 +25,14 @@ void SpaceShip::Shoot() const
 
 void SpaceShip::FireEverythingWeGot() const
 {
-	for (unsigned i = 0; i < weapons.size(); i++)
+	//for (unsigned i = 0; i < weapons.size(); i++)
+	//{
+	//	weapons[i]->shoot();
+	//}
+
+	for (Weapon* weapon : weapons)
 	{
-		weapons[i]->Shoot();
+		weapon->Shoot();
 	}
 }
 

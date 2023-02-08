@@ -10,7 +10,7 @@ Laser::Laser()
 Laser::Laser(std::string _name, unsigned _damage, float _range, float _reloadTime, unsigned _ammo)
 	: Weapon(_name, _damage, _range, _reloadTime, _ammo)
 {
-	std::cout << "Laser Created!\n" << std::endl;
+	std::cout << "Laser Created!" << std::endl;
 }
 
 Laser::~Laser()

@@ -10,7 +10,7 @@ Cannon::Cannon()
 Cannon::Cannon(std::string _name, unsigned _damage, float _range, float _reloadTime, unsigned _ammo)
 	: Weapon(_name, _damage, _range, _reloadTime, _ammo)
 {
-	std::cout << "Cannon Created!\n" << std::endl;
+	std::cout << "Cannon Created!" << std::endl;
 }
 
 Cannon::~Cannon()

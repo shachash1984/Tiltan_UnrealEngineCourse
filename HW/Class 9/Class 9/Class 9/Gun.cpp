@@ -10,7 +10,7 @@ Gun::Gun()
 Gun::Gun(std::string _name, unsigned _damage, float _range, float _reloadTime, unsigned _ammo)
 	: Weapon(_name, _damage, _range, _reloadTime, _ammo)
 {
-	std::cout << "Gun Created!\n" << std::endl;
+	std::cout << "Gun Created!" << std::endl;
 }
 
 Gun::~Gun()
