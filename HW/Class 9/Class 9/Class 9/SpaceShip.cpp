@@ -13,6 +13,19 @@ SpaceShip::~SpaceShip()
 	std::cout << "SpaceShip " << name << " Destroyed!" << std::endl;
 }
 
+SpaceShip::SpaceShip(const SpaceShip& other)
+	: name(other.name), weapons(other.weapons)
+{
+	std::cout << "SpaceShip " << name << " Copy Constructed!" << std::endl;
+}
+
+SpaceShip& SpaceShip::operator=(const SpaceShip& other)
+{
+	std::cout << "SpaceShip " << name << " is now Assigned and has a new name: " << other.name << std::endl;
+	name = other.name;
+	return *this;
+}
+
 void SpaceShip::AddWeapon(Weapon& _weapon)
 {
 	weapons.push_back(&_weapon);
