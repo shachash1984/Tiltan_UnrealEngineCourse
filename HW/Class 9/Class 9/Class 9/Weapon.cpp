@@ -10,6 +10,7 @@ Weapon::Weapon()
 Weapon::Weapon(std::string _name, unsigned _damage, float _range, float _reloadTime, unsigned _ammo)
 	: name(_name), damage(_damage), range(_range), reloadTime(_reloadTime), ammo(_ammo)
 {
+	std::cout << "Weapon " << name << " Created!" << std::endl;
 }
 
 Weapon::~Weapon()
