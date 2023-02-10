@@ -1,18 +1,18 @@
-
 #include <iostream>
 #include <string>
 #include "Weapon.h"
+#include "LaserCanon.h"
 #include "Spaceship.h"
 #include <vector>
 using namespace std;
 
-// CPP HW 9 was done with Eyal
+// CPP HW 10 was done with Eyal
 
 int main()
 {
 
 
-    Weapon lasCanon ("Las Canon", 5, 10, 0.3, 100, 80);
+    LaserCanon lasCanon();
     Weapon rocket("Rocket", 30, 4, 3, 3, 50);
     vector<Weapon*> weapons1;
     weapons1.push_back(&rocket);

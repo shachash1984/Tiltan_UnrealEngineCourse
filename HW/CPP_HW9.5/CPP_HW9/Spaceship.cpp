@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// CPP HW 9 was done with Eyal
+// CPP HW 9 + 10, was done with Eyal
 
 Spaceship::Spaceship(int worldPos, string name, vector<Weapon*> weapons, unsigned int hp) : Actor(worldPos), IDamageable(hp), _name(name), _weapons(weapons)
 {

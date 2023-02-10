@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// CPP HW 9 was done with Eyal
+// CPP HW 10 was done with Eyal
 
 class Spaceship : public Actor, public IDamageable
 {

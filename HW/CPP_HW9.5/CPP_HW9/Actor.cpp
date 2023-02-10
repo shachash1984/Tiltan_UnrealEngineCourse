@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-// CPP HW 9 was done with Eyal
+// CPP HW 9 + 10, was done with Eyal
 
 Actor::Actor(int worldPos) : _worldPos(worldPos)
 {
