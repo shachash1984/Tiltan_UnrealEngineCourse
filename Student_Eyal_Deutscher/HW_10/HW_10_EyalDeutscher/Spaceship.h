@@ -4,10 +4,10 @@
 #include<string>
 #include <vector>
 #include "IDamageable.h"
+#include "ISpaceVehicle.h"
 
 using namespace std;
-
-class Spaceship :public Actor, public IDamageable
+class Spaceship :public Actor, public IDamageable, public ISpaceVehicle
 {
 private:
 	string _name;

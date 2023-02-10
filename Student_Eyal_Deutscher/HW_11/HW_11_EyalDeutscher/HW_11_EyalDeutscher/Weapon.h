@@ -6,9 +6,10 @@ using namespace std;
 
 class Weapon
 {
+
 public:
 	Weapon();
-	Weapon(string name, unsigned int damage, float range, float relodTime, unsigned int ammo, unsigned int hitChance);
+	Weapon(string name, unsigned int damage, float range, float relodTime, unsigned int ammo,unsigned int hitChance);
 	Weapon(const Weapon& other);
 	virtual ~Weapon();
 	virtual bool Shoot(unsigned int distanceToTarget);

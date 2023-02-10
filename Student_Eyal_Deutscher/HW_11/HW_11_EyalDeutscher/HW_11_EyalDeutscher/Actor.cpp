@@ -6,7 +6,8 @@ Actor::Actor(int worldPos) :_worldPos(worldPos)
 {
 	cout << "Creating Actor" << endl;
 }
-int Actor::GetWorldPos()
+int Actor:: GetWorldPos()
 {
 	return _worldPos;
 }
+
