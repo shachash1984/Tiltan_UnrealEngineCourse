@@ -3,40 +3,40 @@
 #include <string>
 #include <iostream>
 
-// CPP HW 11, was done with Eyal
+// CPP HW 11 was done with Eyal
 
 Weapon::Weapon() : _name("default"), _damage(1), _range(5), _reloadTime(1), _ammo(15), _hitChance(10)
 {
-    cout << "Creating Weapon: " << _name << endl;
+	cout << "Creating Weapon: " << _name << endl;
 }
 
-Weapon::Weapon(string name, unsigned int damage, float range, float reloadTime, unsigned int ammo, unsigned int critChance)
-    : _name(name), _damage(damage), _range(range), _reloadTime(reloadTime), _ammo(ammo), _hitChance(critChance)
+Weapon::Weapon(string name, unsigned int damage, float range, float reloadTime, unsigned int ammo, unsigned int critChance) 
+	: _name(name), _damage(damage), _range(range), _reloadTime(reloadTime), _ammo(ammo), _hitChance(critChance)
 {
-    cout << "Creating Weapon: " << _name << endl;
+	cout << "Creating Weapon: " << _name << endl;
 }
 
-Weapon::Weapon(const Weapon& other)
-    : _name(other._name), _damage(other._damage), _range(other._range), _reloadTime(other._reloadTime), _ammo(other._ammo), _hitChance(other._hitChance)
+Weapon::Weapon(const Weapon& other) 
+	: _name(other._name), _damage(other._damage), _range(other._range), _reloadTime(other._reloadTime), _ammo(other._ammo), _hitChance(other._hitChance)
 {
-    cout << "Copying Weapon: " << _name << endl;
+	cout << "Copying Weapon: " << _name << endl;
 }
 
 Weapon& Weapon:: operator =(const Weapon other)
 {
-    _name = other._name;
-    _damage = other._damage;
-    _range = other._range;
-    _reloadTime = other._reloadTime;
-    _ammo = other._ammo;
-    _hitChance = other._hitChance;
-    cout << "Copying Values of Weapon: " << _name << endl;
-    return *this;
+	_name = other._name;
+	_damage = other._damage;
+	_range = other._range;
+	_reloadTime = other._reloadTime;
+	_ammo = other._ammo;
+	_hitChance = other._hitChance;
+	cout << "Copying Values of Weapon: " << _name << endl;
+	return *this;
 }
 
 Weapon::~Weapon()
 {
-    cout << "Destroing Weapon: " << _name << endl;
+	cout << "Destroing Weapon: " << _name << endl;
 }
 
 bool Weapon::Shoot(unsigned int distanceToTarget)

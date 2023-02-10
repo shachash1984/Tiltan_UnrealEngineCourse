@@ -1,6 +1,6 @@
 #pragma once
 
-// CPP HW 11, was done with Eyal
+// CPP HW 11 was done with Eyal
 
 class Actor
 {
@@ -9,6 +9,6 @@ protected:
 public:
 	Actor(int worldPos);
 	int GetWorldPos();
-
+	
 };
 

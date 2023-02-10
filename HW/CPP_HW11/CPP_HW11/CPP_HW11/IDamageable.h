@@ -1,6 +1,6 @@
 #pragma once
 
-// CPP HW 11, was done with Eyal
+// CPP HW 11 was done with Eyal
 
 class IDamageable
 {

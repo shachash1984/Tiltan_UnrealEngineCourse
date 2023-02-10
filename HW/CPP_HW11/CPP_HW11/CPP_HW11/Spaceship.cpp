@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// CPP HW 11, was done with Eyal
+// CPP HW 11 was done with Eyal
 
 Spaceship::Spaceship(int worldPos, string name, vector<Weapon*> weapons, unsigned int hp) : Actor(worldPos), IDamageable(hp), _name(name), _weapons(weapons)
 {
@@ -21,10 +21,11 @@ Spaceship::Spaceship(const Spaceship& other) : Actor(other._worldPos), IDamageab
 Spaceship::~Spaceship()
 {
 	cout << "Destroying Spaceship: " << _name << endl;
-	/*for (size_t i = 0; i < _weapons.size(); i++)
+	int numberOfWeapons = _weapons.size();
+	for (size_t i = 0; i < numberOfWeapons; i++)
 	{
 		delete _weapons[i];
-	}*/
+	}
 }
 
 Spaceship& Spaceship:: operator =(const Spaceship otherSpaceship)
@@ -49,8 +50,23 @@ void Spaceship::TakeDamage(unsigned int damageReceived)
 
 void Spaceship::FireAllWeapons(unsigned int distanceToTarget)
 {
+	cout << "\n" + _name + " is shooting all weapons!" << endl;
 	for (size_t i = 0; i < _weapons.size(); i++)
 	{
 		_weapons[i]->Shoot(distanceToTarget);
 	}
+	cout << endl;
+}
+
+void Spaceship::Shoot(unsigned int distanceToTarget, int weaponNumber)
+{
+	if (_weapons.size() >= weaponNumber)
+	{
+		_weapons[weaponNumber]->Shoot(distanceToTarget);
+	}
+	else
+	{
+		cout << "Invalid Weapon Number" << endl;
+	}
+	
 }
