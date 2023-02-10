@@ -15,9 +15,6 @@ private:
 	Weapon* _currentWeapon;
 public:
 	Spaceship(int worldPos,string name, vector<Weapon*> weapons,unsigned int hp);
-	Spaceship(const Spaceship& other);
-	virtual ~Spaceship();
-	Spaceship& operator=(const Spaceship spaceship);
 	void AddWeapon(Weapon& weapon);
 	void TakeDamage(unsigned int damageTaken) override;
 	void FireAllWeapons(unsigned int distanceToTarget);

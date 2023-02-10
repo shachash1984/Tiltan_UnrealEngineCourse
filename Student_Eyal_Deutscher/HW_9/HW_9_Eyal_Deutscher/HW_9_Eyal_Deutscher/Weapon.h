@@ -6,14 +6,10 @@ using namespace std;
 
 class Weapon
 {
-
 public:
 	Weapon();
 	Weapon(string name, unsigned int damage, float range, float relodTime, unsigned int ammo,unsigned int hitChance);
-	Weapon(const Weapon& other);
-	virtual ~Weapon();
 	virtual bool Shoot(unsigned int distanceToTarget);
-	Weapon& operator=(const Weapon weapon);
 protected:
 	const unsigned int ONE = 1;
 	static const string DEFAULT_NAME;
@@ -24,4 +20,3 @@ protected:
 	unsigned int _ammo;
 	unsigned int _hitChance;
 };
-
