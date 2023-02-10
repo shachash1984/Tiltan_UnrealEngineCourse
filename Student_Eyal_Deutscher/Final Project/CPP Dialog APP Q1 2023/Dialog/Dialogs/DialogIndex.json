@@ -27,5 +27,6 @@
   "Points1": "Dialogs\\Points1.json",
   "Points2": "Dialogs\\Points2.json",
   "Points3": "Dialogs\\Points3.json",
-  "Credits": "Dialogs\\Credits.json"
+  "Credits": "Dialogs\\Credits.json",
+  "RestartGame": "Dialogs\\StartDialogGame.json"
 }
