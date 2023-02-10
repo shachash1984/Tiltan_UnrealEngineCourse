@@ -21,10 +21,11 @@ Spaceship::Spaceship(const Spaceship& other) : Actor(other._worldPos), IDamageab
 Spaceship::~Spaceship()
 {
 	cout << "Destroying Spaceship: " << _name << endl;
-	/*for (size_t i = 0; i < _weapons.size(); i++)
+	int numberOfWeapons = _weapons.size();
+	for (size_t i = 0; i < numberOfWeapons; i++)
 	{
 		delete _weapons[i];
-	}*/
+	}
 }
 
 Spaceship& Spaceship:: operator =(const Spaceship otherSpaceship)
@@ -49,8 +50,10 @@ void Spaceship::TakeDamage(unsigned int damageReceived)
 
 void Spaceship::FireAllWeapons(unsigned int distanceToTarget)
 {
+	cout << "\n" + _name + " is shooting all weapons!" << endl;
 	for (size_t i = 0; i < _weapons.size(); i++)
 	{
 		_weapons[i]->Shoot(distanceToTarget);
 	}
+	cout << endl;
 }

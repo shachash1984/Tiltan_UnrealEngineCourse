@@ -1,9 +1,9 @@
 #pragma once
 #include "Weapon.h"
 
-class LaserCanon : public Weapon
+class Rocket : public Weapon
 {
 public:
-	LaserCanon();
+	Rocket();
 };
 
