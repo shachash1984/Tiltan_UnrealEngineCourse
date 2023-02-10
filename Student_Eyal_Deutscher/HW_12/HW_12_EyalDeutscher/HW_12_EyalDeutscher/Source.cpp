@@ -1,8 +1,10 @@
 #include <iostream>
 #include <vector>
 #include "BaseFactory.h"
-#include "Animal.h"
 #include <unordered_map>
+#include "IdleAnimation.h"
+#include "CrawlAnimation.h"
+#include "WalkAnimation.h"
 using namespace std;
 
 void PrintSumPairs(vector<int> vec, int num)
@@ -51,9 +53,22 @@ void PrintSumPairsOneLoop(vector<int> vec, int num)
 int main()
 {
 
-	//Animal* frog = BaseFactory<Animal>::Create("Frog");
-	//shared_ptr<Animal> frog = animalFactory.Create("Frog");
+	cout << "---Q1.1---" << endl;
+
+	PrintSumPairs(vector<int>{-30, 0, 2, 23, 25, 55, 83}, 25);
+	cout << "---Q1.2---" << endl;
 	PrintSumPairsOneLoop(vector<int>{-30, 0, 2, 23, 25, 55, 83}, 25);
+
+	cout << "---Q2---" << endl;
+	BaseFactory factory;
+	shared_ptr<IdleAnimation> idlePtr = factory.Create<IdleAnimation>();
+	shared_ptr<WalkAnimation> walkPtr = factory.Create<WalkAnimation>();
+	shared_ptr<CrawlAnimation> crawlPtr = factory.Create<CrawlAnimation>();
+
+	cout << "---Q3---" << endl;
+	idlePtr->Play();
+	walkPtr->Play();
+	crawlPtr->Play();
 	return 0;
 }
 //CPP:

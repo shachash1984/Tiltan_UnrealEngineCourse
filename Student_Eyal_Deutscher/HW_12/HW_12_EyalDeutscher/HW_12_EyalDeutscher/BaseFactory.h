@@ -2,12 +2,18 @@
 #include <memory>
 #include <iostream>
 using namespace std;
-template<typename T>
 class BaseFactory
 {
 public:
-	BaseFactory();
-	virtual shared_ptr<T> Create(string name);
+	BaseFactory()
+	{
+	}
+
+	template<typename T>
+	shared_ptr<T> Create()
+	{
+		return make_shared<T>();
+	}
 };
 
 //Question 2:

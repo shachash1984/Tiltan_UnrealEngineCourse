@@ -1,5 +1,5 @@
 #include "Animal.h"
-Animal::Animal(string name) :_name(name)
+Animal::Animal()
 {
-	cout << "Created animal with name: " << _name << endl;
+	cout << "Created animal" << endl;
 };
