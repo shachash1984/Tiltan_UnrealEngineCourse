@@ -1,10 +1,11 @@
 #pragma once
 #include "Animation.h"
 
-class IdleAnimation : public Animation
+
+class WalkingAnimation : public Animation
 {
 public:
-	IdleAnimation();
+	WalkingAnimation();
 	void Play() override;
 };
 

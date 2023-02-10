@@ -3,12 +3,20 @@
 
 using namespace std;
 
-template <typename T>
+
 class BaseFactory
 {
 public:
-	BaseFactory();
-	shared_ptr<T> Create();
+	BaseFactory()
+	{
+
+	}
+
+	template <typename T>
+	shared_ptr<T> Create()
+	{
+		return make_shared<T>();
+	}
 };
 
 //Question 2:

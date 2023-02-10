@@ -2,6 +2,8 @@
 #include <vector>
 #include "BaseFactory.h"
 #include "IdleAnimation.h"
+#include "WalkingAnimation.h"
+#include "CrawlingAnimation.h"
 #include <string>
 #include <map>
 #include <unordered_map>
@@ -31,7 +33,7 @@ void PrintSumPairs(vector<int> vec, int num)
 void PrintSumPairsOneLoop(vector<int> vec, int num)
 {
 	unordered_map<int, int> map;
-	cout << "Printing all pairs with the sum of: " << num << endl;
+	cout << "Printing all pairs with the sum of " << num << "with only one loop:" << endl;
 	for (size_t i = 0; i < vec.size(); i++)
 	{
 		int searchedNum = num - vec[i];
@@ -46,50 +48,29 @@ void PrintSumPairsOneLoop(vector<int> vec, int num)
 	}
 
 }
+
 int main()
 {
+	
+	cout << "---- Q1 ----" << endl;
 	vector<int> numbers{ -30,0,2,23,25,55,83 };
+	cout << endl;
+	PrintSumPairs(numbers, 25);
+	cout << endl;
 	PrintSumPairsOneLoop(numbers, 25);
+	cout << endl;
+	cout << endl;
+
+	cout << "---- Q2 ----" << endl;
+	cout << endl;
+	BaseFactory factory;
+	shared_ptr<IdleAnimation> idlePTR = factory.Create<IdleAnimation>();
+	shared_ptr<WalkingAnimation> walkPTR = factory.Create<WalkingAnimation>();
+	shared_ptr<CrawlingAnimation> crawlPTR = factory.Create<CrawlingAnimation>();
+
+	idlePTR->Play();
+	walkPTR->Play();
+	crawlPTR->Play();
 	return 0;
 }
-
-
-	//Print all of the couples in vec that their sum is equal to num
-
-
-
-//Question 1:
-//Interview question :
-//1. implement a function that receives a vector of integers(not sorted) and an integer num.
-//The function needs to print all the possible couples of
-//elements in the vector that their sum is exactly equal to num
-//
-//void PrintSumPairs(std::vector<int> vec, int num)
-//{
-//	//Print all of the couples in vec that their sum is equal to num
-//}
-//2. Implement the function in O(n) time complexity(no nested loops) * *one loop is allowed
-
-
-
-//Question 2:
-//Factory design pattern
-//implement a class template : Factory<T>
-//that implements a function :
-//std::shared_ptr<T> Create();
-
-//create 3 classes:
-//IdleAnimation
-//WalkingAnimation
-//CrawlingAnimation
-//
-//all animation classes have a void Play() method which print the animation name("Idle", "Walk"...)
-//
-//
-//In main, Create instances of these classes using the Factory template class
-//Call the Play() method on each instance
-//
-//** Bonus : make the animation classes derive from a base animation class
-//
-//** Life Bonus : Read the book "Game programming patterns" by Robert Nystrom
 
