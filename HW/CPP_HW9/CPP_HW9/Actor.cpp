@@ -1,4 +1,3 @@
-
 #include "Actor.h"
 #include <string>
 #include <iostream>

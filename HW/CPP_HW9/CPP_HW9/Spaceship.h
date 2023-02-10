@@ -17,9 +17,6 @@ class Spaceship : public Actor, public IDamageable
 
 	public:
 		Spaceship(int worldPos, string name, vector<Weapon*> weapons, unsigned int hp);
-		Spaceship(const Spaceship& other);
-		virtual ~Spaceship();
-		Spaceship& operator =(const Spaceship otherSpaceship);
 		void AddWeapon(Weapon& _weapon);
 		void TakeDamage(unsigned int damageReceived) override;
 		void FireAllWeapons(unsigned int distanceToTarget);

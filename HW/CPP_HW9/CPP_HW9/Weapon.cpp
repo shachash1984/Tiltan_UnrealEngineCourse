@@ -16,29 +16,6 @@ Weapon::Weapon(string name, unsigned int damage, float range, float reloadTime, 
 	cout << "Creating Weapon: " << _name << endl;
 }
 
-Weapon::Weapon(const Weapon& other) 
-	: _name(other._name), _damage(other._damage), _range(other._range), _reloadTime(other._reloadTime), _ammo(other._ammo), _hitChance(other._hitChance)
-{
-	cout << "Copying Weapon: " << _name << endl;
-}
-
-Weapon& Weapon:: operator =(const Weapon other)
-{
-	_name = other._name;
-	_damage = other._damage;
-	_range = other._range;
-	_reloadTime = other._reloadTime;
-	_ammo = other._ammo;
-	_hitChance = other._hitChance;
-	cout << "Copying Values of Weapon: " << _name << endl;
-	return *this;
-}
-
-Weapon::~Weapon()
-{
-	cout << "Destroing Weapon: " << _name << endl;
-}
-
 bool Weapon::Shoot(unsigned int distanceToTarget)
 {
     cout << "Shooting: " << _name << endl;

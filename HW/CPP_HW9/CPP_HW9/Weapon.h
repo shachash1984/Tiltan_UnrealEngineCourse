@@ -19,9 +19,6 @@ class Weapon
 	public:
 		Weapon();
 		Weapon(string name, unsigned int damage, float range, float reloadTime, unsigned int ammo, unsigned int critChance);
-		Weapon(const Weapon& other);
-		Weapon& operator =(const Weapon other);
-		virtual ~Weapon();
 
 		//This is the line that is causing the error
 		//Spaceship includes Weapon.h and Weapon includes Spaceship.h
