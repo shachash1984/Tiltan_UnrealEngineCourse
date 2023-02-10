@@ -17,12 +17,12 @@ int main()
 	using namespace std;
 
 	JSONParser parser;
-	//Json::Reader reader;
+	Json::Reader reader;
 	string text = "Hello";
 
 	const char* text_array = text.c_str();
 
-	//shared_ptr<GuiEngine> gui = make_shared<GuiEngine>();
+	shared_ptr<GuiEngine> gui = make_shared<GuiEngine>();
 
 
 	
@@ -46,8 +46,113 @@ int main()
 	 *
 	 *
 	 */
+	
+	Json::Value root;
+	vector<string> files;
+
+	ifstream fileOfAllFiles("DialogIndex.json");
+	if (fileOfAllFiles.is_open()) 
+	{
+		reader.parse(fileOfAllFiles, root);
+		if (!root.empty()) 
+		{
+			files.clear();
+			for (auto itr = root.begin(); itr != root.end(); ++itr)
+			{
+				files.push_back(itr.key().asString());
+			}
+		}
+
+		for (int i = 0; i < files.size(); i++)
+		{
+			Json::Value tmpRoot;
+			//ifstream thisFile(files[i]);
+			ifstream thisFile(root.get(files[i],"Error").asString());
+			reader.parse(thisFile, tmpRoot);
+
+			auto box = std::make_shared<DialogBoxBase>();
+
+			// Title
+			//DialogElementTitle d(gui,"");
+			box->RegisterElementToOnRender(std::make_shared<DialogElementTitle>
+				(gui,tmpRoot.get("title", "").asString()));
+
+			// Position
+			//DialogElementPosition d(gui, point);
+			IGUI::Point point;
+			point.x = tmpRoot.get("position", 0).get("x", 0).asInt();
+			point.y = tmpRoot.get("position", 0).get("y", 0).asInt();
+			box->RegisterElementToOnCreate(std::make_shared<DialogElementPosition>
+				(gui, point));
+			
+			// Size
+			//DialogElementSize d(gui, 0, 0);
+			box->RegisterElementToOnCreate(std::make_shared<DialogElementSize>
+				(gui,
+					tmpRoot.get("size", 0).get("width", 0).asInt(),
+					tmpRoot.get("size", 0).get("height", 0).asInt()
+				)
+			);
+
+			// Text
+			const Json::Value& text = tmpRoot["text"];
+			vector<string> textVector(text.size());
+			for (unsigned int index = 0; index < text.size(); ++index)
+			{
+				textVector[index] = text[index].asString();
+			}
+			//DialogElementText d(gui, textVector);
+			box->RegisterElementToOnRender(std::make_shared<DialogElementText>
+				(gui,
+					textVector
+					)
+			);
+
+			// WindowColor
+			IGUI::Color windowColor;
+			windowColor.r = tmpRoot.get("window_color", 0).get("r", 0).asFloat();
+			windowColor.g = tmpRoot.get("window_color", 0).get("g", 0).asFloat();
+			windowColor.b = tmpRoot.get("window_color", 0).get("b", 0).asFloat();
+			windowColor.a = tmpRoot.get("window_color", 0).get("a", 0).asFloat();
+			//DialogElementWindowColor d(gui, windowColor);
+			box->RegisterElementToOnCreate(std::make_shared<DialogElementWindowColor>
+				(gui,
+					windowColor)
+			);
+
+			// WindowColor
+			IGUI::Color textColor;
+			textColor.r = tmpRoot.get("text_color", 0).get("r", 0).asFloat();
+			textColor.g = tmpRoot.get("text_color", 0).get("g", 0).asFloat();
+			textColor.b = tmpRoot.get("text_color", 0).get("b", 0).asFloat();
+			textColor.a = tmpRoot.get("text_color", 0).get("a", 0).asFloat();
+			//DialogElementTextColor d(gui, textColor);
+			box->RegisterElementToOnCreate(std::make_shared<DialogElementTextColor>
+				(gui,
+					textColor)
+			);
+
+			// Buttons 
+			const Json::Value& buttons = tmpRoot["buttons"];
+			//DialogElementButton d(gui, "", 0);
+			for (unsigned int index = 0; index < buttons.size(); ++index)
+			{
+				box->RegisterElementToOnButton(std::make_shared<DialogElementButton>
+					(gui,
+						buttons[index].get("text", "").asString(),
+						buttons[index].get("next", "").asInt()
+					)
+				);
+			}
+
+
+
+			gui->AddDialogBox(tmpRoot.get("id", -1).asInt(), box);
+		}
+	}
 
 #pragma region JsonExample
+	/*
 	 // json reader
 	Json::Reader reader;
 	Json::Value root;   // 'root' will contain the root value after parsing.
@@ -109,16 +214,19 @@ int main()
 
 
 	cin.ignore();
+	*/
 #pragma endregion
 
 
-	// gui->SetStartingDialog(1);
+	
 
-//	 gui->Run(); //This will run the Gui Engine and start rendering the dialogs
+	 gui->SetStartingDialog(1);
+
+	//cout << "Hello World!" << endl;
+	 gui->Run(); //This will run the Gui Engine and start rendering the dialogs
 
 
-	 //return gui->ShutDown();
+	 return gui->ShutDown();
 
-	cout << "Hello World!" << endl;
-	return 0;
+	//return 0;
 }
