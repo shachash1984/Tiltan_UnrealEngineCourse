@@ -1,0 +1,23 @@
+{
+	"id" : 14,
+    "title" : "Game Over",
+    "text" : [
+        "You Keep Walking and walking... but you don't get far",
+        "YOU ARE SO HUNGRY!",
+		"You Try to get back to the hotel but its no use...",
+		"as you fall to the ground you ponder how did this happen",
+		"its almost like someone drunk you dried at night",
+		"You slowly fade away as birds already try to taste your flesh",
+		"you Starved To Death"
+        ],
+	"position" : {"x" : 100, "y" : 200},
+	"size" : {"width" : 450, "height" : 250},
+	"window_color" : {"r" : 1.0, "g" : 0.0, "b" : 0.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Try Again", "next" : 1 }
+
+		]
+	
+}

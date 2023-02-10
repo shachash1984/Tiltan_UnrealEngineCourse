@@ -1,0 +1,23 @@
+{
+	"id" : 18,
+    "title" : "Game Over",
+    "text" : [
+        "The Face Screams a Horrible Scream",
+        "and suddenly you cant feel your legs",
+		"you cant feel anything actually...",
+		"nothing but YOUR FACE",
+		"you suddenly realize you are no longer",
+		"On Your Body, But on the Plate",
+		"The Face Got your body, and now it will",
+		"EAT YOU AS THE DESSERT",
+		"You Died"
+        ],
+	"position" : {"x" : 100, "y" : 200},
+	"size" : {"width" : 450, "height" : 300},
+	"window_color" : {"r" : 1.0, "g" : 0.0, "b" : 0.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Try Again", "next" : 1 }
+		]
+}

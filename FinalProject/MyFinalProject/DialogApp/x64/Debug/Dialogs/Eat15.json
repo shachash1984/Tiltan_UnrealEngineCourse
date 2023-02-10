@@ -1,0 +1,22 @@
+{
+	"id" : 15,
+    "title" : "Yummy",
+    "text" : [
+        "You force yourself to eat",
+        "BUT ITS NOT BAD ONE BIT",
+		"THIS THING IS DELICIOUS",
+		"You Eat The Whole Meal",
+		"Now The Staff asks if you would like",
+		"a Dessert!"
+        ],
+	"position" : {"x" : 100, "y" : 200},
+	"size" : {"width" : 450, "height" : 250},
+	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 0.0, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Hell Yeah!", "next" : 16 },
+		{ "text" : "Im Out of here", "next" : 17 }
+		]
+	
+}

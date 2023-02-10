@@ -1,0 +1,19 @@
+{
+	"id" : 10,
+    "title" : "Game Over",
+    "text" : [
+        "You Check Under Your Bed and you FIND THE LITTLE GIRL",
+        "Good Job!",
+		"Too Bad she dragged you into the shadows and consumed you",
+		"You Died."
+        ],
+	"position" : {"x" : 100, "y" : 200},
+	"size" : {"width" : 450, "height" : 250},
+	"window_color" : {"r" : 1.0, "g" : 0.0, "b" : 0.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Try Again", "next" : 1 }
+		]
+	
+}

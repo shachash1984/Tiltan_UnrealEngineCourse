@@ -1,0 +1,21 @@
+{
+	"id" : 8,
+    "title" : "Bathroom",
+    "text" : [
+        "YOU ENTER THE BATHROOM AND YOU FIND",
+        "absolutely nothing.",
+		"YOU KEEP SEARCHING THE BATHROOM FOR SOMETHING",
+        "and yet... still nothing",
+		"What a waste of time"
+        ],
+	"position" : {"x" : 100, "y" : 200},
+	"size" : {"width" : 450, "height" : 250},
+	"window_color" : {"r" : 1.0, "g" : 0.0, "b" : 1.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Go To Sleep", "next" : 7 },
+		{ "text" : "Check Under Your Bed", "next" : 10 }
+		]
+	
+}

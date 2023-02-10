@@ -1,0 +1,21 @@
+{
+	"id" : 7,
+    "title" : "Sleep",
+    "text" : [
+        "You Went To Sleep",
+        "After a long day in the woods you feel",
+		"so greatful and happy to sleep in bed",
+        "that you don't even mind the little girl",
+		"who crawled into your bed at midnight"
+        ],
+	"position" : {"x" : 100, "y" : 200},
+	"size" : {"width" : 350, "height" : 250},
+	"window_color" : {"r" : 1.0, "g" : 0.0, "b" : 1.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Wake Up", "next" : 9 }
+		
+		]
+	
+}

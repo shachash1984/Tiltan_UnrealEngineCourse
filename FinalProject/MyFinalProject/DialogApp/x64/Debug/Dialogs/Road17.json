@@ -1,0 +1,18 @@
+{
+	"id" : 17,
+    "title" : "The Road",
+    "text" : [
+        "You Start Walking in the woods",
+        "its all fine and cool but then",
+		"IT FOLLOWS YOU!!!"
+        ],
+	"position" : {"x" : 100, "y" : 200},
+	"size" : {"width" : 450, "height" : 250},
+	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 0.0, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Run!", "next" : 19 },
+		{ "text" : "tell it to stop or you tell dad", "next" : 20 }
+		]
+}
