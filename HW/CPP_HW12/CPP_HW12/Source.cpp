@@ -1,22 +1,62 @@
 #include <iostream>
 #include <vector>
+#include "BaseFactory.h"
+#include "IdleAnimation.h"
+#include <string>
+#include <map>
+#include <unordered_map>
 
 using namespace std;
 
+void PrintSumPairs(vector<int> vec, int num)
+{
+	cout << "Printing all pairs with the sum of: " << num << endl;
+	for (size_t i = 0; i < vec.size(); i++)
+	{
+		for (size_t j = 0; j < vec.size(); j++)
+		{
+			if (i == j)
+			{
+				continue;
+			}
+
+			if (vec[i] + vec[j] == num)
+			{
+				cout << vec[i] << ", " << vec[j] << endl;
+			}
+		}
+	}
+}
+
+void PrintSumPairsOneLoop(vector<int> vec, int num)
+{
+	unordered_map<int, int> map;
+	cout << "Printing all pairs with the sum of: " << num << endl;
+	for (size_t i = 0; i < vec.size(); i++)
+	{
+		int searchedNum = num - vec[i];
+		if (map.find(searchedNum) != map.end())
+		{
+			cout << vec[i] << ", " << searchedNum << endl;
+		}
+		else
+		{
+			map[vec[i]] = vec[i];
+		}
+	}
+
+}
 int main()
 {
-
+	vector<int> numbers{ -30,0,2,23,25,55,83 };
+	PrintSumPairsOneLoop(numbers, 25);
 	return 0;
 }
 
-void PrintSumPairs(std::vector<int> vec, int num)
-{
-	for (int i = 0; i < vec.size(); i++)
-	{
-		
-	}
+
 	//Print all of the couples in vec that their sum is equal to num
-}
+
+
 
 //Question 1:
 //Interview question :
