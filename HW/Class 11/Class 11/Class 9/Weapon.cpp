@@ -18,6 +18,18 @@ Weapon::~Weapon()
 	std::cout << "Weapon " << name << " Destroyed!" << std::endl;
 }
 
+Weapon::Weapon(const Weapon& other)
+	: name(other.name), damage(other.damage), range(other.range), reloadTime(other.reloadTime), ammo(other.ammo)
+{
+	std::cout << "Weapon " << name << " Copy Constructed!" << std::endl;
+}
+
+Weapon& Weapon::operator=(const Weapon& other)
+{
+	std::cout << "Weapon: " << name << " is now Assigned and has a new name: " << other.name << std::endl;
+	return *this;
+}
+
 bool Weapon::Shoot()
 {
 	std::cout << "Weapon " << name << " Shoot!" << std::endl;

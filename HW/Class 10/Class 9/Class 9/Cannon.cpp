@@ -19,6 +19,18 @@ Cannon::~Cannon()
 	//std::cout << "Cannon Destroyed!" << std::endl;
 }
 
+Cannon::Cannon(const Cannon& other)
+	: Weapon(other)
+{
+	std::cout << "Cannon Copy Constructed!" << std::endl;
+}
+
+Cannon& Cannon::operator=(const Cannon& other)
+{
+	std::cout << "Cannon: " << name << " is now Assigned and has a new Cannon: " << other.name << std::endl;
+	name = other.name;
+	return *this;
+}
 
 bool Cannon::Shoot()
 {
