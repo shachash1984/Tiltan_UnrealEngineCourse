@@ -60,7 +60,7 @@ foo::indent foo::s_indent;
 int main() {
 
 
-	cout << filesystem::current_path().string() << endl;
+	cout << filesystem::current_path().string() << endl; // filesystem only C++ 20
 
 	cout << "file exists: " << filesystem::exists("data.json") << endl;
 	// read file
