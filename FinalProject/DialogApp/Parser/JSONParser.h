@@ -1,5 +1,5 @@
 #pragma once
-#include <json/json.h>
+#include "json/json.h"
 #include "IParser.h"
 #include <fstream>
 
@@ -8,9 +8,7 @@ class JSONParser : public IParser
 public:
 	void SetIndexFilePath(const std::string& _indexFilePath);
 	const std::string& GetIndexFilePath() const;
-
 	std::vector<std::string> GetData() override;
-
 	bool Parse();
 	Json::Value& GetRoot() { return root; }
 	bool OpenFile(const std::string& FilePath);

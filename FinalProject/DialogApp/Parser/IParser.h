@@ -11,9 +11,9 @@ public:
 	IParser() = default;
 	virtual ~IParser() = default;
 	IParser(const IParser&) = delete;
-	IParser(IParser&&) = delete;
+	IParser(IParser&&) = delete; // non relevant for me
 	IParser& operator=(const IParser&) = delete;
-	IParser& operator=(IParser&&) = delete;
+	IParser& operator=(IParser&&) = delete; // non relevant for me
 	
 
 protected:
