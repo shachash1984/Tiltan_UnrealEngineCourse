@@ -1,8 +1,8 @@
 #include <iostream>
 #include <JSONParser.h>
 
-//#include <GuiEngine.h>
-//#include <DialogBox.h>
+#include <GuiEngine.h>
+#include <DialogBox.h>
 
 //#include "DialogElementButton.h"
 //#include "DialogElementPosition.h"
@@ -18,8 +18,11 @@ int main()
 
 	JSONParser parser;
 	Json::Reader reader;
+	string text = "Hello";
 
-	//shared_ptr<GuiEngine> gui = make_shared<GuiEngine>();
+	const char * text_array = text.c_str();
+
+	shared_ptr<GuiEngine> gui = make_shared<GuiEngine>();
 	/*
 	 * This is where your code should go:
 	 *

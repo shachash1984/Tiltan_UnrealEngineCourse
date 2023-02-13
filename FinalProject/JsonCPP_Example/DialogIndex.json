@@ -1,4 +1,4 @@
 {
-    "dialog1" : "Dialogs\\dialog.json",
-    "data" : "Dialogs\\data.json"        
+    "dialog1" : "dialog.json",
+    "data" : "data.json"        
 }
