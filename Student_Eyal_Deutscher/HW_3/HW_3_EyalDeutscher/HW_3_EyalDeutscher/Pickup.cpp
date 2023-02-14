@@ -6,7 +6,7 @@ string Pickup::ToString()
 	return string;
 }
 
-Pickup::Pickup(Point pos, string name, int amount) {
+Pickup::Pickup(Point pos, string name, int amount) { //-5 should be initialized within the ctor initialization list
 	this->position = pos;
 	this->name = name;
 	this->amount = amount;
