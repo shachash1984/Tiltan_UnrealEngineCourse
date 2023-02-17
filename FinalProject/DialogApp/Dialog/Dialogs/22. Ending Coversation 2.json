@@ -1,0 +1,20 @@
+{
+	"id" : 22,
+    "title" : "Analysis",
+    "text" : [
+			"Scans show that the forcefield is similar to that of the beast",
+			"you've struck down before. It seems as though this blade",
+			"you carry has the ability to mimic the abilities of creatures",
+			"you slay.",
+				" "
+        ],
+	"position" : {"x" : 100, "y" : 200},
+	"size" : {"width" : 550, "height" : 250},
+	"window_color" : {"r" : 0.0, "g" : 0.5, "b" : 1.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.5, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "I wonder about the next power!", "next" : 23 }
+		]
+	
+}

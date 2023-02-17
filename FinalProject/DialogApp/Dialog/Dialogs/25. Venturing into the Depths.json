@@ -1,0 +1,17 @@
+{
+	"id": 25,
+	"title": "Venturing into the Depths",
+	"text": [
+		"With your newfound powers and Gravis by your side, you venture deeper",
+		"into the caverns below, wondering what you'll find...",
+		" "
+	],
+	"position": {	"x": 400,	"y": 100},
+	"size": {	"width": 750,	"height": 300},
+	"window_color": {	"r": 0.502,	"g": 0.502,	"b": 0.502,	"a": 1.0},
+	"text_color": {	"r": 0.0,	"g": 1.0,	"b": 0.3,	"a": 1.0},
+	"buttons": [
+		{	"text": "The End",	"next": 26	}
+	]
+
+}

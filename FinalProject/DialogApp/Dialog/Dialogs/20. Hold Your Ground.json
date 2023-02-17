@@ -1,0 +1,21 @@
+{
+	"id": 20,
+	"title": "Hold your ground",
+	"text": [
+		"You lift your blade and hold it in a blocking position.",
+		"The monster charges you with blinding speed, but is than stopped by",
+		"a forcefield, emerging from your blade!",
+		"You make use of the insect's confusion and cut it down.",
+		"The light of the orb changes once again, this time its color is green,",
+		"like the insect's blisters.",
+		" "
+	],
+	"position": {	"x": 400,	"y": 100},
+	"size": {	"width": 750,	"height": 300},
+	"window_color": {	"r": 0.502,	"g": 0.502,	"b": 0.502,	"a": 1.0},
+	"text_color": {	"r": 0.0,	"g": 1.0,	"b": 0.3,	"a": 1.0},
+	"buttons": [
+		{	"text": "Wow, what was that?!",	"next": 21	}
+	]
+
+}

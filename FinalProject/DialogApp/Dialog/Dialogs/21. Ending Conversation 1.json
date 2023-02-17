@@ -1,0 +1,18 @@
+{
+	"id" : 21,
+    "title" : "Wow, did you see that?!",
+	"text": [
+		"Holy moly, did you see that Gravis?!",
+		"I just created a forcefield!... somehow...?",
+		" "
+	],
+	"position" : {"x" : 750, "y" : 200},
+	"size" : {"width" : 450, "height" : 200},
+	"window_color" : {"r" : 0.5, "g" : 0.0, "b" : 0.3, "a" : 1.0},
+	"text_color" : {"r" : 0.0, "g" : 0.7, "b" : 0.7, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "Analysis", "next": 22 }
+		]
+    
+}

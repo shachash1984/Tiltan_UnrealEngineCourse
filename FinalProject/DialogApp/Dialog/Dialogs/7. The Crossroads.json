@@ -1,0 +1,19 @@
+{
+	"id": 7,
+	"title": "The Crossroads",
+	"text": [
+		"Before you are two paths:",
+		"To the right, a twisting dark path, with some glowing vegetation growing along the cave walls.",
+		"To the left, a large open cave, with some sort of small passage on the furthest wall.",
+		" "
+	],
+	"position": {	"x": 400,	"y": 100},
+	"size": {	"width": 750,	"height": 300},
+	"window_color": {	"r": 0.502,	"g": 0.502,	"b": 0.502,	"a": 1.0},
+	"text_color": {	"r": 0.0,	"g": 1.0,	"b": 0.3,	"a": 1.0},
+	"buttons": [
+		{	"text": "Turn right",	"next": 8	} ,
+		{	"text": "Turn left",	"next": 10	}
+	]
+
+}

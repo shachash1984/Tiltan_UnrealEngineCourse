@@ -1,0 +1,17 @@
+{
+	"id": 4,
+	"title": "It's coming back to me...",
+	"text": [
+		"Yea... I remember... I lost control of the ship...",
+		"Something about the gravitational field being stronger than what we thought.",
+		" "
+	],
+	"position": {	"x": 750,	"y": 200},
+	"size": {	"width": 600,	"height": 300},
+	"window_color": {	"r": 0.5,	"g": 0.0,	"b": 0.3,	"a": 1.0},
+	"text_color": {	"r": 0.0,	"g": 0.7,	"b": 0.7,	"a": 1.0},
+	"buttons": [
+		{	"text": "But where are we?",	"next": 6	}
+	]
+
+}

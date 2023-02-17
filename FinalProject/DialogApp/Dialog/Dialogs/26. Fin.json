@@ -1,0 +1,23 @@
+{
+	"id": 26,
+	"title": "Fin",
+	"text": [
+		"We hope you enjoyed the (text) demo of our game!",
+		" ",
+		"Credits: ",
+		" ",
+		"Designer, Programmer, Artist, Makeup, Catering:",
+		"Ron Bandel",
+		" ",
+		"Teacher, mentor, advisor, overall chill dude:",
+		"Shahar Schneider",
+		" "
+	],
+	"position": {	"x": 800,	"y": 400},
+	"size": {	"width": 500,	"height": 400},
+	"window_color": {	"r": 0.0,	"g": 0.0,	"b": 0.0,	"a": 1.0},
+	"text_color": {	"r": 1.0,	"g": 1.0,	"b": 1.0,	"a": 1.0},
+	"buttons": [
+	]
+
+}

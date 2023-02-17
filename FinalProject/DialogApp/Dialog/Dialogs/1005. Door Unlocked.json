@@ -1,0 +1,24 @@
+{
+	"id": 1005,
+	"title": "The Glowing Blade",
+	"text": [
+		"The door creaks open, and you enter some sort of abandoned storage room, .",
+		"There are broken jars and crates all around, and dust has settled throught the room.",
+		"At the center of this chamber, a large sword is stuck in the ground, its blade made of some sort",
+		"of crystal. Above the handle and below the blade, there's a circle with a strange, glowing orb",
+		"floating inside of it, dimmingly lighting up the room.",
+		"The orb flickers as you approach, and as you pull the blade from the floor, strands of light",
+		"emerge from the orb, circling around you for a few seconds before going back into the blade.",
+		" ",
+		"You now posses the Glowing Blade.",
+		" "
+	],
+	"position": {	"x": 400,	"y": 100},
+	"size": {	"width": 750,	"height": 300},
+	"window_color": {	"r": 0.502,	"g": 0.502,	"b": 0.502,	"a": 1.0},
+	"text_color": {	"r": 0.0,	"g": 1.0,	"b": 0.3,	"a": 1.0},
+	"buttons": [
+		{			"text": "Go back to the crossroads",	"next": 14	}
+	]
+
+}

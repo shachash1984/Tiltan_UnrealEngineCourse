@@ -1,0 +1,19 @@
+{
+	"id" : 1,
+    "title" : "Crashed",
+    "text" : [
+        "...Recalibrating life systems...",
+        "Life Systems stable. ",
+				"Charging shock systems... Clear!",
+				" "
+        ],
+	"position" : {"x" : 100, "y" : 200},
+	"size" : {"width" : 350, "height" : 250},
+	"window_color" : {"r" : 0.0, "g" : 0.5, "b" : 1.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.5, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Ouch!", "next" : 2 }
+		]
+	
+}

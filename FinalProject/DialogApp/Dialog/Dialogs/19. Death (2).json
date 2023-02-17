@@ -1,0 +1,16 @@
+{
+	"id": 19,
+	"title": "Death",
+	"text": [
+		"You Died.",
+		" "
+	],
+	"position": {	"x": 900,	"y": 400},
+	"size": {	"width": 200,	"height": 120},
+	"window_color": {	"r": 0.0,	"g": 0.0,	"b": 0.0,	"a": 1.0},
+	"text_color": {	"r": 1.0,	"g": 0.0,	"b": 0.0,	"a": 1.0},
+	"buttons": [
+		{	"text": "Retry?",	"next": 14	}
+	]
+
+}

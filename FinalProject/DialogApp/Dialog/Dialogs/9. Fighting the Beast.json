@@ -1,0 +1,21 @@
+{
+	"id": 9,
+	"title": "Fighting the Beast",
+	"text": [
+		"You charge recklessly into battle, with no weapon or plan.",
+		"The beast is taken aback at first, but soon comes to its senses.",
+		"You strike it with your bare hands, but a strange forcefield appears around the",
+		"creature, completely nullifying your efforts.",
+		"It swings at you violently with its horns, its speed too great to respond in time.",
+		"Everything goes dark, and you feel the cold creeping up your spine...",
+		" "
+	],
+	"position": {	"x": 400,	"y": 100},
+	"size": {	"width": 750,	"height": 300},
+	"window_color": {	"r": 0.502,	"g": 0.502,	"b": 0.502,	"a": 1.0},
+	"text_color": {	"r": 0.0,	"g": 1.0,	"b": 0.3,	"a": 1.0},
+	"buttons": [
+		{	"text": "Death",	"next": 901	}
+	]
+
+}

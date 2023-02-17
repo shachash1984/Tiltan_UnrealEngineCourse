@@ -1,0 +1,23 @@
+{
+	"id": 16,
+	"title": "Fighting the Beast",
+	"text": [
+		"You charge recklessly into battle, your blade flickering with power.",
+		"The beast is taken aback at first, but soon comes to its senses.",
+		"As you swing your blade, a strange forcefield appears around the",
+		"creature. Your Blade gets stuck in it for a second, as you and the beast",
+		"are locked with eachother. You ultimately overpower it, cutting through the",
+		"forcefield and cutting down the beast.",
+		"The light in the orb of your weapon now glows in a slightly different color,",
+		"similar to that of the creature's forcefield...",
+		" "
+	],
+	"position": {	"x": 400,	"y": 100},
+	"size": {	"width": 750,	"height": 300},
+	"window_color": {	"r": 0.502,	"g": 0.502,	"b": 0.502,	"a": 1.0},
+	"text_color": {	"r": 0.0,	"g": 1.0,	"b": 0.3,	"a": 1.0},
+	"buttons": [
+		{	"text": "Push onwards",	"next": 17	}
+	]
+
+}

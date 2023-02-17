@@ -1,0 +1,21 @@
+{
+	"id": 17,
+	"title": "Fighting the Pest",
+	"text": [
+		"As you continue down the cave, you come upon a new creature - a flying,",
+		"insect looking thing, very similar to a mosquito.",
+		"It has large, green blisters covering its back,",
+		"and a long, pointy, sting-like nozzle at the front of its face.",
+		"It notices you, and approaches menacingly.",
+		" "
+	],
+	"position": {	"x": 400,	"y": 100},
+	"size": {	"width": 750,	"height": 300},
+	"window_color": {	"r": 0.502,	"g": 0.502,	"b": 0.502,	"a": 1.0},
+	"text_color": {	"r": 0.0,	"g": 1.0,	"b": 0.3,	"a": 1.0},
+	"buttons": [
+		{	"text": "Strike the pest",	"next": 18	},
+		{	"text": "Hold your ground",	"next": 20	}
+	]
+
+}

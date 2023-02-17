@@ -1,0 +1,18 @@
+{
+	"id" : 24,
+    "title" : "Lets not get ahead of ourselves...",
+    "text" : [
+			"If you are going to test this hypothesis, might I recommend",
+			"you don't do it over a deep chasm. Or spikes.",
+			" "
+    ],
+	"position" : {"x" : 100, "y" : 200},
+	"size" : {"width" : 550, "height" : 250},
+	"window_color" : {"r" : 0.0, "g" : 0.5, "b" : 1.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.5, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Venturing into the Depths", "next" : 25 }
+		]
+	
+}

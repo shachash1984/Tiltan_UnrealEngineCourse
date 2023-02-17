@@ -1,0 +1,19 @@
+{
+	"id" : 23,
+    "title" : "I wonder what's the next power!",
+	"text": [
+		"Wow, that sounds really cool!",
+		"I wonder what I can do now, after killing this bug thing.",
+		"Think I'll sprout some wings and fly?",
+		" "
+	],
+	"position" : {"x" : 750, "y" : 200},
+	"size" : {"width" : 450, "height" : 200},
+	"window_color" : {"r" : 0.5, "g" : 0.0, "b" : 0.3, "a" : 1.0},
+	"text_color" : {"r" : 0.0, "g" : 0.7, "b" : 0.7, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "Lets not get ahead of ourselves...", "next": 24 }
+		]
+    
+}

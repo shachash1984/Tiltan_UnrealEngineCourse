@@ -1,0 +1,19 @@
+{
+	"id": 18,
+	"title": "Striking the Pest",
+	"text": [
+		"You step forward, blade ready to strike the monster as it approaches.",
+		"But before you can even reach it, the creature charges at you with blinding",
+		"speed, its sting impaling your abdomen.",
+		"Everything goes dark, and you feel the cold creeping up your spine...",
+		" "
+	],
+	"position": {	"x": 400,	"y": 100},
+	"size": {	"width": 750,	"height": 300},
+	"window_color": {	"r": 0.502,	"g": 0.502,	"b": 0.502,	"a": 1.0},
+	"text_color": {	"r": 0.0,	"g": 1.0,	"b": 0.3,	"a": 1.0},
+	"buttons": [
+		{	"text": "Death",	"next": 19	}
+	]
+
+}
