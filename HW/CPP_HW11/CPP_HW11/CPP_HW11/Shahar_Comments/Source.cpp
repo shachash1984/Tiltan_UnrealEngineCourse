@@ -1,0 +1,49 @@
+#include <iostream>
+#include <string>
+#include "Weapon.h"
+#include "LaserCanon.h"
+#include "Rocket.h"
+#include "BulletTurret.h"
+#include "Spaceship.h"
+#include "SpaceShuttle.h"
+#include <vector>
+#include <memory>
+using namespace std;
+
+// CPP HW 11 was done with Eyal
+
+int main()
+{
+
+
+    LaserCanon* lasCanon = new LaserCanon();
+    Rocket* rocket = new Rocket();
+    BulletTurret* turret = new BulletTurret();
+
+    vector<Weapon*> weapons1;
+    weapons1.push_back(lasCanon);
+    weapons1.push_back(rocket);
+    weapons1.push_back(turret);
+
+    LaserCanon* lasCanon2 = new LaserCanon();
+    Rocket* rocket2 = new Rocket();
+    BulletTurret* turret2 = new BulletTurret();
+
+    vector<Weapon*> weapons2;
+    weapons2.push_back(lasCanon2);
+    weapons2.push_back(rocket2);
+    weapons2.push_back(turret2);
+
+    Spaceship XWING (3, "X-WING", weapons1, 50);
+    Spaceship TIE_FIGHTER(8, "TIE FIGHTER", weapons2, 100);
+    int rangeToTarget = TIE_FIGHTER.GetWorldPos() - XWING.GetWorldPos();
+    rangeToTarget = abs(rangeToTarget);
+    XWING.FireAllWeapons(rangeToTarget);
+
+    BulletTurret* uniqueTurret = new BulletTurret(); // -5 you do not need to create a raw pointer here (create a unique pointer inside of space shuttle)
+								
+    SpaceShuttle spaceShuttle(*uniqueTurret);
+    spaceShuttle.Shoot(2);
+    // -5 memory leak, you forgot to delete uniqueTurret
+	return 0;
+}
