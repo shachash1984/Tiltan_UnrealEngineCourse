@@ -1,0 +1,19 @@
+{
+	"id": 12,
+	"title": "Language Unidentified",
+	"text": [
+		"Although some of these marks resemble some letters in the english language,",
+		"No known cipher is known to be used in this way.",
+		"There is also no record of any such language in my catalog.",
+		"I advise that we keep looking for... something.",
+		" "
+	],
+	"position": {	"x": 100,	"y": 200},
+	"size": {	"width": 600,	"height": 300},
+	"window_color": {	"r": 0.0,	"g": 0.5,	"b": 1.0,	"a": 1.0},
+	"text_color": {	"r": 1.0,	"g": 1.0,	"b": 0.5,	"a": 1.0},
+	"buttons": [
+		{			"text": "Go back to the center of the room",	"next": 10	}
+	]
+
+}

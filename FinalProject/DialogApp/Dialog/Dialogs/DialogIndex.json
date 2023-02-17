@@ -1,12 +1,28 @@
 {
-    "dialog1" : "Dialogs\\dialog.json",
-    "dialog2" : "Dialogs\\dialog2.json",
-    "dialog3" : "Dialogs\\dialog3.json",
-    "dialog4" : "Dialogs\\dialog4.json",
-    "dialog5" : "Dialogs\\dialog5.json",
-    "dialog51" : "Dialogs\\dialog51.json",
-    "dialog6" : "Dialogs\\dialog6.json",
-    "gameoverreem" : "Dialogs\\gameover1.json",
-    "gameovermeital" : "Dialogs\\gameover2.json"
-        
+  "dialog1": "Dialogs\\dialog.json",
+  "dialog2": "Dialogs\\dialog2.json",
+  "dialog3": "Dialogs\\dialog3.json",
+  "dialog4": "Dialogs\\dialog4.json",
+  "dialog5": "Dialogs\\dialog5.json",
+  "dialog51": "Dialogs\\dialog501.json",
+  "dialog6": "Dialogs\\dialog6.json",
+  "The Crossroads": "Dialogs\\The Crossroads.json",
+  "Turn Right": "Dialogs\\Turn Right.json",
+  "Fighting the Beast": "Dialogs\\Fighting the Beast.json",
+  "Death": "Dialogs\\Death.json",
+  "Turn Left": "Dialogs\\Turn Left.json",
+  "Examining the Walls": "Dialogs\\Examining the Walls.json",
+  "Language Unidentified": "Dialogs\\Language Unidentified.json",
+  "The Door": "Dialogs\\The Door.json",
+  "First Button": "Dialogs\\First Button.json",
+  "Second Button": "Dialogs\\Second Button.json",
+  "Third Button": "Dialogs\\Third Button.json",
+  "Fourth Button": "Dialogs\\Fourth Button.json",
+  "False Second Button": "Dialogs\\False Second Button.json",
+  "False Third Button": "Dialogs\\False Third Button.json",
+  "False Fourth Button": "Dialogs\\False Fourth Button.json",
+
+  "Door Locked": "Dialogs\\Door Locked.json",
+  "Door Unlocked": "Dialogs\\Door Unlocked.json"
+
 }

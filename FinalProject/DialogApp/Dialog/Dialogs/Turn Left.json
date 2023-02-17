@@ -1,0 +1,19 @@
+{
+	"id": 10,
+	"title": "The Cave Painted Cavern",
+	"text": [
+		"You enter a large cavern room, with many strange marks painted on its walls.",
+		"At the edge of the cave, there's what seems to be a closed door.",
+		" "
+	],
+	"position": {	"x": 400,	"y": 100},
+	"size": {	"width": 650,	"height": 300},
+	"window_color": {	"r": 0.502,	"g": 0.502,	"b": 0.502,	"a": 1.0},
+	"text_color": {	"r": 0.0,	"g": 1.0,	"b": 0.3,	"a": 1.0},
+	"buttons": [
+		{	"text": "Examine the cave walls",	"next": 11	} ,
+		{	"text": "Go to the Door",	"next": 13	},
+		{	"text": "Go back",	"next": 7	}
+	]
+
+}

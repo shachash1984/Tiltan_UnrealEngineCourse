@@ -1,0 +1,16 @@
+{
+	"id": 1005,
+	"title": "Door Unlocked",
+	"text": [
+		"CORRECT",
+		" "
+	],
+	"position": {	"x": 400,	"y": 100},
+	"size": {	"width": 750,	"height": 300},
+	"window_color": {	"r": 0.502,	"g": 0.502,	"b": 0.502,	"a": 1.0},
+	"text_color": {	"r": 0.0,	"g": 1.0,	"b": 0.3,	"a": 1.0},
+	"buttons": [
+		{			"text": "Go back to the center of the room",	"next": 10	}
+	]
+
+}
