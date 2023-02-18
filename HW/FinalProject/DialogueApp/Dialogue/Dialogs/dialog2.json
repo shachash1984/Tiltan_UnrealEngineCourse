@@ -1,0 +1,18 @@
+{
+	"id" : 2,
+    "title" : "Zoe",
+    "text" : [
+        "Twinsen!",
+        "I love you",
+        "k bye"
+        ],
+	"position" : {"x" : 100, "y" : 200},
+	"size" : {"width" : 250, "height" : 200},
+	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 0.0, "b" : 1.0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "Love you too", "next": 4 }
+		]
+    
+}
