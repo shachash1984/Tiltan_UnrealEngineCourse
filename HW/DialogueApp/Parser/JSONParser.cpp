@@ -13,12 +13,16 @@ const std::string& JSONParser::GetIndexFilePath() const
 
 std::vector<std::string> JSONParser::GetData()
 {
-	std::vector<std::string> keys;
-	for (auto key : root)
+	Json::Value indexRoot;
+	std::fstream indexFile(indexFilePath);
+	reader.parse(indexFile, indexRoot);
+
+	for (auto key : indexRoot.getMemberNames())
 	{
-		keys.push_back(key.asString());
+		data.push_back(key);
 	}
-	return keys;
+
+	return data;
 }
 
 bool JSONParser::Parse()
@@ -29,7 +33,6 @@ bool JSONParser::Parse()
 	}
 
 	bool parsingSuccessful = reader.parse(inputFile, root);
-
 	return parsingSuccessful;
 }
 
@@ -37,7 +40,7 @@ bool JSONParser::OpenFile(const std::string& FilePath)
 {
 	CloseFile(); 
 
-	inputFile.open(FilePath, std::ifstream::binary); 
+	inputFile.open(FilePath); 
 
 	if (!inputFile.is_open())
 	{
@@ -46,11 +49,10 @@ bool JSONParser::OpenFile(const std::string& FilePath)
 	}
 
 	indexFilePath = FilePath; 
-
 	return true; 
 }
 
 void JSONParser::CloseFile()
 {
-	CloseFile();
+	inputFile.close();
 }
