@@ -1,0 +1,9 @@
+CPP:
+Continuing the HW of class 9:
+
+Make sure every class has a:
+virtual Destructor
+Copy Constructor
+Copy Assignment operator
+
+**Make sure all are implemented correctly and there are no memory leaks or shallow copying**
