@@ -1,0 +1,25 @@
+{
+	"id" : 16,
+    "title" : "Classical",
+    "text" : [
+        "Classical period falls beween the baroque and",
+		"the romantic  periods.",
+        "Classical music has a lighter,",
+		"clearer texture than Baroque music,",
+        "but a more sophisticated use of form.",
+		"The classical periods happend between 1750-1830",
+		"And bring us the next talent!"		
+        ],
+	"position" : {"x" : 600, "y" : 200},
+	"size" : {"width" : 450, "height" : 350},
+	"window_color" : {"r" : 0.0, "g" : 0.3, "b" : 0.8, "a" : 0.5},
+	"text_color" : {"r" : 0.7, "g" : 0.9, "b" : 0.6, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Ludwig van Beethoven", "next" : 17 },
+		{ "text" : "Back", "next" : 6 },
+		{ "text" : "Back to genere select", "next" : 4 }
+		
+		]
+	
+}

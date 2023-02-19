@@ -1,0 +1,20 @@
+{
+	"id" : 21,
+    "title" : "Dialog BOT",
+    "text" : [
+        "Thank you for talking with me!",
+        "I hope you  enjoy and learn",
+        "something new!",
+		"Good bye"
+        ],
+	"position" : {"x" : 450, "y" : 250},
+	"size" : {"width" : 350, "height" : 250},
+	"window_color" : {"r" : 0.6, "g" : 0.9, "b" : 0.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 0.2, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Back to genare selection", "next" : 4 }
+		
+		]
+	
+}

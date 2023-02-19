@@ -1,0 +1,21 @@
+{
+	"id" : 6,
+    "title" : "Music periods",
+    "text" : [
+        "Such an intelligent choose.",
+        "Back at the past was few music periods that was the base of all what we know  today",
+		"There were three main periods and each one of them bring another guiens mind with it."       
+        ],
+	"position" : {"x" : 100, "y" : 200},
+	"size" : {"width" : 350, "height" : 250},
+	"window_color" : {"r" : 1.0, "g" : 0.0, "b" : 0.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Baroque", "next" : 13 },
+		{ "text" : "Classical", "next" : 16 },
+		{ "text" : "Romantic", "next" : 19 }
+		
+		]
+	
+}

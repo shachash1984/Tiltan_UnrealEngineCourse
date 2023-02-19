@@ -1,0 +1,24 @@
+{
+	"id" : 18,
+    "title" : "Classical - Ludwig van Beethoven",
+    "text" : [
+        "Lots of people dont know but beethoven",
+		"began to grow increasingly deaf and ",
+        "by 1814 he was almost completely deaf,",
+		"and he then gave up performing and appearing in public ", 
+		"and yet this time beethoven",
+		"composed many of his most admired works!"		
+        ],
+	"position" : {"x" : 300, "y" : 400},
+	"size" : {"width" : 450, "height" : 350},
+	"window_color" : {"r" : 0.0, "g" : 0.3, "b" : 0.8, "a" : 0.5},
+	"text_color" : {"r" : 0.7, "g" : 0.9, "b" : 0.6, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Countinue", "next" : 21 },
+		{ "text" : "Back", "next" : 17 },
+		{ "text" : "Back to genere select", "next" : 4 }
+		
+		]
+	
+}

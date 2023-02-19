@@ -1,0 +1,27 @@
+{
+	"id" : 7,
+    "title" : "EDM - Avici",
+    "text" : [
+        "Tim Bergling known as AVICI was",
+        "born at 20.4.1989 in sweeden",
+        "and start his career when he was 16 years old!",
+		"Tim known in his unique kind of style, melodies",
+		"and composing style",
+		"Very fast avici was became one of the must",
+		"important and revolutionary projects all around the world!"
+        ],
+
+	"position" : {"x" : 650, "y" : 150},
+	"size" : {"width" : 450, "height" : 350},
+	"window_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 0.0, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Best songs", "next" : 8 },
+		{ "text" : "How the legend end?", "next" : 9 },
+		{ "text" : "Back", "next" : 5 },
+		{ "text" : "Back to genare selection", "next" : 4 }
+		
+		]
+	
+}

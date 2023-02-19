@@ -1,4 +1,4 @@
-#pragma once
+ #pragma once
 #include "IDialogElement.h"
 
 class IDialogElementButton : public IDialogElement

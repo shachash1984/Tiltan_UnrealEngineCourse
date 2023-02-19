@@ -1,0 +1,30 @@
+{
+	"id" : 9,
+    "title" : "EDM - Avici",
+    "text" : [
+        "Tim became a huge star since the  beging",
+        "start touring and and a big audience really fast", 
+		"so he have a lot of tours all over the world all the time",
+		"and he been under constant extemly stess.",
+        "At some point he beacame tired of all this,",
+		"is mental health wasn't good and as he said",
+		"'i just want to be at the studio and make music',",
+		"then in 2016 avici retireing from touring.",
+		"two years later 20.4.2018 tim found dead at his room",
+		"where he was in holiday,",
+		"no couse of death but probebly suicide.",
+		"And this is how this legend end R.I.P."		
+        ],
+	"position" : {"x" : 250, "y" : 350},
+	"size" : {"width" : 450, "height" : 350},
+	"window_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 0.0, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Countinue", "next" : 21 },
+		{ "text" : "Back", "next" : 7 },
+		{ "text" : "Back to genare selection", "next" : 4 }
+		
+		]
+	
+}

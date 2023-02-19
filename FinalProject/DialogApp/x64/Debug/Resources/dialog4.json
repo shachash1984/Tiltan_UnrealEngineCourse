@@ -1,0 +1,19 @@
+{
+	"id" : 4,
+    "title" : "Dialog BOT",
+    "text" : [
+        "Im A Music Dialog BOT!", 
+		"Here is my favorite generes,",
+        "which one whold you like to talk  about?"		
+        ],
+	"position" : {"x" : 100, "y" : 200},
+	"size" : {"width" : 350, "height" : 250},
+	"window_color" : {"r" : 1.0, "g" : 0.0, "b" : 0.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "EDM", "next" : 5 },
+		{ "text" : "Music periods", "next" : 6 }
+		]
+	
+}

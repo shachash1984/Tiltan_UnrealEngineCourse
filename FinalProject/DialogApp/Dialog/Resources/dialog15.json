@@ -1,0 +1,22 @@
+{
+	"id" : 15,
+    "title" : "Baroque period - Johann Sebastian Bach",
+    "text" : [
+        "Johann wan born in Eisenach, Germany on 21 march 1685.",
+        "He die in  28 july 1750 and is music still play",
+        "all over the world ocncerts  until today!"		
+        ],
+	"position" : {"x" : 150, "y" : 80},
+	"size" : {"width" : 450, "height" : 350},
+	"window_color" : {"r" : 0.3, "g" : 0.7, "b" : 0.0, "a" : 0.5},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.5, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Countinue", "next" : 21 },
+		{ "text" : "Back", "next" : 14 },
+		{ "text" : "Back to period select", "next" : 6 },
+		{ "text" : "Back to genre select", "next" : 4 }
+		
+		]
+	
+}

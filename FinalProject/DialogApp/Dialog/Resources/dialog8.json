@@ -1,0 +1,25 @@
+{
+	"id" : 8,
+    "title" : "EDM - Avici",
+    "text" : [
+        "Best of avici song: ",
+        "'Wake Me Up', 'The Days'",
+        "'Without You' , 'Waiting for Love' , 'Hey brother'",
+        "'The nights'",
+        "And the revulotionary 'Level',",
+		"The one who made Avici A Legend!"
+		
+        ],
+	"position" : {"x" : 250, "y" : 100},
+	"size" : {"width" : 450, "height" : 350},
+	"window_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 0.0, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Countine", "next" : 21 },
+		{ "text" : "Back", "next" : 7 },
+		{ "text" : "Back to genare selection", "next" : 4 }
+		
+		]
+	
+}

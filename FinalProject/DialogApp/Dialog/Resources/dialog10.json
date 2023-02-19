@@ -1,0 +1,23 @@
+{
+	"id" : 10,
+    "title" : "EDM - Fun Facts",
+    "text" : [
+		"#1",
+		"First Edm song was in 1977!",
+		"Called 'I feel love' and",
+		"Produced by Giorgio Moroder.",
+		"Described as the 'Really start of electronic dance'"
+        ],
+	"position" : {"x" : 150, "y" : 80},
+	"size" : {"width" : 450, "height" : 350},
+	"window_color" : {"r" : 0.0, "g" : 0.0, "b" : 1.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Countinue", "next" : 11 },
+		{ "text" : "Back", "next" : 5 },
+		{ "text" : "Back to genare selection", "next" : 4 }
+		
+		]
+	
+}

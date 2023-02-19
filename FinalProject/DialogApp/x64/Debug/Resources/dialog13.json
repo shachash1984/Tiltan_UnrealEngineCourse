@@ -1,0 +1,29 @@
+{
+	"id" : 13,
+    "title" : "Baroque period",
+    "text" : [
+        "The baroque was the poatic period of music time.",
+        "It was between the early 17th century until the 1750s.",
+        "In the territories of the Spanish and Portuguese empires", 
+		"including the Iberian Peninsula it continued,",
+		"together with new styles,",
+		"until the first decade of the 19th century.",
+		"The Baroque style",
+		"used contrast, movement, exuberant detail,",
+		"deep colour, grandeur, and surprise to achieve a sense of awe.",
+		"Its bring us one of the most important musician of  all times!"
+		
+        ],
+	"position" : {"x" : 150, "y" : 400},
+	"size" : {"width" : 450, "height" : 350},
+	"window_color" : {"r" : 0.3, "g" : 0.7, "b" : 0.0, "a" : 0.5},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.5, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Johann Sebastian Bach", "next" : 14 },
+		{ "text" : "Back", "next" : 6 },
+		{ "text" : "Back to genre select", "next" : 4 }
+		
+		]
+	
+}

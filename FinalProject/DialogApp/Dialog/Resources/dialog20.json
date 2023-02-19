@@ -1,0 +1,26 @@
+{
+	"id" : 20,
+    "title" : "Romantic Period - Frédéric Chopin",
+    "text" : [
+        "Frédéric François Chopin born in 1 march 1810",
+		"in Zalezowa wola, Poland.",
+        "He was a Polish composer and virtuoso pianist",
+		"of the Romantic period, who wrote primarily for solo piano.",
+        "In the last 18 years of his life –",
+		"he gave only 30 public performances!",
+		"He supported himself by selling his compositions",
+		"and by giving piano lessons, for which he was in high demand."
+        ],
+	"position" : {"x" : 300, "y" : 400},
+	"size" : {"width" : 450, "height" : 350},
+	"window_color" : {"r" : 0.7, "g" : 0.0, "b" : 0.5, "a" : 1.0},
+	"text_color" : {"r" : 0.3, "g" : 0.9, "b" : 0.6, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Continue", "next" : 21 },
+		{ "text" : "Back", "next" : 19 },
+		{ "text" : "Back to genre select", "next" : 4 }
+		
+		]
+	
+}

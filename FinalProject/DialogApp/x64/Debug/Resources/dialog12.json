@@ -1,0 +1,40 @@
+{
+	"id" : 12,
+    "title" : "EDM - Fun Facts",
+    "text" : [
+        "#3",
+        "EDM has had a strong influence on gaming and gambling.",
+        "For over two decades some of the most",
+		"popular video games have featured EDM.", 
+		"You are sure to recognise these.",
+		"",
+		"*The launch of mortal kombat 1994",
+		"was accompanied by techno album.",
+		"",
+		"*The Dance Dance Revolution machine",
+		"inspired home-console",
+		"rhythm games like amplitude and rez",
+		"",
+		"*Games like Guitar Hero and Rock Band",
+		"feature some EDM stars",
+		"like Skrillex, Zedd and The Glitch Mob.",
+		"",
+		"*Grand Theft Auto V,",
+		"the fourth-highest selling game of all time,",
+		"had several radio stations in the game",
+		"featuring EDM stars as hosts and artists."
+		
+        ],
+	"position" : {"x" : 300, "y" : 350},
+	"size" : {"width" : 450, "height" : 350},
+	"window_color" : {"r" : 0.0, "g" : 0.0, "b" : 1.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Countinue", "next" : 21},
+		{ "text" : "Back", "next" : 11},
+		{ "text" : "Back to genare selection", "next" : 4 }
+		
+		]
+	
+}

@@ -1,0 +1,26 @@
+{
+	"id" : 14,
+    "title" : "Baroque period - Johann Sebastian Bach",
+    "text" : [
+        "Johann Sebastian Bach was a german composer and musician",
+        "of the late Baroque period.",
+        "Bach enriched established German styles through his mastery", 
+		"of counterpoint, harmonic, and motivic organisation,",
+		"and his adaptation of rhythms, forms, and textures",
+		"from abroad, particularly from Italy and France"		
+        ],
+	"position" : {"x" : 600, "y" : 200},
+	"size" : {"width" : 450, "height" : 350},
+	"window_color" : {"r" : 0.3, "g" : 0.7, "b" : 0.0, "a" : 0.5},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.5, "a" : 1.0},
+	"buttons" : [
+	
+	
+		{ "text" : "Continue", "next" : 15 },
+		{ "text" : "Back", "next" : 13 },
+		{ "text" : "Back to period select", "next" : 6 },
+		{ "text" : "Back to genre select", "next" : 4 }
+		
+		]
+	
+}

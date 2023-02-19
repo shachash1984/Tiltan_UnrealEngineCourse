@@ -1,0 +1,23 @@
+{
+	"id" : 17,
+    "title" : "Classical - Ludwig van Beethoven",
+    "text" : [
+        "Ludwig van Beethoven was a German composer and pianist.",
+        "Beethoven was born at 17 December 1770 in bonn, Germany.", 
+		"Beethoven remains one of the most admired composers",
+		"in the history of Western music!"		
+        ],
+	"position" : {"x" : 300, "y" : 80},
+	"size" : {"width" : 450, "height" : 350},
+	"window_color" : {"r" : 0.0, "g" : 0.3, "b" : 0.8, "a" : 0.5},
+	"text_color" : {"r" : 0.7, "g" : 0.9, "b" : 0.6, "a" : 1.0},
+	"buttons" : [
+	
+	
+		{ "text" : "Countinue", "next" : 18 },
+		{ "text" : "Back", "next" : 16 },
+		{ "text" : "Back to genere select", "next" : 4 }
+		
+		]
+	
+}

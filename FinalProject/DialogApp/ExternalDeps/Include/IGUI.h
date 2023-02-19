@@ -21,6 +21,7 @@ public:
 		int y{};
 	};
 
+
 	GUI_ENGINE_API virtual ~IGUI() = default;
 	GUI_ENGINE_API virtual void SetStartingDialog(int startingId) = 0;
 	GUI_ENGINE_API virtual void StartDialog(std::string title) = 0;

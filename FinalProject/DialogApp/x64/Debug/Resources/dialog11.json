@@ -1,0 +1,34 @@
+{
+	"id" : 11,
+    "title" : "EDM - Fun Facts",
+    "text" : [
+        "#2",
+        "There are more than 50 genres encapsulated in EDM!",
+		"The main categories call:",
+		"",
+        "*New Wave: was popular  at 70s to middle 80s and the",		
+		"genres provide was blues and rock and roll sounds", 
+		"incorporating disco.",
+		"",
+		"*Intelligent Dance Music:", 		
+		"experimental genre in 90s",
+		"was more of listening then dancing",
+		"",
+		"*Deep House: ",
+		"high BPM used diffrent synthesisers and drums  machiness.",
+		"Later evolved to the future house genre in the 2010s"
+		
+        ],
+	"position" : {"x" : 550, "y" : 200},
+	"size" : {"width" : 450, "height" : 350},
+	"window_color" : {"r" : 0.0, "g" : 0.0, "b" : 1.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Countinue", "next" : 12},
+		{ "text" : "Back", "next" : 10},
+		{ "text" : "Back to genare selection", "next" : 4 }
+		
+		]
+	
+}

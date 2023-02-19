@@ -1,0 +1,17 @@
+{
+	"id" : 2,
+    "title" : "Dialog BOT",
+    "text" : [
+        "Happy to hear!",
+        "Lets make it even better!"," "
+        ],
+	"position" : {"x" : 100, "y" : 200},
+	"size" : {"width" : 350, "height" : 250},
+	"window_color" : {"r" : 1.0, "g" : 0.0, "b" : 0.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+		{ 		   "text" : "Countinue", "next" : 4 }
+		]
+	
+}

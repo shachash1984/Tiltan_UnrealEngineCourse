@@ -1,0 +1,20 @@
+{
+	"id" : 5,
+    "title" : "EDM",
+    "text" : [
+        "great choose! ",
+        "Choose a category: "       
+        ],
+	"position" : {"x" : 100, "y" : 200},
+	"size" : {"width" : 350, "height" : 250},
+	"window_color" : {"r" : 1.0, "g" : 0.0, "b" : 0.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "Best DJ of all time", "next" : 7 },
+		{ "text" : "Fun facts about EDM", "next" : 10 },
+		{ "text" : "Back to genere choose", "next" : 4 }
+		
+		]
+	
+}
