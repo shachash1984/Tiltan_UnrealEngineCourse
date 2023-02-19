@@ -1,0 +1,17 @@
+{
+	"id" : 8,
+    "title" : "HOSPITAL",
+    "text" : [
+        "You wake up in the hospital",
+		"The last thing you remember is that you got beaten up very hard"
+        ],
+	"position" : {"x" : 100, "y" : 200},
+	"size" : {"width" : 500, "height" : 250},
+	"window_color" : {"r" : 1.0, "g" : 0.0, "b" : 0.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "END GAME", "next" : -1 }
+		]
+	
+}

@@ -1,17 +1,17 @@
 {
-	"id" : 1,
-    "title" : "Wagner Soldier",
+	"id" : 13,
+    "title" : "Stockman",
     "text" : [
-        "Hello citizen!",
-		"Welcome to Wagner!"
+        "Here you go",
+        "Now go to the barber to get yourself a new stylish haircut"
         ],
 	"position" : {"x" : 100, "y" : 200},
-	"size" : {"width" : 350, "height" : 250},
+	"size" : {"width" : 500, "height" : 250},
 	"window_color" : {"r" : 1.0, "g" : 0.0, "b" : 0.0, "a" : 1.0},
 	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
 	"buttons" : [
 	
-		{ "text" : "Hello", "next" : 2 }
+		{ "text" : "Thank you", "next" : 14 }
 		]
 	
 }

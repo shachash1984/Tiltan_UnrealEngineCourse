@@ -1,18 +1,17 @@
 {
 	"id" : 2,
-    "title" : "Zoe",
+    "title" : "Wagner Soldier",
     "text" : [
-        "Twinsen!",
-        "I love you",
-        "k bye"
+        "So you came to join us ?"
         ],
 	"position" : {"x" : 100, "y" : 200},
-	"size" : {"width" : 250, "height" : 200},
+	"size" : {"width" : 350, "height" : 250},
 	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
 	"text_color" : {"r" : 1.0, "g" : 0.0, "b" : 1.0, "a" : 1.0},
 	"buttons" : [
 	
-			{ "text" : "Love you too", "next": 4 }
-		]
+		{ "text" : "No", "next": 3 },
+		{ "text" : "Yes", "next": 6 }
+	]
     
 }

@@ -1,9 +1,8 @@
 {
-	"id" : 1,
+	"id" : 11,
     "title" : "Wagner Soldier",
     "text" : [
-        "Hello citizen!",
-		"Welcome to Wagner!"
+        "Go take your new uniform!"
         ],
 	"position" : {"x" : 100, "y" : 200},
 	"size" : {"width" : 350, "height" : 250},
@@ -11,7 +10,7 @@
 	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
 	"buttons" : [
 	
-		{ "text" : "Hello", "next" : 2 }
+		{ "text" : "YES SIR!", "next" : 12 }
 		]
 	
 }

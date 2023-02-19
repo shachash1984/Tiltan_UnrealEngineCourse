@@ -1,17 +1,16 @@
 {
-	"id" : 4,
-    "title" : "Yay",
+	"id" : 19,
+    "title" : "Battlefield",
     "text" : [
-        "Game over!",
-        "You won with Zoe"        
+        "-You were sent to the battle and your friend was shot dead-"        
         ],
 	"position" : {"x" : 100, "y" : 200},
-	"size" : {"width" : 300, "height" : 300},
+	"size" : {"width" : 500, "height" : 250},
 	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
 	"text_color" : {"r" : 1.0, "g" : 0.0, "b" : 1.0, "a" : 1.0},
 	"buttons" : [
 	
-			{ "text" : "Thank you", "next": -1 }
+			{ "text" : "END GAME", "next": -1 }
 		]
     
 }

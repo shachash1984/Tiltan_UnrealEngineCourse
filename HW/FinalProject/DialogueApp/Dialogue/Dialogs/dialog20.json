@@ -1,17 +1,16 @@
 {
-	"id" : 5,
-    "title" : "Woohoo",
+	"id" : 20,
+    "title" : "Battlefield",
     "text" : [
-        "Game over!",
-        "You lost... FunFrock wins"
+        "-You were sent to the battle and you were shot dead-"
         ],
 	"position" : {"x" : 100, "y" : 200},
-	"size" : {"width" : 300, "height" : 300},
+	"size" : {"width" : 500, "height" : 300},
 	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 0.0, "a" : 0.75},
 	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
 	"buttons" : [
 	
-			{ "text" : "Thank you", "next": -1 }
+			{ "text" : "END GAME", "next": -1 }
 		]
     
 }

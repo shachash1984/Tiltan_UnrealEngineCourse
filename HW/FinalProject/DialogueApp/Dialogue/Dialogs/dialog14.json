@@ -1,9 +1,8 @@
 {
-	"id" : 1,
-    "title" : "Wagner Soldier",
+	"id" : 14,
+    "title" : "Barber",
     "text" : [
-        "Hello citizen!",
-		"Welcome to Wagner!"
+        "So which haircut do you want?"
         ],
 	"position" : {"x" : 100, "y" : 200},
 	"size" : {"width" : 350, "height" : 250},
@@ -11,7 +10,8 @@
 	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
 	"buttons" : [
 	
-		{ "text" : "Hello", "next" : 2 }
+		{ "text" : "Give me something stylish", "next" : 16 },
+		{ "text" : "Army Cut like I have a choice", "next" : 15 }
 		]
 	
 }
