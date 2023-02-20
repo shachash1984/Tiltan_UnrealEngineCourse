@@ -4,9 +4,11 @@
 	"title": "Traveler's Journey",
 
 	"text": [
-		"Aba!",
-		"I love you",
-		"Ani Gibor"
+		"As anon as thee ent'r the next cubiculo in the dungeon thy immense amount of training and exp'rience maketh thee feeleth tense, thee knoweth yond one of the next cubiculos inhabits",
+		" a dang'r yond might beest too most wondrous f'r the h'ro and his apprentice",
+		"",
+		"Dialog here",
+		""
 	],
 
 	"position": {
@@ -35,12 +37,16 @@
 
 	"buttons": [
 		{
-			"text": "Sounds good",
-			"next": 2
+			"text": "Game Over option",
+			"next": 4
 		},
 		{
-			"text": "Even better",
-			"next": 3
+			"text": "Unwise decision",
+			"next": 5
+		},
+		{
+			"text": "Good decision",
+			"next": 7
 		}
 	]
 }

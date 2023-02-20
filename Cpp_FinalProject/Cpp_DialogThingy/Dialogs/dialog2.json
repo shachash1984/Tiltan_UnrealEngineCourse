@@ -4,9 +4,11 @@
 	"title": "Traveler's Journey",
 
 	"text": [
-		"Mami!",
-		"I love you",
-		"k bye"
+		"Upon ent'ring the next cubiculo, thee seeth a trip-wire trapeth and seize the opp'rtunity to establisheth thy fake incapabilities. Thee intentionally trigg'r the trip-wire with",
+		"one of thy forks and the h'ro shouts and jumps to saveth thee.  In the meantime thee act as thee haven't noticeth aught at all bef'rehand.",
+		"",
+		"Dialog here",
+		""
 	],
 
 	"position": {
@@ -35,11 +37,7 @@
 
 	"buttons": [
 		{
-			"text": "Sounds good",
-			"next": 2
-		},
-		{
-			"text": "Even better",
+			"text": "Only option",
 			"next": 3
 		}
 	]

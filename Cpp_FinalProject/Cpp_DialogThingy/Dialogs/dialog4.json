@@ -4,9 +4,15 @@
 	"title": "Traveler's Journey",
 
 	"text": [
-		"Aba!",
-		"I love you",
-		"Ani Gibor"
+		"Thee anon knoweth yond thee w're obviously right, encount'ring a less'r goodyear (which is way too pow'rful f'r the h'ro to dudgeon coequal though thee senseth an int'resting aura",
+		"from the apprentice..).",
+		"",
+		"the h'ro plays his parteth and taketh a standeth in front of the goodyear only to receiveth his stout handeth t'rn in a did split second. The apprentice tries to holdeth of the",
+		"goodyear with confidence, that gent is forsooth m're pow'rful than the h'ro (makes thee wond'r..). ",
+		"",
+		"knowing the two of those folk wouldst not survive the square and the valorous humor thou art in thee decideth to dispose of the monst'r which leadeth to thy disappearance - in",
+		"'rd'r to keepeth thy emanating identity safeguard'd.",
+		""
 	],
 
 	"position": {
@@ -35,12 +41,12 @@
 
 	"buttons": [
 		{
-			"text": "Sounds good",
-			"next": 2
+			"text": "Try Again from last save",
+			"next": 3
 		},
 		{
-			"text": "Even better",
-			"next": 3
+			"text": "Quit",
+			"next": -1
 		}
 	]
 }

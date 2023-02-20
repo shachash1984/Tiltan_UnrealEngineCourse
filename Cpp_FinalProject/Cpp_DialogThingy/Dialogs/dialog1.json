@@ -11,8 +11,9 @@
 		"of this lodging as 'rd'r'd by the kingdoms council.",
 		"",
 		"Thee then decideth to playeth the parteth of a scaredy ingraft'r, affectioned by amnesia and depending on the h'ro f'r survival.",
-		"Your true mission is to get this treasure for your own in order to solidify your new world's wealth (and to make the kingdom to realize there might be something getting in their",
-		"way), "
+		"Thy true mission is to receiveth this treasure f'r thy owneth in 'rd'r to solidify thy new w'rld's wealth (and to maketh the kingdom to realizeth th're might beest something",
+		"getting in their way), ",
+		""
 	],
 	
 	"position": {
@@ -36,13 +37,13 @@
 		"r": 0.0,
 		"g": 0.0,
 		"b": 0.0,
-		"a": 0.1
+		"a": 1.0
 	},
 
 	"buttons": [
 		{
 			"text": "Followeth the h'ro",
 			"next": 2
-		},
+		}
 	]
 }
