@@ -6,7 +6,7 @@
         "I will defeat you",
         "I am the master of Twinsun!"
         ],
-	"position" : {"x" : 600, "y" : 800},
+	"position" : {"x" : 0, "y" : 0},
 	"size" : {"width" : 300, "height" : 300},
 	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 0.0, "a" : 0.75},
 	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
