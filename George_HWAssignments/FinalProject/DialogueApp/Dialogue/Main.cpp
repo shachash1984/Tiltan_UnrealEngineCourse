@@ -112,7 +112,7 @@ int main()
 		}
 
 		// ------------------------------------------------------------
-		// DialogBoxBase Creation & Assignment
+		// DialogueBoxBase Creation & Assignment
 		shared_ptr<DialogBoxBase> dialogueBox = make_shared<DialogBoxBase>();
 
 		for (int i = 0; i < onCreateElements.size(); i++)
