@@ -4,10 +4,10 @@
 	"title": "The Eminence in The Dungeon",
 
 	"text": [
-		"Thee has't kicked the bucket.  A genius - harb'ring the knowledge off all martial arts known (and unknown) to sir. ",
-		"Thus, the gods - did impress with thy achievement has't f'rsaken thy soul and award'd thee anoth'r chance at life in anoth'r w'rld.",
-		"allowing thee to keepeth all of the knowledge thee did collect",
-		"facing unfamiliar environment and challenges thou art hath sent to a new journey!"
+		"Thee has't kicked the bucket.  A genius - harb'ring the knowledge off all martial arts known (and unknown) to sir. Thus, the gods - did impress with thy achievement has't f'rsaken",
+		"thy soul and award'd thee anoth'r chance at life in anoth'r w'rld, allowing thee to keepeth all of the knowledge thee did collect.",
+		"",
+		"facing unfamiliar environment and challenges thee setteth out to a new journey!"
 	],
 	
 	"position": {
@@ -36,11 +36,11 @@
 
 	"buttons": [
 		{
-			"text": "Start Journey",
+			"text": "Waketh up",
 			"next": 1
 		},
 		{
-			"text": "Quit",
+			"text": "Stayeth dead",
 			"next": -1
 		}
 	]
