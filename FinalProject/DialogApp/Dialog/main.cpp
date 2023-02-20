@@ -23,6 +23,16 @@ int main()
     const char* text_array = text.c_str();
 
     shared_ptr<GuiEngine> gui = make_shared<GuiEngine>();
+    
+    parser.SetIndexFilePath("Dialogs\\DialogIndex.json");
+    cout << parser.GetIndexFilePath() << endl;
+    if (!parser.OpenFile(parser.GetIndexFilePath()))
+    {
+        cout << "File Couldnt open" << endl;
+        return 0;
+    }
+    parser.CloseFile();
+    parser.Parse();
     /*
      * This is where your code should go:
      *
