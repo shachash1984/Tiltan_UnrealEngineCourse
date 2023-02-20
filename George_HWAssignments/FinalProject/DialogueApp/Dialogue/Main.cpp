@@ -18,11 +18,11 @@ int main()
 
 	JSONParser parser;
 	Json::Reader reader;
-	string text = "Hello";
-
-	const char* text_array = text.c_str();
 
 	shared_ptr<GuiEngine> gui = make_shared<GuiEngine>();
+
+	parser.ParseJSON("Dialogues\\DialogueIndex.json");
+
 	/*
 	 * This is where your code should go:
 	 *
@@ -51,7 +51,4 @@ int main()
 
 
 	return gui->ShutDown();
-
-	cout << "Hello World!" << endl;
-	return 0;
 }

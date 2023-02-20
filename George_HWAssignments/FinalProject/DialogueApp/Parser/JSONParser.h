@@ -16,6 +16,8 @@ public:
 	bool OpenFile(const std::string& FilePath);
 	void CloseFile();
 
+	void ParseJSON(std::string _filePath);
+
 protected:
 	std::string indexFilePath;
 	Json::Reader reader;
