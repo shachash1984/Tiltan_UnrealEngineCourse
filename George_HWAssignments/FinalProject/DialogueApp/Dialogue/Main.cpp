@@ -45,12 +45,12 @@ int main()
 	 */
 
 
-	 //gui->SetStartingDialog(1);
+	gui->SetStartingDialog(1);
 
-	 //gui->Run(); //This will run the Gui Engine and start rendering the dialogs
+	gui->Run(); //This will run the Gui Engine and start rendering the dialogs
 
 
-	 //return gui->ShutDown();
+	return gui->ShutDown();
 
 	cout << "Hello World!" << endl;
 	return 0;
