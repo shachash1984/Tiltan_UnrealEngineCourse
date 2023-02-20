@@ -2,6 +2,8 @@
 #include "json/json.h"
 #include "IParser.h"
 #include <fstream>
+#include <iostream>
+using namespace std;
 
 class JSONParser : public IParser
 {
@@ -13,6 +15,7 @@ class JSONParser : public IParser
 		Json::Value& GetRoot() { return root; }
 		bool OpenFile(const std::string& FilePath);
 		void CloseFile();
+		bool TryParseToJSON(string path, bool shouldPrint = false);
 	
 	protected:
 		std::string indexFilePath;

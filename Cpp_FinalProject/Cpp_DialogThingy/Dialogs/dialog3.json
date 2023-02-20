@@ -1,18 +1,40 @@
 {
-	"id" : 3,
-    "title" : "Reem",
-    "text" : [
-        "Aba!",
-        "I love you",
-        "Ani Gibor"
-        ],
-	"position" : {"x" : 600, "y" : 800},
-	"size" : {"width" : 300, "height" : 300},
-	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 0.0, "a" : 0.75},
-	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
-	"buttons" : [
-	
-			{ "text" : "Octo Block!", "next": 5 }
-		]
-    
+	"id": 3,
+	"title": "Reem",
+	"text": [
+		"Aba!",
+		"I love you",
+		"Ani Gibor"
+	],
+
+	"position": {
+		"x": 10,
+		"y": 12
+	},
+
+	"size": {
+		"width": 1245,
+		"height": 738
+	},
+
+	"window_color": {
+		"r": 0.0,
+		"g": 1.0,
+		"b": 0.0,
+		"a": 0.75
+	},
+
+	"text_color": {
+		"r": 1.0,
+		"g": 1.0,
+		"b": 1.0,
+		"a": 1.0
+	},
+
+	"buttons": [
+		{
+			"text": "Octo Block!",
+			"next": 4
+		}
+	]
 }

@@ -1,10 +1,10 @@
 {
-	"id": 2,
-	"title": "Meital",
+	"id": 4,
+	"title": "Reem",
 	"text": [
-		"Mami!",
+		"Aba!",
 		"I love you",
-		"k bye"
+		"Ani Gibor"
 	],
 
 	"position": {
@@ -20,21 +20,21 @@
 	"window_color": {
 		"r": 0.0,
 		"g": 1.0,
-		"b": 1.0,
-		"a": 1.0
+		"b": 0.0,
+		"a": 0.75
 	},
 
 	"text_color": {
 		"r": 1.0,
-		"g": 0.0,
+		"g": 1.0,
 		"b": 1.0,
 		"a": 1.0
 	},
 
 	"buttons": [
 		{
-			"text": "Love you too",
-			"next": 4
+			"text": "Octo Block!",
+			"next": 5
 		}
 	]
 }

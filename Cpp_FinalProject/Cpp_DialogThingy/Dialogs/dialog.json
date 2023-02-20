@@ -1,20 +1,47 @@
 {
-	"id" : 1,
-    "title" : "Shahar",
-    "text" : [
-        "Hello World!",
-        "This is my first dialog",
-        "goodbye"
-        ],
-	"position" : {"x" : 100, "y" : 200},
-	"size" : {"width" : 350, "height" : 250},
-	"window_color" : {"r" : 1.0, "g" : 0.0, "b" : 0.0, "a" : 1.0},
-	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
-	"buttons" : [
+	"id": 1,
+
+	"title": "Traveler's Journey'",
+
+	"text": [
+		"Hello Traveler!",
+		"This is the first step in your journey",
+		"On this journey you will have different paths to go about",
+		"Choose wisely!"
+	],
 	
-		{ "text" : "Sounds good", "next" : 2 },
-		{ "text" : "Even better", "next" : 3 }
-		
-		]
-	
+	"position": {
+		"x": 10,
+		"y": 12
+	},
+
+	"size": {
+		"width": 1245,
+		"height": 738
+	},
+
+	"window_color": {
+		"r": 0.0,
+		"g": 0.0,
+		"b": 0.0,
+		"a": 1.0
+	},
+
+	"text_color": {
+		"r": 0.0,
+		"g": 1.0,
+		"b": 0.0,
+		"a": 1.0
+	},
+
+	"buttons": [
+		{
+			"text": "Sounds good",
+			"next": 2
+		},
+		{
+			"text": "Even better",
+			"next": 3
+		}
+	]
 }
