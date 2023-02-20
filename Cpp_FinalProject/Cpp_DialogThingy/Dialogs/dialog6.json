@@ -1,0 +1,51 @@
+{
+	"id": 6,
+
+	"title": "The Eminence in The Dungeon",
+
+	"text": [
+		"Recall at which hour thee hath tried so hard to not focus on dang'rs? well t did succeed magnifically (because thou art so valorous in ev'rything).",
+		"The h'ro sayeth: something is wrong in this cubiculo.  and thee already seeth yond the apprentice is looking suspiciously at the walls while moving to a m're tense stance.",
+		"the walls starteth moving, the h'ro states the gross in sense at which hour screaming 'the walls art closing in!', thee glance at the flo'r and seeth yond t eke to falleth",
+		"apart.",
+		"the apprentice attempts to maketh something maketh something but thou art not familiar enow with this w'rld in 'rd'r to reacheth to a conclusion in t'rms of what.",
+		"thee can obviously rev'rse timeth and receiveth out of this mess bef're t gets out of handeth, 'r stayeth and gaze ev'rything unfolds then breaketh the ceiling and ending",
+		"this adventure",
+		""
+	],
+
+	"position": {
+		"x": 10,
+		"y": 12
+	},
+
+	"size": {
+		"width": 1245,
+		"height": 738
+	},
+
+	"window_color": {
+		"r": 1.0,
+		"g": 0.0,
+		"b": 0.0,
+		"a": 1.0
+	},
+
+	"text_color": {
+		"r": 1.0,
+		"g": 1.0,
+		"b": 1.0,
+		"a": 1.0
+	},
+
+	"buttons": [
+		{
+			"text": "Rewind time",
+			"next": 3
+		},
+		{
+			"text": "End journey",
+			"next": -1
+		}
+	]
+}

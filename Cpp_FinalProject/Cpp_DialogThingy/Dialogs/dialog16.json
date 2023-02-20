@@ -1,0 +1,41 @@
+{
+	"id": 16,
+
+	"title": "The Eminence in The Dungeon",
+
+	"text": [
+		"And yond's a mure",
+		""
+	],
+
+	"position": {
+		"x": 10,
+		"y": 12
+	},
+
+	"size": {
+		"width": 1245,
+		"height": 738
+	},
+
+	"window_color": {
+		"r": 1.0,
+		"g": 0.0,
+		"b": 1.0,
+		"a": 1.0
+	},
+
+	"text_color": {
+		"r": 0.0,
+		"g": 0.0,
+		"b": 0.0,
+		"a": 1.0
+	},
+
+	"buttons": [
+		{
+			"text": "I appreciate you're commitment",
+			"next": 15
+		}
+	]
+}

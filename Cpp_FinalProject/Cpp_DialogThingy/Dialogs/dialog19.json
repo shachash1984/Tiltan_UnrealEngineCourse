@@ -1,0 +1,46 @@
+{
+	"id": 19,
+
+	"title": "The Eminence in The Dungeon",
+
+	"text": [
+		"The flo'r crumbl'd by THE SHEER POWER OF THE ALMIGHTY H'RO, humour liketh this adventure wast a completeth waist of timeth, alls, suddenly the alchemist is attempting ",
+		"to conjure something (is t the thing that gent hath tried to saveth the did grind with? 'r thee haven't hath reached this path thee chad)",
+		""
+	],
+
+	"position": {
+		"x": 10,
+		"y": 12
+	},
+
+	"size": {
+		"width": 1245,
+		"height": 738
+	},
+
+	"window_color": {
+		"r": 0.0,
+		"g": 0.0,
+		"b": 0.0,
+		"a": 1.0
+	},
+
+	"text_color": {
+		"r": 0.0,
+		"g": 1.0,
+		"b": 0.0,
+		"a": 1.0
+	},
+
+	"buttons": [
+		{
+			"text": "You rush to the hero and say 'NOOOOOOOOOOOOOOOOOOOOO' then you make it look like you tripped and catch him by mistake. the hero is insipred shouting very loudly, if you werent the strongest yours ears would bleed(or hurt) the hero clunching the alchamist very tight and falling to a bottomless pit.",
+			"next": 20
+		},
+		{
+			"text": "The alchamist(yes he is alchamist now)(not like he was before) stomps on the ground very very loundly, you make it looks like you cower in fear in the corner. then he kicks the hero. you dont catch him outside.",
+			"next": 18
+		}
+	]
+}
