@@ -4,13 +4,13 @@
 #include <GuiEngine.h>
 #include <DialogBox.h>
 
-//#include "DialogElementButton.h"
-//#include "DialogElementPosition.h"
-//#include "DialogElementSize.h"
-//#include "DialogElementText.h"
-//#include "DialogElementTextColor.h"
-//#include "DialogElementTitle.h"
-//#include "DialogElementWindowColor.h"
+#include "DialogElementButton.h"
+#include "DialogElementPosition.h"
+#include "DialogElementSize.h"
+#include "DialogElementText.h"
+#include "DialogElementTextColor.h"
+#include "DialogElementTitle.h"
+#include "DialogElementWindowColor.h"
 
 int main()
 {
