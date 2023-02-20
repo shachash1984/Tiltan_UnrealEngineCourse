@@ -1,9 +1,9 @@
 {
-	"id" : 1,
+	"id" : 8,
     "title" : ":)",
     "text" : [
-        "thank you!",
-		"so how are you?"
+        "You're right!",
+		"But i still need 20 more dialog boxes"
         ],
 	"position" : {"x" : 100, "y" : 200},
 	"size" : {"width" : 350, "height" : 250},
@@ -11,9 +11,8 @@
 	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
 	"buttons" : [
 	
-		{ "text" : "Could be better", "next" : 7 },
-		{ "text" : "alright i guess", "next" : 7 },
-		{ "text" : "great!", "next" : 7 }
+		{ "text" : "You already got 8, you got this", "next" : 11 },
+		{ "text" : "Whatever", "next" : 11 }
 		
 		]
 	

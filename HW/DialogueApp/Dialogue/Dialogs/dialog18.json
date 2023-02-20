@@ -1,9 +1,10 @@
 {
-	"id" : 1,
-    "title" : ":)",
+	"id" : 18,
+    "title" : "Sam",
     "text" : [
-        "thank you!",
-		"so how are you?"
+        "Po-ta-toes!",
+        "Boil them, mash them, stick them in a stew.",
+        "Lovely big golden chips with a nice piece of fried fish."
         ],
 	"position" : {"x" : 100, "y" : 200},
 	"size" : {"width" : 350, "height" : 250},
@@ -11,9 +12,7 @@
 	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
 	"buttons" : [
 	
-		{ "text" : "Could be better", "next" : 7 },
-		{ "text" : "alright i guess", "next" : 7 },
-		{ "text" : "great!", "next" : 7 }
+		{ "text" : "Pbbbttt!!", "next" : -1 }
 		
 		]
 	

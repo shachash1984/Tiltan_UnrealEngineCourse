@@ -1,10 +1,8 @@
 {
-	"id" : 1,
-    "title" : "Twinsen",
+	"id" : 6,
+    "title" : ":'(",
     "text" : [
-        "Hello World!",
-        "This is my first dialog",
-        "goodbye"
+        "Ok, bye"
         ],
 	"position" : {"x" : 100, "y" : 200},
 	"size" : {"width" : 350, "height" : 250},
@@ -12,8 +10,7 @@
 	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
 	"buttons" : [
 	
-		{ "text" : "Sounds good", "next" : 2 },
-		{ "text" : "Even better", "next" : 3 }
+		{ "text" : "Bye", "next" : -1 }
 		
 		]
 	

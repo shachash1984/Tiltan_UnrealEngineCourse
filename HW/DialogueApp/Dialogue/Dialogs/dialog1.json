@@ -1,9 +1,10 @@
 {
 	"id" : 1,
-    "title" : ":)",
+    "title" : "Welcome",
     "text" : [
-        "thank you!",
-		"so how are you?"
+        "I have",
+        "no idea",
+        "what to write"
         ],
 	"position" : {"x" : 100, "y" : 200},
 	"size" : {"width" : 350, "height" : 250},
@@ -11,9 +12,8 @@
 	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
 	"buttons" : [
 	
-		{ "text" : "Could be better", "next" : 7 },
-		{ "text" : "alright i guess", "next" : 7 },
-		{ "text" : "great!", "next" : 7 }
+		{ "text" : "I'm sure you'll manage", "next" : 2 },
+		{ "text" : "I'm not surprised", "next" : 3 }
 		
 		]
 	

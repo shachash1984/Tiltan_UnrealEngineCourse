@@ -1,0 +1,21 @@
+{
+	"id" : 4,
+    "title" : ":|",
+    "text" : [
+        "but dialogs in movies",
+		"are linear, its not good for",
+		"the project"
+        ],
+	"position" : {"x" : 100, "y" : 200},
+	"size" : {"width" : 350, "height" : 250},
+	"window_color" : {"r" : 1.0, "g" : 0.0, "b" : 0.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+		{ "text" : "You already got conditional dialog", "next" : 8 },
+		{ "text" : "But i want a dialog from a movie!", "next" : 9 },
+		{ "text" : "What project?", "next" : 10 }
+		
+		]
+	
+}

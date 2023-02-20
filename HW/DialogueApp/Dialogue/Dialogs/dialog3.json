@@ -1,18 +1,21 @@
 {
 	"id" : 3,
-    "title" : "FunFrock",
+    "title" : ":(",
     "text" : [
-        "Twinsen!",
-        "I will defeat you",
-        "I am the master of Twinsun!"
+        "Me neither",
+        "please give an idea",
+        "for a dialog"
         ],
-	"position" : {"x" : 600, "y" : 800},
-	"size" : {"width" : 300, "height" : 300},
-	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 0.0, "a" : 0.75},
-	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
+	"position" : {"x" : 100, "y" : 200},
+	"size" : {"width" : 350, "height" : 250},
+	"window_color" : {"r" : 1.0, "g" : 0.0, "b" : 0.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 0.0, "a" : 1.0},
 	"buttons" : [
 	
-			{ "text" : "NOOOOO!", "next": 5 }
+		{ "text" : "Maybe take a dialog from a movie", "next" : 4 },
+		{ "text" : "How about we just keep talking?", "next" : 5 },
+		{ "text" : "No", "next" : 6 }
+		
 		]
-    
+	
 }
