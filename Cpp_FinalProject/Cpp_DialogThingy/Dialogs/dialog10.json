@@ -1,12 +1,11 @@
 {
 	"id": 10,
 
-	"title": "Traveler's Journey",
+	"title": "The Eminence in The Dungeon",
 
 	"text": [
-		"Aba!",
-		"I love you",
-		"Ani Gibor",
+		"The apprentice sayeth yond that gent feeleth a dark'r aura and sayeth yond something dark awaits not too far ahead.  The h'ro unfold a lighteth which instantly draws that",
+		"gent in",
 		""
 	],
 
@@ -36,12 +35,12 @@
 
 	"buttons": [
 		{
-			"text": "Sounds good",
-			"next": 2
+			"text": "You can feel the weak aura of the enemy and you decide to walk by while saying 'This aura, i cant handle it, i cant breath.' the hero ignores you",
+			"next": 12
 		},
 		{
-			"text": "Even better",
-			"next": 3
+			"text": "The hero finally thinks of you and walks you back until you can 'breath again'",
+			"next": 8
 		}
 	]
 }

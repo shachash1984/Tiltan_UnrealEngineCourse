@@ -1,12 +1,11 @@
 {
 	"id": 17,
 
-	"title": "Traveler's Journey",
+	"title": "The Eminence in The Dungeon",
 
 	"text": [
-		"Aba!",
-		"I love you",
-		"Ani Gibor",
+		"An 'rdinary cubiculo, the alchemist is looking kind of weird.  haply that gent did see through mine own actions? nah.  yond's not possible unless that gent did gain all the",
+		"knowledge and pow'rs from a previous w'rld, achieves the god's fav'r and strideth into anoth'r w'rld and hath fallen into this dungeon",
 		""
 	],
 
@@ -36,12 +35,12 @@
 
 	"buttons": [
 		{
-			"text": "Sounds good",
-			"next": 2
+			"text": "The hero is tilted and blidly marching forward, you know it will kill him but you cant comprehand how stupid he is.",
+			"next": 18
 		},
 		{
-			"text": "Even better",
-			"next": 3
+			"text": "you somehow comprehand how stupid he is, so you announce, 'HE IS STUNNED ITS OUR TIME TO SHINE WE CANT CHICKEN OUT' you inspire the hero and in the same time make him disgusted. the squire smiling nervously with alot of sweat.",
+			"next": 13
 		}
 	]
 }

@@ -1,12 +1,11 @@
 {
 	"id": 8,
 
-	"title": "Traveler's Journey",
+	"title": "The Eminence in The Dungeon",
 
 	"text": [
-		"Aba!",
-		"I love you",
-		"Ani Gibor",
+		"Thee findeth the h'ro a did bite annoying, suspecting th're is m're to this st'ry then meets the eye, facing a cubiculo with 3 ways of proceeding thou art somewhat getting",
+		"excit'd.  is this thy fighting spirit yond tingles from the humour bef're a valorous square? 'r p'rhaps the exp'rience in challenges 'r expl'ration?",
 		""
 	],
 
@@ -36,12 +35,20 @@
 
 	"buttons": [
 		{
-			"text": "Sounds good",
-			"next": 2
+			"text": "The hero sees a brink of light, he follows it.(its just a firefly)",
+			"next": 10
 		},
 		{
-			"text": "Even better",
-			"next": 3
+			"text": "The hero fights the squire as you are useless, so you prented that you got offended and run to other direction",
+			"next": 9
+		},
+		{
+			"text": "You say to your party that you forgot to pee, so you go back to the tent to take out your pee bucket.",
+			"next": 7
+		},
+		{
+			"text": "The squire tries to stop you, the hero intervens and falls to room 11, you follow him while doing a PalmFace.",
+			"next": 11
 		}
 	]
 }

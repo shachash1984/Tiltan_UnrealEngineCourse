@@ -1,12 +1,10 @@
 {
 	"id": 9,
 
-	"title": "Traveler's Journey",
+	"title": "The Eminence in The Dungeon",
 
 	"text": [
-		"Aba!",
-		"I love you",
-		"Ani Gibor",
+		"Well, t looks liketh thee've hath reached a dead endeth - this party leadeth'r is forsooth a protagonist leading thee in the right path!",
 		""
 	],
 
@@ -21,27 +19,23 @@
 	},
 
 	"window_color": {
+		"r": 1.0,
+		"g": 0.0,
+		"b": 1.0,
+		"a": 1.0
+	},
+
+	"text_color": {
 		"r": 0.0,
 		"g": 0.0,
 		"b": 0.0,
 		"a": 1.0
 	},
 
-	"text_color": {
-		"r": 0.0,
-		"g": 1.0,
-		"b": 0.0,
-		"a": 1.0
-	},
-
 	"buttons": [
 		{
-			"text": "Sounds good",
-			"next": 2
-		},
-		{
-			"text": "Even better",
-			"next": 3
+			"text": "The hero is claiming he wanted to turn around but YOU didn't let him.",
+			"next": 8
 		}
 	]
 }

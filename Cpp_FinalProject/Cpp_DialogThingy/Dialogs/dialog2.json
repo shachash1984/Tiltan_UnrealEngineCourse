@@ -1,13 +1,11 @@
 {
 	"id": 2,
 
-	"title": "Traveler's Journey",
+	"title": "The Eminence in The Dungeon",
 
 	"text": [
-		"Upon ent'ring the next cubiculo, thee seeth a trip-wire trapeth and seize the opp'rtunity to establisheth thy fake incapabilities. Thee intentionally trigg'r the trip-wire with",
-		"one of thy forks and the h'ro shouts and jumps to saveth thee.  In the meantime thee act as thee haven't noticeth aught at all bef'rehand.",
-		"",
-		"Dialog here",
+		"Upon ent'ring the next cubiculo, thee seeth a trip-wire trapeth and seize the opp'rtunity to establisheth thy fake incapabilities. Thee intentionally trigg'r the trip-wire",
+		"with one of thy forks and the h'ro shouts and jumps to saveth thee.  In the meantime thee act as thee haven't noticeth aught at all bef'rehand.",
 		""
 	],
 
@@ -37,7 +35,7 @@
 
 	"buttons": [
 		{
-			"text": "Only option",
+			"text": "Carry on",
 			"next": 3
 		}
 	]

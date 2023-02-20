@@ -1,12 +1,12 @@
 {
 	"id": 7,
 
-	"title": "Traveler's Journey",
+	"title": "The Eminence in The Dungeon",
 
 	"text": [
-		"Aba!",
-		"I love you",
-		"Ani Gibor",
+		"Moving on safely the apprentice suggests making a campeth to the h'ro, which answ'r without taking thy opinion into consid'ration (as thou art only a background charact'r in",
+		"their unraveling st'ry).  That gent then declares oth'rwise - the party shalt marcheth on, rememb'ring thee existeth that gent than tells thee yond in 'rd'r to assureth thy",
+		"safety the team hast to presseth on",
 		""
 	],
 
@@ -36,12 +36,12 @@
 
 	"buttons": [
 		{
-			"text": "Sounds good",
-			"next": 2
+			"text": "The squire shouts to the hero that he is going to the wrong direction, you support him by saying very quietly 'the hero is NEVER wrong'",
+			"next": 8
 		},
 		{
-			"text": "Even better",
-			"next": 3
+			"text": "The hero misses the turn, you dont stop him beacuse you still want to know what lies behind this door very very much.",
+			"next": 6
 		}
 	]
 }

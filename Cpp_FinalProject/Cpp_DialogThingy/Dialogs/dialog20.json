@@ -1,47 +1,55 @@
 {
-	"id": 20,
+  "id": 20,
 
-	"title": "Traveler's Journey",
+  "title": "The Eminence in The Dungeon",
 
-	"text": [
-		"Aba!",
-		"I love you",
-		"Ani Gibor",
-		""
-	],
+  "text": [
+    "The good ol' buddies hugged all the down the pit, the alchemist is still trying to conjure something (I don't think he realized that we are falling), the hero is bleeding",
+    "from his ears because of the alchemist weird and loud (oh god very loud) enchanting and his own screaming.",
+    "Contact with the floor. Looking in the dark. Lurking in the dark? the alchemist on his back, the hero on his face in scorpion position. We levitate slightly.",
+    "The alchemist gets up and wipes out a spoon and poke the hero with it in disgust.",
+    "The hero tries to fight back but the spoon is too strong (is it made out of a diamond? wait when did the apprentice became an alchemist?)",
+    "While the hero is stunned in aw from the power of spoon we notice that the alchemist's spell is already finished, and we look around to see the result. It's a golden",
+    "alchemist. LITERRALY. Why have I stayed here this long?",
+    "Wait - the golden alchemist is moving towards the original. Wait he grabs the spoon! OMG! he... (the hero shakes the stun away) and watches a Golden alchemist eating away at",
+    "the original's flash and start crying in fear (and literally crying) the clone (which I guess is the original now is turning to the hero) and hippity hoppity, the alchemist is",
+    "now my property. before the gold makes the final hit on the hero you say 'Aww shit.. here we go again.'",
+    "With godsent swiftness you're pushing the golden alchemist into a wall shuttering him and the hero in the process (by accident ofc) and are now happy because you are",
+    "rich and the hero is no longer an issue. THE END",
 
-	"position": {
-		"x": 10,
-		"y": 12
-	},
+    "I love you",
+    "Ani Gibor",
+    ""
+  ],
 
-	"size": {
-		"width": 1245,
-		"height": 738
-	},
+  "position": {
+    "x": 10,
+    "y": 12
+  },
 
-	"window_color": {
-		"r": 0.0,
-		"g": 1.0,
-		"b": 1.0,
-		"a": 1.0
-	},
+  "size": {
+    "width": 1245,
+    "height": 738
+  },
 
-	"text_color": {
-		"r": 0.0,
-		"g": 0.0,
-		"b": 0.0,
-		"a": 1.0
-	},
+  "window_color": {
+    "r": 0.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
 
-	"buttons": [
-		{
-			"text": "Sounds good",
-			"next": 2
-		},
-		{
-			"text": "Even better",
-			"next": 3
-		}
-	]
+  "text_color": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 1.0
+  },
+
+  "buttons": [
+    {
+      "text": "It's finally done",
+      "next": -1
+    }
+  ]
 }

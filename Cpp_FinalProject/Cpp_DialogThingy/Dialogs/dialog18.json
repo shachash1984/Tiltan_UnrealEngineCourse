@@ -1,12 +1,10 @@
 {
 	"id": 18,
 
-	"title": "Traveler's Journey",
+	"title": "The Eminence in The Dungeon",
 
 	"text": [
-		"Aba!",
-		"I love you",
-		"Ani Gibor",
+		"Thou art cow'r'd in feareth too longeth because thee bethought yond the h'ro wouldst survive (at least) one kicketh.  what a shame",
 		""
 	],
 
@@ -36,12 +34,12 @@
 
 	"buttons": [
 		{
-			"text": "Sounds good",
-			"next": 2
+			"text": "Rewind the time to cower a bit less",
+			"next": 13
 		},
 		{
-			"text": "Even better",
-			"next": 3
+			"text": "Get it over with already",
+			"next": -1
 		}
 	]
 }

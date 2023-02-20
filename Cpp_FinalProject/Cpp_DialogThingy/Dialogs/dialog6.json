@@ -1,12 +1,16 @@
 {
 	"id": 6,
 
-	"title": "Traveler's Journey",
+	"title": "The Eminence in The Dungeon",
 
 	"text": [
-		"Aba!",
-		"I love you",
-		"Ani Gibor",
+		"Recall at which hour thee hath tried so hard to not focus on dang'rs? well t did succeed magnifically (because thou art so valorous in ev'rything).",
+		"The h'ro sayeth: something is wrong in this cubiculo.  and thee already seeth yond the apprentice is looking suspiciously at the walls while moving to a m're tense stance.",
+		"the walls starteth moving, the h'ro states the gross in sense at which hour screaming 'the walls art closing in!', thee glance at the flo'r and seeth yond t eke to falleth",
+		"apart.",
+		"the apprentice attempts to maketh something maketh something but thou art not familiar enow with this w'rld in 'rd'r to reacheth to a conclusion in t'rms of what.",
+		"thee can obviously rev'rse timeth and receiveth out of this mess bef're t gets out of handeth, 'r stayeth and gaze ev'rything unfolds then breaketh the ceiling and ending",
+		"this adventure",
 		""
 	],
 
@@ -36,12 +40,12 @@
 
 	"buttons": [
 		{
-			"text": "Sounds good",
-			"next": 2
+			"text": "Rewind time",
+			"next": 3
 		},
 		{
-			"text": "Even better",
-			"next": 3
+			"text": "End journey",
+			"next": -1
 		}
 	]
 }

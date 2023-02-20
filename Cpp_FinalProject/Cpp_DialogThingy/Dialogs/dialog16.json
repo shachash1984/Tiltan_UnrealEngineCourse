@@ -1,12 +1,10 @@
 {
 	"id": 16,
 
-	"title": "Traveler's Journey",
+	"title": "The Eminence in The Dungeon",
 
 	"text": [
-		"Aba!",
-		"I love you",
-		"Ani Gibor",
+		"And yond's a mure",
 		""
 	],
 
@@ -36,12 +34,8 @@
 
 	"buttons": [
 		{
-			"text": "Sounds good",
-			"next": 2
-		},
-		{
-			"text": "Even better",
-			"next": 3
+			"text": "Only decision",
+			"next": 15
 		}
 	]
 }
