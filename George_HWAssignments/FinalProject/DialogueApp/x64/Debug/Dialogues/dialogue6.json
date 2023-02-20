@@ -1,0 +1,16 @@
+{
+	"id" : 6,
+    "title" : "Something Happened...",
+    "text" : [
+        "THE FROST!"
+        ],
+	"position" : {"x" : 250, "y" : 50},
+	"size" : {"width" : 300, "height" : 300},
+	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 1.0, "a" : 0.75},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "Uh Oh..", "next": 7 }
+		]
+    
+}

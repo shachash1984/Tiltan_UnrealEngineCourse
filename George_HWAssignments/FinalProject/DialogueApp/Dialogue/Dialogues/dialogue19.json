@@ -1,17 +1,17 @@
 {
-	"id" : 4,
-    "title" : "Yay",
+	"id" : 19,
+    "title" : "We Are Evil!",
     "text" : [
-        "Game over!",
-        "You won with Zoe"        
+        "AHHH!",
+        "Why Human Why!?"        
         ],
-	"position" : {"x" : 0, "y" : 0},
+	"position" : {"x" : 250, "y" : 250},
 	"size" : {"width" : 300, "height" : 300},
 	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
 	"text_color" : {"r" : 1.0, "g" : 0.0, "b" : 1.0, "a" : 1.0},
 	"buttons" : [
 	
-			{ "text" : "Thank you", "next": -1 }
+			{ "text" : "Mwahahaha!", "next": 20 }
 		]
     
 }

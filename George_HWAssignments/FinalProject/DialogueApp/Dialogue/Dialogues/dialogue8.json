@@ -1,0 +1,16 @@
+{
+	"id" : 8,
+    "title" : "A WIZARD!",
+    "text" : [
+        "Haha! This snow shall last FOREVER!"
+        ],
+	"position" : {"x" : 350, "y" : 50},
+	"size" : {"width" : 300, "height" : 300},
+	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 1.0, "a" : 0.75},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "It's an ICE AGE!", "next": 9 }
+		]
+    
+}

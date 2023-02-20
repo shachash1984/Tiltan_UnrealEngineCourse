@@ -1,0 +1,19 @@
+{
+	"id" : 20,
+    "title" : "Evil Ending!",
+    "text" : [
+        "*Starts Crying*",
+        "You deserve no kindness,",
+				"goodbye."
+    ],
+	"position" : {"x" : 300, "y" : 250},
+	"size" : {"width" : 300, "height" : 300},
+	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 0.0, "b" : 1.0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "SORRY! XD", "next": -1 },
+			{ "text" : "Restart", "next": 1 }
+	]
+    
+}

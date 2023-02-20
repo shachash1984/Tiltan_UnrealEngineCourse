@@ -1,0 +1,16 @@
+{
+	"id" : 11,
+    "title" : "Something Happened...",
+    "text" : [
+        "*Suddenly You're In A Desert*'"
+        ],
+	"position" : {"x" : 300, "y" : 150},
+	"size" : {"width" : 300, "height" : 300},
+	"window_color" : {"r" : 1.0, "g" : 0.0, "b" : 0.0, "a" : 0.75},
+	"text_color" : {"r" : 1.0, "g" : 0.75, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "What's this heat?!'", "next": 12 }
+		]
+    
+}

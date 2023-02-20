@@ -1,0 +1,16 @@
+{
+	"id" : 17,
+    "title" : "Kind Stranger",
+    "text" : [
+        "Glad I could help!"
+        ],
+	"position" : {"x" : 250, "y" : 150},
+	"size" : {"width" : 300, "height" : 300},
+	"window_color" : {"r" : 1.0, "g" : 0.5, "b" : 1.0, "a" : 0.75},
+	"text_color" : {"r" : 0.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "You are very kind.", "next": 18 }
+		]
+    
+}

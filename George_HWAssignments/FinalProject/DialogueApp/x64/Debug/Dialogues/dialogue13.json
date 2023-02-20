@@ -1,0 +1,19 @@
+{
+	"id" : 13,
+    "title" : "Scorching Desert!",
+    "text" : [
+        "Good luck Surviving Human!",
+				"Hope you brought SunGlasses.",
+        "^o^"
+        ],
+	"position" : {"x" : 400, "y" : 150},
+	"size" : {"width" : 300, "height" : 300},
+	"window_color" : {"r" : 1.0, "g" : 0.0, "b" : 0.0, "a" : 0.75},
+	"text_color" : {"r" : 1.0, "g" : 0.75, "b" : 0.0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "NOOOOO!", "next": -1 },
+			{ "text" : "Restart", "next": 1 }
+	]
+    
+}

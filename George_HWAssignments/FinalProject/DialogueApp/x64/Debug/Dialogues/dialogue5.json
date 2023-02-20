@@ -1,16 +1,17 @@
 {
-	"id" : 3,
-    "title" : "Stranger",
+	"id" : 5,
+    "title" : "What to say?",
     "text" : [
-        "Wonderful!"
+        "Do you prefer Winter or Summer?"
         ],
-	"position" : {"x" : 100, "y" : 100},
+	"position" : {"x" : 200, "y" : 100},
 	"size" : {"width" : 300, "height" : 300},
 	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 0.0, "a" : 0.75},
 	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
 	"buttons" : [
 	
-			{ "text" : "Yeah!", "next": 4 }
+			{ "text" : "Winter", "next": 6 },
+			{ "text" : "Summer", "next": 10 }
 		]
     
 }
