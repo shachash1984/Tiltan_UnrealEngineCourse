@@ -23,6 +23,8 @@ int main()
     const char* text_array = text.c_str();
 
     shared_ptr<GuiEngine> gui = make_shared<GuiEngine>();
+
+
     /*
      * This is where your code should go:
      *

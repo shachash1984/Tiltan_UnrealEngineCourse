@@ -22,9 +22,12 @@ bool JSONParser::Parse()
 
 bool JSONParser::OpenFile(const std::string& FilePath)
 {
-	return false;
+	inputFile.open(FilePath);
+	return inputFile.is_open();
 }
 
 void JSONParser::CloseFile()
 {
+	// new from georgey
+	inputFile.close();
 }
