@@ -24,6 +24,8 @@ int main()
 
     shared_ptr<GuiEngine> gui = make_shared<GuiEngine>();
 
+    //parsing the index file and save the files to the JSONParser::data vector
+    
 
     /*
      * This is where your code should go:
