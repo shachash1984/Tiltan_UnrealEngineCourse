@@ -1,10 +1,23 @@
 {
-    "dialog1" : "Dialogs\\dialog.json",
+    "dialog0" : "Dialogs\\dialog0.json",
+    "dialog1" : "Dialogs\\dialog1.json",
     "dialog2" : "Dialogs\\dialog2.json",
     "dialog3" : "Dialogs\\dialog3.json",
     "dialog4" : "Dialogs\\dialog4.json",
     "dialog5" : "Dialogs\\dialog5.json",
-    "GameOverReem" : "Dialogs\\GameOverReem.json",
-    "GameOverMeital" : "Dialogs\\GameOverMeital.json"
-        
+    "dialog6" : "Dialogs\\dialog5.json",
+    "dialog7" : "Dialogs\\dialog5.json",
+    "dialog8" : "Dialogs\\dialog5.json",
+    "dialog9" : "Dialogs\\dialog5.json",
+    "dialog10" : "Dialogs\\dialog5.json",
+    "dialog11" : "Dialogs\\dialog5.json",
+    "dialog12" : "Dialogs\\dialog5.json",
+    "dialog13" : "Dialogs\\dialog5.json",
+    "dialog14" : "Dialogs\\dialog5.json",
+    "dialog15" : "Dialogs\\dialog5.json",
+    "dialog16" : "Dialogs\\dialog5.json",
+    "dialog17" : "Dialogs\\dialog5.json",
+    "dialog18" : "Dialogs\\dialog5.json",
+    "dialog19" : "Dialogs\\dialog5.json",
+    "dialog20" : "Dialogs\\dialog5.json"
 }

@@ -1,14 +1,15 @@
 {
-	"id": 5,
+	"id": 1,
 
 	"title": "Traveler's Journey",
 
 	"text": [
-		"Aba!",
-		"I love you",
-		"Ani Gibor"
+		"Hello Traveler!",
+		"This is the first step in your journey",
+		"On this journey you will have different paths to go about",
+		"Choose wisely!"
 	],
-
+	
 	"position": {
 		"x": 10,
 		"y": 12
@@ -21,16 +22,16 @@
 
 	"window_color": {
 		"r": 0.0,
-		"g": 0.0,
+		"g": 1.0,
 		"b": 0.0,
 		"a": 1.0
 	},
 
 	"text_color": {
 		"r": 0.0,
-		"g": 1.0,
+		"g": 0.0,
 		"b": 0.0,
-		"a": 1.0
+		"a": 0.25
 	},
 
 	"buttons": [

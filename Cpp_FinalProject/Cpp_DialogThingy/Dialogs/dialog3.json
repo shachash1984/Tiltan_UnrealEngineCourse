@@ -1,6 +1,8 @@
 {
 	"id": 3,
-	"title": "Reem",
+
+	"title": "Traveler's Journey",
+
 	"text": [
 		"Aba!",
 		"I love you",
@@ -19,22 +21,26 @@
 
 	"window_color": {
 		"r": 0.0,
-		"g": 1.0,
+		"g": 0.0,
 		"b": 0.0,
-		"a": 0.75
+		"a": 1.0
 	},
 
 	"text_color": {
-		"r": 1.0,
+		"r": 0.0,
 		"g": 1.0,
-		"b": 1.0,
+		"b": 0.0,
 		"a": 1.0
 	},
 
 	"buttons": [
 		{
-			"text": "Octo Block!",
-			"next": 4
+			"text": "Sounds good",
+			"next": 2
+		},
+		{
+			"text": "Even better",
+			"next": 3
 		}
 	]
 }

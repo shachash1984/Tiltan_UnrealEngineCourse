@@ -1,15 +1,14 @@
 {
-	"id": 1,
+	"id": 20,
 
-	"title": "Traveler's Journey'",
+	"title": "Traveler's Journey",
 
 	"text": [
-		"Hello Traveler!",
-		"This is the first step in your journey",
-		"On this journey you will have different paths to go about",
-		"Choose wisely!"
+		"Aba!",
+		"I love you",
+		"Ani Gibor"
 	],
-	
+
 	"position": {
 		"x": 10,
 		"y": 12

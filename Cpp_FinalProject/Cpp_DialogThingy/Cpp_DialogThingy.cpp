@@ -25,7 +25,6 @@ int main()
 	//this is where your code should go
 	//you should parse the index file and save the files to the JSONParser::data vector
 
-
 	parser.TryParseToJSON("Dialogs\\DialogIndex.json");
 
 	//you should iterate over all the json files in a loop
@@ -33,9 +32,6 @@ int main()
 
 	for (unsigned int i = 0; i < parser.GetData().size(); i++)
 	{
-
-	// variables:	
-
 		// new vectors (lists)
 		vector<std::shared_ptr<IDialogCreationElement>> onCreateElements{};
 		vector<std::shared_ptr<IDialogRenderingElement>> onRenderElements{};
@@ -55,8 +51,7 @@ int main()
 		shared_ptr<DialogElementTitle> dialogTitle = make_shared< DialogElementTitle>(gui, title);
 		onRenderElements.push_back(dialogTitle);
 
-
-		// body
+		// body text
 		const Json::Value& textRef = dialogParser.GetRoot()["text"];
 		const Json::Value& spacer = "\n";
 
@@ -72,7 +67,6 @@ int main()
 
 		shared_ptr<DialogElementText> dialogText = make_shared<DialogElementText>(gui, textVector);
 		onRenderElements.push_back(dialogText);
-
 
 		// positions
 		IGUI::Point dialogPos;
@@ -144,7 +138,7 @@ int main()
 	}
 
 	// choose with what dialog id to initialize the project
-	gui->SetStartingDialog(1);
+	gui->SetStartingDialog(0);
 
 	//this will run the Gui engine and start rendering the dialogs
 	gui->Run(); 
