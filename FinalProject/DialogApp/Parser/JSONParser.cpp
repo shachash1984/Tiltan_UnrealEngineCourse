@@ -1,5 +1,4 @@
 #include "JSONParser.h"
-#include <iostream>
 
 void JSONParser::SetIndexFilePath(const std::string& _indexFilePath)
 {
@@ -13,28 +12,82 @@ const std::string& JSONParser::GetIndexFilePath() const
 
 std::vector<std::string> JSONParser::GetData()
 {
-	return std::vector<std::string>();
+	return data;
 }
 
 bool JSONParser::Parse()
 {
+	if (inputFile.is_open())
+	{
+		reader.parse(inputFile, root);
+		if (!root.empty())
+		{
+			data.clear();
+
+			for (Json::Value::iterator itr = root.begin(); itr != root.end(); ++itr)
+			{
+				data.push_back(itr.key().asString());
+				//cout << itr.key().asString() << endl;
+
+			}
+
+			return true;
+		}
+	}
+
 	return false;
 }
 
 bool JSONParser::OpenFile(const std::string& FilePath)
 {
-	if (inputFile.is_open())
+	inputFile.open(FilePath);
+	if (!inputFile.is_open())
 	{
-		std::cout << "File Is Open" << std::endl;
+		cout << "File Not Created" << endl;
+		return false;
 	}
 	else
 	{
-		inputFile.open(FilePath);
+		cout << "File created successfuly!" << endl;
+		return true;
 	}
-	return inputFile.is_open();
 }
 
 void JSONParser::CloseFile()
 {
+	cout << "Closing File" << endl;
 	inputFile.close();
+	if (inputFile)
+	{
+		cout << "still have value" << endl;
+	}
+	else
+	{
+		cout << "Discarded value" << endl;
+	}
+}
+
+bool JSONParser::TryParseJSON(string FilePath, bool printContent)
+{
+	SetIndexFilePath(FilePath);
+	cout << GetIndexFilePath() << endl;
+
+	if (!OpenFile(GetIndexFilePath()))
+	{
+		cout << "File couldn't open" << endl;
+		return false;
+	}
+
+	Parse();
+	if (printContent)
+	{
+		cout << "\n---- " + FilePath + " ----" << endl;
+		for (int i = 0; i < data.size(); i++)
+		{
+			cout << data[i] << endl;
+		}
+	}
+	CloseFile();
+
+	return true;
 }

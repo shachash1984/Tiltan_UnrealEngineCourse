@@ -1,18 +1,16 @@
 {
 	"id" : 8,
-    "title" : "Reem",
+    "title" : "Tim",
     "text" : [
-        "Aba!",
-        "I love you",
-        "Ani Gibor"
+        "Which Grade is your kid at?"
         ],
-	"position" : {"x" : 600, "y" : 800},
-	"size" : {"width" : 300, "height" : 300},
+	"position" : {"x" : 100, "y" : 200},
+	"size" : {"width" : 500, "height" : 300},
 	"window_color" : {"r" : 0.0, "g" : 1.0, "b" : 0.0, "a" : 0.75},
 	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
 	"buttons" : [
 	
-			{ "text" : "Octo Block!", "next": 5 }
+			{ "text" : "He's in the 3rd grade,he's so adorable", "next": 10 }
 		]
     
 }
