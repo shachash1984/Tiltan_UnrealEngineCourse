@@ -1,18 +1,19 @@
 {
-	"id" : 2,
-    "title" : "Issac",
+	"id" : 97,
+    "title" : "Savior Ending",
     "text" : [
-        "You are being Dillusional...",
-        "That thing doesn't Exist",
-        "Get over it."
+        "-Issac saved Fredrick",
+        "-......",
+        "-IT's Coming for you..."
         ],
-	"position" : {"x" : 100, "y" : 000},
+	"position" : {"x" : 200, "y" : 100},
 	"size" : {"width" : 500, "height" : 250},
 	"window_color" : {"r" : 0.0, "g" : 0.0, "b" : 0.0, "a" : 1.0},
 	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
 	"buttons" : [
 	
-			{ "text" : "Continue...", "next": 3 }
+			{ "text" : "Continue..", "next": 98 }
+			
 		]
     
 }

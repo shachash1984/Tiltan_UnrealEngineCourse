@@ -1,0 +1,19 @@
+{
+	"id" : 7,
+    "title" : "Fredrick",
+    "text" : [
+        "I'm going back to the carnival Issac",
+        "If you don't want to help me , fine",
+        "I'll do it myself"
+        ],
+	"position" : {"x" : 600, "y" : 000},
+	"size" : {"width" : 500, "height" : 250},
+	"window_color" : {"r" : 0.2, "g" : 0.0, "b" : 0.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "Fine then , go..", "next": 8 },
+			{ "text" : "*dOnT lEt hIM lEaVe aLoNe*", "next": 30 }
+		]
+    
+}

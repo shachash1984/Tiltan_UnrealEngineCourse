@@ -1,0 +1,19 @@
+{
+	"id" : 5,
+    "title" : "Fredrick",
+    "text" : [
+        "YOU HAVE TO STOP RUNNING AWAY FROM THIS!",
+        "THAT 'THING' IS AFTER US!",
+        "THE FASTER YOU ACCEPT THAT , THE FASTER WE'LL TAKE CARE OF IT"
+        ],
+	"position" : {"x" : 400, "y" : 000},
+	"size" : {"width" : 500, "height" : 250},
+	"window_color" : {"r" : 0.2, "g" : 0.0, "b" : 0.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "you are digging a deep hole , Fredrick", "next": 6 },
+			{ "text" : "You're Right , I have been seeing it..", "next": 30 }
+		]
+    
+}

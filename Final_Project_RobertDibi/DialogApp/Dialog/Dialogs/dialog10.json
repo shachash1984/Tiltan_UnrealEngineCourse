@@ -1,0 +1,19 @@
+{
+	"id" : 10,
+    "title" : "Issac",
+    "text" : [
+        "*Hours passed , it's now 00:30 AM*",
+        "I haven't heard anything from Fredrick..",
+        "I wonder if he is okay."
+        ],
+	"position" : {"x" : 100, "y" : 100},
+	"size" : {"width" : 500, "height" : 250},
+	"window_color" : {"r" : 0.0, "g" : 0.0, "b" : 0.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "*Go to the Carnival*", "next": 12 },
+			{ "text" : "*go to sleep*", "next": 11 }
+		]
+    
+}

@@ -1,20 +1,19 @@
 {
-	"id" : 1,
+	"id" : 9,
     "title" : "Fredrick",
     "text" : [
-        "Issac , I promise you I saw something!",
+        "*Fredrick Starts to leave to the carnival*",
         "",
         ""
         ],
-	"position" : {"x" : 0, "y" : 000},
+	"position" : {"x" : 000, "y" : 100},
 	"size" : {"width" : 500, "height" : 250},
 	"window_color" : {"r" : 0.2, "g" : 0.0, "b" : 0.0, "a" : 1.0},
 	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
 	"buttons" : [
 	
-		{ "text" : "You're being dillusional", "next" : 2 },
-		{ "text" : "I have been seeing things...", "next" : 30 }
-		
+			{ "text" : "*Leave Him*", "next": 10 },
+			{ "text" : "*rUn aFtEr hIM*", "next": 30 }
 		]
-	
+    
 }

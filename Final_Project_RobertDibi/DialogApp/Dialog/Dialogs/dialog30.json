@@ -1,0 +1,18 @@
+{
+	"id" : 30,
+    "title" : "Issac",
+    "text" : [
+        "I actually have been hearing them too..",
+        "I'm sorry for not saying that from the start.",
+        "and I think it's connected to that carnival."
+        ],
+	"position" : {"x" : 100, "y" : 200},
+	"size" : {"width" : 500, "height" : 250},
+	"window_color" : {"r" : 0.0, "g" : 0.0, "b" : 0.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "Continue...", "next": 31 }
+		]
+    
+}

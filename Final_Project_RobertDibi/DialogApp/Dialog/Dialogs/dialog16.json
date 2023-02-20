@@ -1,0 +1,19 @@
+{
+	"id" : 16,
+    "title" : "Issac",
+    "text" : [
+        "*Issac takes down Fredrick from the hook",
+        "and runs outside the building taking Fredrick",
+        "to the closest hospital to treat his wounds*"
+        ],
+	"position" : {"x" : 700, "y" : 100},
+	"size" : {"width" : 500, "height" : 250},
+	"window_color" : {"r" : 0.0, "g" : 0.0, "b" : 0.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "Continue..", "next": 97 }
+			
+		]
+    
+}

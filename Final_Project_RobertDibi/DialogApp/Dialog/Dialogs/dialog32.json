@@ -1,0 +1,19 @@
+{
+	"id" : 32,
+    "title" : "Fredrick & Issac",
+    "text" : [
+        "*Finally going into the carnival they find a secret pathway inside*",
+        "*they discover a forgotten sewage system and find IT*",
+        "IT : A demonic clown drewling with stains of blood around it*"
+        ],
+	"position" : {"x" : 300, "y" : 200},
+	"size" : {"width" : 500, "height" : 250},
+	"window_color" : {"r" : 0.0, "g" : 0.0, "b" : 0.0, "a" : 1.0},
+	"text_color" : {"r" : 1.0, "g" : 1.0, "b" : 1.0, "a" : 1.0},
+	"buttons" : [
+	
+			{ "text" : "*Attack it*", "next": 69 },
+			{ "text" : "*IT Attacks*", "next": 66}
+		]
+    
+}
