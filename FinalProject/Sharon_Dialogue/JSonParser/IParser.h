@@ -4,7 +4,6 @@
 
 class IParser
 {
-	
 public:
 	virtual std::vector<std::string> GetData() = 0;
 
@@ -15,7 +14,6 @@ public:
 	IParser& operator=(const IParser&) = delete;
 	IParser& operator=(IParser&&) = delete;
 	
-
 protected:
 	std::vector<std::string> data{};
 };

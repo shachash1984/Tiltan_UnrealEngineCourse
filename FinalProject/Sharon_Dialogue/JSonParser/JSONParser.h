@@ -1,30 +1,32 @@
 #pragma once
 #include <json/json.h>
 #include "IParser.h"
+#include <iostream>
 #include <fstream>
+#include <vector>
+
+using namespace std;
 
 class JSONParser : public IParser
 {
 public:
-	void SetIndexFilePath(const std::string& _indexFilePath);
-	const std::string& GetIndexFilePath() const;
+	void SetIndexFilePath(const string& _indexFilePath);
+	const string& GetIndexFilePath() const;
 
-	std::vector<std::string> GetData() override; // Used to load the keys of the json index file into the data variable (from IParser) and return it
+	vector<string> GetData() override; // Used to load the keys of the json index file into the data variable (from IParser) and return it
 
 	bool Parse(); // Used as a wrapper function for the user of this library to parse json files
 	Json::Value& GetRoot() { return root; } 
-	bool OpenFile(const std::string& FilePath); //Used as a wrapper function for the user of this library to open a file (without using std::fstream)
+	bool OpenFile(const string& FilePath); //Used as a wrapper function for the user of this library to open a file (without using std::fstream)
 	void CloseFile(); //Same as Open but for closing the file
 
 protected:
-	std::string indexFilePath; //Used to save the path to the JSON index file (the JSON file that contains the paths of all the dialog files)
+	string indexFilePath; //Used to save the path to the JSON index file (the JSON file that contains the paths of all the dialog files)
 	Json::Reader reader;	// Used to read JSON files, see example in mainJSON2.cpp and also below on line 28
 	Json::Value root;   // 'root' will contain the root value after parsing.
-	std::ifstream inputFile; //CPP class for handling a file like we learned on class 10
+	ifstream inputFile; //CPP class for handling a file like we learned on class 10
 };
 
-
-//
 /*int main() 
 {
 	// json reader
@@ -43,12 +45,7 @@ protected:
 			files.clear();
 
 			for (auto itr = root.begin(); itr != root.end(); ++itr) //using an iterator to loop over all the fields currently being held in root and saving them to a vector
-			{
 				files.push_back(itr.key().asString());
-			}
 		}
 	}
-	
- *
- *
  */
