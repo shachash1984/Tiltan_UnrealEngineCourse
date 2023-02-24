@@ -53,27 +53,15 @@ void JSONParser::CloseFile()
 		cout << "File values discarded." << endl;
 }
 
-/*bool JSONParser::TryParseToJSON(string path, bool shouldPrint)
+bool JSONParser::TryParse(string path)
 {
 	SetIndexFilePath(path);
-	cout << GetIndexFilePath() << endl;
 
 	if (!OpenFile(GetIndexFilePath()))
-	{
-		cout << "File couldn't open" << endl;
 		return false;
-	}
 
 	Parse();
-	if (shouldPrint)
-	{
-		cout << "\n---- " + path + " ----" << endl;
-		for (int i = 0; i < data.size(); i++)
-		{
-			cout << data[i] << endl;
-		}
-	}
 	CloseFile();
 
 	return true;
-}*/
+}
