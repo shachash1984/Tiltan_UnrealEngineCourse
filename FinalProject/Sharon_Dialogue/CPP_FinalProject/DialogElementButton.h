@@ -11,4 +11,3 @@ public:
 protected:
 	int nextDialogId;
 };
-

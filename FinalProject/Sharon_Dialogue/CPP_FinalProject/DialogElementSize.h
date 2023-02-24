@@ -11,5 +11,4 @@ public:
 protected:
 	int width;
 	int height;
-
 };

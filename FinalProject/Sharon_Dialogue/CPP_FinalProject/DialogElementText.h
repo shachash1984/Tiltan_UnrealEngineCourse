@@ -1,18 +1,18 @@
 #pragma once
+#include "IDialogRenderingElement.h"
 #include <vector>
 
-#include "IDialogRenderingElement.h"
+using namespace std;
 
 class DialogElementText : public IDialogRenderingElement
 {
 public:
-	DialogElementText(std::shared_ptr<IGUI> const& pGui, const std::vector<std::string>& _text);
+	DialogElementText(shared_ptr<IGUI> const& pGui, const vector<string>& _text);
 	~DialogElementText() override;
 	void Act() override;
-	std::vector<std::string> const& GetText() const;
-	void SetText(const std::vector<std::string>& _text);
+	vector<string> const& GetText() const;
+	void SetText(const vector<string>& _text);
 
 protected:
-	std::vector<std::string> text{};
-
+	vector<string> text{};
 };
