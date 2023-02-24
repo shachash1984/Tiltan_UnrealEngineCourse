@@ -4,4 +4,4 @@ DialogElementPosition::DialogElementPosition(std::shared_ptr<IGUI> const& pGui, 
 
 DialogElementPosition::~DialogElementPosition() {}
 
-void DialogElementPosition::Act() { gui->SetDialogPosition(point); }
+void DialogElementPosition::Act() { gui -> SetDialogPosition(point); }

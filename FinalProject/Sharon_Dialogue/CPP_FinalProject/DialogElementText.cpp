@@ -4,7 +4,7 @@ DialogElementText::DialogElementText(std::shared_ptr<IGUI> const& pGui, const st
 
 DialogElementText::~DialogElementText() {}
 
-void DialogElementText::Act() { gui->DisplayTextDialog(text); }
+void DialogElementText::Act() { gui -> DisplayTextDialog(text); }
 
 vector<string> const& DialogElementText::GetText() const { return text; }
 

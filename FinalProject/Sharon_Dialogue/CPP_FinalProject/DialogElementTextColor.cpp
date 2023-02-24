@@ -4,4 +4,4 @@ DialogElementTextColor::DialogElementTextColor(std::shared_ptr<IGUI> const& pGui
 
 DialogElementTextColor::~DialogElementTextColor() {}
 
-void DialogElementTextColor::Act() { gui->SetTextColor(color); }
+void DialogElementTextColor::Act() { gui -> SetTextColor(color); }

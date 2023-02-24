@@ -4,4 +4,4 @@ DialogElementSize::DialogElementSize(std::shared_ptr<IGUI> const& pGui, int _wid
 
 DialogElementSize::~DialogElementSize() {}
 
-void DialogElementSize::Act() { gui->SetDialogSize(width, height); }
+void DialogElementSize::Act() { gui -> SetDialogSize(width, height); }
