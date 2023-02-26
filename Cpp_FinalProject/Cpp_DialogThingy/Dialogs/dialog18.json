@@ -1,0 +1,45 @@
+{
+	"id": 18,
+
+	"title": "The Eminence in The Dungeon",
+
+	"text": [
+		"Thou art cow'r'd in feareth too longeth because thee bethought yond the h'ro wouldst survive (at least) one kicketh.  what a shame",
+		""
+	],
+
+	"position": {
+		"x": 10,
+		"y": 12
+	},
+
+	"size": {
+		"width": 1245,
+		"height": 738
+	},
+
+	"window_color": {
+		"r": 1.0,
+		"g": 0.0,
+		"b": 0.0,
+		"a": 1.0
+	},
+
+	"text_color": {
+		"r": 1.0,
+		"g": 1.0,
+		"b": 1.0,
+		"a": 1.0
+	},
+
+	"buttons": [
+		{
+			"text": "Rewind the time to cower a bit less",
+			"next": 13
+		},
+		{
+			"text": "Get it over with already",
+			"next": -1
+		}
+	]
+}

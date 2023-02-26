@@ -1,0 +1,8 @@
+{
+    "dialog1" : "Dialogs\\dialog.json",
+    "dialog2" : "Dialogs\\dialog2.json",
+    "dialog3" : "Dialogs\\dialog3.json",
+    "GameOverReem" : "Dialogs\\GameOverReem.json",
+    "GameOverMeital" : "Dialogs\\GameOverMeital.json"
+        
+}

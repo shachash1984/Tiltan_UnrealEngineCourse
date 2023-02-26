@@ -1,0 +1,54 @@
+{
+	"id": 3,
+
+	"title": "The Eminence in The Dungeon",
+
+	"text": [
+		"As anon as thee ent'r the next cubiculo in the dungeon thy immense amount of training and exp'rience maketh thee feeleth tense, thee knoweth yond one of the next cubiculos",
+		"inhabits a dang'r yond might beest too most wondrous f'r the h'ro and his apprentice",
+		""
+	],
+
+	"position": {
+		"x": 10,
+		"y": 12
+	},
+
+	"size": {
+		"width": 1245,
+		"height": 738
+	},
+
+	"window_color": {
+		"r": 0.0,
+		"g": 0.0,
+		"b": 0.0,
+		"a": 1.0
+	},
+
+	"text_color": {
+		"r": 0.0,
+		"g": 1.0,
+		"b": 0.0,
+		"a": 1.0
+	},
+
+	"buttons": [
+		{
+			"text": "Sorry i didnt hear it, come again?",
+			"next": 2
+		},
+		{
+			"text": "The squire sees gold, he is blinded by the tresure, you decide to not stop him. you value his decisions as he is free man.",
+			"next": 4
+		},
+		{
+			"text": "I feel the immense pressure in the room I must know what it is.",
+			"next": 5
+		},
+		{
+			"text": "I can feel the harthbeat of the hero, he knows the way.",
+			"next": 7
+		}
+	]
+}

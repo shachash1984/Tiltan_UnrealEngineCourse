@@ -1,0 +1,46 @@
+{
+	"id": 17,
+
+	"title": "The Eminence in The Dungeon",
+
+	"text": [
+		"An 'rdinary cubiculo, the alchemist is looking kind of weird.  haply that gent did see through mine own actions? nah.  yond's not possible unless that gent did gain all the",
+		"knowledge and pow'rs from a previous w'rld, achieves the god's fav'r and strideth into anoth'r w'rld and hath fallen into this dungeon",
+		""
+	],
+
+	"position": {
+		"x": 10,
+		"y": 12
+	},
+
+	"size": {
+		"width": 1245,
+		"height": 738
+	},
+
+	"window_color": {
+		"r": 0.0,
+		"g": 0.0,
+		"b": 0.0,
+		"a": 1.0
+	},
+
+	"text_color": {
+		"r": 0.0,
+		"g": 1.0,
+		"b": 0.0,
+		"a": 1.0
+	},
+
+	"buttons": [
+		{
+			"text": "The hero is tilted and blidly marching forward, you know it will kill him but you cant comprehand how stupid he is.",
+			"next": 18
+		},
+		{
+			"text": "you somehow comprehand how stupid he is, so you announce, 'HE IS STUNNED ITS OUR TIME TO SHINE WE CANT CHICKEN OUT' you inspire the hero and in the same time make him disgusted. the squire smiling nervously with alot of sweat.",
+			"next": 13
+		}
+	]
+}

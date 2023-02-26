@@ -1,0 +1,13 @@
+id=1
+title="Twinsen"
+text="Hello World!"
+text="This is my first dialog"
+text="goodbye"
+xPos=100
+yPos=50
+BG_Color=1
+Text_Color=C
+Button_Text="Sounds Good"
+Button_Next=3
+Button_Text="Even better"
+Button_Next=4

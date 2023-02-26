@@ -19,6 +19,26 @@
 # Fortran module files
 *.mod
 
+# Final Project
+!/FinalProject/**
+!/FinalProject/ExternalDeps
+!/FinalProject/ExternalDeps/*
+!/FinalProject/ExternalDeps/**
+!/FinalProject/DialogApp
+!/FinalProject/DialogApp/**
+!/FinalProject/DialogApp/*
+!/FinalProject/DialogApp/ExternalDeps/**
+!/FinalProject/DialogApp/ExternalDeps/*
+!/FinalProject/DialogApp/ExternalDeps
+!/FinalProject/DialogApp/ExternalDeps/Lib/x64/Debug/GUI.lib
+!/FinalProject/DialogApp/ExternalDeps/Lib/x64/Debug/jsoncpp.lib
+!/FinalProject/DialogApp/ExternalDeps/Lib/x64/Release/GUI.lib
+!/FinalProject/DialogApp/ExternalDeps/Lib/x64/Release/jsoncpp.lib
+!/FinalProject/ExternalDeps/Lib/x64/Debug/GUI.lib
+!/FinalProject/ExternalDeps/Lib/x64/Debug/jsoncpp.lib
+!/FinalProject/ExternalDeps/Lib/x64/Release/GUI.lib
+!/FinalProject/ExternalDeps/Lib/x64/Release/jsoncpp.lib
+
 # Compiled Static libraries
 *.lai
 *.la
