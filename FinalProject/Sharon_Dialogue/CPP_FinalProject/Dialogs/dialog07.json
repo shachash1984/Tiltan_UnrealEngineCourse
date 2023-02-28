@@ -1,13 +1,40 @@
 {
 	"id": 7,
 
-	"title": "Title",
+	"title": "Hogwarts Legacy",
 
 	"text": [
-		"Moving on safely the apprentice suggests making a campeth to the h'ro, which answ'r without taking thy opinion into consid'ration (as thou art only a background charact'r in",
-		"their unraveling st'ry).  That gent then declares oth'rwise - the party shalt marcheth on, rememb'ring thee existeth that gent than tells thee yond in 'rd'r to assureth thy",
-		"safety the team hast to presseth on",
-		""
+		"*carriage flies over the clouds*",
+		"George Osric: Glad I caught you before you left for Scotland.",
+		"Professor Fig: Just barely.",
+		"George Osric: *laughs* And who is your travelling companion?",
+		"Professor Fig: A new student.",
+		"George Osric: New? *looks surprised*",
+		"Player: Yes, sir. I'm starting school as a fifth-year.",
+		"George Osric: How extraordinary.",
+		"Professor Fig: It is, indeed. None of the faculty has ever heard of anyone being admitted to Hogwarts so late.",
+		"George Osric: Not have I.",
+		"Professor Fig: Of course, as the other fifth-years will have been honing their magical skills for four years now,",
+		"\t\t\t\t\t\tthe Headmaster asked if I could get our new student up to speed a bit before the term begins.",
+		"George Osric: Well, you couldn't have asked for a better mentor.",
+		"George Osric: Professor Fig is not only an exceptional teacher, he is also a remarkably intuative - and gifted - wizard.",
+		"Professor Fig: Mr Osric is prone to flattery. I daresay it's one of the reasons he's risen so far at the Ministry. *chuckles*",
+		"",
+		"*George pulls a copy of the Daily Prophet*",
+		"George Osric: Have you seen this?",
+		"*A newspaper article regarding Ranrok and a goblin rebellion*",
+		"Professor Fig: I have. Opinions differ as to how great a threat Ranrok really is.",
+		"*you notice something in the clouds out of the carriage window. It worries you.*",
+		"George Osric: Although I've yet to convince my colleagues at the Ministry, I believe he is a significant threat.",
+		"George Osric: And it was your wife, Eleazar, who alerted me to his activities months ago.",
+		"George Osric: Miriam? How?",
+		"",
+		"George Osric: *sigh* She wrote to me about Ranrok before she died - wondering what the Ministry knew about his activities.",
+		"George Osric: Before I could respond, I recieved this. It was the last thing she sent me, Eleazar.",
+		"*George pulls some sort of container out of his pocket with strange embellishment*",
+		"George Osric: It came via her owl - but with no correspondence. I can only assume -",
+		"Professor Fig: *takes the container from George* - that she had to het rid of it quickly to keep it safe.",
+		"George Osric: Presumably from Ranrok."
 	],
 
 	"position": {
@@ -28,20 +55,16 @@
 	},
 
 	"text_color": {
-		"r": 0.0,
+		"r": 1.0,
 		"g": 1.0,
-		"b": 0.0,
+		"b": 1.0,
 		"a": 1.0
 	},
 
 	"buttons": [
 		{
-			"text": "The squire shouts to the hero that he is going to the wrong direction, you support him by saying very quietly 'the hero is NEVER wrong'",
+			"text": "Continue",
 			"next": 8
-		},
-		{
-			"text": "The hero misses the turn, you dont stop him beacuse you still want to know what lies behind this door very very much.",
-			"next": 6
 		}
 	]
 }
