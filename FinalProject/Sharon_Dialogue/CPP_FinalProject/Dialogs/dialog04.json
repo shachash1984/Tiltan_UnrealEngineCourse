@@ -1,17 +1,27 @@
 {
 	"id": 4,
 
-	"title": "Title",
+	"title": "Hogwarts Legacy",
 
 	"text": [
-		"Thee anon knoweth yond thee w're obviously right, encount'ring a less'r goodyear (which is way too pow'rful f'r the h'ro to dudgeon coequal though thee senseth an",
-		"int'resting aura from the apprentice..).",
+		"Player: I appricate your working with me before the term begi-",
 		"",
-		"the h'ro plays his parteth and taketh a standeth in front of the goodyear only to receiveth his stout handeth t'rn in a did split second. The apprentice tries to holdeth of",
-		"the goodyear with confidence, that gent is forsooth m're pow'rful than the h'ro (makes thee wond'r..). ",
+		"*SWOOSH* and a resonating thud",
 		"",
-		"Knowing the two of those folk wouldst not survive the square thee can decideth: rewind timeth to the lasteth int'resting encount'r 'r because of the valorous humor thou art",
-		"in thee decideth to dispose of the monst'r which leadeth to thy disappearance - in 'rd'r to keepeth thy emanating identity safeguard'd.",
+		"George Osric: Oh! *laughs* Eleazar!",
+		"",
+		"Professor Fig: George. Glad my rather cryptic description of our location did not thwart your finding us.",
+		"*Fig and George shake hands in greetings*",
+		"George Osric: I've Apparated to more vaguely defined destinations than this. *chuckles*",
+		"George Osric: Though, I confess I may have miscalculated slightly on my firs try.",
+		"						Gave quite the fright to some theatre-goers in the West End. *chuckles*",
+		"",
+		"Professor Fig: It's been much too long. When I recieved your owl, I must say I -",
+		"*George interrupts*",
+		"George Osric: Best not speak here, Eleazar, hm?",
+		"Professor Fig: Of course. Why don't we speak en route to Hogwarts? we have a",
+		"						start-of-term feast and a Sorting Ceremony to get to.",
+		"George Osric: Wonderful idea. As long as your young charge here doesn't mind me tagging along.",
 		""
 	],
 
@@ -26,7 +36,7 @@
 	},
 
 	"window_color": {
-		"r": 1.0,
+		"r": 0.0,
 		"g": 0.0,
 		"b": 0.0,
 		"a": 1.0
@@ -41,11 +51,11 @@
 
 	"buttons": [
 		{
-			"text": "Rewind Time",
-			"next": 3
+			"text": "Not at all, sir.",
+			"next": 5
 		},
 		{
-			"text": "End journey",
+			"text": "I do mind. sorry, sir.",
 			"next": -1
 		}
 	]

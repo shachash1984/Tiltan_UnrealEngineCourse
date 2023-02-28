@@ -1,11 +1,16 @@
 {
 	"id": 5,
 
-	"title": "Title",
+	"title": "Hogwarts Legacy",
 
 	"text": [
-		"Getting a did bite b'r'd thee decideth to tryeth hard and focus on not being acknown of the dang'rs ahead so thee might actually beest surprised, thus thee venture onward",
-		"into the dungeon, trying to attracteth the least attention to yourself and hark on to the h'ro and apprentice's conv'rsation.",
+		"Professor Fig: After you.",
+		"*carriage door opens*",
+		"George Osric: Ages since I've been to the castle. *Owl screech* Would be good to see the old pile of rocks.",
+		"*bell tower rings hitting 3 O' clock'*",
+		"*right before George gets into the carriage he looks around and gets a concerned look*",
+		"*carriage door closes and what seems as a carriage with no horses starts to move and flies off toward Hogwarts*",
+		"*as the carriage leaves, a shady character stares as it goes and Apparates into thin air*",
 		""
 	],
 
@@ -27,20 +32,16 @@
 	},
 
 	"text_color": {
-		"r": 0.0,
+		"r": 1.0,
 		"g": 1.0,
-		"b": 0.0,
+		"b": 1.0,
 		"a": 1.0
 	},
 
 	"buttons": [
 		{
-			"text": "The curiocity got over your head, you sweat as you want to know what going on behind this door. you walk in with immense confidence.",
-			"next": 6
-		},
-		{
-			"text": "You feel the sheer power of the room and decide to 'chicken out'",
-			"next": 3
+			"text": "Continue.",
+			"next": 7
 		}
 	]
 }

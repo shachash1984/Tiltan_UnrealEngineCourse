@@ -1,11 +1,11 @@
 {
 	"id": 3,
 
-	"title": "Title",
+	"title": "Hogwarts Legacy",
 
 	"text": [
-		"As anon as thee ent'r the next cubiculo in the dungeon thy immense amount of training and exp'rience maketh thee feeleth tense, thee knoweth yond one of the next cubiculos",
-		"inhabits a dang'r yond might beest too most wondrous f'r the h'ro and his apprentice",
+		"Professor Fig: Well, I'm quite sure I've never seen anyone take so quickly to a second-hand wand.",
+		"Professor Fig: You'll be a force to be reckoned with when you get your own.",
 		""
 	],
 
@@ -27,28 +27,16 @@
 	},
 
 	"text_color": {
-		"r": 0.0,
+		"r": 1.0,
 		"g": 1.0,
-		"b": 0.0,
+		"b": 1.0,
 		"a": 1.0
 	},
 
 	"buttons": [
 		{
-			"text": "Sorry i didnt hear it, come again?",
-			"next": 2
-		},
-		{
-			"text": "The squire sees gold, he is blinded by the tresure, you decide to not stop him. you value his decisions as he is free man.",
+			"text": "Thank you, Professor",
 			"next": 4
-		},
-		{
-			"text": "I feel the immense pressure in the room I must know what it is.",
-			"next": 5
-		},
-		{
-			"text": "I can feel the harthbeat of the hero, he knows the way.",
-			"next": 7
 		}
 	]
 }
