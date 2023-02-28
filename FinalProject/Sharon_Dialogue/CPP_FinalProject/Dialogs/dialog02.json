@@ -1,11 +1,12 @@
 {
 	"id": 2,
 
-	"title": "Title",
+	"title": "Hogwarts Legacy",
 
 	"text": [
-		"Upon ent'ring the next cubiculo, thee seeth a trip-wire trapeth and seize the opp'rtunity to establisheth thy fake incapabilities. Thee intentionally trigg'r the trip-wire",
-		"with one of thy forks and the h'ro shouts and jumps to saveth thee.  In the meantime thee act as thee haven't noticeth aught at all bef'rehand.",
+		"Professor Fig: Ah! It appears we are almost ready to depart.",
+		"Professor Fig: It's a pity we didn't have a bit more time to spend on spell-casting.",
+		"Professor Fig: I presume you've been practising the spells we worked on.",
 		""
 	],
 
@@ -27,15 +28,15 @@
 	},
 
 	"text_color": {
-		"r": 0.0,
+		"r": 1.0,
 		"g": 1.0,
-		"b": 0.0,
+		"b": 1.0,
 		"a": 1.0
 	},
 
 	"buttons": [
 		{
-			"text": "Carry on",
+			"text": "I have, Professor",
 			"next": 3
 		}
 	]
