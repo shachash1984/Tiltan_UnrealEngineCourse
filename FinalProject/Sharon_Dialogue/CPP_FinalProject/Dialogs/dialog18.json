@@ -1,10 +1,12 @@
 {
 	"id": 18,
 
-	"title": "Title",
+	"title": "Hogwarts Legacy",
 
 	"text": [
-		"Thou art cow'r'd in feareth too longeth because thee bethought yond the h'ro wouldst survive (at least) one kicketh.  what a shame",
+		"Professor Fig: Understandable young one, I'll be sure to keep the key and you safe untill we get to Hogwarts.",
+		"*you make it in time for the feast and the Sorting Ceremony*",
+		"*and your normal wizarding school life begins.*",
 		""
 	],
 
@@ -19,7 +21,7 @@
 	},
 
 	"window_color": {
-		"r": 1.0,
+		"r": 0.0,
 		"g": 0.0,
 		"b": 0.0,
 		"a": 1.0
@@ -34,11 +36,7 @@
 
 	"buttons": [
 		{
-			"text": "Rewind the time to cower a bit less",
-			"next": 13
-		},
-		{
-			"text": "Get it over with already",
+			"text": "Thanks for playing",
 			"next": -1
 		}
 	]

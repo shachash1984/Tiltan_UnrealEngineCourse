@@ -1,10 +1,19 @@
 {
 	"id": 15,
 
-	"title": "Title",
+	"title": "Hogwarts Legacy",
 
 	"text": [
-		"As thee hath said bef're.  this is pointless",
+		"*as you exit the cave with Professor Fig you see your self standing on top of cliff side*",
+		"Player: How dar did that Portkey take us?",
+		"Professor Fig: Farther from London than the carriage travelled. We're somewhere in the Scottish Highlands.",
+		"Player: Sir - those ruins. Do you think -",
+		"Professor Fig: - the Portkey was meant to lead us there? I do.",
+		"Professor Fig: This has not been the day either of us expected.",
+		"Professor Fig: But Miriam sent that Portkey to George for a reason.",
+		"Professor Fig: And I believe that she - and now George - died in pursuit of whatever it was meant to lead to.",
+		"Professor Fig: If you're sure you're all right, and wouldn't mind indulging me -",
+		"Professor Fig: I'd like to have a look around.",
 		""
 	],
 
@@ -26,20 +35,24 @@
 	},
 
 	"text_color": {
-		"r": 0.0,
+		"r": 1.0,
 		"g": 1.0,
-		"b": 0.0,
+		"b": 1.0,
 		"a": 1.0
 	},
 
 	"buttons": [
 		{
-			"text": "The hero is convinced there is something there, SOMETHING that can make us beat the boss.",
+			"text": "Absolutely, Sir.",
 			"next": 16
 		},
 		{
-			"text": "The squire saies: 'I cant see shit, lets go back i feel abosulty nothing there'",
-			"next": 14
+			"text": "Look at your surroundings",
+			"next": 17
+		},
+		{
+			"text": "I'm sorry sir - but I'd prefer if we could go back to Hogwarts from here",
+			"next": 18
 		}
 	]
 }

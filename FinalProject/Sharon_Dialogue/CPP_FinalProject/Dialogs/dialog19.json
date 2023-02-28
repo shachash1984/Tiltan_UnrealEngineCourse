@@ -1,11 +1,12 @@
 {
 	"id": 19,
 
-	"title": "Title",
+	"title": "Hogwarts Legacy",
 
 	"text": [
-		"The flo'r crumbl'd by THE SHEER POWER OF THE ALMIGHTY H'RO, humour liketh this adventure wast a completeth waist of timeth, alls, suddenly the alchemist is attempting ",
-		"to conjure something (is t the thing that gent hath tried to saveth the did grind with? 'r thee haven't hath reached this path thee chad)",
+		"*as you follow professor Fig you will uncover the mystery behinde the Portkey*",
+		"*you will miss the feast and Sorting Ceremony and get in trouble*",
+		"*Yet your Adventure with your newly discovered powers is just beginning.*",
 		""
 	],
 
@@ -27,20 +28,16 @@
 	},
 
 	"text_color": {
-		"r": 0.0,
+		"r": 1.0,
 		"g": 1.0,
-		"b": 0.0,
+		"b": 1.0,
 		"a": 1.0
 	},
 
 	"buttons": [
 		{
-			"text": "You rush to the hero and say 'NOOOOOOOOOOOOOOOOOOOOO' then you make it look like you tripped and catch him by mistake. the hero is insipred shouting very loudly, if you werent the strongest yours ears would bleed(or hurt) the hero clunching the alchamist very tight and falling to a bottomless pit.",
-			"next": 20
-		},
-		{
-			"text": "The alchamist(yes he is alchamist now)(not like he was before) stomps on the ground very very loundly, you make it looks like you cower in fear in the corner. then he kicks the hero. you dont catch him outside.",
-			"next": 18
+			"text": "Thanks for Playing",
+			"next": -1
 		}
 	]
 }
