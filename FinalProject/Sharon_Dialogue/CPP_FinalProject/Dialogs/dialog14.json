@@ -1,0 +1,46 @@
+{
+	"id": 14,
+
+	"title": "Title",
+
+	"text": [
+		"Well this is pointless, thee might bethink yond th're is something ahead by the behold of the hyp'd up h'ro, while the appre.. s'rry, ahm alchemist.  is still recov'ring from the",
+		"shocketh of the golem.  going backeth anon means facing that gent again.  thou art starting to thing yond thee hath chosen the wrong adventure game",
+		""
+	],
+
+	"position": {
+		"x": 10,
+		"y": 12
+	},
+
+	"size": {
+		"width": 1245,
+		"height": 738
+	},
+
+	"window_color": {
+		"r": 0.0,
+		"g": 0.0,
+		"b": 0.0,
+		"a": 1.0
+	},
+
+	"text_color": {
+		"r": 0.0,
+		"g": 1.0,
+		"b": 0.0,
+		"a": 1.0
+	},
+
+	"buttons": [
+		{
+			"text": "You continue to walk in empty space, knowing there is abosulty notihing there.",
+			"next": 13
+		},
+		{
+			"text": "You throw another dice and for no reason the party follows you.",
+			"next": 15
+		}
+	]
+}

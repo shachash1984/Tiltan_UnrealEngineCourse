@@ -1,0 +1,46 @@
+{
+	"id": 5,
+
+	"title": "Title",
+
+	"text": [
+		"Getting a did bite b'r'd thee decideth to tryeth hard and focus on not being acknown of the dang'rs ahead so thee might actually beest surprised, thus thee venture onward",
+		"into the dungeon, trying to attracteth the least attention to yourself and hark on to the h'ro and apprentice's conv'rsation.",
+		""
+	],
+
+	"position": {
+		"x": 10,
+		"y": 12
+	},
+
+	"size": {
+		"width": 1245,
+		"height": 738
+	},
+
+	"window_color": {
+		"r": 0.0,
+		"g": 0.0,
+		"b": 0.0,
+		"a": 1.0
+	},
+
+	"text_color": {
+		"r": 0.0,
+		"g": 1.0,
+		"b": 0.0,
+		"a": 1.0
+	},
+
+	"buttons": [
+		{
+			"text": "The curiocity got over your head, you sweat as you want to know what going on behind this door. you walk in with immense confidence.",
+			"next": 6
+		},
+		{
+			"text": "You feel the sheer power of the room and decide to 'chicken out'",
+			"next": 3
+		}
+	]
+}
