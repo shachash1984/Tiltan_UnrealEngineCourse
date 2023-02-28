@@ -1,10 +1,12 @@
 {
 	"id": 9,
 
-	"title": "Title",
+	"title": "Hogwarts Legacy",
 
 	"text": [
-		"Well, t looks liketh thee've hath reached a dead endeth - this party leadeth'r is forsooth a protagonist leading thee in the right path!",
+		"Professor Fig: Accio!",
+		"*swoosh*",
+		"*you and Fig vanish and the dragon misses its attack*",
 		""
 	],
 
@@ -19,23 +21,23 @@
 	},
 
 	"window_color": {
-		"r": 1.0,
-		"g": 0.0,
-		"b": 1.0,
-		"a": 1.0
-	},
-
-	"text_color": {
 		"r": 0.0,
 		"g": 0.0,
 		"b": 0.0,
 		"a": 1.0
 	},
 
+	"text_color": {
+		"r": 1.0,
+		"g": 1.0,
+		"b": 1.0,
+		"a": 1.0
+	},
+
 	"buttons": [
 		{
-			"text": "The hero is claiming he wanted to turn around but YOU didn't let him.",
-			"next": 8
+			"text": "Continue",
+			"next": 11
 		}
 	]
 }

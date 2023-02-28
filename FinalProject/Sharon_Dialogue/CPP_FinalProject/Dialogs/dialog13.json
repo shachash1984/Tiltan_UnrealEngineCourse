@@ -1,16 +1,12 @@
 {
 	"id": 13,
 
-	"title": "Title",
+	"title": "Hogwarts Legacy",
 
 	"text": [
-		"The minotaur is dead, both the h'ro and the apprentice art did confuse.  those gents knoweth something unnatural hath happened but can't seemeth to followeth.  the h'ro",
-		"seeth thou art looking at those folk in aw and claims vict'ry ov'r the magical beast!",
+		"*you lost consciousness*",
 		"",
-		"the apprentice then shakes in t'rr'r, in front of that gent stands a 4 st'ries tall magical golem (looks liketh this w'rld is swarming with fantasy-like beings).",
-		"",
-		"the h'ro charges in and screams while the apprentice stays in shocketh, thee decideth yond thee forsooth needeth to int'rvene.  so thee rolleth a kicketh the bucket,",
-		"thee obviously can det'rmine the result of t because of thy ultra-instincts what shalt befall?",
+		"Your advanture ends.",
 		""
 	],
 
@@ -32,28 +28,16 @@
 	},
 
 	"text_color": {
-		"r": 0.0,
+		"r": 1.0,
 		"g": 1.0,
-		"b": 0.0,
+		"b": 1.0,
 		"a": 1.0
 	},
 
 	"buttons": [
 		{
-			"text": "You all rush forward while the alchamist tries to stun the boss, you make it look like he blinded him by poking his eyes in god level speed.",
-			"next": 17
-		},
-		{
-			"text": "You hear the hero saying 'we should combine our power, its not the time to argue' we are a team. - lucky for him the dice landed on 7, its my favorite number so i made it look like he triped and fell on a hugh ass bolder,  and somehow all the floor above him croumbled(as the hero thinks he made it crumble).",
-			"next": 19
-		},
-		{
-			"text": "The dice landed on 4 - you make it look like the hero landed a hit but it was you(obviously) while the golem is stunned, you go in even if you know there is nothing there. just empty space alot of empty space.",
-			"next": 14
-		},
-		{
-			"text": "It landed on 1, so you all go back and regroup.",
-			"next": 12
+			"text": "Restart",
+			"next": 0
 		}
 	]
 }

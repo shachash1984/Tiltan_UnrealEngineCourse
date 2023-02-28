@@ -1,11 +1,13 @@
 {
 	"id": 10,
 
-	"title": "Title",
+	"title": "Hogwarts Legacy",
 
 	"text": [
-		"The apprentice sayeth yond that gent feeleth a dark'r aura and sayeth yond something dark awaits not too far ahead.  The h'ro unfold a lighteth which instantly draws that",
-		"gent in",
+		"*you dive toward the key instead of grabbing Fig's hand*",
+		"Professor Fig: Accio!",
+		"*swoosh*",
+		"*Fig vanishes and the dragon eats you alive*",
 		""
 	],
 
@@ -27,20 +29,16 @@
 	},
 
 	"text_color": {
-		"r": 0.0,
+		"r": 1.0,
 		"g": 1.0,
-		"b": 0.0,
+		"b": 1.0,
 		"a": 1.0
 	},
 
 	"buttons": [
 		{
-			"text": "You can feel the weak aura of the enemy and you decide to walk by while saying 'This aura, i cant handle it, i cant breath.' the hero ignores you",
-			"next": 12
-		},
-		{
-			"text": "The hero finally thinks of you and walks you back until you can 'breath again'",
-			"next": 8
+			"text": "Restart",
+			"next": 0
 		}
 	]
 }

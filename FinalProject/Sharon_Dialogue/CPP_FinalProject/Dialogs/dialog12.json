@@ -1,10 +1,10 @@
 {
 	"id": 12,
 
-	"title": "Title",
+	"title": "Hogwarts Legacy",
 
 	"text": [
-		"The apprentice starts to receiveth goosebumps as the dark'r pow'r immense and strengthens, the h'ro is still following lights.. what shall thee doth?",
+		"Professor Fig: Take this. It's Wiggenweld Potion. That stuff'll right you up in a second.",
 		""
 	],
 
@@ -26,23 +26,19 @@
 	},
 
 	"text_color": {
-		"r": 0.0,
+		"r": 1.0,
 		"g": 1.0,
-		"b": 0.0,
+		"b": 1.0,
 		"a": 1.0
 	},
 
 	"buttons": [
 		{
-			"text": "You saying to the party, 'please wait i found a dead body i am scared'",
-			"next": 10
+			"text": "Drink the potion",
+			"next": 14
 		},
 		{
-			"text": "You do absolutly nothing as you believe the hero can handle such a weak creature.",
-			"next": 11
-		},
-		{
-			"text": "You shout to the party 'is this a girl?' while they turn, you swifly rushes to the minotaur kills him by vaporising him, coming back and saying 'ahh never mind its just a firefly'",
+			"text": "Examine the potion",
 			"next": 13
 		}
 	]

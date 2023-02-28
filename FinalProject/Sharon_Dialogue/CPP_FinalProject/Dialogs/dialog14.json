@@ -1,11 +1,21 @@
 {
 	"id": 14,
 
-	"title": "Title",
+	"title": "Hogwarts Legacy",
 
 	"text": [
-		"Well this is pointless, thee might bethink yond th're is something ahead by the behold of the hyp'd up h'ro, while the appre.. s'rry, ahm alchemist.  is still recov'ring from the",
-		"shocketh of the golem.  going backeth anon means facing that gent again.  thou art starting to thing yond thee hath chosen the wrong adventure game",
+		"Professor Fig: Poor George - I can't believe he - ",
+		"*Professor Fig starts pacing around*",
+		"Professor Fig: What the hell got into that damned thing? Attacking a carriage mid-air? A typical dragon would never -",
+		"Player: Professor?",
+		"Professor Fig: *laboured breathing*",
+		"Player: Sir - where are we?",
+		"Professor Fig: I'm not sure. But that key you discovered was clearly a Portkey.",
+		"Player: Portkey?",
+		"Professor Fig: An item enchanted to bring whoever touches it to a specific place.",
+		"*you stand up*",
+		"Player: I'm feeling better, sir - if you'd like to look around a bit.",
+		"Professor Fig: I would. But Stay close. We've no idea who created this Portkey - or why.",
 		""
 	],
 
@@ -27,19 +37,15 @@
 	},
 
 	"text_color": {
-		"r": 0.0,
+		"r": 1.0,
 		"g": 1.0,
-		"b": 0.0,
+		"b": 1.0,
 		"a": 1.0
 	},
 
 	"buttons": [
 		{
-			"text": "You continue to walk in empty space, knowing there is abosulty notihing there.",
-			"next": 13
-		},
-		{
-			"text": "You throw another dice and for no reason the party follows you.",
+			"text": "Walk with Professor Fig",
 			"next": 15
 		}
 	]

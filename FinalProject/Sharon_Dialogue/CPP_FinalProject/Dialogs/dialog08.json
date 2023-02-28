@@ -1,11 +1,33 @@
 {
 	"id": 8,
 
-	"title": "Title",
+	"title": "Hogwarts Legacy",
 
 	"text": [
-		"Thee findeth the h'ro a did bite annoying, suspecting th're is m're to this st'ry then meets the eye, facing a cubiculo with 3 ways of proceeding thou art somewhat getting",
-		"excit'd.  is this thy fighting spirit yond tingles from the humour bef're a valorous square? 'r p'rhaps the exp'rience in challenges 'r expl'ration?",
+		"George Osric: I cannot open it. Whatever magic protects this is powerful indeed.",
+		"Professor Fig: It looks like goblin metal.",
+		"Professor Fig: *points at container* That symbol - ",
+		"Player: What's that glow?",
+		"Professor Fig: *looks all over container* I don't see a glow.",
+		"George Osric: Nor do I.",
+		"*both looking confused at the player*",
+		"*Professor Fig hands you the container*",
+		"*Shimmering sound and a click, the container opens up in your hands*",
+		"George Osric: Merlin's beard! How did you -",
+		"*you see a key inside, as you're about to take it out*",
+		"Professor Fig: Wait. *takes it from your hands* We do not know what - ",
+		"*A dragon eats half the carriage, the side George was on*",
+		"You and Fig trying to hold onto the carriage*",
+		"",
+		"Professor Fig: Hang on!",
+		"*you look to the front of the carriage, suddenly flying beasts which weren't there start to appear*",
+		"*dragon roars and is preparing to breathe fire*",
+		"Professor Fig: Jump!",
+		"*you, Fig jump off while the driver apporates*",
+		"*dragon destroys the carriage*",
+		"*as you both fall the key eludes you*",
+		"Professor Fig: The key!",
+		"Professor Fig: Give me your hand!",
 		""
 	],
 
@@ -27,28 +49,20 @@
 	},
 
 	"text_color": {
-		"r": 0.0,
+		"r": 1.0,
 		"g": 1.0,
-		"b": 0.0,
+		"b": 1.0,
 		"a": 1.0
 	},
 
 	"buttons": [
 		{
-			"text": "The hero sees a brink of light, he follows it.(its just a firefly)",
-			"next": 10
-		},
-		{
-			"text": "The hero fights the squire as you are useless, so you prented that you got offended and run to other direction",
+			"text": "Grab hand",
 			"next": 9
 		},
 		{
-			"text": "You say to your party that you forgot to pee, so you go back to the tent to take out your pee bucket.",
-			"next": 7
-		},
-		{
-			"text": "The squire tries to stop you, the hero intervens and falls to room 11, you follow him while doing a PalmFace.",
-			"next": 11
+			"text": "Free fall toward the key",
+			"next": 10
 		}
 	]
 }

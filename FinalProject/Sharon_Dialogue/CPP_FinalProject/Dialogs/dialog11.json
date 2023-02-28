@@ -1,10 +1,11 @@
 {
 	"id": 11,
 
-	"title": "Title",
+	"title": "Hogwarts Legacy",
 
 	"text": [
-		"A minotaur.  yep, a minotaur.  nothing m're to sayeth, rewind 'r those gents art dead",
+		"*you find your self in a cave hurt and in pain*",
+		"Professor Fig: You're hurt.",
 		""
 	],
 
@@ -19,7 +20,7 @@
 	},
 
 	"window_color": {
-		"r": 1.0,
+		"r": 0.0,
 		"g": 0.0,
 		"b": 0.0,
 		"a": 1.0
@@ -34,12 +35,12 @@
 
 	"buttons": [
 		{
-			"text": "Rewind",
-			"next": 7
+			"text": "Perhaps a bit",
+			"next": 12
 		},
 		{
-			"text": "End journey",
-			"next": -1
+			"text": "I'm good",
+			"next": 13
 		}
 	]
 }
