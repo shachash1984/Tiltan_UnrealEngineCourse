@@ -1,16 +1,14 @@
 {
 	"id": 0,
 
-	"title": "Title",
+	"title": "Portkey Games",
 
 	"text": [
-		"Thee has't kicked the bucket.  A genius - harb'ring the knowledge off all martial arts known (and enshielf pow'rs) to sir. Thus, the gods - did impress with thy achievement",
-		"has't f'rsaken thy soul and award'd thee anoth'r chance at life in anoth'r w'rld, allowing thee to keepeth all of the knowledge thee did collect.",
-		"",
-		"facing unfamiliar environment and challenges thee setteth out to a new journey!",
+		"HOGWARTS",
+		"LEGACY",
 		""
 	],
-	
+
 	"position": {
 		"x": 10,
 		"y": 12
@@ -29,19 +27,19 @@
 	},
 
 	"text_color": {
-		"r": 0.0,
+		"r": 1.0,
 		"g": 1.0,
-		"b": 0.0,
+		"b": 1.0,
 		"a": 1.0
 	},
 
 	"buttons": [
 		{
-			"text": "Waketh up",
+			"text": "Press to Start",
 			"next": 1
 		},
 		{
-			"text": "Defy the gods and Stayeth dead",
+			"text": "Exit Game",
 			"next": -1
 		}
 	]
