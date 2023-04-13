@@ -36,11 +36,7 @@ bool JSONParser::Parse()
 bool JSONParser::OpenFile(const string& FilePath)
 {
 	inputFile.open(FilePath);
-
-	if (inputFile.is_open())
-		return true;
-	else
-		return false;
+	return inputFile.is_open();
 }
 
 void JSONParser::CloseFile()
