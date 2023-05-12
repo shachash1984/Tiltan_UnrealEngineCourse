@@ -1,86 +1,36 @@
-#include <iostream>
+//#include <iostream>
 
-void main()
-{
-	int Attributes = 600;
+//int main()
+//{
+//	std::cout << "Hello World\n";
+//	
+//	std::cout << "Please enter your age:\n";
+//	int age;
+//	std::cin >> age;
+//	
+//	std::cout << "Please enter your name:\n";
+//	std::string name;
+//	std::cin >> name;
+//	std::cout << "My name is " << name << " and I am " << age << " years old.\n";
+//	
+//	float HP = -100.30f;
+//	
+//	char end;
+//	std::cin >> end;
+//	return 0;
+//}
 
-	float Hp;
-	float Mana;
-	int Mana;
-	int Magic;
-	int dexterity;
-	int vitality;
+//Fundamental types:
+//int, float, double, char, bool, void
 
-	cout << "Hello!";
+//Fundamental types extended:
+//long, short, long long, unsigned, unsigned long, unsigned short, unsigned long long
 
-	cout << "Please enter Player name";
-	cin >> Name;
-
-	cout << "Please enter Age";
-	cin >> int Age;
-
-	cout << "Please enter Player name";
-	cin >> Name;
-
-	while (Attributes > 0)
-	{
-		cout << "Please Add Hp points, you now have " + Attributes + "points left";
-		cin >> int added;
-		Hp = Hp + added;
-		Attributes = Attributes - added;
-		if (OutOfAttributes()) { break; }
-
-
-		cout << "Please Add Mana points, you now have " + Attributes + "points left";
-		cin >> int added;
-		Mana = Mana + added;
-		Attributes = Attributes - added;
-		if (OutOfAttributes()) { break; }
-
-		cout << "Please Add Magic points, you now have " + Attributes + "points left";
-		cin >> int added;
-		Magic = Magic + added;
-		Attributes = Attributes - added;
-		if (OutOfAttributes()) { break; }
-
-		cout << "Please Add dexterity points, you now have " + Attributes + "points left";
-		cin >> int added;
-		dexterity = dexterity + added;
-		Attributes = Attributes - added;
-		if (OutOfAttributes()) { break; }
-
-		cout << "Please Add vitality points, you now have " + Attributes + "points left";
-		cin >> int added;
-		vitality = vitality + added;
-		Attributes = Attributes - added;
-		if (OutOfAttributes()) { break; }
-
-
-
-
-	}
-
-	bool OutOfAttributes()
-	{
-		if (Attributes > 0)
-		{
-			cout << "You have no more points left";
-			PrintOutPlayer()
-				return true;
-		}
-		return false;
-	}
-
-	void PrintOutPlayer()
-	{
-		cout << "Player Name: " + Name;
-		cout << "Player Age: " + Age;
-		cout << "Player Hp: " + Hp;
-		cout << "Player Mana: " + Mana;
-		cout << "Player Magic: " + Magic;
-		cout << "Player Dexterity: " + dexterity;
-		cout << "Player Vitality: " + vitality;
-	}
-
-}
-
+// ASCII values
+//int main()
+//{
+//    std::cout << "Printable ASCII [32..126]:\n";
+//    for (char c{' '}; c <= '~'; c++) {
+//        std::cout << c << ((c+1) % 32 ? ' ' : '\n');
+//    }
+//}

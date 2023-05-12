@@ -1,0 +1,7 @@
+name: Cloud Strife
+weapon: Buster Sword
+materia: Fire
+
+name: Tifa Lionheart
+weapon: Titan Gloves
+materia: Heal

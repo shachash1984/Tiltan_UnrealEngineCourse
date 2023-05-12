@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TiltanPhysics",
+			"Path": "D:\\Tiltan\\Tiltan_UnrealEngineCourse\\Projects\\TiltanPhysics\\Source\\TiltanPhysics.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TiltanPhysicsEditor",
+			"Path": "D:\\Tiltan\\Tiltan_UnrealEngineCourse\\Projects\\TiltanPhysics\\Source\\TiltanPhysicsEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

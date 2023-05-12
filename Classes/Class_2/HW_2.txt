@@ -1,0 +1,9 @@
+CPP
+Answer Q1 and Q2 (seperate files)
+
+
+
+UE5
+Create a closed room 10m*15m*3m with windows
+
+Create a blueprint (or use the level blueprint) that spawns a sphere each time you press "Space"
