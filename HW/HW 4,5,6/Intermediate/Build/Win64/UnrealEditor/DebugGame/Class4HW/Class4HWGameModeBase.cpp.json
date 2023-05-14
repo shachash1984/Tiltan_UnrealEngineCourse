@@ -1,0 +1,21 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\source\\class4hw\\class4hwgamemodebase.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\intermediate\\build\\win64\\class4hweditor\\debuggame\\engine\\sharedpch.engine.nonoptimized.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\intermediate\\build\\win64\\unrealeditor\\debuggame\\class4hw\\definitions.class4hw.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\source\\class4hw\\class4hwgamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\intermediate\\build\\win64\\unrealeditor\\inc\\class4hw\\class4hwgamemodebase.generated.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\source\\class4hw\\public\\gameplayercontroller.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\intermediate\\build\\win64\\unrealeditor\\inc\\class4hw\\gameplayercontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

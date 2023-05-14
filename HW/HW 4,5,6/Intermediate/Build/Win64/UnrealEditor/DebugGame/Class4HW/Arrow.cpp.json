@@ -1,0 +1,20 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\source\\class4hw\\private\\arrow.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\intermediate\\build\\win64\\class4hweditor\\debuggame\\engine\\sharedpch.engine.nonoptimized.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\intermediate\\build\\win64\\unrealeditor\\debuggame\\class4hw\\definitions.class4hw.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\source\\class4hw\\public\\arrow.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\intermediate\\build\\win64\\unrealeditor\\inc\\class4hw\\arrow.generated.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\source\\class4hw\\class4hw.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\source\\class4hw\\public\\target.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\intermediate\\build\\win64\\unrealeditor\\inc\\class4hw\\target.generated.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\source\\class4hw\\public\\target2.h",
+            "c:\\dev\\git\\tiltan_unrealenginecourse\\hw\\class4,5,6hw\\intermediate\\build\\win64\\unrealeditor\\inc\\class4hw\\target2.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
