@@ -1,0 +1,7 @@
+Id=1
+Title="Welcome to the Game"
+Text="Hello and welcome to the game. Please choose an option:"
+Button_Text="Start Game"
+Button_next=2
+Button_Text="Exit Game"
+Button_next=0
