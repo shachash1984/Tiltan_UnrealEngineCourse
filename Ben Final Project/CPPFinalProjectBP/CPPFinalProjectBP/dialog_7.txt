@@ -1,0 +1,12 @@
+Id=14
+Title="The Sea"
+Text="You have reached the sea. It is a vast and unforgiving place, but there are also many treasures to be found."
+Text="There is a ship docked at the shore. You can either board the ship or explore the beach."
+xPos=50
+yPos=10
+BG_Color=2
+Text_Color=6
+Button_Text="Board the Ship"
+Button_next=24
+Button_Text="Explore the Beach"
+Button_next=25

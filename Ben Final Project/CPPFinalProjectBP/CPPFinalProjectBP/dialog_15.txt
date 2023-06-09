@@ -1,0 +1,12 @@
+Id=22
+Title="Continue Your Journey"
+Text="You decide to continue your journey. You set sail for a new land, eager to see what adventures await you."
+Text="You can either explore the new land or go back to the ship."
+xPos=50
+yPos=10
+BG_Color=2
+Text_Color=6
+Button_Text="Explore the New Land"
+Button_next=38
+Button_Text="Go Back to the Ship"
+Button_next=15

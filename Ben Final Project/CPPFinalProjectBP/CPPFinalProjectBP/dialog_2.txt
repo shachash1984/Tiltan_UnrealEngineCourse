@@ -1,28 +1,53 @@
-Id=1
-Title="Welcome to the Game"
-Text="Hello and welcome to the game. Please choose an option:"
-Button_Text="Start Game"
-Button_next=2
-Button_Text="Exit Game"
+Id=6
+Title="Mage Character"
+Text="You have chosen the Mage character."
+Text="The Mage is known for its intelligence and magical powers."
+Text=" "
+Text="Please choose your spell."
+xPos=50
+yPos=10
+BG_Color=2
+Text_Color=6
+Button_Text="Fireball"
+Button_next=7
+Button_Text="Ice Storm"
+Button_next=7
+
+Id=7
+Title="Choose Your Spell"
+Text="Please choose your spell."
+Text="Fireball: A powerful spell that deals fire damage to your enemies."
+Text="Ice Storm: A powerful spell that deals ice damage to your enemies."
+Text=" "
+Text="xPos=50
+yPos=10
+BG_Color=2
+Text_Color=6
+Button_Text="Fireball"
+Button_next=8
+Button_Text="Ice Storm"
+Button_next=9
+
+Id=8
+Title="Congratulations!"
+Text="You have chosen the Fireball spell."
+Text="You are now ready to begin your adventure."
+Text=" "
+Text="xPos=50
+yPos=10
+BG_Color=2
+Text_Color=6
+Button_Text="Begin"
 Button_next=0
-Id=1
-Title="Welcome to the Game"
-Text="Hello and welcome to the game. Please choose an option:"
-Button_Text="Start Game"
-Button_next=2
-Button_Text="Exit Game"Id=1
-Title="Welcome to the Game"
-Text="Hello and welcome to the game. Please choose an option:"
-Button_Text="Start Game"
-Button_next=2
-Button_Text="Exit Game"Id=1
-Title="Welcome to the Game"
-Text="Hello and welcome to the game. Please choose an option:"
-Button_Text="Start Game"
-Button_next=2
-Button_Text="Exit Game"Id=1
-Title="Welcome to the Game"
-Text="Hello and welcome to the game. Please choose an option:"
-Button_Text="Start Game"
-Button_next=2
-Button_Text="Exit Game"
+
+Id=9
+Title="Congratulations!"
+Text="You have chosen the Ice Storm spell."
+Text="You are now ready to begin your adventure."
+Text=" "
+Text="xPos=50
+yPos=10
+BG_Color=2
+Text_Color=6
+Button_Text="Begin"
+Button_next=0

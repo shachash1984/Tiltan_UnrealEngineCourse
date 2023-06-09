@@ -1,0 +1,12 @@
+Id=19
+Title="Fighting the Dragon"
+Text="You draw your sword and charge at the dragon. The dragon breathes fire at you, but you dodge the flames and land a blow on the dragon's scales. The dragon roars in pain and lashes out with its claws, but you are able to avoid its attacks. You continue to fight the dragon, and eventually you are able to slay it. You have defeated the dragon and claimed its treasure."
+Text="You can either loot the dragon's treasure or go back to the deck."
+xPos=50
+yPos=10
+BG_Color=2
+Text_Color=6
+Button_Text="Loot the Dragon's Treasure"
+Button_next=34
+Button_Text="Go Back to the Deck"
+Button_next=15

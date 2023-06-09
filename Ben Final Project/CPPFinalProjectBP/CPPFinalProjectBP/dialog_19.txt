@@ -1,0 +1,12 @@
+Id=26
+Title="Exploring the Peak"
+Text="You explore the area around the peak of the mountain. You find a small cave and decide to explore it. Inside the cave, you find a treasure chest. You open the chest and find a magical sword. You take the sword and feel a surge of power. You are now ready to face any challenge."
+Text="You can either go back down the mountain or continue your journey."
+xPos=50
+yPos=10
+BG_Color=2
+Text_Color=6
+Button_Text="Go Back Down the Mountain"
+Button_next=25
+Button_Text="Continue Your Journey"
+Button_next=42

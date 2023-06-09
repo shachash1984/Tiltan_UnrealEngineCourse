@@ -1,0 +1,12 @@
+Id=20
+Title="Looting the Dragon's Treasure"
+Text="You open the dragon's treasure chest and find a hoard of gold, jewels, and other valuables. You are now rich beyond your wildest dreams."
+Text="You can either keep the treasure or give it away to help others."
+xPos=50
+yPos=10
+BG_Color=2
+Text_Color=6
+Button_Text="Keep the Treasure"
+Button_next=35
+Button_Text="Give Away the Treasure"
+Button_next=36

@@ -1,0 +1,8 @@
+Id=27
+Title="The End"
+Text="You continue your journey, and you eventually reach the end of the world. You stand on the edge of a cliff, and you look out at the vast emptiness before you. You know that you cannot go any further, but you are not afraid. You have found your destiny, and you are content."
+Text="There is no button."
+xPos=50
+yPos=10
+BG_Color=2
+Text_Color=6

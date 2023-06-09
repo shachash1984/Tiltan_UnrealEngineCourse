@@ -1,0 +1,12 @@
+Id=11
+Title="The Forest"
+Text="You have entered the forest. It is a dark and dangerous place, but there are also many treasures to be found."
+Text="There are two paths ahead of you. One leads to the north, and the other leads to the south."
+xPos=50
+yPos=10
+BG_Color=2
+Text_Color=6
+Button_Text="North"
+Button_next=15
+Button_Text="South"
+Button_next=16

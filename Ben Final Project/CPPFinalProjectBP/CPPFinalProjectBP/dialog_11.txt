@@ -1,0 +1,12 @@
+Id=18
+Title="Sneaking Past the Dragon"
+Text="You try to sneak past the dragon, but it spots you and attacks."
+Text="You can either fight the dragon or run away."
+xPos=50
+yPos=10
+BG_Color=2
+Text_Color=6
+Button_Text="Fight the Dragon"
+Button_next=32
+Button_Text="Run Away"
+Button_next=33

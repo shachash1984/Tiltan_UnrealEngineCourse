@@ -1,0 +1,12 @@
+Id=21
+Title="Giving Away the Treasure"
+Text="You decide to give away the treasure to help others. You donate it to build a hospital, a school, and a library. You are now a hero to the people of your land."
+Text="You can either continue your journey or go back home."
+xPos=50
+yPos=10
+BG_Color=2
+Text_Color=6
+Button_Text="Continue Your Journey"
+Button_next=37
+Button_Text="Go Back Home"
+Button_next=15

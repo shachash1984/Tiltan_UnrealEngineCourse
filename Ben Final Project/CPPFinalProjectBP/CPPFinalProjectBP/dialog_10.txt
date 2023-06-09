@@ -1,0 +1,12 @@
+Id=17
+Title="Talking to the Crew"
+Text="You talk to the crew and learn that they are all headed to a new land in search of fortune."
+Text="They tell you that the cargo hold is full of valuable goods, but that it is also guarded by a fierce dragon."
+xPos=50
+yPos=10
+BG_Color=2
+Text_Color=6
+Button_Text="Try to Sneak Past the Dragon"
+Button_next=30
+Button_Text="Fight the Dragon"
+Button_next=31

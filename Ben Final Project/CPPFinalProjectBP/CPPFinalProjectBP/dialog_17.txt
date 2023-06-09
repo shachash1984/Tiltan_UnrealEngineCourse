@@ -1,0 +1,12 @@
+Id=24
+Title="Climbing the Mountain"
+Text="You start climbing the mountain. It is a long and arduous journey, but you are determined to reach the top. Along the way, you encounter many dangers, but you are able to overcome them all. Finally, you reach the top of the mountain. You are greeted by a beautiful view of the land below. You have accomplished your goal and you are filled with a sense of satisfaction."
+Text="You can either go back to the ship or explore the area around the mountain."
+xPos=50
+yPos=10
+BG_Color=2
+Text_Color=6
+Button_Text="Go Back to the Ship"
+Button_next=15
+Button_Text="Explore the Area"
+Button_next=41

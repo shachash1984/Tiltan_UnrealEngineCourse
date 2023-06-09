@@ -1,0 +1,14 @@
+Id=12
+Title="The City"
+Text="You have entered the city. It is a bustling metropolis with a lot to see and do."
+Text="There are many shops, taverns, and other businesses in the city. There are also many dangers, such as bandits, thieves, and monsters."
+xPos=50
+yPos=10
+BG_Color=2
+Text_Color=6
+Button_Text="Shop"
+Button_next=17
+Button_Text="Tavern"
+Button_next=18
+Button_Text="Explore"
+Button_next=19

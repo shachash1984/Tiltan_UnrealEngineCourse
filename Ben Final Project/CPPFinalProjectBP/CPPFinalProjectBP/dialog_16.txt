@@ -1,0 +1,14 @@
+Id=23
+Title="Exploring the New Land"
+Text="You explore the new land and find a beautiful forest, a sparkling river, and a towering mountain. You are amazed by the natural beauty of the land and you decide to stay and explore further."
+Text="You can either climb the mountain, explore the forest, or go back to the ship."
+xPos=50
+yPos=10
+BG_Color=2
+Text_Color=6
+Button_Text="Climb the Mountain"
+Button_next=39
+Button_Text="Explore the Forest"
+Button_next=40
+Button_Text="Go Back to the Ship"
+Button_next=15

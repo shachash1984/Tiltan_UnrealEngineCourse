@@ -1,0 +1,12 @@
+Id=25
+Title="The View from the Top"
+Text="You reach the top of the mountain and are greeted by a breathtaking view. You can see for miles in every direction. You feel a sense of accomplishment and satisfaction. You have finally reached your goal."
+Text="You can either go back down the mountain or explore the area around the peak."
+xPos=50
+yPos=10
+BG_Color=2
+Text_Color=6
+Button_Text="Go Back Down the Mountain"
+Button_next=24
+Button_Text="Explore the Area Around the Peak"
+Button_next=41

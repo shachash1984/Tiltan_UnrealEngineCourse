@@ -1,0 +1,12 @@
+Id=13
+Title="The Tavern"
+Text="You have entered the tavern. It is a crowded and noisy place, filled with people drinking, eating, and gambling."
+Text="There is a bard playing music in the corner, and a group of people are playing cards at a table in the back."
+xPos=50
+yPos=10
+BG_Color=2
+Text_Color=6
+Button_Text="Talk to the Bard"
+Button_next=20
+Button_Text="Play Cards"
+Button_next=21

@@ -1,0 +1,12 @@
+Id=15
+Title="Boarding the Ship"
+Text="You board the ship and take a seat on the deck. The ship sets sail and you begin your journey to new lands."
+Text="You can either explore the ship or go below deck to rest."
+xPos=50
+yPos=10
+BG_Color=2
+Text_Color=6
+Button_Text="Explore the Ship"
+Button_next=26
+Button_Text="Go Below Deck"
+Button_next=27

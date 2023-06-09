@@ -1,0 +1,14 @@
+Id=16
+Title="Exploring the Ship"
+Text="You explore the ship and find a variety of rooms, including the captain's quarters, the crew's quarters, and the cargo hold."
+Text="You can either talk to the crew, search the cargo hold, or go back to the deck."
+xPos=50
+yPos=10
+BG_Color=2
+Text_Color=6
+Button_Text="Talk to the Crew"
+Button_next=28
+Button_Text="Search the Cargo Hold"
+Button_next=29
+Button_Text="Go Back to the Deck"
+Button_next=15
