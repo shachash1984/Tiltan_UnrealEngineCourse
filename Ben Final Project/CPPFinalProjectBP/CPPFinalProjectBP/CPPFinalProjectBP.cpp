@@ -6,7 +6,7 @@
 #include <windows.h>
 
 
-// couldnt manage to sepereate diffrent headers and source files becouse there is no solution file 
+// couldnt manage to separate different headers and source files becouse there is no solution file which also made testing difficult
 
 
 class Dialog;
