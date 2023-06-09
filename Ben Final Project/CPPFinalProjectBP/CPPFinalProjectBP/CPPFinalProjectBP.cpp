@@ -4,8 +4,14 @@
 #include <string>
 #include <vector>
 
+// -20 missing at least 20 dialog files, 2 need to be conditional
+// -10 everything is in one file, not separated into header and source files
+// -20 you are not using the position data from the text files nor the colors
+// -10 dialog 2 is not working (i guess you accidentally added .txt twice)
+
 class Dialog;
 class IParser;
+
 
 // Interface for user input handling
 class IUserInputHandler {
@@ -155,6 +161,10 @@ public:
             std::vector<std::pair<std::string, int>> buttons = dialog_->getButtons();
             for (int i = 0; i < buttons.size(); i++) {
                 std::cout << "  " << i + 1 << ": " << buttons[i].first << std::endl;
+            }
+            for (std::string line : dialog_->getText())
+            {
+                //sdf
             }
             int choice = -1;
             while (choice < 1 || choice > buttons.size()) {
