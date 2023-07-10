@@ -7,7 +7,8 @@
 
 
 // couldnt manage to separate different headers and source files becouse there is no solution file which also made testing difficult
-
+// - 10 You are supposed to create a solution file and add all the files to it.
+// The git file deletes it automatically
 
 class Dialog;
 class IParser;
@@ -42,7 +43,8 @@ public:
 		std::vector<std::string> data;
 		std::ifstream file(filename);
 		if (!file.is_open()) {
-			throw std::runtime_error("Failed to open file: " + filename);
+			std::cerr << "Failed to open file: " << filename << std::endl;
+			return data;
 		}
 		std::string line;
 		while (getline(file, line)) {
@@ -168,10 +170,8 @@ public:
 				STD_OUTPUT_HANDLE);
 
 			SetConsoleTextAttribute(
-				console_color, dialog_->getTextColor()); // use color
+				console_color, dialog_->getTextColor());
 
-			SetWindowPos(xPos_, yPos_); // use position
-				
 			int choice = -1;
 			while (choice < 1 || choice > buttons.size()) {
 				std::cout << "Enter your choice (1-" << buttons.size() << "): ";
