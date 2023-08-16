@@ -1,0 +1,6 @@
+
+The dialogs do not work properlyin the example -10
+you are not using the x and y pos -10
+
+grade 80
+
